@@ -1,0 +1,367 @@
+[
+  {
+    "narrative_id": "gsk_narrative_3",
+    "entity_id": "gsk",
+    "title": "Miscellaneous Topics",
+    "summary": "LLM Alert for Pharma Marketers! AI is shaping customer answers. Is your brand showing up? Get the New Healthcare Marketing Playbook in 30 minutes Win AIO. Stay compliant. Hear from AstraZeneca and Imre leadership. AI Deciphered 11 13 11 45 AM",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 16,
+    "risk_score": 61.4,
+    "confidence": "medium",
+    "confidence_band": [
+      46.4,
+      76.4
+    ],
+    "confidence_raw": 0.64,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 100.0,
+        "weight": 0.2,
+        "contribution": 20.0,
+        "detail": {
+          "post_count": 16,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 100.0,
+        "weight": 0.2,
+        "contribution": 20.0,
+        "detail": {
+          "total_weighted_engagement": 13437.8,
+          "avg_per_post": 839.9,
+          "total_shares": 125,
+          "total_comments": 52,
+          "total_likes": 145,
+          "total_views": 128138,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 100.0,
+        "weight": 0.15,
+        "contribution": 15.0,
+        "detail": {
+          "max_followers": 84000,
+          "median_followers": 22,
+          "unique_authors": 15,
+          "raw_score": 62.6,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 18.9,
+        "weight": 0.3,
+        "contribution": 5.7,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.31,
+          "positive_ratio": 0.25,
+          "sentiment_modifier": -1.9,
+          "high_risk_keywords": 1,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 1,
+          "keyword_modifier": 0.8
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 4.8,
+        "weight": 0.15,
+        "contribution": 0.7,
+        "detail": {
+          "posts_per_day": 0.59,
+          "span_days": 26.9,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1989066993475953112",
+        "text": "All these stocks hit new 52 WEEK HIGHS at some point today\n\nEli Lilly $LLY\nGoldman Sachs $GS\nJohnson & Johnson $JNJ\nCisco $CSCO\nGeneral Motors $GM\nAlbemarle $ALB\nAmgen $AMGN\nAstrazeneca $AZN\nBarrick Mining $B\nBarclays $BCS\nCarpenter $CRS\nDeutsche Bank $DB\nDillar's $DDS\n$EQT\nEquinox Gold $EQX\nEdwards",
+        "url": "https://x.com/i/web/status/1989066993475953112",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 63,
+        "comments": 30,
+        "followers": 1,
+        "handle": "StockMKTNewz"
+      },
+      {
+        "post_id": "1987571000821620979",
+        "text": "$nvo\n$lly\n$sny\n$pfe\n$mrk\n$nvs\n$amgn\n$tak\n$abbv\n$gsk\n$azn\n$rhhby\n$alny\n\nSome major players to consider. Most upside from a technical view would be Novo Nordisk, Merck & Co, and Roche Holding a Swiss company. It's OTC so your broker would have to be able to provide it.\n\nOr just dump a % of your port i",
+        "url": "https://x.com/i/web/status/1987571000821620979",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 13,
+        "comments": 4,
+        "followers": 1,
+        "handle": "TheeRayCordell"
+      },
+      {
+        "post_id": "1229919702291505",
+        "text": "Know Your Lung Health💚 Lung health matters more than ever. Our partners at SGH are seeing more cases of breathlessness, asthma-like symptoms, and the rising effects of vaping; so we put together a half-day programme to equip our seniors with the knowledge they need. Held in conjunction with World CO",
+        "url": "https://www.facebook.com/1229919702291505",
+        "platform": "facebook",
+        "likes": 92,
+        "shares": 14,
+        "comments": 2,
+        "followers": 12219,
+        "handle": "RachelOngSY"
+      },
+      {
+        "post_id": "1644328087008395",
+        "text": "“Grok, how do they use fetal cell lines to make vaccines? Don’t give me any opinions just facts.” Grok : “- Fetal cell lines used in vaccine production: WI-38 (1962, female fetus, Sweden), MRC-5 (1966, male fetus, UK), HEK-293 (1973, Netherlands), PER.C6 (1995, Netherlands). - These are immortalized",
+        "url": "https://www.facebook.com/1644328087008395",
+        "platform": "facebook",
+        "likes": 29,
+        "shares": 27,
+        "comments": 11,
+        "followers": 84000,
+        "handle": "VaccineDamage"
+      },
+      {
+        "post_id": "122162692118598695",
+        "text": "Pursue Your Pharmacy Dreams in the UK! ✨ Ready to shape the future of healthcare? Study Masters in Pharmacy at top UK universities ranked among the world’s Top 50 (QS 2025) and connect with global pharma leaders like GSK, AstraZeneca, and Pfizer! 🌍 ✅ Learn from world-ranked UK universities ✅ Explore",
+        "url": "https://www.facebook.com/122162692118598695",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 22,
+        "handle": ""
+      }
+    ],
+    "sentiment_distribution": {
+      "negative": 5,
+      "neutral": 7,
+      "positive": 4
+    }
+  },
+  {
+    "narrative_id": "gsk_narrative_1",
+    "entity_id": "gsk",
+    "title": "London Ftse Top Heavyweights",
+    "summary": "London s FTSE Top 10 Heavyweights Market Performance 25 11 25 risers AstraZeneca 1.19 HSBC 0.25 Unilever 0.66 BAT 2.81 Rio Tinto 0.84 Rolls Royce 1.55 GSK 0.06 Barclays 2.35 fallers Shell -0.22 BP - 0.00",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 2,
+    "risk_score": 54.3,
+    "confidence": "medium",
+    "confidence_band": [
+      39.3,
+      69.3
+    ],
+    "confidence_raw": 0.58,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 75.0,
+        "weight": 0.3,
+        "contribution": 22.5,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 66.7,
+        "weight": 0.2,
+        "contribution": 13.3,
+        "detail": {
+          "post_count": 2,
+          "percentile": 66.7
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 66.7,
+        "weight": 0.2,
+        "contribution": 13.3,
+        "detail": {
+          "total_weighted_engagement": 13.1,
+          "avg_per_post": 6.6,
+          "total_shares": 0,
+          "total_comments": 0,
+          "total_likes": 0,
+          "total_views": 131,
+          "percentile": 66.7
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 33.3,
+        "weight": 0.15,
+        "contribution": 5.0,
+        "detail": {
+          "max_followers": 13,
+          "median_followers": 13,
+          "unique_authors": 1,
+          "raw_score": 15.0,
+          "percentile": 33.3
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.1,
+        "weight": 0.15,
+        "contribution": 0.2,
+        "detail": {
+          "posts_per_day": 0.13,
+          "span_days": 15.0,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1993393822039155145",
+        "text": "🚨London’s FTSE Top 10 Heavyweights Market Performance 25/11/25:\n\nrisers 📈\nAstraZeneca: +1.19%\nHSBC: +0.25%\nUnilever: +0.66%\nBAT: +2.81%\nRio Tinto: +0.84%\nRolls Royce: +1.55%\nGSK: +0.06%\nBarclays: +2.35%\n\nfallers 📉\nShell: -0.22%\n\nBP: +/- 0.00% https://t.co/AI5MoCBIaR",
+        "url": "https://x.com/i/web/status/1993393822039155145",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 13,
+        "handle": "CityPBE"
+      },
+      {
+        "post_id": "1987967925412917735",
+        "text": "🚨London’s FTSE Top 10 Heavyweights Market Performance 10/11/25:\n\nrisers 📈\nAstraZeneca: +1.75%\nHSBC: +1.70%\nShell: +0.72%\nRolls Royce: +1.98%\nBAT: +0.82%\nRio Tinto: +1.44%\nGSK: +0.20%\nBP: +1.19%\n\nfallers 📉\nUnilever: -0.63%\nRELX: -0.44% https://t.co/u69Su6bD2f",
+        "url": "https://x.com/i/web/status/1987967925412917735",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 13,
+        "handle": "CityPBE"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "gsk_narrative_2",
+    "entity_id": "gsk",
+    "title": "Trump Www Donaldjtrump Effect",
+    "summary": "www.DonaldJTrump.Today The Trump effect Since President Donald J. Trump returned to office, his America First economic policies have sparked trillions of dollars in new investment in U.S. m",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 2,
+    "risk_score": 44.1,
+    "confidence": "medium",
+    "confidence_band": [
+      29.1,
+      59.1
+    ],
+    "confidence_raw": 0.64,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 66.7,
+        "weight": 0.2,
+        "contribution": 13.3,
+        "detail": {
+          "post_count": 2,
+          "percentile": 66.7
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 66.7,
+        "weight": 0.15,
+        "contribution": 10.0,
+        "detail": {
+          "max_followers": 89,
+          "median_followers": 89,
+          "unique_authors": 1,
+          "raw_score": 25.5,
+          "percentile": 66.7
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 53.8,
+        "weight": 0.15,
+        "contribution": 8.1,
+        "detail": {
+          "posts_per_day": 6.73,
+          "span_days": 0.3,
+          "accelerating": true
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 33.3,
+        "weight": 0.2,
+        "contribution": 6.7,
+        "detail": {
+          "total_weighted_engagement": 4.0,
+          "avg_per_post": 2.0,
+          "total_shares": 0,
+          "total_comments": 0,
+          "total_likes": 4,
+          "total_views": 0,
+          "percentile": 33.3
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 20.0,
+        "weight": 0.3,
+        "contribution": 6.0,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "122109857961080304",
+        "text": "https://www.ukrspecexport.com/en/catalog https://ofac.treasury.gov/sanctions-programs-and-country-information https://sanctionslist.ofac.treas.gov/Home/SdnList https://www.ukrspecexport.com/en/catalog www.DonaldJTrump.Today #PresidentDonaldJTrump #PresidentDonaldTrump #DonaldJTrump #DonaldTrump #The",
+        "url": "https://www.facebook.com/122109857961080304",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 0,
+        "comments": 0,
+        "followers": 89,
+        "handle": "TymurGolovin1986"
+      },
+      {
+        "post_id": "122109963159080304",
+        "text": "https://www.ukrspecexport.com/en/catalog https://ofac.treasury.gov/sanctions-programs-and-country-information https://sanctionslist.ofac.treas.gov/Home/SdnList https://www.ukrspecexport.com/en/catalog www.DonaldJTrump.Today #PresidentDonaldJTrump #PresidentDonaldTrump #DonaldJTrump #DonaldTrump #The",
+        "url": "https://www.facebook.com/122109963159080304",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 0,
+        "comments": 0,
+        "followers": 89,
+        "handle": "TymurGolovin1986"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  }
+]

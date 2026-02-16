@@ -1,0 +1,544 @@
+[
+  {
+    "narrative_id": "eli_lilly_narrative_4",
+    "entity_id": "eli_lilly",
+    "title": "Miscellaneous Topics",
+    "summary": "MWBN News VIPC Signs MOU with AstraZeneca, Eli Lilly, Merck to Develop the Virginia Center for Advanced Pharmaceutical Manufacturing to Train Workforce of the Future",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 19,
+    "risk_score": 73.8,
+    "confidence": "medium",
+    "confidence_band": [
+      58.8,
+      88.8
+    ],
+    "confidence_raw": 0.67,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 76.6,
+        "weight": 0.3,
+        "contribution": 23.0,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.26,
+          "positive_ratio": 0.11,
+          "sentiment_modifier": 0.5,
+          "high_risk_keywords": 1,
+          "medium_risk_keywords": 2,
+          "low_risk_keywords": 3,
+          "keyword_modifier": 1.1
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 100.0,
+        "weight": 0.2,
+        "contribution": 20.0,
+        "detail": {
+          "post_count": 19,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 75.0,
+        "weight": 0.2,
+        "contribution": 15.0,
+        "detail": {
+          "total_weighted_engagement": 13237.3,
+          "avg_per_post": 696.7,
+          "total_shares": 358,
+          "total_comments": 378,
+          "total_likes": 164,
+          "total_views": 112433,
+          "percentile": 75.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 100.0,
+        "weight": 0.15,
+        "contribution": 15.0,
+        "detail": {
+          "max_followers": 7514455,
+          "median_followers": 2204,
+          "unique_authors": 17,
+          "raw_score": 89.3,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 5.6,
+        "weight": 0.15,
+        "contribution": 0.8,
+        "detail": {
+          "posts_per_day": 0.7,
+          "span_days": 27.3,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1989066993475953112",
+        "text": "All these stocks hit new 52 WEEK HIGHS at some point today\n\nEli Lilly $LLY\nGoldman Sachs $GS\nJohnson & Johnson $JNJ\nCisco $CSCO\nGeneral Motors $GM\nAlbemarle $ALB\nAmgen $AMGN\nAstrazeneca $AZN\nBarrick Mining $B\nBarclays $BCS\nCarpenter $CRS\nDeutsche Bank $DB\nDillar's $DDS\n$EQT\nEquinox Gold $EQX\nEdwards",
+        "url": "https://x.com/i/web/status/1989066993475953112",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 63,
+        "comments": 30,
+        "followers": 1,
+        "handle": "StockMKTNewz"
+      },
+      {
+        "post_id": "4364100140581751",
+        "text": "আলহামদুলিল্লাহ ৭ দিনের জন্য সাসপেন্ড হয়েছিলাম #সাবধান সাবধান #সাবধান 🥺 সাত দিন পরে আজকে খুলে দিল facebook যারা ফেসবুকে কাজ করে তারা একমাত্র বলতে পারবে ফেসবুক থেকে ৭ দিন ছুটিতে থাকা কত কষ্টদায়ক । ফেসবুকের নিয়ম মেনে কাজ করুন ।ফেসবুকে নিয়মের বাইরে যাবেন না ।তাহলে আপনার প্রিয় বাড়ি খানা ফাঁকা হয়ে ",
+        "url": "https://www.facebook.com/4364100140581751",
+        "platform": "facebook",
+        "likes": 6,
+        "shares": 189,
+        "comments": 105,
+        "followers": 11081,
+        "handle": "kayala.jiban"
+      },
+      {
+        "post_id": "4349074158751016",
+        "text": "একতার চাইতে বড় কোন #শক্তি নাই । একসাথে মিলেমিশে #কাজ করলে যে কোন কাজ অনেক #সহজ হয়ে যায়। একা একা #বাহাদুরি না করে সবাইকে একসাথে নিয়ে চলুন #সবাইকে বাহাদুর হিসেবে গড়ে তুলুন। যেন বলতে পারেন #দশে মিলি করি কাজ #হারি জিতি নাহি লাজ। আপনাদেরকে দেখে যেন #মানুষ বলে তারা সবাই বাহাদুর। ।. । । । ।. । । । ।। ",
+        "url": "https://www.facebook.com/4349074158751016",
+        "platform": "facebook",
+        "likes": 38,
+        "shares": 69,
+        "comments": 129,
+        "followers": 11081,
+        "handle": "kayala.jiban"
+      },
+      {
+        "post_id": "703295796155397",
+        "text": "ফেসবুক আপনাকে যেভাবে সাহায্য করে সফল হতে- helps you to become successful.💯💪 #followersreelsfypシ゚viral #everyone #followers #highlights #ViralPost #goodnightVibes #PositiveVibesOnly ,, ,, kelley mack fort stewart micah parsons dean cain wednesday cast ea howard stern lil tay brandon blackstock legion",
+        "url": "https://www.facebook.com/703295796155397",
+        "platform": "facebook",
+        "likes": 27,
+        "shares": 11,
+        "comments": 56,
+        "followers": 15655,
+        "handle": ""
+      },
+      {
+        "post_id": "1597643964726585",
+        "text": "Alhamdulillah ✌️💗💗 good afternoon everyone 💝💝💝 #holydayevent #weekenedvibes #postviralシ #facebookpost #viral #contentcreator #fblifestylechallenge #loveislove #picoftheday #photochallenge ,, #5krun ,, #facebookpost #foryouシpage #everyoneactive #highlights brandon blackstock weapons movie wednesday c",
+        "url": "https://www.facebook.com/1597643964726585",
+        "platform": "facebook",
+        "likes": 14,
+        "shares": 3,
+        "comments": 45,
+        "followers": 21347,
+        "handle": "arman.meah.71"
+      }
+    ],
+    "sentiment_distribution": {
+      "negative": 5,
+      "positive": 2,
+      "neutral": 12
+    }
+  },
+  {
+    "narrative_id": "eli_lilly_narrative_1",
+    "entity_id": "eli_lilly",
+    "title": "Howard Stern Kelley Mack",
+    "summary": "অন য র ক ছ য আছ ,ত র জন য ক তজ ঞ হন আপন র ক ছ অন ক ক ছ আছ ত র জন য সব সময বলব ন আলহ মদ ল ল ল হ আজক র মতন শ ভর ত র ,, ,, ,, ,, kelley mack fort stewart micah parsons dean cain wednesday cast ea howard stern lil tay brandon blackstock legionnaires dise",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 6,
+    "risk_score": 63.3,
+    "confidence": "high",
+    "confidence_band": [
+      55.3,
+      71.3
+    ],
+    "confidence_raw": 0.73,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 75.0,
+        "weight": 0.3,
+        "contribution": 22.5,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 75.0,
+        "weight": 0.2,
+        "contribution": 15.0,
+        "detail": {
+          "post_count": 6,
+          "percentile": 75.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 75.0,
+        "weight": 0.2,
+        "contribution": 15.0,
+        "detail": {
+          "total_weighted_engagement": 2010.0,
+          "avg_per_post": 335.0,
+          "total_shares": 15,
+          "total_comments": 851,
+          "total_likes": 263,
+          "total_views": 0,
+          "percentile": 75.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 50.0,
+        "weight": 0.15,
+        "contribution": 7.5,
+        "detail": {
+          "max_followers": 26555,
+          "median_followers": 12285,
+          "unique_authors": 4,
+          "raw_score": 58.3,
+          "percentile": 50.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 22.2,
+        "weight": 0.15,
+        "contribution": 3.3,
+        "detail": {
+          "posts_per_day": 0.27,
+          "span_days": 21.9,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "3938720726418247",
+        "text": "জীবনের আসল শিক্ষা হলেও কোথায় থামতে হবে সেটা জানা, আর কোথায় থেকে আপনাকে সরিয়ে নিতে হবে সেটা বুঝা। ❤️ আর আমি একটু দেরিতেই বুঝলাম ।😁 শুভ সকাল 🌞 Arfina Mahajabin #GeminiAI #picture #love ,, ,, #ViralPost #PositiveVibesOnly ,, ,, kelley mack fort stewart micah parsons dean cain wednesday cast ea howar",
+        "url": "https://www.facebook.com/3938720726418247",
+        "platform": "facebook",
+        "likes": 66,
+        "shares": 0,
+        "comments": 260,
+        "followers": 12285,
+        "handle": "mahajabin.vlog.2025"
+      },
+      {
+        "post_id": "3954079431549043",
+        "text": "শিক্ষার কখনো শেষ নাই নতুন একটা উদ্যোগ গ্রহণ করতে যাচ্ছি আশা করি সকল ভাই-বোনেরা দোয়া রাখবেন।। ❤️🤲❤️ আজকের মতন শুভরাত্রি 😴 #picture #gemeni #love ,, ,, #ViralPost #PositiveVibesOnly ,, ,, kelley mack fort stewart micah parsons dean cain wednesday cast ea howard stern lil tay brandon blackstock legion",
+        "url": "https://www.facebook.com/3954079431549043",
+        "platform": "facebook",
+        "likes": 68,
+        "shares": 2,
+        "comments": 155,
+        "followers": 12285,
+        "handle": "mahajabin.vlog.2025"
+      },
+      {
+        "post_id": "122158153688858561",
+        "text": "আসসালামু আলাইকুম 🌹🌹সবাইকে সন্ধ্যা বেলার শুভেচ্ছা🌹🌹 এক কাপ কফির সঙ্গে☕☕☕☕ #viralpost #positivevibesonly #highlights #GoodMorningEveryon #love #picture #GeminiAI ,, ,, #ViralPost #PositiveVibesOnly ,, ,, kelley mack fort stewart micah parsons dean cain wednesday cast ea howard stern lil tay brandon bl",
+        "url": "https://www.facebook.com/122158153688858561",
+        "platform": "facebook",
+        "likes": 42,
+        "shares": 0,
+        "comments": 153,
+        "followers": 4300,
+        "handle": "sanchita.islam.393618"
+      },
+      {
+        "post_id": "3952418135048506",
+        "text": "অন্যের কাছে যা আছে ,তার জন্য কৃতজ্ঞ হন। আপনার কাছে অনেক কিছু আছে । তার জন্য সব সময় বলবেন আলহামদুলিল্লাহ ❤️🤲❤️ আজকের মতন শুভরাত্রি 😴 #picture #AI #goodnight #foryou ,, ,, #ViralPost #PositiveVibesOnly ,, ,, kelley mack fort stewart micah parsons dean cain wednesday cast ea howard stern lil tay brand",
+        "url": "https://www.facebook.com/3952418135048506",
+        "platform": "facebook",
+        "likes": 27,
+        "shares": 2,
+        "comments": 152,
+        "followers": 12285,
+        "handle": "mahajabin.vlog.2025"
+      },
+      {
+        "post_id": "718173868000923",
+        "text": "Mine🤍 . . . . . . . . . . . . #positivevibes #foryouシ #facebooktips #goodvibes #highlights #everyonefollowers . ........ kelley mack fort stewart micah parsons dean cain wednesday cast ea howard stern lil tay brandon blackstock legionnaires disease chikungunya virus bayern vs tottenham type soul cod",
+        "url": "https://www.facebook.com/718173868000923",
+        "platform": "facebook",
+        "likes": 42,
+        "shares": 8,
+        "comments": 104,
+        "followers": 15655,
+        "handle": ""
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 6
+    }
+  },
+  {
+    "narrative_id": "eli_lilly_narrative_2",
+    "entity_id": "eli_lilly",
+    "title": "Howard Stern Alhamdulillah Noon",
+    "summary": "Alhamdulillah good noon everyone ,, ,, ,, ,, kelley mack fort stewart micah parsons dean cain wednesday cast ea howard stern lil tay brandon blackstock legionnaires disease chikungunya virus bayern vs tottenham type soul codes united airlines little ",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 6,
+    "risk_score": 60.0,
+    "confidence": "medium",
+    "confidence_band": [
+      45.0,
+      75.0
+    ],
+    "confidence_raw": 0.68,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 77.7,
+        "weight": 0.3,
+        "contribution": 23.3,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.17,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 1.7,
+          "high_risk_keywords": 1,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 1.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 75.0,
+        "weight": 0.2,
+        "contribution": 15.0,
+        "detail": {
+          "post_count": 6,
+          "percentile": 75.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 75.0,
+        "weight": 0.15,
+        "contribution": 11.2,
+        "detail": {
+          "max_followers": 34857,
+          "median_followers": 34857,
+          "unique_authors": 4,
+          "raw_score": 61.1,
+          "percentile": 75.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 50.0,
+        "weight": 0.2,
+        "contribution": 10.0,
+        "detail": {
+          "total_weighted_engagement": 1416.0,
+          "avg_per_post": 236.0,
+          "total_shares": 23,
+          "total_comments": 557,
+          "total_likes": 233,
+          "total_views": 0,
+          "percentile": 50.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 2.8,
+        "weight": 0.15,
+        "contribution": 0.4,
+        "detail": {
+          "posts_per_day": 0.35,
+          "span_days": 17.1,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "712906605194316",
+        "text": "একটা সুন্দর শরতের বিকেল বেলা🌿// Explore With \" জলসিড়ি সেন্ট্রাল পার্ক🦋//Bangladeshi Vlogger ✌️🫰 #positivevibes #foryouシ #photochallenge #goodvibes #highlights #everyonefollowers . ........ kelley mack fort stewart micah parsons dean cain wednesday cast ea howard stern lil tay brandon blackstock legi",
+        "url": "https://www.facebook.com/712906605194316",
+        "platform": "facebook",
+        "likes": 54,
+        "shares": 17,
+        "comments": 138,
+        "followers": 15655,
+        "handle": ""
+      },
+      {
+        "post_id": "4207318199532523",
+        "text": "Alhamdulillah good noon everyone 💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕 ,, ,, #ViralPost #goodnightVibes #PositiveVibesOnly ,, ,, kelley mack fort stewart micah parsons dean cain wednesday cast ea howard stern lil tay brandon blackstock legionnaires disease chikungunya virus bayern vs tottenham type soul codes united ai",
+        "url": "https://www.facebook.com/4207318199532523",
+        "platform": "facebook",
+        "likes": 68,
+        "shares": 2,
+        "comments": 129,
+        "followers": 34857,
+        "handle": "naima.naima.734186"
+      },
+      {
+        "post_id": "4192776094320067",
+        "text": "Alhamdulillah good morning everybody ♥️♥️♥️♥️♥️♥️♥️ #ViralPost #goodnightVibes #PositiveVibesOnly ,, ,, kelley mack fort stewart micah parsons dean cain wednesday cast ea howard stern lil tay brandon blackstock legionnaires disease chikungunya virus bayern vs tottenham type soul codes united airline",
+        "url": "https://www.facebook.com/4192776094320067",
+        "platform": "facebook",
+        "likes": 50,
+        "shares": 2,
+        "comments": 105,
+        "followers": 34857,
+        "handle": "naima.naima.734186"
+      },
+      {
+        "post_id": "1466093707787119",
+        "text": "Alhamdulillah ✅💝 Good night 😍😍🙆‍♂️🙆‍♂️ Everyone let's go🤭👈🔐😌 #postviralシ #facebookpost #viral #contentcreator #GoodMorningEveryone #love #everyoneシ゚ #goodmorning ,, ,, ,, ,, #facebookpost #foryouシpage #everyoneactive #highlights brandon blackstock weapons movie wednesday cast morice norris kelley ma",
+        "url": "https://www.facebook.com/1466093707787119",
+        "platform": "facebook",
+        "likes": 21,
+        "shares": 0,
+        "comments": 117,
+        "followers": 8886,
+        "handle": "tt.evan.39"
+      },
+      {
+        "post_id": "4190064284591248",
+        "text": "Alhamdulillah good morning everybody. Live celebrations love♥️♥️♥️ #foryouシpage #hilights #thankyoufriends #highlights #ViralPost #goodnightVibes #PositiveVibesOnly ,, ,, kelley mack fort stewart micah parsons dean cain wednesday cast ea howard stern lil tay brandon blackstock legionnaires disease c",
+        "url": "https://www.facebook.com/4190064284591248",
+        "platform": "facebook",
+        "likes": 35,
+        "shares": 2,
+        "comments": 63,
+        "followers": 34857,
+        "handle": "naima.naima.734186"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 5,
+      "negative": 1
+    }
+  },
+  {
+    "narrative_id": "eli_lilly_narrative_3",
+    "entity_id": "eli_lilly",
+    "title": "Trump Www Donaldjtrump Effect",
+    "summary": "www.DonaldJTrump.Today The Trump effect Since President Donald J. Trump returned to office, his America First economic policies have sparked trillions of dollars in new investment in U.S. m",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 2,
+    "risk_score": 27.8,
+    "confidence": "medium",
+    "confidence_band": [
+      12.8,
+      42.8
+    ],
+    "confidence_raw": 0.69,
+    "drivers": [
+      {
+        "name": "Velocity",
+        "score": 53.8,
+        "weight": 0.15,
+        "contribution": 8.1,
+        "detail": {
+          "posts_per_day": 6.73,
+          "span_days": 0.3,
+          "accelerating": true
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 20.0,
+        "weight": 0.3,
+        "contribution": 6.0,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 25.0,
+        "weight": 0.2,
+        "contribution": 5.0,
+        "detail": {
+          "post_count": 2,
+          "percentile": 25.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 25.0,
+        "weight": 0.2,
+        "contribution": 5.0,
+        "detail": {
+          "total_weighted_engagement": 4.0,
+          "avg_per_post": 2.0,
+          "total_shares": 0,
+          "total_comments": 0,
+          "total_likes": 4,
+          "total_views": 0,
+          "percentile": 25.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 25.0,
+        "weight": 0.15,
+        "contribution": 3.8,
+        "detail": {
+          "max_followers": 89,
+          "median_followers": 89,
+          "unique_authors": 1,
+          "raw_score": 25.5,
+          "percentile": 25.0
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "122109857961080304",
+        "text": "https://www.ukrspecexport.com/en/catalog https://ofac.treasury.gov/sanctions-programs-and-country-information https://sanctionslist.ofac.treas.gov/Home/SdnList https://www.ukrspecexport.com/en/catalog www.DonaldJTrump.Today #PresidentDonaldJTrump #PresidentDonaldTrump #DonaldJTrump #DonaldTrump #The",
+        "url": "https://www.facebook.com/122109857961080304",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 0,
+        "comments": 0,
+        "followers": 89,
+        "handle": "TymurGolovin1986"
+      },
+      {
+        "post_id": "122109963159080304",
+        "text": "https://www.ukrspecexport.com/en/catalog https://ofac.treasury.gov/sanctions-programs-and-country-information https://sanctionslist.ofac.treas.gov/Home/SdnList https://www.ukrspecexport.com/en/catalog www.DonaldJTrump.Today #PresidentDonaldJTrump #PresidentDonaldTrump #DonaldJTrump #DonaldTrump #The",
+        "url": "https://www.facebook.com/122109963159080304",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 0,
+        "comments": 0,
+        "followers": 89,
+        "handle": "TymurGolovin1986"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  }
+]

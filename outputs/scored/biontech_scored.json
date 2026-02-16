@@ -1,0 +1,257 @@
+[
+  {
+    "narrative_id": "biontech_narrative_1",
+    "entity_id": "biontech",
+    "title": "Biontech Lifted Annual Sales",
+    "summary": "BioNTech lifted its annual sales outlook, supported by stronger demand and momentum from its collaboration with Bristol-Myers Squibb, signaling renewed growth beyond Covid vaccine revenue. BNTX BMY PFE",
+    "taxonomy_label": "Regulatory / Compliance",
+    "post_count": 2,
+    "risk_score": 76.5,
+    "confidence": "medium",
+    "confidence_band": [
+      61.5,
+      91.5
+    ],
+    "confidence_raw": 0.64,
+    "drivers": [
+      {
+        "name": "Engagement",
+        "score": 100.0,
+        "weight": 0.2,
+        "contribution": 20.0,
+        "detail": {
+          "total_weighted_engagement": 3397.8,
+          "avg_per_post": 1698.9,
+          "total_shares": 8,
+          "total_comments": 5,
+          "total_likes": 0,
+          "total_views": 33638,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 65.0,
+        "weight": 0.3,
+        "contribution": 19.5,
+        "detail": {
+          "taxonomy_label": "Regulatory / Compliance",
+          "taxonomy_base_score": 85,
+          "negative_ratio": 0.0,
+          "positive_ratio": 1.0,
+          "sentiment_modifier": -20.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 100.0,
+        "weight": 0.15,
+        "contribution": 15.0,
+        "detail": {
+          "max_followers": 9746437,
+          "median_followers": 9746437,
+          "unique_authors": 2,
+          "raw_score": 81.9,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 80.0,
+        "weight": 0.15,
+        "contribution": 12.0,
+        "detail": {
+          "posts_per_day": 135.53,
+          "span_days": 0.0,
+          "accelerating": true
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 50.0,
+        "weight": 0.2,
+        "contribution": 10.0,
+        "detail": {
+          "post_count": 2,
+          "percentile": 50.0
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1985321313062310274",
+        "text": "BioNTech raised its sales forecast for the year, helped by a boost from its partnership with Bristol-Myers Squibb https://t.co/0ZVQtxHGor",
+        "url": "https://x.com/i/web/status/1985321313062310274",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 5,
+        "comments": 5,
+        "followers": 9746437,
+        "handle": "business"
+      },
+      {
+        "post_id": "1985326662456643813",
+        "text": "BioNTech lifted its annual sales outlook, supported by stronger demand and momentum from its collaboration with Bristol-Myers Squibb, signaling renewed growth beyond Covid vaccine revenue.\n\n$BNTX $BMY $PFE https://t.co/sigqDZeXf9",
+        "url": "https://x.com/i/web/status/1985326662456643813",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 3,
+        "comments": 0,
+        "followers": 2607,
+        "handle": "EthanMillerX2"
+      }
+    ],
+    "sentiment_distribution": {
+      "positive": 2
+    }
+  },
+  {
+    "narrative_id": "biontech_narrative_2",
+    "entity_id": "biontech",
+    "title": "Miscellaneous Topics",
+    "summary": "BioNTech partners with Bristol-Myers Squibb in a deal worth up to 11.1 billion, focusing on cancer treatments while continuing Covid vaccine collaboration with Pfizer.",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 9,
+    "risk_score": 54.8,
+    "confidence": "medium",
+    "confidence_band": [
+      39.8,
+      69.8
+    ],
+    "confidence_raw": 0.55,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 89.8,
+        "weight": 0.3,
+        "contribution": 26.9,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.22,
+          "positive_ratio": 0.22,
+          "sentiment_modifier": -2.2,
+          "high_risk_keywords": 1,
+          "medium_risk_keywords": 3,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 2.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 100.0,
+        "weight": 0.2,
+        "contribution": 20.0,
+        "detail": {
+          "post_count": 9,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 50.0,
+        "weight": 0.15,
+        "contribution": 7.5,
+        "detail": {
+          "max_followers": 168075,
+          "median_followers": 5605,
+          "unique_authors": 9,
+          "raw_score": 68.8,
+          "percentile": 50.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 2.5,
+        "weight": 0.15,
+        "contribution": 0.4,
+        "detail": {
+          "posts_per_day": 0.32,
+          "span_days": 28.4,
+          "accelerating": true
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 0.0,
+        "weight": 0.2,
+        "contribution": 0.0,
+        "detail": {
+          "total_weighted_engagement": 290.3,
+          "avg_per_post": 32.3,
+          "total_shares": 43,
+          "total_comments": 20,
+          "total_likes": 70,
+          "total_views": 513,
+          "percentile": 0.0
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1644328087008395",
+        "text": "“Grok, how do they use fetal cell lines to make vaccines? Don’t give me any opinions just facts.” Grok : “- Fetal cell lines used in vaccine production: WI-38 (1962, female fetus, Sweden), MRC-5 (1966, male fetus, UK), HEK-293 (1973, Netherlands), PER.C6 (1995, Netherlands). - These are immortalized",
+        "url": "https://www.facebook.com/1644328087008395",
+        "platform": "facebook",
+        "likes": 29,
+        "shares": 27,
+        "comments": 11,
+        "followers": 84000,
+        "handle": "VaccineDamage"
+      },
+      {
+        "post_id": "3952241388253051",
+        "text": "some good news from Sachsen (Saxony) in Germany 3 Deaths, the Covid Injections, officially declared the cause of the deaths by the Social Ministry and the family are getting compensation 3 men, 44, 63 and 66 years old, the vaccines from AstraZeneca, BionTechPfizer and Moderna, none of them safe and ",
+        "url": "https://www.facebook.com/3952241388253051",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 0,
+        "handle": "wiebke.douglas"
+      },
+      {
+        "post_id": "10231031727804387",
+        "text": "*Precios Covid: Oxford AstraZeneca 185$ Pfizer-BioNTech 165$ Moderna 113$ Johnson & Johnson 101$ Sinopharm-Beijing 74$ Sinovac 41$ Gamaleya Sputnik V 36$ Novarax 32$ Bharat Biotech Covaxin 30$ Can Sino 26$ Sputnik Light 6$ Abdala 4$ * 👆🏻👆🏻",
+        "url": "https://www.facebook.com/10231031727804387",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 5605,
+        "handle": "fenixeyes"
+      },
+      {
+        "post_id": "1542512853611984",
+        "text": "UNDERSTANDING VACCINES VS COVID VACCINES It is important to understand the difference in the mechanism of action between traditional vaccines and the Covid-19 genetic ‘vaccines’. I have summarised and simplified the paper attached for ease of consumption: The mechanism of ‘traditional’ vaccines cons",
+        "url": "https://www.facebook.com/1542512853611984",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 135,
+        "handle": "Ramonuzzz"
+      },
+      {
+        "post_id": "725852513892156",
+        "text": "BREAKTHROUGH: Study shows COVID vaccines decreased heart attacks and strokes. A major study analyzing health records from nearly 46 million adults has found that the risk of heart attacks and strokes decreased following COVID-19 vaccinations-directly challenging widespread misinformation. Published ",
+        "url": "https://www.facebook.com/725852513892156",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 0,
+        "comments": 2,
+        "followers": 21473,
+        "handle": ""
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 5,
+      "negative": 2,
+      "positive": 2
+    }
+  }
+]

@@ -1,0 +1,85 @@
+[
+  {
+    "narrative_id": "xarelto_narrative_2",
+    "entity_id": "xarelto",
+    "title": "Miscellaneous Topics",
+    "summary": "Xarelto vs Eliquis 2025 Eliquis 31 less bleeding full comparison",
+    "taxonomy_label": "Financial Integrity",
+    "sentiment_distribution": {
+      "neutral": 7,
+      "positive": 1
+    },
+    "post_count": 8,
+    "post_ids": [
+      "1988024359227625852",
+      "122192524412354122",
+      "1291290516130935",
+      "122262882812024014",
+      "1303351525146098",
+      "10236027424738084",
+      "2260028997811534",
+      "122262783326024014"
+    ],
+    "topic_labels": [
+      "miscellaneous topics"
+    ],
+    "sample_posts": [
+      {
+        "post_id": "1988024359227625852",
+        "text": "Xarelto vs Eliquis 2025: Eliquis 31% less bleeding – full comparison https://t.co/lspQolF8QW #XareltoVsEliquis",
+        "url": ""
+      },
+      {
+        "post_id": "122192524412354122",
+        "text": "Big news for veterans & families! Medicare is rolling out exciting updates for 2026, and it’s all about better coverage and saving you money. Here’s what you need to know: • LOWER prescription drug costs – thanks to negotiated rates for key medications like Eliquis, Xarelto, and Januvia. • Expanded ",
+        "url": ""
+      },
+      {
+        "post_id": "1291290516130935",
+        "text": "HRSA Has Spoken • Eliquis, Jardiance, Xarelto, Januvia, Farxiga, Enbrel, Imbruvica, Stelara and Fiasp/Novolog products will shift from upfront 340B discounts to a rebate-based workflow for covered entities. • Covered entities will still purchase through their 340B wholesaler account (with WAC pricin",
+        "url": ""
+      },
+      {
+        "post_id": "122262882812024014",
+        "text": "If you have any of the following prescriptions—Synthroid, Tresiba, Xarelto, Trelegy, Ozempic, Jardiance, Januvia, Eliquis, Farxiga, Breo, or Calquence—you are likely taking the generic version and are spending over $700 to $800 per year for it. However, you can obtain your brand-name medications wit",
+        "url": ""
+      },
+      {
+        "post_id": "1303351525146098",
+        "text": "Ever look at prescription prices and feel like you’re paying more than anyone else in the world? You might be right. Even with new Medicare-negotiated prices, the U.S. still pays way more than countries like 🇨🇦 Canada, 🇯🇵 Japan, and 🇬🇧 the UK. . Here’s the scoop: ➪ The Inflation Reduction Act (2022)",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "narrative_id": "xarelto_narrative_1",
+    "entity_id": "xarelto",
+    "title": "Medication Diabetes Blood Thinner",
+    "summary": "Show me Ozempic on this list I ll wait Medications with negotiated price reductions Eliquis A blood thinner Xarelto A blood thinner Entresto A heart failure medication Jardiance A diabetes medication Stelara A drug for conditions like psoriatic arthr",
+    "taxonomy_label": "Customer Harm",
+    "sentiment_distribution": {
+      "neutral": 1,
+      "positive": 1
+    },
+    "post_count": 2,
+    "post_ids": [
+      "1993769813592674734",
+      "1993500930189258969"
+    ],
+    "topic_labels": [
+      "medication diabetes blood thinner"
+    ],
+    "sample_posts": [
+      {
+        "post_id": "1993769813592674734",
+        "text": "Show me Ozempic on this list…\n\nI’ll wait…\n\nMedications with negotiated price reductions\n•Eliquis: A blood thinner\n•Xarelto: A blood thinner\n•Entresto: A heart failure medication\n•Jardiance: A diabetes medication\n•Stelara: A drug for conditions like psoriatic arthritis\n•Enbrel: A drug for inflammator",
+        "url": ""
+      },
+      {
+        "post_id": "1993500930189258969",
+        "text": "The market's flooded with blood thinners like Warfarin, Eliquis & Xarelto. They're effective, but come with a major drawback: bleeding risk. For many, the cure feels almost as bad as the disease. This is where Bayer saw an opportunity. 💡",
+        "url": ""
+      }
+    ]
+  }
+]

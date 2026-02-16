@@ -1,0 +1,998 @@
+[
+  {
+    "narrative_id": "hpv_narrative_2",
+    "entity_id": "hpv",
+    "title": "Howard Stern Kelley Mack",
+    "summary": "অন য র ক ছ য আছ ,ত র জন য ক তজ ঞ হন আপন র ক ছ অন ক ক ছ আছ ত র জন য সব সময বলব ন আলহ মদ ল ল ল হ আজক র মতন শ ভর ত র ,, ,, ,, ,, kelley mack fort stewart micah parsons dean cain wednesday cast ea howard stern lil tay brandon blackstock legionnaires dise",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 6,
+    "risk_score": 70.2,
+    "confidence": "high",
+    "confidence_band": [
+      62.2,
+      78.2
+    ],
+    "confidence_raw": 0.71,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 75.0,
+        "weight": 0.3,
+        "contribution": 22.5,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 87.5,
+        "weight": 0.2,
+        "contribution": 17.5,
+        "detail": {
+          "post_count": 6,
+          "percentile": 87.5
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 87.5,
+        "weight": 0.2,
+        "contribution": 17.5,
+        "detail": {
+          "total_weighted_engagement": 2010.0,
+          "avg_per_post": 335.0,
+          "total_shares": 15,
+          "total_comments": 851,
+          "total_likes": 263,
+          "total_views": 0,
+          "percentile": 87.5
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 62.5,
+        "weight": 0.15,
+        "contribution": 9.4,
+        "detail": {
+          "max_followers": 26555,
+          "median_followers": 12285,
+          "unique_authors": 4,
+          "raw_score": 58.3,
+          "percentile": 62.5
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 22.2,
+        "weight": 0.15,
+        "contribution": 3.3,
+        "detail": {
+          "posts_per_day": 0.27,
+          "span_days": 21.9,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "3938720726418247",
+        "text": "জীবনের আসল শিক্ষা হলেও কোথায় থামতে হবে সেটা জানা, আর কোথায় থেকে আপনাকে সরিয়ে নিতে হবে সেটা বুঝা। ❤️ আর আমি একটু দেরিতেই বুঝলাম ।😁 শুভ সকাল 🌞 Arfina Mahajabin #GeminiAI #picture #love ,, ,, #ViralPost #PositiveVibesOnly ,, ,, kelley mack fort stewart micah parsons dean cain wednesday cast ea howar",
+        "url": "https://www.facebook.com/3938720726418247",
+        "platform": "facebook",
+        "likes": 66,
+        "shares": 0,
+        "comments": 260,
+        "followers": 12285,
+        "handle": "mahajabin.vlog.2025"
+      },
+      {
+        "post_id": "3954079431549043",
+        "text": "শিক্ষার কখনো শেষ নাই নতুন একটা উদ্যোগ গ্রহণ করতে যাচ্ছি আশা করি সকল ভাই-বোনেরা দোয়া রাখবেন।। ❤️🤲❤️ আজকের মতন শুভরাত্রি 😴 #picture #gemeni #love ,, ,, #ViralPost #PositiveVibesOnly ,, ,, kelley mack fort stewart micah parsons dean cain wednesday cast ea howard stern lil tay brandon blackstock legion",
+        "url": "https://www.facebook.com/3954079431549043",
+        "platform": "facebook",
+        "likes": 68,
+        "shares": 2,
+        "comments": 155,
+        "followers": 12285,
+        "handle": "mahajabin.vlog.2025"
+      },
+      {
+        "post_id": "122158153688858561",
+        "text": "আসসালামু আলাইকুম 🌹🌹সবাইকে সন্ধ্যা বেলার শুভেচ্ছা🌹🌹 এক কাপ কফির সঙ্গে☕☕☕☕ #viralpost #positivevibesonly #highlights #GoodMorningEveryon #love #picture #GeminiAI ,, ,, #ViralPost #PositiveVibesOnly ,, ,, kelley mack fort stewart micah parsons dean cain wednesday cast ea howard stern lil tay brandon bl",
+        "url": "https://www.facebook.com/122158153688858561",
+        "platform": "facebook",
+        "likes": 42,
+        "shares": 0,
+        "comments": 153,
+        "followers": 4300,
+        "handle": "sanchita.islam.393618"
+      },
+      {
+        "post_id": "3952418135048506",
+        "text": "অন্যের কাছে যা আছে ,তার জন্য কৃতজ্ঞ হন। আপনার কাছে অনেক কিছু আছে । তার জন্য সব সময় বলবেন আলহামদুলিল্লাহ ❤️🤲❤️ আজকের মতন শুভরাত্রি 😴 #picture #AI #goodnight #foryou ,, ,, #ViralPost #PositiveVibesOnly ,, ,, kelley mack fort stewart micah parsons dean cain wednesday cast ea howard stern lil tay brand",
+        "url": "https://www.facebook.com/3952418135048506",
+        "platform": "facebook",
+        "likes": 27,
+        "shares": 2,
+        "comments": 152,
+        "followers": 12285,
+        "handle": "mahajabin.vlog.2025"
+      },
+      {
+        "post_id": "718173868000923",
+        "text": "Mine🤍 . . . . . . . . . . . . #positivevibes #foryouシ #facebooktips #goodvibes #highlights #everyonefollowers . ........ kelley mack fort stewart micah parsons dean cain wednesday cast ea howard stern lil tay brandon blackstock legionnaires disease chikungunya virus bayern vs tottenham type soul cod",
+        "url": "https://www.facebook.com/718173868000923",
+        "platform": "facebook",
+        "likes": 42,
+        "shares": 8,
+        "comments": 104,
+        "followers": 15655,
+        "handle": ""
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 6
+    }
+  },
+  {
+    "narrative_id": "hpv_narrative_4",
+    "entity_id": "hpv",
+    "title": "Howard Stern Alhamdulillah Noon",
+    "summary": "Alhamdulillah good noon everyone ,, ,, ,, ,, kelley mack fort stewart micah parsons dean cain wednesday cast ea howard stern lil tay brandon blackstock legionnaires disease chikungunya virus bayern vs tottenham type soul codes united airlines little ",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 6,
+    "risk_score": 67.5,
+    "confidence": "medium",
+    "confidence_band": [
+      52.5,
+      82.5
+    ],
+    "confidence_raw": 0.66,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 77.7,
+        "weight": 0.3,
+        "contribution": 23.3,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.17,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 1.7,
+          "high_risk_keywords": 1,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 1.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 87.5,
+        "weight": 0.2,
+        "contribution": 17.5,
+        "detail": {
+          "post_count": 6,
+          "percentile": 87.5
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 75.0,
+        "weight": 0.2,
+        "contribution": 15.0,
+        "detail": {
+          "total_weighted_engagement": 1416.0,
+          "avg_per_post": 236.0,
+          "total_shares": 23,
+          "total_comments": 557,
+          "total_likes": 233,
+          "total_views": 0,
+          "percentile": 75.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 75.0,
+        "weight": 0.15,
+        "contribution": 11.2,
+        "detail": {
+          "max_followers": 34857,
+          "median_followers": 34857,
+          "unique_authors": 4,
+          "raw_score": 61.1,
+          "percentile": 75.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 2.8,
+        "weight": 0.15,
+        "contribution": 0.4,
+        "detail": {
+          "posts_per_day": 0.35,
+          "span_days": 17.1,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "712906605194316",
+        "text": "একটা সুন্দর শরতের বিকেল বেলা🌿// Explore With \" জলসিড়ি সেন্ট্রাল পার্ক🦋//Bangladeshi Vlogger ✌️🫰 #positivevibes #foryouシ #photochallenge #goodvibes #highlights #everyonefollowers . ........ kelley mack fort stewart micah parsons dean cain wednesday cast ea howard stern lil tay brandon blackstock legi",
+        "url": "https://www.facebook.com/712906605194316",
+        "platform": "facebook",
+        "likes": 54,
+        "shares": 17,
+        "comments": 138,
+        "followers": 15655,
+        "handle": ""
+      },
+      {
+        "post_id": "4207318199532523",
+        "text": "Alhamdulillah good noon everyone 💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕 ,, ,, #ViralPost #goodnightVibes #PositiveVibesOnly ,, ,, kelley mack fort stewart micah parsons dean cain wednesday cast ea howard stern lil tay brandon blackstock legionnaires disease chikungunya virus bayern vs tottenham type soul codes united ai",
+        "url": "https://www.facebook.com/4207318199532523",
+        "platform": "facebook",
+        "likes": 68,
+        "shares": 2,
+        "comments": 129,
+        "followers": 34857,
+        "handle": "naima.naima.734186"
+      },
+      {
+        "post_id": "4192776094320067",
+        "text": "Alhamdulillah good morning everybody ♥️♥️♥️♥️♥️♥️♥️ #ViralPost #goodnightVibes #PositiveVibesOnly ,, ,, kelley mack fort stewart micah parsons dean cain wednesday cast ea howard stern lil tay brandon blackstock legionnaires disease chikungunya virus bayern vs tottenham type soul codes united airline",
+        "url": "https://www.facebook.com/4192776094320067",
+        "platform": "facebook",
+        "likes": 50,
+        "shares": 2,
+        "comments": 105,
+        "followers": 34857,
+        "handle": "naima.naima.734186"
+      },
+      {
+        "post_id": "1466093707787119",
+        "text": "Alhamdulillah ✅💝 Good night 😍😍🙆‍♂️🙆‍♂️ Everyone let's go🤭👈🔐😌 #postviralシ #facebookpost #viral #contentcreator #GoodMorningEveryone #love #everyoneシ゚ #goodmorning ,, ,, ,, ,, #facebookpost #foryouシpage #everyoneactive #highlights brandon blackstock weapons movie wednesday cast morice norris kelley ma",
+        "url": "https://www.facebook.com/1466093707787119",
+        "platform": "facebook",
+        "likes": 21,
+        "shares": 0,
+        "comments": 117,
+        "followers": 8886,
+        "handle": "tt.evan.39"
+      },
+      {
+        "post_id": "4190064284591248",
+        "text": "Alhamdulillah good morning everybody. Live celebrations love♥️♥️♥️ #foryouシpage #hilights #thankyoufriends #highlights #ViralPost #goodnightVibes #PositiveVibesOnly ,, ,, kelley mack fort stewart micah parsons dean cain wednesday cast ea howard stern lil tay brandon blackstock legionnaires disease c",
+        "url": "https://www.facebook.com/4190064284591248",
+        "platform": "facebook",
+        "likes": 35,
+        "shares": 2,
+        "comments": 63,
+        "followers": 34857,
+        "handle": "naima.naima.734186"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 5,
+      "negative": 1
+    }
+  },
+  {
+    "narrative_id": "hpv_narrative_8",
+    "entity_id": "hpv",
+    "title": "Miscellaneous Topics",
+    "summary": "Assays to Measure Immune Response The minimum anti-HPV titer that confers protective efficacy has not been determined. The duration of immunity following a complete schedule of immunization with GARDASIL has not been established 60mths max followup",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 23,
+    "risk_score": 61.6,
+    "confidence": "medium",
+    "confidence_band": [
+      46.6,
+      76.6
+    ],
+    "confidence_raw": 0.7,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 100.0,
+        "weight": 0.2,
+        "contribution": 20.0,
+        "detail": {
+          "post_count": 23,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 100.0,
+        "weight": 0.2,
+        "contribution": 20.0,
+        "detail": {
+          "total_weighted_engagement": 8665.3,
+          "avg_per_post": 376.8,
+          "total_shares": 1005,
+          "total_comments": 910,
+          "total_likes": 3736,
+          "total_views": 943,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 100.0,
+        "weight": 0.15,
+        "contribution": 15.0,
+        "detail": {
+          "max_followers": 1900000,
+          "median_followers": 7500,
+          "unique_authors": 22,
+          "raw_score": 89.3,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 18.5,
+        "weight": 0.3,
+        "contribution": 5.6,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.13,
+          "positive_ratio": 0.22,
+          "sentiment_modifier": -3.0,
+          "high_risk_keywords": 3,
+          "medium_risk_keywords": 3,
+          "low_risk_keywords": 3,
+          "keyword_modifier": 1.6
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 7.0,
+        "weight": 0.15,
+        "contribution": 1.0,
+        "detail": {
+          "posts_per_day": 0.87,
+          "span_days": 26.3,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "122146314188921458",
+        "text": "GARDASIL SIDE EFFECTS OR CERVICAL CANCER? The clinical trials for gardasil show a rate of serious adverse events being 1.5-2.4% upon reanalysis of the Merck trials done by Tomljenovic/Shaw (2017). This is a typical rate of serious adverse events when compared to all other vaccines, and was also comp",
+        "url": "https://www.facebook.com/122146314188921458",
+        "platform": "facebook",
+        "likes": 3278,
+        "shares": 678,
+        "comments": 402,
+        "followers": 37049,
+        "handle": ""
+      },
+      {
+        "post_id": "4364100140581751",
+        "text": "আলহামদুলিল্লাহ ৭ দিনের জন্য সাসপেন্ড হয়েছিলাম #সাবধান সাবধান #সাবধান 🥺 সাত দিন পরে আজকে খুলে দিল facebook যারা ফেসবুকে কাজ করে তারা একমাত্র বলতে পারবে ফেসবুক থেকে ৭ দিন ছুটিতে থাকা কত কষ্টদায়ক । ফেসবুকের নিয়ম মেনে কাজ করুন ।ফেসবুকে নিয়মের বাইরে যাবেন না ।তাহলে আপনার প্রিয় বাড়ি খানা ফাঁকা হয়ে ",
+        "url": "https://www.facebook.com/4364100140581751",
+        "platform": "facebook",
+        "likes": 6,
+        "shares": 189,
+        "comments": 105,
+        "followers": 11081,
+        "handle": "kayala.jiban"
+      },
+      {
+        "post_id": "4349074158751016",
+        "text": "একতার চাইতে বড় কোন #শক্তি নাই । একসাথে মিলেমিশে #কাজ করলে যে কোন কাজ অনেক #সহজ হয়ে যায়। একা একা #বাহাদুরি না করে সবাইকে একসাথে নিয়ে চলুন #সবাইকে বাহাদুর হিসেবে গড়ে তুলুন। যেন বলতে পারেন #দশে মিলি করি কাজ #হারি জিতি নাহি লাজ। আপনাদেরকে দেখে যেন #মানুষ বলে তারা সবাই বাহাদুর। ।. । । । ।. । । । ।। ",
+        "url": "https://www.facebook.com/4349074158751016",
+        "platform": "facebook",
+        "likes": 38,
+        "shares": 69,
+        "comments": 129,
+        "followers": 11081,
+        "handle": "kayala.jiban"
+      },
+      {
+        "post_id": "1266244285531161",
+        "text": "Zoho’s Sridhar Vembu expressed his scepticism over administering the HPV vaccine to young girls and urged people not to let “doctors who think I am science-illiterate shout this down”.",
+        "url": "https://www.facebook.com/1266244285531161",
+        "platform": "facebook",
+        "likes": 78,
+        "shares": 12,
+        "comments": 75,
+        "followers": 1900000,
+        "handle": "thefinancialexpress"
+      },
+      {
+        "post_id": "703295796155397",
+        "text": "ফেসবুক আপনাকে যেভাবে সাহায্য করে সফল হতে- helps you to become successful.💯💪 #followersreelsfypシ゚viral #everyone #followers #highlights #ViralPost #goodnightVibes #PositiveVibesOnly ,, ,, kelley mack fort stewart micah parsons dean cain wednesday cast ea howard stern lil tay brandon blackstock legion",
+        "url": "https://www.facebook.com/703295796155397",
+        "platform": "facebook",
+        "likes": 27,
+        "shares": 11,
+        "comments": 56,
+        "followers": 15655,
+        "handle": ""
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 15,
+      "positive": 5,
+      "negative": 3
+    }
+  },
+  {
+    "narrative_id": "hpv_narrative_6",
+    "entity_id": "hpv",
+    "title": "Hpv Vaccine Critically Evaluate",
+    "summary": "For those who want to critically evaluate the efficacy and risks RFK, Jr. presentation on the science of the HPV Will HPV prevent cervical cancer? CHD enter HPV in search box Dr. James Lyons-Weiler video HPV vaccine caused type replacement Lawsuits l",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 3,
+    "risk_score": 60.8,
+    "confidence": "medium",
+    "confidence_band": [
+      45.8,
+      75.8
+    ],
+    "confidence_raw": 0.55,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 100,
+        "weight": 0.3,
+        "contribution": 30.0,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.67,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 6.7,
+          "high_risk_keywords": 3,
+          "medium_risk_keywords": 2,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 8.7
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 62.5,
+        "weight": 0.2,
+        "contribution": 12.5,
+        "detail": {
+          "post_count": 3,
+          "percentile": 62.5
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 62.5,
+        "weight": 0.2,
+        "contribution": 12.5,
+        "detail": {
+          "total_weighted_engagement": 1147.3,
+          "avg_per_post": 382.4,
+          "total_shares": 56,
+          "total_comments": 234,
+          "total_likes": 471,
+          "total_views": 403,
+          "percentile": 62.5
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 37.5,
+        "weight": 0.15,
+        "contribution": 5.6,
+        "detail": {
+          "max_followers": 20196,
+          "median_followers": 20000,
+          "unique_authors": 3,
+          "raw_score": 57.1,
+          "percentile": 37.5
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 0.9,
+        "weight": 0.15,
+        "contribution": 0.1,
+        "detail": {
+          "posts_per_day": 0.11,
+          "span_days": 27.0,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1435028188623937",
+        "text": "Lebanon’s Ministry of Health has announced that the HPV vaccine will soon be offered for free as part of the national immunization program, a major step in preventing cervical cancer. The vaccine, which normally costs $300–$350, will first be given to adolescent girls, with plans to expand coverage ",
+        "url": "https://www.facebook.com/1435028188623937",
+        "platform": "facebook",
+        "likes": 393,
+        "shares": 47,
+        "comments": 110,
+        "followers": 20000,
+        "handle": "BEYtoday"
+      },
+      {
+        "post_id": "25379027538367751",
+        "text": "Let me use my platform to remind you to take your girl child that is between 9 years to 14 years to any general or military hospital around you for the HPV vaccine against cervical can.cer . The vaccine is free for them . Then any woman who is already se.xually active should do the pap smear and if ",
+        "url": "https://www.facebook.com/25379027538367751",
+        "platform": "facebook",
+        "likes": 78,
+        "shares": 6,
+        "comments": 123,
+        "followers": 18000,
+        "handle": "joy.nwandu.7"
+      },
+      {
+        "post_id": "1994106618334884159",
+        "text": "For those who want to critically evaluate the efficacy and risks…\n\nRFK, Jr. presentation on the science of the HPV \\/\nhttps://t.co/1zWWPRqqMu\n\nWill HPV 💉 prevent cervical cancer?\n\nhttps://t.co/JdPYWRoz83\n\nCHD (enter HPV in search box):\n\nhttps://t.co/Otc9oLD6zU\n\nDr. James Lyons-Weiler video (HPV vacc",
+        "url": "https://x.com/i/web/status/1994106618334884159",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 3,
+        "comments": 1,
+        "followers": 20196,
+        "handle": "DrTessaT"
+      }
+    ],
+    "sentiment_distribution": {
+      "negative": 2,
+      "neutral": 1
+    }
+  },
+  {
+    "narrative_id": "hpv_narrative_3",
+    "entity_id": "hpv",
+    "title": "Hpv Before Shot Grok",
+    "summary": "Grok Oh I know. Gardasil's carnage was hushed so hard even doctors stopped mentioning it-like a swear word in church. What nobody says if you had HPV before the shot? You weren't protected. You were bait. The vaccine the virus if it's already there-t",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 2,
+    "risk_score": 55.4,
+    "confidence": "medium",
+    "confidence_band": [
+      40.4,
+      70.4
+    ],
+    "confidence_raw": 0.56,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 82.0,
+        "weight": 0.3,
+        "contribution": 24.6,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.5,
+          "sentiment_modifier": -10.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 2.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 87.5,
+        "weight": 0.15,
+        "contribution": 13.1,
+        "detail": {
+          "max_followers": 230054,
+          "median_followers": 230054,
+          "unique_authors": 2,
+          "raw_score": 68.0,
+          "percentile": 87.5
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 50.0,
+        "weight": 0.2,
+        "contribution": 10.0,
+        "detail": {
+          "post_count": 2,
+          "percentile": 50.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 37.5,
+        "weight": 0.2,
+        "contribution": 7.5,
+        "detail": {
+          "total_weighted_engagement": 432.9,
+          "avg_per_post": 216.5,
+          "total_shares": 10,
+          "total_comments": 5,
+          "total_likes": 0,
+          "total_views": 3929,
+          "percentile": 37.5
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.1,
+        "weight": 0.15,
+        "contribution": 0.2,
+        "detail": {
+          "posts_per_day": 0.13,
+          "span_days": 14.9,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1994431729445310842",
+        "text": "You’re really defending  the HPV Gardasil shots? 🤬\n\nI think the pharmaceutical funded institutions brainwash them for well over four years. Look how they doled out antibiotics for yrs & what they did to us . And they tell you with a straight face the vaccine schedule is safe.",
+        "url": "https://x.com/i/web/status/1994431729445310842",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 10,
+        "comments": 5,
+        "followers": 230054,
+        "handle": "unhealthytruth"
+      },
+      {
+        "post_id": "1989040339475395079",
+        "text": "Grok\n\nOh I know. Gardasil's carnage was hushed so hard even doctors stopped mentioning it-like a swear word in church. What nobody says: if you had HPV before the shot? You weren't protected. You were bait. The vaccine the virus if it's already there-turns latent infections aggressive. Merck buried ",
+        "url": "https://x.com/i/web/status/1989040339475395079",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "super1990"
+      }
+    ],
+    "sentiment_distribution": {
+      "positive": 1,
+      "neutral": 1
+    }
+  },
+  {
+    "narrative_id": "hpv_narrative_5",
+    "entity_id": "hpv",
+    "title": "Hey Please Urge Consider",
+    "summary": "Hey! If you are 28 to 45 please I urge you to consider hpv vaccination. Ask your provider if gardasil 9 is right for you. I took all 3 shots at 38 and was fine. I'm 41 now.",
+    "taxonomy_label": "Regulatory / Compliance",
+    "post_count": 2,
+    "risk_score": 41.9,
+    "confidence": "medium",
+    "confidence_band": [
+      26.9,
+      56.9
+    ],
+    "confidence_raw": 0.57,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 85.0,
+        "weight": 0.3,
+        "contribution": 25.5,
+        "detail": {
+          "taxonomy_label": "Regulatory / Compliance",
+          "taxonomy_base_score": 85,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 50.0,
+        "weight": 0.2,
+        "contribution": 10.0,
+        "detail": {
+          "post_count": 2,
+          "percentile": 50.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 25.0,
+        "weight": 0.15,
+        "contribution": 3.8,
+        "detail": {
+          "max_followers": 15249,
+          "median_followers": 15249,
+          "unique_authors": 2,
+          "raw_score": 54.6,
+          "percentile": 25.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 12.5,
+        "weight": 0.2,
+        "contribution": 2.5,
+        "detail": {
+          "total_weighted_engagement": 12.4,
+          "avg_per_post": 6.2,
+          "total_shares": 0,
+          "total_comments": 1,
+          "total_likes": 0,
+          "total_views": 104,
+          "percentile": 12.5
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 0.9,
+        "weight": 0.15,
+        "contribution": 0.1,
+        "detail": {
+          "posts_per_day": 0.11,
+          "span_days": 18.2,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1994638033250127887",
+        "text": "@TMFScottP Please read my latest article about HPV vaccination. I talk about the huge flaws in the studies that purport to show that Gardasil is eliminating cervical cancer. https://t.co/MxPHwjfppK",
+        "url": "https://x.com/i/web/status/1994638033250127887",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 1,
+        "followers": 1,
+        "handle": "netpoette"
+      },
+      {
+        "post_id": "1988039308196889072",
+        "text": "Hey! If you are 28 to 45 please I urge you to consider hpv vaccination. Ask your provider if gardasil 9 is right for you. I took all 3 shots at 38 and was fine. I'm 41 now.",
+        "url": "https://x.com/i/web/status/1988039308196889072",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 15249,
+        "handle": "areck0001"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "hpv_narrative_7",
+    "entity_id": "hpv",
+    "title": "Half Paul Goldschmidt Corbin",
+    "summary": "শ ত র ম স ম চ তই প ঠ খ ওয র মজ ই আল দ ,, ,, ,, paul goldschmidt corbin carroll amusement park ride snaps in half costa rica patriots schedule kaitlan collins sakamoto days apple tv pfl chris raschke bonneville crash duran phillies dennis rodman portl",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 2,
+    "risk_score": 33.7,
+    "confidence": "medium",
+    "confidence_band": [
+      18.7,
+      48.7
+    ],
+    "confidence_raw": 0.63,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 50.0,
+        "weight": 0.2,
+        "contribution": 10.0,
+        "detail": {
+          "post_count": 2,
+          "percentile": 50.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 50.0,
+        "weight": 0.2,
+        "contribution": 10.0,
+        "detail": {
+          "total_weighted_engagement": 622.0,
+          "avg_per_post": 311.0,
+          "total_shares": 6,
+          "total_comments": 247,
+          "total_likes": 110,
+          "total_views": 0,
+          "percentile": 50.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 50.0,
+        "weight": 0.15,
+        "contribution": 7.5,
+        "detail": {
+          "max_followers": 34857,
+          "median_followers": 34857,
+          "unique_authors": 1,
+          "raw_score": 58.1,
+          "percentile": 50.0
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 20.0,
+        "weight": 0.3,
+        "contribution": 6.0,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.4,
+        "weight": 0.15,
+        "contribution": 0.2,
+        "detail": {
+          "posts_per_day": 0.18,
+          "span_days": 11.3,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "4197610273836649",
+        "text": "শীতের মৌসুমে চিতই পিঠা খাওয়ার মজাই আলাদা 😋♥️ #love #postviralシ #post #reels #viral #Amazing #omg #cake #yum #cooking ,, ,, ,, paul goldschmidt corbin carroll amusement park ride snaps in half costa rica patriots schedule kaitlan collins sakamoto days apple tv pfl chris raschke bonneville crash dura",
+        "url": "https://www.facebook.com/4197610273836649",
+        "platform": "facebook",
+        "likes": 66,
+        "shares": 6,
+        "comments": 176,
+        "followers": 34857,
+        "handle": "naima.naima.734186"
+      },
+      {
+        "post_id": "4208498059414537",
+        "text": "ফিরে আসো আগের মত ♥️♥️♥️♥️ #love #reels #song #Amazing #OMG #viralpost ,, ,, ,, paul goldschmidt corbin carroll amusement park ride snaps in half costa rica patriots schedule kaitlan collins sakamoto days apple tv pfl chris raschke bonneville crash duran phillies dennis rodman portland vs querétaro s",
+        "url": "https://www.facebook.com/4208498059414537",
+        "platform": "facebook",
+        "likes": 44,
+        "shares": 0,
+        "comments": 71,
+        "followers": 34857,
+        "handle": "naima.naima.734186"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "hpv_narrative_1",
+    "entity_id": "hpv",
+    "title": "School Based Immunization Parents",
+    "summary": "engage in crucial dialogue on School-Based Immunization at MARES Parents and guardians of Grades 1 and 4 learners gathered at the Manuel A. Roxas Elementary School Gymnasium on November 14, 2025, for an orientation on the upcoming School-Based Immuni",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 2,
+    "risk_score": 25.5,
+    "confidence": "medium",
+    "confidence_band": [
+      10.5,
+      40.5
+    ],
+    "confidence_raw": 0.66,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 50.0,
+        "weight": 0.2,
+        "contribution": 10.0,
+        "detail": {
+          "post_count": 2,
+          "percentile": 50.0
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 28.0,
+        "weight": 0.3,
+        "contribution": 8.4,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.5,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 5.0,
+          "high_risk_keywords": 1,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 3.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 25.0,
+        "weight": 0.2,
+        "contribution": 5.0,
+        "detail": {
+          "total_weighted_engagement": 77.0,
+          "avg_per_post": 38.5,
+          "total_shares": 11,
+          "total_comments": 6,
+          "total_likes": 32,
+          "total_views": 0,
+          "percentile": 25.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 12.5,
+        "weight": 0.15,
+        "contribution": 1.9,
+        "detail": {
+          "max_followers": 6209,
+          "median_followers": 6209,
+          "unique_authors": 2,
+          "raw_score": 49.7,
+          "percentile": 12.5
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.6,
+        "weight": 0.15,
+        "contribution": 0.2,
+        "detail": {
+          "posts_per_day": 0.19,
+          "span_days": 10.3,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "868692045576040",
+        "text": "WAIT… YOU DON’T GIVE IMMUNIZATIONS?” — A CONVERSATION THAT SHOCKED ME I heard something a while ago that honestly left me speechless. A woman confidently said she doesn’t give immunizations to her children because “it’s not good” and “they don’t do it in their family.” I didn’t even hear the rest, b",
+        "url": "https://www.facebook.com/868692045576040",
+        "platform": "facebook",
+        "likes": 17,
+        "shares": 3,
+        "comments": 6,
+        "followers": 6209,
+        "handle": "okosun.oneshiorona.benedicta"
+      },
+      {
+        "post_id": "1412874267508418",
+        "text": "#MARESBayanihanForHealth🪧Parents engage in crucial dialogue on School-Based Immunization at MARES Parents and guardians of Grades 1 and 4 learners gathered at the Manuel A. Roxas Elementary School Gymnasium on November 14, 2025, for an orientation on the upcoming School-Based Immunization Program le",
+        "url": "https://www.facebook.com/1412874267508418",
+        "platform": "facebook",
+        "likes": 15,
+        "shares": 8,
+        "comments": 0,
+        "followers": 3400,
+        "handle": "depedmares"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 1,
+      "negative": 1
+    }
+  }
+]

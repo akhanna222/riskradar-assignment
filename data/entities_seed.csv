@@ -1,0 +1,20 @@
+entity_id,canonical_name,entity_type,aliases
+astrazeneca,AstraZeneca,Brand,AstraZeneca PLC
+pfizer,Pfizer,Brand,Pfizer Inc.
+eliquis,Eliquis,Product,
+johnson_johnson,Johnson & Johnson,Brand,
+merck,Merck,Brand,"Merck & Co., Inc."
+keytruda,Keytruda,Product,
+bristol_myers_squibb,Bristol Myers Squibb,Brand,Bristol-Myers Squibb|Bristol Myers Squibb Co.
+moderna,Moderna,Brand,
+revlimid,Revlimid,Product,
+gardasil,GARDASIL,Product,
+eli_lilly,Eli Lilly,Brand,
+gsk,GSK,Brand,
+amgen,Amgen,Brand,
+opdivo,Opdivo,Product,
+hpv,HPV,Product,
+novo_nordisk,Novo Nordisk,Brand,
+xarelto,Xarelto,Product,
+biontech,BioNTech,Brand,
+cidara_therapeutics,Cidara Therapeutics,Brand,

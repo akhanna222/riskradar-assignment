@@ -1,0 +1,4178 @@
+[
+  {
+    "narrative_id": "pfizer_narrative_25",
+    "entity_id": "pfizer",
+    "title": "Nurse Pfizer Came Jabbed",
+    "summary": "Work update, ER. Nurse came into ER, jabbed twice Pfizer. Chest pain, anxiety, fast Heart Rate, normal labs but blood clot detected. Another nurse, aortic dissection, survived. 2 jabs Moderna. Yet another nurse, newly diagnosed autoimmune disorder, n",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 2,
+    "risk_score": 75.8,
+    "confidence": "low",
+    "confidence_band": [
+      50.8,
+      100
+    ],
+    "confidence_raw": 0.44,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 94.0,
+        "weight": 0.3,
+        "contribution": 28.2,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 2,
+          "keyword_modifier": 4.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 94.3,
+        "weight": 0.2,
+        "contribution": 18.9,
+        "detail": {
+          "total_weighted_engagement": 4327.0,
+          "avg_per_post": 2163.5,
+          "total_shares": 692,
+          "total_comments": 593,
+          "total_likes": 1065,
+          "total_views": 0,
+          "percentile": 94.3
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 82.9,
+        "weight": 0.15,
+        "contribution": 12.4,
+        "detail": {
+          "max_followers": 134431,
+          "median_followers": 134431,
+          "unique_authors": 2,
+          "raw_score": 66.0,
+          "percentile": 82.9
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 57.1,
+        "weight": 0.2,
+        "contribution": 11.4,
+        "detail": {
+          "post_count": 2,
+          "percentile": 57.1
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 32.8,
+        "weight": 0.15,
+        "contribution": 4.9,
+        "detail": {
+          "posts_per_day": 4.11,
+          "span_days": 0.5,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1503064067640524",
+        "text": "Work update, ER. Nurse came into ER, jabbed twice Pfizer. Chest pain, anxiety, fast Heart Rate, normal labs but blood clot detected. Another nurse, aortic dissection, survived. 2 jabs Moderna. Yet another nurse, newly diagnosed autoimmune disorder, no family history, 2 shots Pfizer. 8 day old baby, ",
+        "url": "https://www.facebook.com/1503064067640524",
+        "platform": "facebook",
+        "likes": 1062,
+        "shares": 692,
+        "comments": 591,
+        "followers": 0,
+        "handle": "rtvenegas"
+      },
+      {
+        "post_id": "1254714236688467",
+        "text": "Just 1 month after Pfizer agreed to buy obesity biotech firm Metsera, Ozempic developer Novo Nordisk has put in an unsolicited rival bid to acquire the company, throwing the original agreement into question.",
+        "url": "https://www.facebook.com/1254714236688467",
+        "platform": "facebook",
+        "likes": 3,
+        "shares": 0,
+        "comments": 2,
+        "followers": 134431,
+        "handle": "CENews"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "pfizer_narrative_10",
+    "entity_id": "pfizer",
+    "title": "Howard Stern Kelley Mack",
+    "summary": "অন য র ক ছ য আছ ,ত র জন য ক তজ ঞ হন আপন র ক ছ অন ক ক ছ আছ ত র জন য সব সময বলব ন আলহ মদ ল ল ল হ আজক র মতন শ ভর ত র ,, ,, ,, ,, kelley mack fort stewart micah parsons dean cain wednesday cast ea howard stern lil tay brandon blackstock legionnaires dise",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 6,
+    "risk_score": 73.7,
+    "confidence": "medium",
+    "confidence_band": [
+      58.7,
+      88.7
+    ],
+    "confidence_raw": 0.69,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 75.0,
+        "weight": 0.3,
+        "contribution": 22.5,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 97.1,
+        "weight": 0.2,
+        "contribution": 19.4,
+        "detail": {
+          "post_count": 6,
+          "percentile": 97.1
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 88.6,
+        "weight": 0.2,
+        "contribution": 17.7,
+        "detail": {
+          "total_weighted_engagement": 2010.0,
+          "avg_per_post": 335.0,
+          "total_shares": 15,
+          "total_comments": 851,
+          "total_likes": 263,
+          "total_views": 0,
+          "percentile": 88.6
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 71.4,
+        "weight": 0.15,
+        "contribution": 10.7,
+        "detail": {
+          "max_followers": 26555,
+          "median_followers": 12285,
+          "unique_authors": 4,
+          "raw_score": 58.3,
+          "percentile": 71.4
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 22.2,
+        "weight": 0.15,
+        "contribution": 3.3,
+        "detail": {
+          "posts_per_day": 0.27,
+          "span_days": 21.9,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "3938720726418247",
+        "text": "জীবনের আসল শিক্ষা হলেও কোথায় থামতে হবে সেটা জানা, আর কোথায় থেকে আপনাকে সরিয়ে নিতে হবে সেটা বুঝা। ❤️ আর আমি একটু দেরিতেই বুঝলাম ।😁 শুভ সকাল 🌞 Arfina Mahajabin #GeminiAI #picture #love ,, ,, #ViralPost #PositiveVibesOnly ,, ,, kelley mack fort stewart micah parsons dean cain wednesday cast ea howar",
+        "url": "https://www.facebook.com/3938720726418247",
+        "platform": "facebook",
+        "likes": 66,
+        "shares": 0,
+        "comments": 260,
+        "followers": 12285,
+        "handle": "mahajabin.vlog.2025"
+      },
+      {
+        "post_id": "3954079431549043",
+        "text": "শিক্ষার কখনো শেষ নাই নতুন একটা উদ্যোগ গ্রহণ করতে যাচ্ছি আশা করি সকল ভাই-বোনেরা দোয়া রাখবেন।। ❤️🤲❤️ আজকের মতন শুভরাত্রি 😴 #picture #gemeni #love ,, ,, #ViralPost #PositiveVibesOnly ,, ,, kelley mack fort stewart micah parsons dean cain wednesday cast ea howard stern lil tay brandon blackstock legion",
+        "url": "https://www.facebook.com/3954079431549043",
+        "platform": "facebook",
+        "likes": 68,
+        "shares": 2,
+        "comments": 155,
+        "followers": 12285,
+        "handle": "mahajabin.vlog.2025"
+      },
+      {
+        "post_id": "122158153688858561",
+        "text": "আসসালামু আলাইকুম 🌹🌹সবাইকে সন্ধ্যা বেলার শুভেচ্ছা🌹🌹 এক কাপ কফির সঙ্গে☕☕☕☕ #viralpost #positivevibesonly #highlights #GoodMorningEveryon #love #picture #GeminiAI ,, ,, #ViralPost #PositiveVibesOnly ,, ,, kelley mack fort stewart micah parsons dean cain wednesday cast ea howard stern lil tay brandon bl",
+        "url": "https://www.facebook.com/122158153688858561",
+        "platform": "facebook",
+        "likes": 42,
+        "shares": 0,
+        "comments": 153,
+        "followers": 4300,
+        "handle": "sanchita.islam.393618"
+      },
+      {
+        "post_id": "3952418135048506",
+        "text": "অন্যের কাছে যা আছে ,তার জন্য কৃতজ্ঞ হন। আপনার কাছে অনেক কিছু আছে । তার জন্য সব সময় বলবেন আলহামদুলিল্লাহ ❤️🤲❤️ আজকের মতন শুভরাত্রি 😴 #picture #AI #goodnight #foryou ,, ,, #ViralPost #PositiveVibesOnly ,, ,, kelley mack fort stewart micah parsons dean cain wednesday cast ea howard stern lil tay brand",
+        "url": "https://www.facebook.com/3952418135048506",
+        "platform": "facebook",
+        "likes": 27,
+        "shares": 2,
+        "comments": 152,
+        "followers": 12285,
+        "handle": "mahajabin.vlog.2025"
+      },
+      {
+        "post_id": "718173868000923",
+        "text": "Mine🤍 . . . . . . . . . . . . #positivevibes #foryouシ #facebooktips #goodvibes #highlights #everyonefollowers . ........ kelley mack fort stewart micah parsons dean cain wednesday cast ea howard stern lil tay brandon blackstock legionnaires disease chikungunya virus bayern vs tottenham type soul cod",
+        "url": "https://www.facebook.com/718173868000923",
+        "platform": "facebook",
+        "likes": 42,
+        "shares": 8,
+        "comments": 104,
+        "followers": 15655,
+        "handle": ""
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 6
+    }
+  },
+  {
+    "narrative_id": "pfizer_narrative_11",
+    "entity_id": "pfizer",
+    "title": "Howard Stern Alhamdulillah Noon",
+    "summary": "Alhamdulillah good noon everyone ,, ,, ,, ,, kelley mack fort stewart micah parsons dean cain wednesday cast ea howard stern lil tay brandon blackstock legionnaires disease chikungunya virus bayern vs tottenham type soul codes united airlines little ",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 6,
+    "risk_score": 71.9,
+    "confidence": "medium",
+    "confidence_band": [
+      56.9,
+      86.9
+    ],
+    "confidence_raw": 0.64,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 77.7,
+        "weight": 0.3,
+        "contribution": 23.3,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.17,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 1.7,
+          "high_risk_keywords": 1,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 1.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 97.1,
+        "weight": 0.2,
+        "contribution": 19.4,
+        "detail": {
+          "post_count": 6,
+          "percentile": 97.1
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 85.7,
+        "weight": 0.2,
+        "contribution": 17.1,
+        "detail": {
+          "total_weighted_engagement": 1416.0,
+          "avg_per_post": 236.0,
+          "total_shares": 23,
+          "total_comments": 557,
+          "total_likes": 233,
+          "total_views": 0,
+          "percentile": 85.7
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 77.1,
+        "weight": 0.15,
+        "contribution": 11.6,
+        "detail": {
+          "max_followers": 34857,
+          "median_followers": 34857,
+          "unique_authors": 4,
+          "raw_score": 61.1,
+          "percentile": 77.1
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 2.8,
+        "weight": 0.15,
+        "contribution": 0.4,
+        "detail": {
+          "posts_per_day": 0.35,
+          "span_days": 17.1,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "712906605194316",
+        "text": "একটা সুন্দর শরতের বিকেল বেলা🌿// Explore With \" জলসিড়ি সেন্ট্রাল পার্ক🦋//Bangladeshi Vlogger ✌️🫰 #positivevibes #foryouシ #photochallenge #goodvibes #highlights #everyonefollowers . ........ kelley mack fort stewart micah parsons dean cain wednesday cast ea howard stern lil tay brandon blackstock legi",
+        "url": "https://www.facebook.com/712906605194316",
+        "platform": "facebook",
+        "likes": 54,
+        "shares": 17,
+        "comments": 138,
+        "followers": 15655,
+        "handle": ""
+      },
+      {
+        "post_id": "4207318199532523",
+        "text": "Alhamdulillah good noon everyone 💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕 ,, ,, #ViralPost #goodnightVibes #PositiveVibesOnly ,, ,, kelley mack fort stewart micah parsons dean cain wednesday cast ea howard stern lil tay brandon blackstock legionnaires disease chikungunya virus bayern vs tottenham type soul codes united ai",
+        "url": "https://www.facebook.com/4207318199532523",
+        "platform": "facebook",
+        "likes": 68,
+        "shares": 2,
+        "comments": 129,
+        "followers": 34857,
+        "handle": "naima.naima.734186"
+      },
+      {
+        "post_id": "4192776094320067",
+        "text": "Alhamdulillah good morning everybody ♥️♥️♥️♥️♥️♥️♥️ #ViralPost #goodnightVibes #PositiveVibesOnly ,, ,, kelley mack fort stewart micah parsons dean cain wednesday cast ea howard stern lil tay brandon blackstock legionnaires disease chikungunya virus bayern vs tottenham type soul codes united airline",
+        "url": "https://www.facebook.com/4192776094320067",
+        "platform": "facebook",
+        "likes": 50,
+        "shares": 2,
+        "comments": 105,
+        "followers": 34857,
+        "handle": "naima.naima.734186"
+      },
+      {
+        "post_id": "1466093707787119",
+        "text": "Alhamdulillah ✅💝 Good night 😍😍🙆‍♂️🙆‍♂️ Everyone let's go🤭👈🔐😌 #postviralシ #facebookpost #viral #contentcreator #GoodMorningEveryone #love #everyoneシ゚ #goodmorning ,, ,, ,, ,, #facebookpost #foryouシpage #everyoneactive #highlights brandon blackstock weapons movie wednesday cast morice norris kelley ma",
+        "url": "https://www.facebook.com/1466093707787119",
+        "platform": "facebook",
+        "likes": 21,
+        "shares": 0,
+        "comments": 117,
+        "followers": 8886,
+        "handle": "tt.evan.39"
+      },
+      {
+        "post_id": "4190064284591248",
+        "text": "Alhamdulillah good morning everybody. Live celebrations love♥️♥️♥️ #foryouシpage #hilights #thankyoufriends #highlights #ViralPost #goodnightVibes #PositiveVibesOnly ,, ,, kelley mack fort stewart micah parsons dean cain wednesday cast ea howard stern lil tay brandon blackstock legionnaires disease c",
+        "url": "https://www.facebook.com/4190064284591248",
+        "platform": "facebook",
+        "likes": 35,
+        "shares": 2,
+        "comments": 63,
+        "followers": 34857,
+        "handle": "naima.naima.734186"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 5,
+      "negative": 1
+    }
+  },
+  {
+    "narrative_id": "pfizer_narrative_26",
+    "entity_id": "pfizer",
+    "title": "Woke Didn Beat November",
+    "summary": "November 9th, 2022. My daughter woke up in the morning, said she didn't feel well and was going to lie back down. She never woke up again. We didn't know it at the time, but she had gotten the mRNA covid injection batch fn2908 and it had destroyed he",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 2,
+    "risk_score": 71.7,
+    "confidence": "low",
+    "confidence_band": [
+      46.7,
+      96.7
+    ],
+    "confidence_raw": 0.36,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 100,
+        "weight": 0.3,
+        "contribution": 30.0,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.5,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 5.0,
+          "high_risk_keywords": 2,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 6.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 100.0,
+        "weight": 0.2,
+        "contribution": 20.0,
+        "detail": {
+          "total_weighted_engagement": 400530.7,
+          "avg_per_post": 200265.4,
+          "total_shares": 25917,
+          "total_comments": 10345,
+          "total_likes": 780,
+          "total_views": 3013097,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 57.1,
+        "weight": 0.2,
+        "contribution": 11.4,
+        "detail": {
+          "post_count": 2,
+          "percentile": 57.1
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 65.7,
+        "weight": 0.15,
+        "contribution": 9.9,
+        "detail": {
+          "max_followers": 23753,
+          "median_followers": 23753,
+          "unique_authors": 2,
+          "raw_score": 57.0,
+          "percentile": 65.7
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 2.7,
+        "weight": 0.15,
+        "contribution": 0.4,
+        "detail": {
+          "posts_per_day": 0.34,
+          "span_days": 6.0,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1987380732772135227",
+        "text": "November 9th, 2022. My daughter woke up in the morning, said she didn't feel well and was going to lie back down. She never woke up again. We didn't know it at the time, but she had gotten the @pfizer mRNA covid injection batch fn2908 and it had destroyed her organs. Today at 5:05pm will be exactly ",
+        "url": "https://x.com/i/web/status/1987380732772135227",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 25617,
+        "comments": 9728,
+        "followers": 23753,
+        "handle": "AllenDMartin"
+      },
+      {
+        "post_id": "1497758818171049",
+        "text": "Let’s not forget one of the most beautiful women ever to be in an MTV video. She died in early 2021. She was one of the first victims that was a celebrity, but it went unrecognized by most. Now that so many people have died from that murderous vaccine, including my brother #Pfizer… obviously she was",
+        "url": "https://www.facebook.com/1497758818171049",
+        "platform": "facebook",
+        "likes": 780,
+        "shares": 300,
+        "comments": 617,
+        "followers": 0,
+        "handle": "jeffrey.j.gonzalez.1"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 1,
+      "negative": 1
+    }
+  },
+  {
+    "narrative_id": "pfizer_narrative_7",
+    "entity_id": "pfizer",
+    "title": "Therapy Hormone Testosterone Pfizer",
+    "summary": "Pfizer produces Premarin conjugated estrogens for feminizing hormone replacement therapy and Depo-Testosterone testosterone cypionate injections for masculinizing therapy. AbbVie manufactures Lupron Depot leuprolide acetate , a GnRH agonist used off-",
+    "taxonomy_label": "Regulatory / Compliance",
+    "post_count": 3,
+    "risk_score": 71.6,
+    "confidence": "medium",
+    "confidence_band": [
+      56.6,
+      86.6
+    ],
+    "confidence_raw": 0.55,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 85.0,
+        "weight": 0.3,
+        "contribution": 25.5,
+        "detail": {
+          "taxonomy_label": "Regulatory / Compliance",
+          "taxonomy_base_score": 85,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 82.9,
+        "weight": 0.2,
+        "contribution": 16.6,
+        "detail": {
+          "total_weighted_engagement": 1002.4,
+          "avg_per_post": 334.1,
+          "total_shares": 34,
+          "total_comments": 10,
+          "total_likes": 0,
+          "total_views": 8804,
+          "percentile": 82.9
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 80.0,
+        "weight": 0.2,
+        "contribution": 16.0,
+        "detail": {
+          "post_count": 3,
+          "percentile": 80.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 88.6,
+        "weight": 0.15,
+        "contribution": 13.3,
+        "detail": {
+          "max_followers": 7514455,
+          "median_followers": 2123,
+          "unique_authors": 3,
+          "raw_score": 75.2,
+          "percentile": 88.6
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.4,
+        "weight": 0.15,
+        "contribution": 0.2,
+        "detail": {
+          "posts_per_day": 0.17,
+          "span_days": 17.2,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1992390711228944605",
+        "text": "You do realize that “unvaccinated” was defined by CDC as:\n\n1. Anyone who had taken just 1 of the Pfizer shots;  or taken both shots in the Pfizer series but was not a full 14 days out from the date of the last injection\n\n2. Anyone who had taken the 1 shot J&J but was not a full 14 days out from date",
+        "url": "https://x.com/i/web/status/1992390711228944605",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 26,
+        "comments": 8,
+        "followers": 1141,
+        "handle": "lesdeuxbernois"
+      },
+      {
+        "post_id": "1986172298597179690",
+        "text": "A Hidden Result of the Pfizer Trial https://t.co/39Iyd3DTPS via @brownstoneinst @Abettervision @IamBrookJackson @Jikkyleaks",
+        "url": "https://x.com/i/web/status/1986172298597179690",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 8,
+        "comments": 2,
+        "followers": 2123,
+        "handle": "mrsabrabbit"
+      },
+      {
+        "post_id": "1986211337782108352",
+        "text": "Pfizer produces Premarin (conjugated estrogens) for feminizing hormone replacement therapy and Depo-Testosterone (testosterone cypionate injections) for masculinizing therapy. AbbVie manufactures Lupron Depot (leuprolide acetate), a GnRH agonist used off-label as a puberty blocker in gender-affirmin",
+        "url": "https://x.com/i/web/status/1986211337782108352",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 7514455,
+        "handle": "grok"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 3
+    }
+  },
+  {
+    "narrative_id": "pfizer_narrative_16",
+    "entity_id": "pfizer",
+    "title": "Ceos Prices Drugs President",
+    "summary": "President Donald Trump put pharmaceutical CEOs on notice, demanding they lower drug prices or he promised to get involved. He penned a letter to 17 CEOs in July, outlining what he wants from the pharma industry to cut expenses for consumers. In many ",
+    "taxonomy_label": "Regulatory / Compliance",
+    "post_count": 2,
+    "risk_score": 69.2,
+    "confidence": "medium",
+    "confidence_band": [
+      54.2,
+      84.2
+    ],
+    "confidence_raw": 0.59,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 92.0,
+        "weight": 0.3,
+        "contribution": 27.6,
+        "detail": {
+          "taxonomy_label": "Regulatory / Compliance",
+          "taxonomy_base_score": 85,
+          "negative_ratio": 0.5,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 5.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 2.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 74.3,
+        "weight": 0.2,
+        "contribution": 14.9,
+        "detail": {
+          "total_weighted_engagement": 336.0,
+          "avg_per_post": 168.0,
+          "total_shares": 34,
+          "total_comments": 4,
+          "total_likes": 216,
+          "total_views": 100,
+          "percentile": 74.3
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 85.7,
+        "weight": 0.15,
+        "contribution": 12.9,
+        "detail": {
+          "max_followers": 881173,
+          "median_followers": 881173,
+          "unique_authors": 2,
+          "raw_score": 73.0,
+          "percentile": 85.7
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 57.1,
+        "weight": 0.2,
+        "contribution": 11.4,
+        "detail": {
+          "post_count": 2,
+          "percentile": 57.1
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 16.2,
+        "weight": 0.15,
+        "contribution": 2.4,
+        "detail": {
+          "posts_per_day": 2.02,
+          "span_days": 1.0,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1283151903847282",
+        "text": "The AmCham Cambodia delegation — including Mr. Casey Barnett, President; Mr. Anthony Galliano, Vice President; and Mr. Devin Barta, Governor — joined the USA and Canada Investment Promotion Mission from October 27 to November 5, 2025, led by H.E. Sun Chanthol, Deputy Prime Minister and First Vice Ch",
+        "url": "https://www.facebook.com/1283151903847282",
+        "platform": "facebook",
+        "likes": 206,
+        "shares": 29,
+        "comments": 2,
+        "followers": 881173,
+        "handle": "CamEdBusinessSchool"
+      },
+      {
+        "post_id": "860539843320105",
+        "text": "President Donald Trump put pharmaceutical CEOs on notice, demanding they lower drug prices or he promised to get involved. He penned a letter to 17 CEOs in July, outlining what he wants from the pharma industry to cut expenses for consumers. In many cases, Americans are paying higher prices for drug",
+        "url": "https://www.facebook.com/860539843320105",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 1802,
+        "handle": "crimewatchatlanta"
+      }
+    ],
+    "sentiment_distribution": {
+      "negative": 1,
+      "neutral": 1
+    }
+  },
+  {
+    "narrative_id": "pfizer_narrative_28",
+    "entity_id": "pfizer",
+    "title": "Options Burry Call Bullish",
+    "summary": "BREAKING Michael Burry s Scion Asset Management has disclosed its latest Q3 2025 - and it s full of big moves. New positions include HAL Halliburton - Call options bullish on energy PFE Pfizer - Call options PLTR Palantir - Put options bearish on AI ",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 3,
+    "risk_score": 68.2,
+    "confidence": "medium",
+    "confidence_band": [
+      53.2,
+      83.2
+    ],
+    "confidence_raw": 0.55,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 75.0,
+        "weight": 0.3,
+        "contribution": 22.5,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 91.4,
+        "weight": 0.2,
+        "contribution": 18.3,
+        "detail": {
+          "total_weighted_engagement": 4297.9,
+          "avg_per_post": 1432.6,
+          "total_shares": 14,
+          "total_comments": 30,
+          "total_likes": 0,
+          "total_views": 41959,
+          "percentile": 91.4
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 80.0,
+        "weight": 0.2,
+        "contribution": 16.0,
+        "detail": {
+          "post_count": 3,
+          "percentile": 80.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 74.3,
+        "weight": 0.15,
+        "contribution": 11.1,
+        "detail": {
+          "max_followers": 108436,
+          "median_followers": 1716,
+          "unique_authors": 3,
+          "raw_score": 59.1,
+          "percentile": 74.3
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.7,
+        "weight": 0.15,
+        "contribution": 0.3,
+        "detail": {
+          "posts_per_day": 0.22,
+          "span_days": 13.9,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1985463621351362587",
+        "text": "Michael Burry bets against the AI rally: Scion Asset Management puts 66% of its portfolio into Palantir $PLTR put options.\n\nThe \"Big Short\" investor also bought Nvidia $NVDA puts at 13.5%, shorting the two hottest AI infrastructure plays. \n\nMeanwhile, he went long on Pfizer $PFE calls at 11.1% and H",
+        "url": "https://x.com/i/web/status/1985463621351362587",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 14,
+        "comments": 24,
+        "followers": 108436,
+        "handle": "faststocknewss"
+      },
+      {
+        "post_id": "1990495791828644345",
+        "text": "@FluentInFinance Burry's fund disclosed put options with notional values of $912 million on Palantir and $187 million on Nvidia, but also holds long positions in four stocks Molina Healthcare, Lululemon, SLM, and Bruker plus call options on Pfizer and Halliburton.",
+        "url": "https://x.com/i/web/status/1990495791828644345",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 6,
+        "followers": 40,
+        "handle": "MalickaKlit"
+      },
+      {
+        "post_id": "1985484609203945896",
+        "text": "🚨 BREAKING: Michael Burry’s Scion Asset Management has disclosed its latest Q3 2025 - and it’s full of big moves.\n\nNew positions include:\n\n•$HAL (Halliburton) - Call options (bullish on energy)\n\n•$PFE (Pfizer) - Call options\n\n•$PLTR (Palantir) - Put options (bearish on AI hype)\n\n•$NVDA (Nvidia) - Pu",
+        "url": "https://x.com/i/web/status/1985484609203945896",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1716,
+        "handle": "FinancialPress_"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 3
+    }
+  },
+  {
+    "narrative_id": "pfizer_narrative_35",
+    "entity_id": "pfizer",
+    "title": "Miscellaneous Topics",
+    "summary": "From the 1500's German 1600's Bach Current bc i saved everybody Pfizer Moderna 60 WW VACC",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 103,
+    "risk_score": 64.2,
+    "confidence": "medium",
+    "confidence_band": [
+      49.2,
+      79.2
+    ],
+    "confidence_raw": 0.69,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 100.0,
+        "weight": 0.2,
+        "contribution": 20.0,
+        "detail": {
+          "post_count": 103,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 94.3,
+        "weight": 0.2,
+        "contribution": 18.9,
+        "detail": {
+          "total_weighted_engagement": 120545.5,
+          "avg_per_post": 1170.3,
+          "total_shares": 8761,
+          "total_comments": 3216,
+          "total_likes": 8847,
+          "total_views": 789835,
+          "percentile": 94.3
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 100.0,
+        "weight": 0.15,
+        "contribution": 15.0,
+        "detail": {
+          "max_followers": 7514455,
+          "median_followers": 2448,
+          "unique_authors": 101,
+          "raw_score": 92.5,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 20.0,
+        "weight": 0.3,
+        "contribution": 6.0,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.15,
+          "positive_ratio": 0.1,
+          "sentiment_modifier": -0.5,
+          "high_risk_keywords": 3,
+          "medium_risk_keywords": 5,
+          "low_risk_keywords": 6,
+          "keyword_modifier": 0.5
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 28.6,
+        "weight": 0.15,
+        "contribution": 4.3,
+        "detail": {
+          "posts_per_day": 3.58,
+          "span_days": 28.8,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1986650008847011861",
+        "text": "This is wild.\n\nDr. Suzanne Humphries takes us full circle from Gain Of Function experiments using SV40 in polio vaccine vials in the 1950's, to how we \"end up with SV40 [sequences] in the plasmid of our [Pfizer mRNA] vaccines in 2021\".\n\nSV40 was \"called the perfect war machine by one of the world's ",
+        "url": "https://x.com/i/web/status/1986650008847011861",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 6831,
+        "comments": 282,
+        "followers": 62247,
+        "handle": "Humanspective"
+      },
+      {
+        "post_id": "2107218223447447",
+        "text": "Senator Kennedy Delivers Devastating Blow to AOC & Schumer on Live C-SPAN – Senate Chamber Falls Silent in 38 Seconds It was a moment of pure political theater. Alexandria Ocasio-Cortez was in the middle of her speech, waving her printed Green New Deal 2.0 like a victory flag, accusing Senator John ",
+        "url": "https://www.facebook.com/2107218223447447",
+        "platform": "facebook",
+        "likes": 5375,
+        "shares": 1175,
+        "comments": 1061,
+        "followers": 0,
+        "handle": ""
+      },
+      {
+        "post_id": "1153004100318053",
+        "text": "Prof Uzma Firdaus Appointed Chairperson of AMU’s Department of Paediatrics ALIGARH, November 24: Prof Uzma Firdaus of the Department of Paediatrics, Jawaharlal Nehru Medical College, Aligarh Muslim University, has been appointed Chairperson of the department for a three-year term beginning November ",
+        "url": "https://www.facebook.com/1153004100318053",
+        "platform": "facebook",
+        "likes": 2370,
+        "shares": 59,
+        "comments": 860,
+        "followers": 82514,
+        "handle": "proamuofficial"
+      },
+      {
+        "post_id": "4364100140581751",
+        "text": "আলহামদুলিল্লাহ ৭ দিনের জন্য সাসপেন্ড হয়েছিলাম #সাবধান সাবধান #সাবধান 🥺 সাত দিন পরে আজকে খুলে দিল facebook যারা ফেসবুকে কাজ করে তারা একমাত্র বলতে পারবে ফেসবুক থেকে ৭ দিন ছুটিতে থাকা কত কষ্টদায়ক । ফেসবুকের নিয়ম মেনে কাজ করুন ।ফেসবুকে নিয়মের বাইরে যাবেন না ।তাহলে আপনার প্রিয় বাড়ি খানা ফাঁকা হয়ে ",
+        "url": "https://www.facebook.com/4364100140581751",
+        "platform": "facebook",
+        "likes": 6,
+        "shares": 189,
+        "comments": 105,
+        "followers": 11081,
+        "handle": "kayala.jiban"
+      },
+      {
+        "post_id": "1209358574574871",
+        "text": "Crystal Brown, a former automotive executive, co-founded CircNova to use AI and circular RNA to develop therapies for cancer and rare diseases. Despite no biology background, she raised $3.3 million and built partnerships with top biotech firms like Moderna and Pfizer. 🧬💻💪",
+        "url": "https://www.facebook.com/1209358574574871",
+        "platform": "facebook",
+        "likes": 368,
+        "shares": 69,
+        "comments": 83,
+        "followers": 556390,
+        "handle": "LoveThyBlackWoman"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 78,
+      "positive": 10,
+      "negative": 15
+    }
+  },
+  {
+    "narrative_id": "pfizer_narrative_32",
+    "entity_id": "pfizer",
+    "title": "Iren Plug Sofi Actives",
+    "summary": "Most Actives stocks by intraday trade volume yahoo finance KVUE Kenvue CIFR Cipher Mining NVDA NVIDIA BITF Bitfarms AMZN Amazon IREN IREN PLUG Plug Power TSLA Tesla PFE Pfizer DNN Denison Mines BBAI SOFI SoFi ONDS Ondas F Ford Motor OPEN Opendoor",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 2,
+    "risk_score": 63.8,
+    "confidence": "medium",
+    "confidence_band": [
+      48.8,
+      78.8
+    ],
+    "confidence_raw": 0.67,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 75.0,
+        "weight": 0.3,
+        "contribution": 22.5,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 71.4,
+        "weight": 0.2,
+        "contribution": 14.3,
+        "detail": {
+          "total_weighted_engagement": 303.8,
+          "avg_per_post": 151.9,
+          "total_shares": 0,
+          "total_comments": 0,
+          "total_likes": 0,
+          "total_views": 3038,
+          "percentile": 71.4
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 57.1,
+        "weight": 0.2,
+        "contribution": 11.4,
+        "detail": {
+          "post_count": 2,
+          "percentile": 57.1
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 69.8,
+        "weight": 0.15,
+        "contribution": 10.5,
+        "detail": {
+          "posts_per_day": 8.72,
+          "span_days": 0.2,
+          "accelerating": true
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 34.3,
+        "weight": 0.15,
+        "contribution": 5.1,
+        "detail": {
+          "max_followers": 4527,
+          "median_followers": 4527,
+          "unique_authors": 1,
+          "raw_score": 47.0,
+          "percentile": 34.3
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1985474814342021618",
+        "text": "📈 After-hours Most Active Stocks by TradingView:\n\n$FGL | Founder Group\n$EMN | Eastman Chemical\n$PLTR | Palantir Technologies \n$WTO | UTime\n$MODD | Modular Medical \n$NVDA | NVIDIA\n$HIMS | Hims & Hers Health \n$PFE | Pfizer \n$AAPL | Apple \n$PRLD | Prelude Therapeutics\n$MSPR | MSP Recovery \n$NVTS | Navi",
+        "url": "https://x.com/i/web/status/1985474814342021618",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 4527,
+        "handle": "aipatternlab"
+      },
+      {
+        "post_id": "1985391720968667511",
+        "text": "📊Most Actives stocks by intraday trade volume yahoo finance:\n\n$KVUE | Kenvue\n$CIFR | Cipher Mining\n$NVDA | NVIDIA\n$BITF | Bitfarms\n$AMZN | Amazon\n$IREN | IREN\n$PLUG | Plug Power\n$TSLA | Tesla\n$PFE | Pfizer\n$DNN | Denison Mines\n$BBAI | https://t.co/0aSVEZulm8\n$SOFI | SoFi\n$ONDS | Ondas\n$F | Ford Moto",
+        "url": "https://x.com/i/web/status/1985391720968667511",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 4527,
+        "handle": "aipatternlab"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "pfizer_narrative_19",
+    "entity_id": "pfizer",
+    "title": "Majority Big Pharma Pfizer",
+    "summary": "Majority of Big Pharma is j3wish. Pfizer, AstraZeneca, Moderna, BioNTech, J J. All j3wish owned operated. It was about the mass vaccination push upon the entire World. Silent war, not one shot fired, yet billions of shots in the arms via hypodermic n",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 3,
+    "risk_score": 61.3,
+    "confidence": "low",
+    "confidence_band": [
+      36.3,
+      86.3
+    ],
+    "confidence_raw": 0.4,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 88.3,
+        "weight": 0.3,
+        "contribution": 26.5,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 1.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 10.0,
+          "high_risk_keywords": 1,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 3.3
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 80.0,
+        "weight": 0.2,
+        "contribution": 16.0,
+        "detail": {
+          "post_count": 3,
+          "percentile": 80.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 97.1,
+        "weight": 0.15,
+        "contribution": 14.6,
+        "detail": {
+          "max_followers": 7514455,
+          "median_followers": 7514455,
+          "unique_authors": 3,
+          "raw_score": 81.9,
+          "percentile": 97.1
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 20.0,
+        "weight": 0.2,
+        "contribution": 4.0,
+        "detail": {
+          "total_weighted_engagement": 26.6,
+          "avg_per_post": 8.9,
+          "total_shares": 1,
+          "total_comments": 4,
+          "total_likes": 3,
+          "total_views": 126,
+          "percentile": 20.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.3,
+        "weight": 0.15,
+        "contribution": 0.2,
+        "detail": {
+          "posts_per_day": 0.17,
+          "span_days": 18.0,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "10235173163124477",
+        "text": "🚨BREAKING: Attorney General Ken Paxton has secured a $41.5 million settlement with Pfizer and Tris Pharma for allegedly providing adulterated pharmaceutical drugs to Texas children in violation of the Texas Health Care Program Fraud Prevention Act (\"THFPA\"). \"I will never back down from taking on th",
+        "url": "https://www.facebook.com/10235173163124477",
+        "platform": "facebook",
+        "likes": 3,
+        "shares": 0,
+        "comments": 2,
+        "followers": 0,
+        "handle": "cheryl.decaire"
+      },
+      {
+        "post_id": "1987552610363318411",
+        "text": "Pharma titans like Pfizer and Johnson & Johnson, who'd see patent-thick pricing pressures ease under true competition; hospital chains such as HCA Healthcare, reliant on opaque billing and certificate-of-need barriers; insurance oligarchs like UnitedHealth, whose admin bloat and mandated coverage fa",
+        "url": "https://x.com/i/web/status/1987552610363318411",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 2,
+        "followers": 7514455,
+        "handle": "grok"
+      },
+      {
+        "post_id": "1984748109789085714",
+        "text": "@KimDotcom Majority of Big Pharma is j3wish.\nPfizer, AstraZeneca, Moderna, BioNTech, J&J.\nAll j3wish owned & operated. It was about the mass vaccination push upon the entire World.\nSilent war, not one shot fired, yet billions of shots in the arms via hypodermic needles.",
+        "url": "https://x.com/i/web/status/1984748109789085714",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 1,
+        "comments": 0,
+        "followers": 1,
+        "handle": "farkamerica"
+      }
+    ],
+    "sentiment_distribution": {
+      "negative": 3
+    }
+  },
+  {
+    "narrative_id": "pfizer_narrative_31",
+    "entity_id": "pfizer",
+    "title": "Reiner Covid International Criminal",
+    "summary": "International Criminal Invest. led by Reiner Fuellmich held evidence to indict Bill Gates Anthony Fauci Pfizer BlackRock Tedros Christian Drosten For lethal Covid Crimes So they locked Reiner up in solitary confinement Set him free Justice for Covid ",
+    "taxonomy_label": "Regulatory / Compliance",
+    "post_count": 2,
+    "risk_score": 60.0,
+    "confidence": "medium",
+    "confidence_band": [
+      45.0,
+      75.0
+    ],
+    "confidence_raw": 0.57,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 89.0,
+        "weight": 0.3,
+        "contribution": 26.7,
+        "detail": {
+          "taxonomy_label": "Regulatory / Compliance",
+          "taxonomy_base_score": 85,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 1,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 1,
+          "keyword_modifier": 4.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 65.7,
+        "weight": 0.2,
+        "contribution": 13.1,
+        "detail": {
+          "total_weighted_engagement": 249.8,
+          "avg_per_post": 124.9,
+          "total_shares": 7,
+          "total_comments": 14,
+          "total_likes": 0,
+          "total_views": 2008,
+          "percentile": 65.7
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 57.1,
+        "weight": 0.2,
+        "contribution": 11.4,
+        "detail": {
+          "post_count": 2,
+          "percentile": 57.1
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 57.1,
+        "weight": 0.15,
+        "contribution": 8.6,
+        "detail": {
+          "max_followers": 13787,
+          "median_followers": 13787,
+          "unique_authors": 2,
+          "raw_score": 54.0,
+          "percentile": 57.1
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 0.9,
+        "weight": 0.15,
+        "contribution": 0.1,
+        "detail": {
+          "posts_per_day": 0.12,
+          "span_days": 17.3,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1985722093531545985",
+        "text": "❗️International Criminal Invest. led by Reiner Fuellmich held evidence to indict \n\nBill Gates\nAnthony Fauci\nPfizer\nBlackRock\nTedros \nChristian Drosten \n\n❗️For lethal Covid Crimes  \n\nSo they locked Reiner up in solitary confinement \n\nSet him free &\nJustice for Covid can be served https://t.co/YWt1n41",
+        "url": "https://x.com/i/web/status/1985722093531545985",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 5,
+        "comments": 14,
+        "followers": 2482,
+        "handle": "Luminousthght"
+      },
+      {
+        "post_id": "1991981746066436212",
+        "text": "Great to meet @pfizer chairman and ceo @AlbertBourla at the @afoui_american's 50th Anniversary Gala, where he received the 'Tzedek Award' for his lifetime of work. \n\n“Let us invest in the next generation of scientists, the next generation of problem solvers,” he said. https://t.co/VW89pkeFy0",
+        "url": "https://x.com/i/web/status/1991981746066436212",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 2,
+        "comments": 0,
+        "followers": 13787,
+        "handle": "DavidCaplanNYC"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "pfizer_narrative_21",
+    "entity_id": "pfizer",
+    "title": "Vaccine Visionary Plot Twist",
+    "summary": "𝐒𝐜𝐢𝐞𝐧𝐭𝐢𝐬𝐭 𝐨𝐟 𝐭𝐡𝐞 𝐖𝐞𝐞𝐤 The Vaccine Visionary 𝑲𝒂𝒕𝒂𝒍𝒊𝒏 𝑲𝒂𝒓𝒊𝒌𝒐 Plot twist the woman who saved millions wasn t in a cape she was in a lab coat. Meet Katalin Karikó, the biochemist who literally changed the world with her research on mRNA technology, the f",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 2,
+    "risk_score": 59.3,
+    "confidence": "medium",
+    "confidence_band": [
+      44.3,
+      74.3
+    ],
+    "confidence_raw": 0.55,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 84.0,
+        "weight": 0.3,
+        "contribution": 25.2,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.5,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 5.0,
+          "high_risk_keywords": 1,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 1,
+          "keyword_modifier": 4.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 94.3,
+        "weight": 0.15,
+        "contribution": 14.1,
+        "detail": {
+          "max_followers": 7514455,
+          "median_followers": 7514455,
+          "unique_authors": 2,
+          "raw_score": 80.9,
+          "percentile": 94.3
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 57.1,
+        "weight": 0.2,
+        "contribution": 11.4,
+        "detail": {
+          "post_count": 2,
+          "percentile": 57.1
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 40.0,
+        "weight": 0.2,
+        "contribution": 8.0,
+        "detail": {
+          "total_weighted_engagement": 85.5,
+          "avg_per_post": 42.8,
+          "total_shares": 3,
+          "total_comments": 14,
+          "total_likes": 0,
+          "total_views": 485,
+          "percentile": 40.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 3.5,
+        "weight": 0.15,
+        "contribution": 0.5,
+        "detail": {
+          "posts_per_day": 0.44,
+          "span_days": 4.6,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1985112318393589775",
+        "text": "TTS/VITT is primarily associated with adenovirus vector vaccines like J&J and AstraZeneca, driven by anti-PF4 antibodies absent in mRNA vaccines such as Pfizer and Moderna. Confirmed US TTS cases number around 60 with 9 deaths from J&J; mRNA reports lack causal confirmation at scale per CDC and EMA ",
+        "url": "https://x.com/i/web/status/1985112318393589775",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 8,
+        "followers": 7514455,
+        "handle": "grok"
+      },
+      {
+        "post_id": "843244144881122",
+        "text": "𝐒𝐜𝐢𝐞𝐧𝐭𝐢𝐬𝐭 𝐨𝐟 𝐭𝐡𝐞 𝐖𝐞𝐞𝐤 #17 || The Vaccine Visionary 💉🧬 𝑲𝒂𝒕𝒂𝒍𝒊𝒏 𝑲𝒂𝒓𝒊𝒌𝒐 “Plot twist: the woman who saved millions wasn’t in a cape — she was in a lab coat.” 🧪🩺 Meet Katalin Karikó, the biochemist who literally changed the world with her research on mRNA technology, the foundation of COVID-19 vaccines l",
+        "url": "https://www.facebook.com/843244144881122",
+        "platform": "facebook",
+        "likes": 0,
+        "shares": 3,
+        "comments": 6,
+        "followers": 2155,
+        "handle": ""
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 1,
+      "negative": 1
+    }
+  },
+  {
+    "narrative_id": "pfizer_narrative_1",
+    "entity_id": "pfizer",
+    "title": "Hey Trump Gave Argentina",
+    "summary": "Hey, but Trump gave Argentina 40 billion and he is building a 350,000 ballroom and he just finished renovating his bathroom in marble. A man of the people.",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 3,
+    "risk_score": 58.4,
+    "confidence": "low",
+    "confidence_band": [
+      33.4,
+      83.4
+    ],
+    "confidence_raw": 0.46,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 77.0,
+        "weight": 0.3,
+        "contribution": 23.1,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 1,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 2.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 80.0,
+        "weight": 0.2,
+        "contribution": 16.0,
+        "detail": {
+          "post_count": 3,
+          "percentile": 80.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 65.7,
+        "weight": 0.2,
+        "contribution": 13.1,
+        "detail": {
+          "total_weighted_engagement": 284.6,
+          "avg_per_post": 94.9,
+          "total_shares": 25,
+          "total_comments": 8,
+          "total_likes": 0,
+          "total_views": 1936,
+          "percentile": 65.7
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 40.0,
+        "weight": 0.15,
+        "contribution": 6.0,
+        "detail": {
+          "max_followers": 4583,
+          "median_followers": 4583,
+          "unique_authors": 3,
+          "raw_score": 49.0,
+          "percentile": 40.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.1,
+        "weight": 0.15,
+        "contribution": 0.2,
+        "detail": {
+          "posts_per_day": 0.13,
+          "span_days": 22.5,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1984615325283799079",
+        "text": "@AdamKinzinger @pfizer Hey, but  Trump gave Argentina $40 billion and he is building a $350,000 ballroom and he just finished renovating his bathroom in marble. A man of the people.",
+        "url": "https://x.com/i/web/status/1984615325283799079",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 20,
+        "comments": 8,
+        "followers": 4583,
+        "handle": "BJLRN"
+      },
+      {
+        "post_id": "1984697374187336012",
+        "text": "@SirCensorLot Dr Fauci will never be arrested.\n\nInstead of arresting Albert Bourla of Pfizer Trump made a deal with him.\n\nInstead of arresting Bill Gates Trump had him over for a Royal Dinner at the White House.\n\nTrump took a Covid Booster….this year!  \n\nTrump is trying to cover up Covid!",
+        "url": "https://x.com/i/web/status/1984697374187336012",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 5,
+        "comments": 0,
+        "followers": 0,
+        "handle": "g0dfr0y"
+      },
+      {
+        "post_id": "1992786361074831720",
+        "text": "@MissLavenia @abcole1933 @EvanAKilgore 40 B to Argentina?  Supper with Gates?  Pfizer? AlQaeda?",
+        "url": "https://x.com/i/web/status/1992786361074831720",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 118,
+        "handle": "DarrenArmi67962"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 3
+    }
+  },
+  {
+    "narrative_id": "pfizer_narrative_5",
+    "entity_id": "pfizer",
+    "title": "Years God Gave Scripture",
+    "summary": "God gave me this scripture many years ago at Pharmacia when I was having to continuously reapply for my job every year and through the Pfizer years. I printed it and taped it across the top of my monitor. It was the first thing I saw every day. What ",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 3,
+    "risk_score": 58.0,
+    "confidence": "low",
+    "confidence_band": [
+      33.0,
+      83.0
+    ],
+    "confidence_raw": 0.31,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 94.7,
+        "weight": 0.3,
+        "contribution": 28.4,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.33,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 3.3,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 1.3
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 80.0,
+        "weight": 0.2,
+        "contribution": 16.0,
+        "detail": {
+          "post_count": 3,
+          "percentile": 80.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 51.4,
+        "weight": 0.2,
+        "contribution": 10.3,
+        "detail": {
+          "total_weighted_engagement": 127.0,
+          "avg_per_post": 42.3,
+          "total_shares": 0,
+          "total_comments": 34,
+          "total_likes": 59,
+          "total_views": 0,
+          "percentile": 51.4
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 20.0,
+        "weight": 0.15,
+        "contribution": 3.0,
+        "detail": {
+          "max_followers": 1918,
+          "median_followers": 1918,
+          "unique_authors": 3,
+          "raw_score": 44.3,
+          "percentile": 20.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 2.3,
+        "weight": 0.15,
+        "contribution": 0.3,
+        "detail": {
+          "posts_per_day": 0.29,
+          "span_days": 10.3,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "24702262696062646",
+        "text": "Ten years ago today — November 1, 2015 — I was assigned to my very first Business Intelligence (BI) project. That moment marked the real kick-off of my career in the Data Management field. I was 27 years old, working at ITWorx, when I got the opportunity to join an on-premises BI project for Pfizer.",
+        "url": "https://www.facebook.com/24702262696062646",
+        "platform": "facebook",
+        "likes": 27,
+        "shares": 0,
+        "comments": 20,
+        "followers": 1918,
+        "handle": "MahmoudMagedMustafa"
+      },
+      {
+        "post_id": "25996738866580581",
+        "text": "I can't believe 3 years ago you retired from Pfizer after 20 years. I love you with all my heart.",
+        "url": "https://www.facebook.com/25996738866580581",
+        "platform": "facebook",
+        "likes": 30,
+        "shares": 0,
+        "comments": 9,
+        "followers": 0,
+        "handle": "maggie.eubanks.9"
+      },
+      {
+        "post_id": "2536905006686906",
+        "text": "God gave me this scripture many years ago at Pharmacia when I was having to continuously reapply for my job every year and through the Pfizer years. I printed it and taped it across the top of my monitor. It was the first thing I saw every day. What a promise! It still means that much to me today. M",
+        "url": "https://www.facebook.com/2536905006686906",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 0,
+        "comments": 5,
+        "followers": 0,
+        "handle": "tanya.h.delong65"
+      }
+    ],
+    "sentiment_distribution": {
+      "negative": 1,
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "pfizer_narrative_9",
+    "entity_id": "pfizer",
+    "title": "Veterans Eagles Packers Government",
+    "summary": "eagles vs packers veterans day is the government shutdown over stimulus check 2025 veterans day 2025 brian daboll jackie chan lions vs commanders dharmendra lakers vs hornets kim davis school closings giants vs bears bills vs dolphins rams vs 49ers c",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 2,
+    "risk_score": 55.2,
+    "confidence": "medium",
+    "confidence_band": [
+      40.2,
+      70.2
+    ],
+    "confidence_raw": 0.57,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 97.0,
+        "weight": 0.3,
+        "contribution": 29.1,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.5,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 5.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 2.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 57.1,
+        "weight": 0.2,
+        "contribution": 11.4,
+        "detail": {
+          "post_count": 2,
+          "percentile": 57.1
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 34.3,
+        "weight": 0.2,
+        "contribution": 6.9,
+        "detail": {
+          "total_weighted_engagement": 69.5,
+          "avg_per_post": 34.8,
+          "total_shares": 8,
+          "total_comments": 6,
+          "total_likes": 15,
+          "total_views": 185,
+          "percentile": 34.3
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 42.9,
+        "weight": 0.15,
+        "contribution": 6.4,
+        "detail": {
+          "max_followers": 5730,
+          "median_followers": 5730,
+          "unique_authors": 2,
+          "raw_score": 49.2,
+          "percentile": 42.9
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 9.1,
+        "weight": 0.15,
+        "contribution": 1.4,
+        "detail": {
+          "posts_per_day": 1.14,
+          "span_days": 1.8,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "122170231952770389",
+        "text": "eagles vs packers veterans day is the government shutdown over stimulus check 2025 veterans day 2025 brian daboll jackie chan lions vs commanders dharmendra lakers vs hornets kim davis school closings giants vs bears bills vs dolphins rams vs 49ers cavaliers vs heat spurs vs bulls gordon lightfoot b",
+        "url": "https://www.facebook.com/122170231952770389",
+        "platform": "facebook",
+        "likes": 15,
+        "shares": 8,
+        "comments": 3,
+        "followers": 5730,
+        "handle": ""
+      },
+      {
+        "post_id": "1987610430009692503",
+        "text": "@AllenDMartin @pfizer One day a serious government will bring these people to justice for what they've done.\nSorry for your loss 🙏",
+        "url": "https://x.com/i/web/status/1987610430009692503",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 3,
+        "followers": 2179,
+        "handle": "BanePiller1352"
+      }
+    ],
+    "sentiment_distribution": {
+      "negative": 1,
+      "neutral": 1
+    }
+  },
+  {
+    "narrative_id": "pfizer_narrative_17",
+    "entity_id": "pfizer",
+    "title": "Vax Read Science Article",
+    "summary": "COVID VAX CLOTS Read this Science Article 1. GOVERNMENT POWER Pfizer Fauci Biden Admin combining with 2. CORPORATE FINANCIAL POWER Pharma TECH NEWS MEDIA CORPS .. ie -greed in their RUSH to sell the VAX before doing required Testing .. caused these s",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 2,
+    "risk_score": 54.3,
+    "confidence": "low",
+    "confidence_band": [
+      29.3,
+      79.3
+    ],
+    "confidence_raw": 0.38,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 99.0,
+        "weight": 0.3,
+        "contribution": 29.7,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.5,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 5.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 2,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 4.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 57.1,
+        "weight": 0.2,
+        "contribution": 11.4,
+        "detail": {
+          "post_count": 2,
+          "percentile": 57.1
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 45.7,
+        "weight": 0.2,
+        "contribution": 9.1,
+        "detail": {
+          "total_weighted_engagement": 100.0,
+          "avg_per_post": 50.0,
+          "total_shares": 5,
+          "total_comments": 4,
+          "total_likes": 10,
+          "total_views": 670,
+          "percentile": 45.7
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 25.7,
+        "weight": 0.15,
+        "contribution": 3.9,
+        "detail": {
+          "max_followers": 2876,
+          "median_followers": 2876,
+          "unique_authors": 2,
+          "raw_score": 45.5,
+          "percentile": 25.7
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.0,
+        "weight": 0.15,
+        "contribution": 0.2,
+        "detail": {
+          "posts_per_day": 0.13,
+          "span_days": 15.3,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "25623256727271962",
+        "text": "COVID VAX = CLOTS : Read this Science Article: 1. GOVERNMENT POWER/ ( Pfizer/Fauci/Biden Admin) combining with 2. CORPORATE FINANCIAL POWER (Pharma & TECH & NEWS MEDIA CORPS) ….. ( ie -greed) …in their RUSH to sell the VAX before doing required Testing….. caused these side effects & complications (C",
+        "url": "https://www.facebook.com/25623256727271962",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 0,
+        "handle": "delmar.greenleaf1"
+      },
+      {
+        "post_id": "1990917276577443846",
+        "text": "@nypost i'm sure pfizer has a vax for it already",
+        "url": "https://x.com/i/web/status/1990917276577443846",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 2,
+        "followers": 2876,
+        "handle": "RealestRalph"
+      }
+    ],
+    "sentiment_distribution": {
+      "negative": 1,
+      "neutral": 1
+    }
+  },
+  {
+    "narrative_id": "pfizer_narrative_20",
+    "entity_id": "pfizer",
+    "title": "Wow Pfizer Executive Resigns",
+    "summary": "Wow!! Ex Pfizer executive resigns and says this",
+    "taxonomy_label": "Executive / Employee Misconduct",
+    "post_count": 2,
+    "risk_score": 51.2,
+    "confidence": "medium",
+    "confidence_band": [
+      36.2,
+      66.2
+    ],
+    "confidence_raw": 0.6,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 82.0,
+        "weight": 0.3,
+        "contribution": 24.6,
+        "detail": {
+          "taxonomy_label": "Executive / Employee Misconduct",
+          "taxonomy_base_score": 80,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 2.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 57.1,
+        "weight": 0.2,
+        "contribution": 11.4,
+        "detail": {
+          "post_count": 2,
+          "percentile": 57.1
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 42.9,
+        "weight": 0.2,
+        "contribution": 8.6,
+        "detail": {
+          "total_weighted_engagement": 90.6,
+          "avg_per_post": 45.3,
+          "total_shares": 10,
+          "total_comments": 3,
+          "total_likes": 15,
+          "total_views": 396,
+          "percentile": 42.9
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 37.1,
+        "weight": 0.15,
+        "contribution": 5.6,
+        "detail": {
+          "max_followers": 4282,
+          "median_followers": 4282,
+          "unique_authors": 2,
+          "raw_score": 47.7,
+          "percentile": 37.1
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 6.9,
+        "weight": 0.15,
+        "contribution": 1.0,
+        "detail": {
+          "posts_per_day": 0.86,
+          "span_days": 2.3,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "10226967665811513",
+        "text": "Wow!! Ex Pfizer executive resigns and says this 😳",
+        "url": "https://www.facebook.com/10226967665811513",
+        "platform": "facebook",
+        "likes": 15,
+        "shares": 8,
+        "comments": 3,
+        "followers": 4282,
+        "handle": "georgina.sikora"
+      },
+      {
+        "post_id": "1991098936204132793",
+        "text": "@LegendaryEnergy Because Trump made Pfizer rich. https://t.co/p5Xnrq0wQJ",
+        "url": "https://x.com/i/web/status/1991098936204132793",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 2,
+        "comments": 0,
+        "followers": 85,
+        "handle": "John02234696739"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "pfizer_narrative_12",
+    "entity_id": "pfizer",
+    "title": "Segment Brought Pfizer",
+    "summary": "This segment was brought to you by Pfizer.",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 5,
+    "risk_score": 47.7,
+    "confidence": "medium",
+    "confidence_band": [
+      32.7,
+      62.7
+    ],
+    "confidence_raw": 0.6,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 88.6,
+        "weight": 0.2,
+        "contribution": 17.7,
+        "detail": {
+          "post_count": 5,
+          "percentile": 88.6
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 80.0,
+        "weight": 0.2,
+        "contribution": 16.0,
+        "detail": {
+          "total_weighted_engagement": 978.4,
+          "avg_per_post": 195.7,
+          "total_shares": 20,
+          "total_comments": 36,
+          "total_likes": 0,
+          "total_views": 8464,
+          "percentile": 80.0
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 20.0,
+        "weight": 0.3,
+        "contribution": 6.0,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 31.4,
+        "weight": 0.15,
+        "contribution": 4.7,
+        "detail": {
+          "max_followers": 1998,
+          "median_followers": 1953,
+          "unique_authors": 5,
+          "raw_score": 46.5,
+          "percentile": 31.4
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 21.6,
+        "weight": 0.15,
+        "contribution": 3.2,
+        "detail": {
+          "posts_per_day": 0.2,
+          "span_days": 25.6,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1985708505127321809",
+        "text": "@ScottAdamsSays Cheese: brought to you by Pfizer.  \n\n(Not sure who funds study but I know who’d benefit from the results) https://t.co/4BltiWqc34",
+        "url": "https://x.com/i/web/status/1985708505127321809",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 14,
+        "comments": 20,
+        "followers": 408,
+        "handle": "subtleepiphany"
+      },
+      {
+        "post_id": "1989519891162976645",
+        "text": "@TheWHN All you have to do is replace the word Marlborough with Pfizer. Where does your money come from?",
+        "url": "https://x.com/i/web/status/1989519891162976645",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 8,
+        "followers": 1998,
+        "handle": "billhinds302"
+      },
+      {
+        "post_id": "1990469220690506188",
+        "text": "Smoke, Mirrors, and the Pfizer Deal https://t.co/PivZwBbEVG via @brownstoneinst",
+        "url": "https://x.com/i/web/status/1990469220690506188",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 3,
+        "comments": 2,
+        "followers": 1581,
+        "handle": "clotshot_truth"
+      },
+      {
+        "post_id": "1984739324777414759",
+        "text": "@Cheri_Angel1 @JimmyC1366 Oh no doubt they benefitted ... what did Pfizer make?  $140b or something?  But the only benefit to us was that the people just went out with the Floyd excuse and the shots made that possible.",
+        "url": "https://x.com/i/web/status/1984739324777414759",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 3,
+        "comments": 6,
+        "followers": 1953,
+        "handle": "GGFrangelico"
+      },
+      {
+        "post_id": "1994016097662623952",
+        "text": "This segment was brought to you by Pfizer.",
+        "url": "https://x.com/i/web/status/1994016097662623952",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 0,
+        "handle": "chrisPmitton"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 5
+    }
+  },
+  {
+    "narrative_id": "pfizer_narrative_3",
+    "entity_id": "pfizer",
+    "title": "Success Another Client Pfizer",
+    "summary": "another 2 success client all pfizer user amblis.. 6months pero few hours lang ok na,and complete success Congrats 3 newly success without any preparation fasting and home remedies",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 6,
+    "risk_score": 46.0,
+    "confidence": "low",
+    "confidence_band": [
+      21.0,
+      71.0
+    ],
+    "confidence_raw": 0.48,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 97.1,
+        "weight": 0.2,
+        "contribution": 19.4,
+        "detail": {
+          "post_count": 6,
+          "percentile": 97.1
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 80.0,
+        "weight": 0.15,
+        "contribution": 12.0,
+        "detail": {
+          "max_followers": 33944,
+          "median_followers": 22284,
+          "unique_authors": 6,
+          "raw_score": 62.2,
+          "percentile": 80.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 34.3,
+        "weight": 0.2,
+        "contribution": 6.9,
+        "detail": {
+          "total_weighted_engagement": 74.2,
+          "avg_per_post": 12.4,
+          "total_shares": 12,
+          "total_comments": 12,
+          "total_likes": 8,
+          "total_views": 62,
+          "percentile": 34.3
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 14.7,
+        "weight": 0.3,
+        "contribution": 4.4,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.33,
+          "sentiment_modifier": -6.7,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 2,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 1.3
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 22.3,
+        "weight": 0.15,
+        "contribution": 3.3,
+        "detail": {
+          "posts_per_day": 0.29,
+          "span_days": 20.6,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "10236519037013963",
+        "text": "We're all tied into this ugliness one way or another. How do we resist? Can we? Here's a list of the CEO attending the state dinner: Tesla: Elon Musk Apple: Tim Cook Nvidia: Jensen Huang IBM: Arvind Krishna Qualcomm: Cristiano Amon Dell: Michael Dell Salesforce: Marc Benioff General Motors: Mary Bar",
+        "url": "https://www.facebook.com/10236519037013963",
+        "platform": "facebook",
+        "likes": 3,
+        "shares": 2,
+        "comments": 12,
+        "followers": 0,
+        "handle": "jack.toolin"
+      },
+      {
+        "post_id": "32596133046697438",
+        "text": "Pfizer - Zotus - Animals Have Been Injected With mRNA Technology...",
+        "url": "https://www.facebook.com/32596133046697438",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 8,
+        "comments": 0,
+        "followers": 22284,
+        "handle": "jiniyas.buddhamitra"
+      },
+      {
+        "post_id": "1314235804051032",
+        "text": "Pfizer Hiring Associate – Safety Data Management Specialist | Chennai | Apply Now Check Here 👇👇👇 🔗https://pharmajobspost.in/job/pfizer-hiring-associate-safety-data-management-specialist-chennai-apply-now/",
+        "url": "https://www.facebook.com/1314235804051032",
+        "platform": "facebook",
+        "likes": 3,
+        "shares": 0,
+        "comments": 0,
+        "followers": 33944,
+        "handle": "Pharmajobspost"
+      },
+      {
+        "post_id": "1851446268775745",
+        "text": "another 2 success client all pfizer user🖤 amblis.. 6months pero few hours lang ok na,and complete success 🥰 Congrats 3 newly success without any preparation fasting and home remedies 🤗",
+        "url": "https://www.facebook.com/1851446268775745",
+        "platform": "facebook",
+        "likes": 0,
+        "shares": 2,
+        "comments": 0,
+        "followers": 0,
+        "handle": "AmyLeeatsoCa"
+      },
+      {
+        "post_id": "1991543573121232996",
+        "text": "So I just heard from a very good source from Ohio that Pfizer just came out with a new vaccine for lefties. Geez I really hope they take advantage of it 🤣🤣🤣 https://t.co/HRyX7plQnN",
+        "url": "https://x.com/i/web/status/1991543573121232996",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 0,
+        "handle": "Jocava327919"
+      }
+    ],
+    "sentiment_distribution": {
+      "positive": 2,
+      "neutral": 4
+    }
+  },
+  {
+    "narrative_id": "pfizer_narrative_18",
+    "entity_id": "pfizer",
+    "title": "Point Imagine Ceo Pfizer",
+    "summary": "Good point. Could you imagine being CEO of Pfizer and saying yes I could be a trillionaire, but then how would my successor make money?",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 5,
+    "risk_score": 45.6,
+    "confidence": "medium",
+    "confidence_band": [
+      30.6,
+      60.6
+    ],
+    "confidence_raw": 0.65,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 88.6,
+        "weight": 0.2,
+        "contribution": 17.7,
+        "detail": {
+          "post_count": 5,
+          "percentile": 88.6
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 62.9,
+        "weight": 0.2,
+        "contribution": 12.6,
+        "detail": {
+          "total_weighted_engagement": 223.8,
+          "avg_per_post": 44.8,
+          "total_shares": 7,
+          "total_comments": 13,
+          "total_likes": 36,
+          "total_views": 1408,
+          "percentile": 62.9
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 62.9,
+        "weight": 0.15,
+        "contribution": 9.4,
+        "detail": {
+          "max_followers": 32977,
+          "median_followers": 2022,
+          "unique_authors": 5,
+          "raw_score": 57.0,
+          "percentile": 62.9
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 18.8,
+        "weight": 0.3,
+        "contribution": 5.6,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.2,
+          "positive_ratio": 0.2,
+          "sentiment_modifier": -2.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.8
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.8,
+        "weight": 0.15,
+        "contribution": 0.3,
+        "detail": {
+          "posts_per_day": 0.22,
+          "span_days": 22.7,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1991898569692098648",
+        "text": "@Kevin_McKernan It differs from all Pfizer batches I have managed to find batch genealogy information on. This one has Grey cap and Active ingredients are Tozinameran/Riltozinameran. The others of this type were manufactured at the same plant in Purrs. \n\nhttps://t.co/nZO2qidMpj",
+        "url": "https://x.com/i/web/status/1991898569692098648",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 5,
+        "comments": 8,
+        "followers": 5949,
+        "handle": "karrichapus"
+      },
+      {
+        "post_id": "25305914369021073",
+        "text": "Thank you American Legion Post 24 and Pfizer for this free rib eye steak dinner for veterans tonight!",
+        "url": "https://www.facebook.com/25305914369021073",
+        "platform": "facebook",
+        "likes": 33,
+        "shares": 0,
+        "comments": 5,
+        "followers": 1250,
+        "handle": "SquishyDinglberry"
+      },
+      {
+        "post_id": "1407691504693425",
+        "text": "7555 Pfizer Drive, Ooltewah, TN Look at this adorable, renovated 3BR/2BA residence in the highly sought after Hamilton on Hunter subdivision!! As you enter, you are greeted by a cozy living room that boasts a charming gas fireplace and soaring vaulted ceilings, creating a warm and inviting atmospher",
+        "url": "https://www.facebook.com/1407691504693425",
+        "platform": "facebook",
+        "likes": 3,
+        "shares": 2,
+        "comments": 0,
+        "followers": 2022,
+        "handle": "annekewilkeyrealtor"
+      },
+      {
+        "post_id": "1993305996878553448",
+        "text": "@PressSec What is Pfizer doing for his people",
+        "url": "https://x.com/i/web/status/1993305996878553448",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 144,
+        "handle": "survivortype22"
+      },
+      {
+        "post_id": "1985067426375934191",
+        "text": "@lucentile Good point.    Could you imagine being CEO of Pfizer and saying “yes I could be a trillionaire, but then how would my successor make money?”",
+        "url": "https://x.com/i/web/status/1985067426375934191",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 32977,
+        "handle": "marcorandazza"
+      }
+    ],
+    "sentiment_distribution": {
+      "positive": 1,
+      "negative": 1,
+      "neutral": 3
+    }
+  },
+  {
+    "narrative_id": "pfizer_narrative_4",
+    "entity_id": "pfizer",
+    "title": "Released Pfizer Vaccine Clinical",
+    "summary": "They released them with the Pfizer vaccine clinical trials",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 4,
+    "risk_score": 45.1,
+    "confidence": "low",
+    "confidence_band": [
+      20.1,
+      70.1
+    ],
+    "confidence_raw": 0.45,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 82.9,
+        "weight": 0.2,
+        "contribution": 16.6,
+        "detail": {
+          "post_count": 4,
+          "percentile": 82.9
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 91.4,
+        "weight": 0.15,
+        "contribution": 13.7,
+        "detail": {
+          "max_followers": 7514455,
+          "median_followers": 10478,
+          "unique_authors": 4,
+          "raw_score": 79.0,
+          "percentile": 91.4
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 27.5,
+        "weight": 0.3,
+        "contribution": 8.2,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.5,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 5.0,
+          "high_risk_keywords": 1,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 2.5
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 31.4,
+        "weight": 0.2,
+        "contribution": 6.3,
+        "detail": {
+          "total_weighted_engagement": 65.3,
+          "avg_per_post": 16.3,
+          "total_shares": 0,
+          "total_comments": 5,
+          "total_likes": 2,
+          "total_views": 533,
+          "percentile": 31.4
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.7,
+        "weight": 0.15,
+        "contribution": 0.3,
+        "detail": {
+          "posts_per_day": 0.22,
+          "span_days": 18.3,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1985472489292775473",
+        "text": "Evidence from RCTs like Pfizer's Phase 3 and WHO surveillance affirms mRNA vaccines reduced COVID mortality without broad immunity erosion or hidden depopulation, as excess deaths track unvaccinated higher. Cancer rates hold steady per SEER baselines, unlinked to vaccination amid billions dosed. If ",
+        "url": "https://x.com/i/web/status/1985472489292775473",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 5,
+        "followers": 7514455,
+        "handle": "grok"
+      },
+      {
+        "post_id": "122146503218410184",
+        "text": "One more reason not to take it...they just keep coming, don't they? News News News @NewsNew97351204 Breaking News Scientists discover Pfizer COVID jab linked to major eye damage If you have had a similar reaction to Pfizer's COVID-19 vaccine, email chris.melore@dailymail.com with your story Scientis",
+        "url": "https://www.facebook.com/122146503218410184",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 0,
+        "comments": 0,
+        "followers": 0,
+        "handle": "a.nonnie.moose.2025"
+      },
+      {
+        "post_id": "1991327307290800173",
+        "text": "@CramerTracker They released  them with the Pfizer \"vaccine\" clinical trials https://t.co/q4M1guL56F",
+        "url": "https://x.com/i/web/status/1991327307290800173",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 10478,
+        "handle": "BlackApple"
+      },
+      {
+        "post_id": "1984697917098058065",
+        "text": "God Help Those That Got Vaccinated For Pfizer's  \"Covid\"",
+        "url": "https://x.com/i/web/status/1984697917098058065",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 6,
+        "handle": "Scurajx1"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2,
+      "negative": 2
+    }
+  },
+  {
+    "narrative_id": "pfizer_narrative_33",
+    "entity_id": "pfizer",
+    "title": "Stock Buy Sell Jessecoheninv",
+    "summary": "JesseCohenInv 1 Stock to Buy, 1 Stock to Sell This Week Buy Palantir PLTR Sell Pfizer PFE Source InvestingPro DIA SPY QQQ",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 2,
+    "risk_score": 44.8,
+    "confidence": "medium",
+    "confidence_band": [
+      29.8,
+      59.8
+    ],
+    "confidence_raw": 0.61,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 75.0,
+        "weight": 0.3,
+        "contribution": 22.5,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 57.1,
+        "weight": 0.2,
+        "contribution": 11.4,
+        "detail": {
+          "post_count": 2,
+          "percentile": 57.1
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 22.9,
+        "weight": 0.2,
+        "contribution": 4.6,
+        "detail": {
+          "total_weighted_engagement": 27.9,
+          "avg_per_post": 14.0,
+          "total_shares": 0,
+          "total_comments": 0,
+          "total_likes": 0,
+          "total_views": 279,
+          "percentile": 22.9
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 28.6,
+        "weight": 0.15,
+        "contribution": 4.3,
+        "detail": {
+          "max_followers": 3134,
+          "median_followers": 3134,
+          "unique_authors": 2,
+          "raw_score": 46.0,
+          "percentile": 28.6
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 13.5,
+        "weight": 0.15,
+        "contribution": 2.0,
+        "detail": {
+          "posts_per_day": 1.68,
+          "span_days": 1.2,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1985047658214440996",
+        "text": "JesseCohenInv: ⚠️1 Stock to Buy, 1 Stock to Sell This Week:\n\n🟢 Buy: Palantir $PLTR\n\n🔴 Sell: Pfizer $PFE\n\n*Source: InvestingPro\n\n$DIA $SPY $QQQ https://t.co/lZO42RIeLF",
+        "url": "https://x.com/i/web/status/1985047658214440996",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 3134,
+        "handle": "trndtrader"
+      },
+      {
+        "post_id": "1985477922686169558",
+        "text": "#cryptonews : 1 Stock to Buy, 1 Stock to Sell This Week: Palantir, Pfizer https://t.co/0TnksB9zTO",
+        "url": "https://x.com/i/web/status/1985477922686169558",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 55,
+        "handle": "kryptoptimus"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "pfizer_narrative_2",
+    "entity_id": "pfizer",
+    "title": "Affected Stock Pfizer Astrazeneca",
+    "summary": "affected She did own stock in Pfizer and AstraZeneca while pretending Covid-19 vaccines are bad to stay in MAGA good grace. She takes donations from her elderly constituents on SSI and buys a 96K luxury suv campaign vehicle. She's a grifter and fake ",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 3,
+    "risk_score": 44.6,
+    "confidence": "medium",
+    "confidence_band": [
+      29.6,
+      59.6
+    ],
+    "confidence_raw": 0.52,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 84.3,
+        "weight": 0.3,
+        "contribution": 25.3,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.67,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 6.7,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 2,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 2.7
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 80.0,
+        "weight": 0.2,
+        "contribution": 16.0,
+        "detail": {
+          "post_count": 3,
+          "percentile": 80.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 11.4,
+        "weight": 0.2,
+        "contribution": 2.3,
+        "detail": {
+          "total_weighted_engagement": 18.4,
+          "avg_per_post": 6.1,
+          "total_shares": 0,
+          "total_comments": 2,
+          "total_likes": 0,
+          "total_views": 144,
+          "percentile": 11.4
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 5.7,
+        "weight": 0.15,
+        "contribution": 0.9,
+        "detail": {
+          "max_followers": 1914,
+          "median_followers": 1,
+          "unique_authors": 3,
+          "raw_score": 31.1,
+          "percentile": 5.7
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.0,
+        "weight": 0.15,
+        "contribution": 0.2,
+        "detail": {
+          "posts_per_day": 0.13,
+          "span_days": 23.4,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1993167604845101167",
+        "text": "@RetsefL @MaryanneDemasi Pfizer, AstraZeneca, Moderna and all the rest of the pharmaceutical conglomerates committed a crime against humanity.",
+        "url": "https://x.com/i/web/status/1993167604845101167",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 1,
+        "followers": 1,
+        "handle": "falseavatar4836"
+      },
+      {
+        "post_id": "1993467750506021179",
+        "text": "Australia paid Pfizer and Merck $2.7billion for antiviral pills to April 2025 (more than 📌AUKUS📌) \n\nand 🔴get this🔴 TGA fully approved Paxlovid up from provisional in August 2024. Pfizer EPIC-SR study results incl VAXED with subgroup high risk all vaxed was published FAIL V PLACEBO p=0.6 in April 202",
+        "url": "https://x.com/i/web/status/1993467750506021179",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 1,
+        "followers": 1914,
+        "handle": "CharmsYahoo"
+      },
+      {
+        "post_id": "1984974067774955559",
+        "text": "*affected* She did own stock in Pfizer and AstraZeneca while pretending Covid-19 vaccines are bad to stay in MAGA good grace. She takes donations from her elderly constituents on SSI and buys a 96K luxury suv \"campaign\" vehicle. She's a grifter and fake Christian. Regular Republican. They are gone.",
+        "url": "https://x.com/i/web/status/1984974067774955559",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "DontBotherKeiti"
+      }
+    ],
+    "sentiment_distribution": {
+      "negative": 2,
+      "neutral": 1
+    }
+  },
+  {
+    "narrative_id": "pfizer_narrative_29",
+    "entity_id": "pfizer",
+    "title": "Half Paul Goldschmidt Corbin",
+    "summary": "শ ত র ম স ম চ তই প ঠ খ ওয র মজ ই আল দ ,, ,, ,, paul goldschmidt corbin carroll amusement park ride snaps in half costa rica patriots schedule kaitlan collins sakamoto days apple tv pfl chris raschke bonneville crash duran phillies dennis rodman portl",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 2,
+    "risk_score": 43.4,
+    "confidence": "medium",
+    "confidence_band": [
+      28.4,
+      58.4
+    ],
+    "confidence_raw": 0.57,
+    "drivers": [
+      {
+        "name": "Engagement",
+        "score": 77.1,
+        "weight": 0.2,
+        "contribution": 15.4,
+        "detail": {
+          "total_weighted_engagement": 622.0,
+          "avg_per_post": 311.0,
+          "total_shares": 6,
+          "total_comments": 247,
+          "total_likes": 110,
+          "total_views": 0,
+          "percentile": 77.1
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 57.1,
+        "weight": 0.2,
+        "contribution": 11.4,
+        "detail": {
+          "post_count": 2,
+          "percentile": 57.1
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 68.6,
+        "weight": 0.15,
+        "contribution": 10.3,
+        "detail": {
+          "max_followers": 34857,
+          "median_followers": 34857,
+          "unique_authors": 1,
+          "raw_score": 58.1,
+          "percentile": 68.6
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 20.0,
+        "weight": 0.3,
+        "contribution": 6.0,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.4,
+        "weight": 0.15,
+        "contribution": 0.2,
+        "detail": {
+          "posts_per_day": 0.18,
+          "span_days": 11.3,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "4197610273836649",
+        "text": "শীতের মৌসুমে চিতই পিঠা খাওয়ার মজাই আলাদা 😋♥️ #love #postviralシ #post #reels #viral #Amazing #omg #cake #yum #cooking ,, ,, ,, paul goldschmidt corbin carroll amusement park ride snaps in half costa rica patriots schedule kaitlan collins sakamoto days apple tv pfl chris raschke bonneville crash dura",
+        "url": "https://www.facebook.com/4197610273836649",
+        "platform": "facebook",
+        "likes": 66,
+        "shares": 6,
+        "comments": 176,
+        "followers": 34857,
+        "handle": "naima.naima.734186"
+      },
+      {
+        "post_id": "4208498059414537",
+        "text": "ফিরে আসো আগের মত ♥️♥️♥️♥️ #love #reels #song #Amazing #OMG #viralpost ,, ,, ,, paul goldschmidt corbin carroll amusement park ride snaps in half costa rica patriots schedule kaitlan collins sakamoto days apple tv pfl chris raschke bonneville crash duran phillies dennis rodman portland vs querétaro s",
+        "url": "https://www.facebook.com/4208498059414537",
+        "platform": "facebook",
+        "likes": 44,
+        "shares": 0,
+        "comments": 71,
+        "followers": 34857,
+        "handle": "naima.naima.734186"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "pfizer_narrative_8",
+    "entity_id": "pfizer",
+    "title": "Biontech Partners Bristol Myers",
+    "summary": "BioNTech partners with Bristol-Myers Squibb in a deal worth up to 11.1 billion, focusing on cancer treatments while continuing Covid vaccine collaboration with Pfizer.",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 2,
+    "risk_score": 42.0,
+    "confidence": "medium",
+    "confidence_band": [
+      27.0,
+      57.0
+    ],
+    "confidence_raw": 0.59,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 75.0,
+        "weight": 0.3,
+        "contribution": 22.5,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 57.1,
+        "weight": 0.2,
+        "contribution": 11.4,
+        "detail": {
+          "post_count": 2,
+          "percentile": 57.1
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 28.6,
+        "weight": 0.2,
+        "contribution": 5.7,
+        "detail": {
+          "total_weighted_engagement": 45.0,
+          "avg_per_post": 22.5,
+          "total_shares": 0,
+          "total_comments": 6,
+          "total_likes": 0,
+          "total_views": 330,
+          "percentile": 28.6
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 14.3,
+        "weight": 0.15,
+        "contribution": 2.1,
+        "detail": {
+          "max_followers": 2064,
+          "median_followers": 2064,
+          "unique_authors": 2,
+          "raw_score": 43.7,
+          "percentile": 14.3
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.1,
+        "weight": 0.15,
+        "contribution": 0.2,
+        "detail": {
+          "posts_per_day": 0.14,
+          "span_days": 14.2,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1985900243825930328",
+        "text": "biotech wave bout to get violent \n$BIO stacking catalysts like it’s nothing \n33M research tokenized, 20+ BioDAOs birthed, x402 agents live \npfizer + samsung in the mix and still sub 200m mc on @BioProtocol \nload before Season 2 hits mainnet Nov 15",
+        "url": "https://x.com/i/web/status/1985900243825930328",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 6,
+        "followers": 2064,
+        "handle": "leondoteth"
+      },
+      {
+        "post_id": "1991046964579049567",
+        "text": "BioNTech partners with Bristol-Myers Squibb in a deal worth up to $11.1 billion, focusing on cancer treatments while continuing Covid vaccine collaboration with Pfizer.",
+        "url": "https://x.com/i/web/status/1991046964579049567",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 388,
+        "handle": "baro_jwngma"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "pfizer_narrative_23",
+    "entity_id": "pfizer",
+    "title": "Children Project University Taking",
+    "summary": "Children with are taking centre stage globally! Cassie Friends is honored to represent children and youth with Juvenile Idiopathic Arthritis in the groundbreaking UNIFIED Project a 27 million international partnership funded by Horizon Europe and led",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 2,
+    "risk_score": 39.9,
+    "confidence": "medium",
+    "confidence_band": [
+      24.9,
+      54.9
+    ],
+    "confidence_raw": 0.59,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 65.0,
+        "weight": 0.3,
+        "contribution": 19.5,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.5,
+          "sentiment_modifier": -10.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 57.1,
+        "weight": 0.2,
+        "contribution": 11.4,
+        "detail": {
+          "post_count": 2,
+          "percentile": 57.1
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 51.4,
+        "weight": 0.15,
+        "contribution": 7.7,
+        "detail": {
+          "max_followers": 10640,
+          "median_followers": 10640,
+          "unique_authors": 2,
+          "raw_score": 52.6,
+          "percentile": 51.4
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 5.7,
+        "weight": 0.2,
+        "contribution": 1.1,
+        "detail": {
+          "total_weighted_engagement": 10.0,
+          "avg_per_post": 5.0,
+          "total_shares": 2,
+          "total_comments": 0,
+          "total_likes": 4,
+          "total_views": 0,
+          "percentile": 5.7
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 0.9,
+        "weight": 0.15,
+        "contribution": 0.1,
+        "detail": {
+          "posts_per_day": 0.11,
+          "span_days": 17.7,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1270622758423947",
+        "text": "📢 Children with #JIA are taking centre stage globally! 🌎 Cassie + Friends is honored to represent children and youth with Juvenile Idiopathic Arthritis in the groundbreaking UNIFIED Project—a €27 million international partnership funded by Horizon Europe and led by Erasmus University Rotterdam and P",
+        "url": "https://www.facebook.com/1270622758423947",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 2,
+        "comments": 0,
+        "followers": 2583,
+        "handle": "CAFsociety"
+      },
+      {
+        "post_id": "3804485249696091",
+        "text": "𝗪𝗲’𝗿𝗲 𝗛𝗶𝗿𝗶𝗻𝗴: 𝗥𝗲𝘀𝗲𝗮𝗿𝗰𝗵 𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁 (𝗠𝗶𝗰𝗿𝗼𝗯𝗶𝗼𝗹𝗼𝗴𝘆/𝗠𝗼𝗹𝗲𝗰𝘂𝗹𝗮𝗿 𝗕𝗶𝗼𝗹𝗼𝗴𝘆) 📍 𝗜𝗠𝗨 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗶𝘁𝘆, 𝗕𝘂𝗸𝗶𝘁 𝗝𝗮𝗹𝗶𝗹, 𝗞𝘂𝗮𝗹𝗮 𝗟𝘂𝗺𝗽𝘂𝗿 🕒 𝗙𝘂𝗹𝗹-𝗧𝗶𝗺𝗲 | 𝟮-𝗬𝗲𝗮𝗿 𝗖𝗼𝗻𝘁𝗿𝗮𝗰𝘁 (𝗝𝗮𝗻 𝟮𝟬𝟮𝟲 – 𝗗𝗲𝗰 𝟮𝟬𝟮𝟴) 💼 𝗜𝗻𝘀𝘁𝗶𝘁𝘂𝘁𝗲 𝗳𝗼𝗿 𝗥𝗲𝘀𝗲𝗮𝗿𝗰𝗵, 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁 & 𝗜𝗻𝗻𝗼𝘃𝗮𝘁𝗶𝗼𝗻 (𝗜𝗥𝗗𝗜) 💰 𝗥𝗠𝟯,𝟬𝟬𝟬/𝗺𝗼𝗻𝘁𝗵 IMU University is seeking a dedicated and detail-oriented 𝗥𝗲𝘀𝗲𝗮𝗿",
+        "url": "https://www.facebook.com/3804485249696091",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 0,
+        "comments": 0,
+        "followers": 10640,
+        "handle": ""
+      }
+    ],
+    "sentiment_distribution": {
+      "positive": 1,
+      "neutral": 1
+    }
+  },
+  {
+    "narrative_id": "pfizer_narrative_15",
+    "entity_id": "pfizer",
+    "title": "Pfizer York Visited Headquarters",
+    "summary": "Visited Pfizer Headquarters in New York Toured the New York building, Pfizer live meeting, and shadowed a couple of leaders.",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 3,
+    "risk_score": 36.8,
+    "confidence": "medium",
+    "confidence_band": [
+      21.8,
+      51.8
+    ],
+    "confidence_raw": 0.59,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 80.0,
+        "weight": 0.2,
+        "contribution": 16.0,
+        "detail": {
+          "post_count": 3,
+          "percentile": 80.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 54.3,
+        "weight": 0.2,
+        "contribution": 10.9,
+        "detail": {
+          "total_weighted_engagement": 141.6,
+          "avg_per_post": 47.2,
+          "total_shares": 0,
+          "total_comments": 26,
+          "total_likes": 86,
+          "total_views": 36,
+          "percentile": 54.3
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 21.3,
+        "weight": 0.3,
+        "contribution": 6.4,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 1.3
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 17.1,
+        "weight": 0.15,
+        "contribution": 2.6,
+        "detail": {
+          "max_followers": 1805,
+          "median_followers": 1702,
+          "unique_authors": 3,
+          "raw_score": 43.8,
+          "percentile": 17.1
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 6.8,
+        "weight": 0.15,
+        "contribution": 1.0,
+        "detail": {
+          "posts_per_day": 0.85,
+          "span_days": 3.5,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "10239238824324553",
+        "text": "Visited Pfizer Headquarters in New York 💙 Toured the New York building, Pfizer live meeting, and shadowed a couple of leaders.",
+        "url": "https://www.facebook.com/10239238824324553",
+        "platform": "facebook",
+        "likes": 81,
+        "shares": 0,
+        "comments": 26,
+        "followers": 1805,
+        "handle": "Gregorh27"
+      },
+      {
+        "post_id": "1984938008932475151",
+        "text": "Pfizer have 9 pages of actual side effects from the experimental gene jabs. https://t.co/ZQU7VkTGR1",
+        "url": "https://x.com/i/web/status/1984938008932475151",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 551,
+        "handle": "AnnetteAll446"
+      },
+      {
+        "post_id": "25518747157719002",
+        "text": "These companies are in NY. When they raise prices its to fund NYC. I will not use these companies! Accounting & Tax CohnReznick is headquartered in New York, NY. Deloitte is headquartered in New York, NY. EY is headquartered in New York, NY. PwC is headquartered in New York, NY. Advertising & Public",
+        "url": "https://www.facebook.com/25518747157719002",
+        "platform": "facebook",
+        "likes": 5,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1702,
+        "handle": "timothy.noreika.3"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 3
+    }
+  },
+  {
+    "narrative_id": "pfizer_narrative_24",
+    "entity_id": "pfizer",
+    "title": "Phone Prager Space Between",
+    "summary": "The space between It s what you do for a friend. I was honored to be asked. One of the last times Jeff Prager called me after several frantic up-and-down days of at-home hospice, his blood oxygen levels are so low they cannot stabilize him. He has me",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 2,
+    "risk_score": 35.7,
+    "confidence": "low",
+    "confidence_band": [
+      10.7,
+      60.7
+    ],
+    "confidence_raw": 0.46,
+    "drivers": [
+      {
+        "name": "Engagement",
+        "score": 60.0,
+        "weight": 0.2,
+        "contribution": 12.0,
+        "detail": {
+          "total_weighted_engagement": 161.0,
+          "avg_per_post": 80.5,
+          "total_shares": 14,
+          "total_comments": 52,
+          "total_likes": 15,
+          "total_views": 0,
+          "percentile": 60.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 57.1,
+        "weight": 0.2,
+        "contribution": 11.4,
+        "detail": {
+          "post_count": 2,
+          "percentile": 57.1
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 28.0,
+        "weight": 0.3,
+        "contribution": 8.4,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.5,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 5.0,
+          "high_risk_keywords": 1,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 3.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 22.9,
+        "weight": 0.15,
+        "contribution": 3.4,
+        "detail": {
+          "max_followers": 2603,
+          "median_followers": 2603,
+          "unique_authors": 2,
+          "raw_score": 44.9,
+          "percentile": 22.9
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 2.9,
+        "weight": 0.15,
+        "contribution": 0.4,
+        "detail": {
+          "posts_per_day": 0.36,
+          "span_days": 5.5,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "3773911032913148",
+        "text": "The space between It’s what you do for a friend. I was honored to be asked. One of the last times Jeff Prager called me after several frantic up-and-down days of at-home hospice, his blood oxygen levels are so low they cannot stabilize him. He has me on one phone, and 911 on the other phone as he un",
+        "url": "https://www.facebook.com/3773911032913148",
+        "platform": "facebook",
+        "likes": 9,
+        "shares": 0,
+        "comments": 50,
+        "followers": 0,
+        "handle": ""
+      },
+      {
+        "post_id": "25215942848022799",
+        "text": "Space for Rent! Amron Fifth Tower! Located in Kabankalan City, front of Mercury Drug Store, and beside Villanueva Kapehan (beside KCC),the commercial building offers a prime space for rent in the thriving food court. Be part of a vibrant community of food enthusiasts and entrepreneurs! - High foot t",
+        "url": "https://www.facebook.com/25215942848022799",
+        "platform": "facebook",
+        "likes": 6,
+        "shares": 14,
+        "comments": 2,
+        "followers": 2603,
+        "handle": "jpfizerodangojr"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 1,
+      "negative": 1
+    }
+  },
+  {
+    "narrative_id": "pfizer_narrative_34",
+    "entity_id": "pfizer",
+    "title": "Congratulations Batch Hakot Award",
+    "summary": "Congratulations batch 2005 hakot award jud among contestants oy Mr Mrs Pfizer and Irish Miramontes Congratulation again guys",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 2,
+    "risk_score": 34.6,
+    "confidence": "medium",
+    "confidence_band": [
+      19.6,
+      49.6
+    ],
+    "confidence_raw": 0.63,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 57.1,
+        "weight": 0.2,
+        "contribution": 11.4,
+        "detail": {
+          "post_count": 2,
+          "percentile": 57.1
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 48.6,
+        "weight": 0.2,
+        "contribution": 9.7,
+        "detail": {
+          "total_weighted_engagement": 117.0,
+          "avg_per_post": 58.5,
+          "total_shares": 2,
+          "total_comments": 17,
+          "total_likes": 77,
+          "total_views": 0,
+          "percentile": 48.6
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 48.6,
+        "weight": 0.15,
+        "contribution": 7.3,
+        "detail": {
+          "max_followers": 8820,
+          "median_followers": 8820,
+          "unique_authors": 2,
+          "raw_score": 51.6,
+          "percentile": 48.6
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 20.0,
+        "weight": 0.3,
+        "contribution": 6.0,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.0,
+        "weight": 0.15,
+        "contribution": 0.2,
+        "detail": {
+          "posts_per_day": 0.13,
+          "span_days": 15.9,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "10232231019026351",
+        "text": "So...proud of my son Congratulations Joshua on your consistent hard work and dedication 👏 this post below are his words!! Very proud Mom ❤️ I’m happy to share I have recently accepted a new role as a Business Logistics Specialist with Pfizer. I’m super grateful for this opportunity and beyond excite",
+        "url": "https://www.facebook.com/10232231019026351",
+        "platform": "facebook",
+        "likes": 60,
+        "shares": 0,
+        "comments": 12,
+        "followers": 2488,
+        "handle": "stacy.baker.902"
+      },
+      {
+        "post_id": "32342310075417656",
+        "text": "Congratulations batch 2005 hakot award jud among contestants oy Mr&Mrs Pfizer and Irish Miramontes 💖💖 Congratulation again guys☺️ #GrandAlumniHomecoming2025 #kiburiao #enjoylife #fblifestyle",
+        "url": "https://www.facebook.com/32342310075417656",
+        "platform": "facebook",
+        "likes": 17,
+        "shares": 2,
+        "comments": 5,
+        "followers": 8820,
+        "handle": "girliemae.patac"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "pfizer_narrative_14",
+    "entity_id": "pfizer",
+    "title": "Thoughts Nfl Huge Pfizer",
+    "summary": "Thoughts? NFL is a huge Pfizer sponsor",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 3,
+    "risk_score": 34.3,
+    "confidence": "low",
+    "confidence_band": [
+      9.3,
+      59.3
+    ],
+    "confidence_raw": 0.35,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 80.0,
+        "weight": 0.2,
+        "contribution": 16.0,
+        "detail": {
+          "post_count": 3,
+          "percentile": 80.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 54.3,
+        "weight": 0.15,
+        "contribution": 8.1,
+        "detail": {
+          "max_followers": 9567,
+          "median_followers": 9567,
+          "unique_authors": 3,
+          "raw_score": 53.0,
+          "percentile": 54.3
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 22.0,
+        "weight": 0.3,
+        "contribution": 6.6,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 1,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 2.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 17.1,
+        "weight": 0.2,
+        "contribution": 3.4,
+        "detail": {
+          "total_weighted_engagement": 25.6,
+          "avg_per_post": 8.5,
+          "total_shares": 0,
+          "total_comments": 3,
+          "total_likes": 4,
+          "total_views": 156,
+          "percentile": 17.1
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 0.9,
+        "weight": 0.15,
+        "contribution": 0.1,
+        "detail": {
+          "posts_per_day": 0.11,
+          "span_days": 27.0,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "2288020348335672",
+        "text": "Pfizer. Anyone that broke the immigration laws is a criminal. They are here illegally and those governors that support keeping all these criminals are guilty for supporting crime. My father brought us here legally and we all had no fear to be deported. As a parent you are to blame if you are in fear",
+        "url": "https://www.facebook.com/2288020348335672",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 0,
+        "comments": 0,
+        "followers": 0,
+        "handle": "joe.cardiel.50"
+      },
+      {
+        "post_id": "1989656298489516299",
+        "text": "I respect your thoughts...I think its more than this... She is holding to what MAGA stands for.  \n\nH1-B, support of Pfizer, Israel fetish, 50 year mortgages, not securing our elections are all a weird focus.\n\n...and October had the worst job loss since 2003.\n\nFocus needs to come home.  MTG is still ",
+        "url": "https://x.com/i/web/status/1989656298489516299",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 3,
+        "followers": 9567,
+        "handle": "getcloserhome"
+      },
+      {
+        "post_id": "1526999575246973",
+        "text": "Thoughts? NFL is a huge Pfizer sponsor",
+        "url": "https://www.facebook.com/1526999575246973",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 0,
+        "comments": 0,
+        "followers": 0,
+        "handle": "jeanette.moya"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 3
+    }
+  },
+  {
+    "narrative_id": "pfizer_narrative_30",
+    "entity_id": "pfizer",
+    "title": "Johnson Research Correct Drug",
+    "summary": "and if my research is correct the drug industry as a whole has made a trillion dollars from the government just from that one shot Johnson Johnson Merc Pfizer all of the motherfuckers",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 2,
+    "risk_score": 28.3,
+    "confidence": "medium",
+    "confidence_band": [
+      13.3,
+      43.3
+    ],
+    "confidence_raw": 0.6,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 57.1,
+        "weight": 0.2,
+        "contribution": 11.4,
+        "detail": {
+          "post_count": 2,
+          "percentile": 57.1
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 60.0,
+        "weight": 0.15,
+        "contribution": 9.0,
+        "detail": {
+          "max_followers": 21303,
+          "median_followers": 21303,
+          "unique_authors": 2,
+          "raw_score": 56.4,
+          "percentile": 60.0
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 20.0,
+        "weight": 0.3,
+        "contribution": 6.0,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 8.6,
+        "weight": 0.2,
+        "contribution": 1.7,
+        "detail": {
+          "total_weighted_engagement": 10.4,
+          "avg_per_post": 5.2,
+          "total_shares": 2,
+          "total_comments": 0,
+          "total_likes": 3,
+          "total_views": 14,
+          "percentile": 8.6
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.1,
+        "weight": 0.15,
+        "contribution": 0.2,
+        "detail": {
+          "posts_per_day": 0.14,
+          "span_days": 14.3,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1155102763435155",
+        "text": "ARE YOU MATCHING? DOUBLE YOUR IMPACT WITH A MATCHING DONATION- save more lives! Check with your company. Many companies match up to 3 times the amount and some companies donate cash for every hour their employee volunteers! Some matching companies: Microsoft, Google, Target, GE, ExxonMobil, BP gas, ",
+        "url": "https://www.facebook.com/1155102763435155",
+        "platform": "facebook",
+        "likes": 3,
+        "shares": 2,
+        "comments": 0,
+        "followers": 21303,
+        "handle": "JellysplaceCA"
+      },
+      {
+        "post_id": "1992037896019157098",
+        "text": "and if my research is correct the drug industry as a whole has made a trillion dollars from the government just from that one shot Johnson & Johnson Merc Pfizer all of the motherfuckers",
+        "url": "https://x.com/i/web/status/1992037896019157098",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 156,
+        "handle": "MZorin33042"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "pfizer_narrative_6",
+    "entity_id": "pfizer",
+    "title": "Covid Vaccine Flu Shot",
+    "summary": "Got my COVID vaccine and flu shot this afternoon. First time not having Pfizer but told it doesn t matter, we will see.",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 2,
+    "risk_score": 27.6,
+    "confidence": "medium",
+    "confidence_band": [
+      12.6,
+      42.6
+    ],
+    "confidence_raw": 0.6,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 57.1,
+        "weight": 0.2,
+        "contribution": 11.4,
+        "detail": {
+          "post_count": 2,
+          "percentile": 57.1
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 57.1,
+        "weight": 0.2,
+        "contribution": 11.4,
+        "detail": {
+          "total_weighted_engagement": 145.0,
+          "avg_per_post": 72.5,
+          "total_shares": 7,
+          "total_comments": 31,
+          "total_likes": 52,
+          "total_views": 100,
+          "percentile": 57.1
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 10.0,
+        "weight": 0.3,
+        "contribution": 3.0,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.5,
+          "sentiment_modifier": -10.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 8.6,
+        "weight": 0.15,
+        "contribution": 1.3,
+        "detail": {
+          "max_followers": 1693,
+          "median_followers": 1693,
+          "unique_authors": 2,
+          "raw_score": 42.6,
+          "percentile": 8.6
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 2.8,
+        "weight": 0.15,
+        "contribution": 0.4,
+        "detail": {
+          "posts_per_day": 0.35,
+          "span_days": 5.7,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "10173439142980647",
+        "text": "Got my COVID vaccine and flu shot this afternoon. First time not having Pfizer…but told it doesn’t matter, we will see. #COVID #FluShot #FallVibes #WinterIsComing",
+        "url": "https://www.facebook.com/10173439142980647",
+        "platform": "facebook",
+        "likes": 42,
+        "shares": 2,
+        "comments": 29,
+        "followers": 1693,
+        "handle": "jasonkamb"
+      },
+      {
+        "post_id": "1542512853611984",
+        "text": "UNDERSTANDING VACCINES VS COVID VACCINES It is important to understand the difference in the mechanism of action between traditional vaccines and the Covid-19 genetic ‘vaccines’. I have summarised and simplified the paper attached for ease of consumption: The mechanism of ‘traditional’ vaccines cons",
+        "url": "https://www.facebook.com/1542512853611984",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 135,
+        "handle": "Ramonuzzz"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 1,
+      "positive": 1
+    }
+  },
+  {
+    "narrative_id": "pfizer_narrative_22",
+    "entity_id": "pfizer",
+    "title": "General / Unclassified: Pfizer",
+    "summary": "What Pfizer did not want you to know",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 2,
+    "risk_score": 27.3,
+    "confidence": "medium",
+    "confidence_band": [
+      12.3,
+      42.3
+    ],
+    "confidence_raw": 0.63,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 57.1,
+        "weight": 0.2,
+        "contribution": 11.4,
+        "detail": {
+          "post_count": 2,
+          "percentile": 57.1
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 45.7,
+        "weight": 0.15,
+        "contribution": 6.9,
+        "detail": {
+          "max_followers": 6453,
+          "median_followers": 6453,
+          "unique_authors": 2,
+          "raw_score": 49.9,
+          "percentile": 45.7
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 20.0,
+        "weight": 0.3,
+        "contribution": 6.0,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 14.3,
+        "weight": 0.2,
+        "contribution": 2.9,
+        "detail": {
+          "total_weighted_engagement": 24.5,
+          "avg_per_post": 12.2,
+          "total_shares": 0,
+          "total_comments": 2,
+          "total_likes": 0,
+          "total_views": 205,
+          "percentile": 14.3
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.1,
+        "weight": 0.15,
+        "contribution": 0.2,
+        "detail": {
+          "posts_per_day": 0.14,
+          "span_days": 14.2,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1993450179572474341",
+        "text": "@NicHulscher How is Pfizer still in business?",
+        "url": "https://x.com/i/web/status/1993450179572474341",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 2,
+        "followers": 6453,
+        "handle": "FitPatriotMom"
+      },
+      {
+        "post_id": "1988295835940253963",
+        "text": "What Pfizer did not want you to know: https://t.co/Z6t598hnRa",
+        "url": "https://x.com/i/web/status/1988295835940253963",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 185,
+        "handle": "barje2"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "pfizer_narrative_13",
+    "entity_id": "pfizer",
+    "title": "Looks Pfizer Contract Published",
+    "summary": "Looks like the Pfizer contract published by Ursula",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 2,
+    "risk_score": 26.8,
+    "confidence": "medium",
+    "confidence_band": [
+      11.8,
+      41.8
+    ],
+    "confidence_raw": 0.64,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 57.1,
+        "weight": 0.2,
+        "contribution": 11.4,
+        "detail": {
+          "post_count": 2,
+          "percentile": 57.1
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 28.0,
+        "weight": 0.3,
+        "contribution": 8.4,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.5,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 5.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 1,
+          "keyword_modifier": 3.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 25.7,
+        "weight": 0.2,
+        "contribution": 5.1,
+        "detail": {
+          "total_weighted_engagement": 44.6,
+          "avg_per_post": 22.3,
+          "total_shares": 0,
+          "total_comments": 0,
+          "total_likes": 0,
+          "total_views": 446,
+          "percentile": 25.7
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 11.4,
+        "weight": 0.15,
+        "contribution": 1.7,
+        "detail": {
+          "max_followers": 1737,
+          "median_followers": 1737,
+          "unique_authors": 2,
+          "raw_score": 42.7,
+          "percentile": 11.4
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 0.8,
+        "weight": 0.15,
+        "contribution": 0.1,
+        "detail": {
+          "posts_per_day": 0.09,
+          "span_days": 21.2,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1984759075544989980",
+        "text": "Praised Pfizer. Said Gates has courage. Got the toxic shot 2X. Millions suffering and dying as the count will rise for a long time worldwide. Way to go President Donald J. Trump.  AND NO ONE SEEMS TO BE QUESTIONING YOU. How convenient that Trump Card is. https://t.co/R66wMZs0fN",
+        "url": "https://x.com/i/web/status/1984759075544989980",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1737,
+        "handle": "hanktheyank58"
+      },
+      {
+        "post_id": "1992435974367023548",
+        "text": "@DrLoupis__ Looks like the Pfizer contract published by Ursula",
+        "url": "https://x.com/i/web/status/1992435974367023548",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 245,
+        "handle": "enoughactx"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 1,
+      "negative": 1
+    }
+  },
+  {
+    "narrative_id": "pfizer_narrative_27",
+    "entity_id": "pfizer",
+    "title": "Trump Www Donaldjtrump Effect",
+    "summary": "www.DonaldJTrump.Today The Trump effect Since President Donald J. Trump returned to office, his America First economic policies have sparked trillions of dollars in new investment in U.S. m",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 2,
+    "risk_score": 26.5,
+    "confidence": "medium",
+    "confidence_band": [
+      11.5,
+      41.5
+    ],
+    "confidence_raw": 0.61,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 57.1,
+        "weight": 0.2,
+        "contribution": 11.4,
+        "detail": {
+          "post_count": 2,
+          "percentile": 57.1
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 53.8,
+        "weight": 0.15,
+        "contribution": 8.1,
+        "detail": {
+          "posts_per_day": 6.73,
+          "span_days": 0.3,
+          "accelerating": true
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 20.0,
+        "weight": 0.3,
+        "contribution": 6.0,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 2.9,
+        "weight": 0.2,
+        "contribution": 0.6,
+        "detail": {
+          "total_weighted_engagement": 4.0,
+          "avg_per_post": 2.0,
+          "total_shares": 0,
+          "total_comments": 0,
+          "total_likes": 4,
+          "total_views": 0,
+          "percentile": 2.9
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 2.9,
+        "weight": 0.15,
+        "contribution": 0.4,
+        "detail": {
+          "max_followers": 89,
+          "median_followers": 89,
+          "unique_authors": 1,
+          "raw_score": 25.5,
+          "percentile": 2.9
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "122109857961080304",
+        "text": "https://www.ukrspecexport.com/en/catalog https://ofac.treasury.gov/sanctions-programs-and-country-information https://sanctionslist.ofac.treas.gov/Home/SdnList https://www.ukrspecexport.com/en/catalog www.DonaldJTrump.Today #PresidentDonaldJTrump #PresidentDonaldTrump #DonaldJTrump #DonaldTrump #The",
+        "url": "https://www.facebook.com/122109857961080304",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 0,
+        "comments": 0,
+        "followers": 89,
+        "handle": "TymurGolovin1986"
+      },
+      {
+        "post_id": "122109963159080304",
+        "text": "https://www.ukrspecexport.com/en/catalog https://ofac.treasury.gov/sanctions-programs-and-country-information https://sanctionslist.ofac.treas.gov/Home/SdnList https://www.ukrspecexport.com/en/catalog www.DonaldJTrump.Today #PresidentDonaldJTrump #PresidentDonaldTrump #DonaldJTrump #DonaldTrump #The",
+        "url": "https://www.facebook.com/122109963159080304",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 0,
+        "comments": 0,
+        "followers": 89,
+        "handle": "TymurGolovin1986"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  }
+]

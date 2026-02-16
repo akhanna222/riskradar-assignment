@@ -1,0 +1,2047 @@
+[
+  {
+    "narrative_id": "merck_narrative_17",
+    "entity_id": "merck",
+    "title": "Miscellaneous Topics",
+    "summary": "The donation will offset essential research costs and enhance the Center s ability to deliver science-driven outcomes that inform a more efficient and sustainable beef industry. 𝗥𝗘𝗔𝗗 𝗠𝗢𝗥𝗘",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 53,
+    "risk_score": 83.1,
+    "confidence": "high",
+    "confidence_band": [
+      75.1,
+      91.1
+    ],
+    "confidence_raw": 0.77,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 90.3,
+        "weight": 0.3,
+        "contribution": 27.1,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.19,
+          "positive_ratio": 0.11,
+          "sentiment_modifier": -0.4,
+          "high_risk_keywords": 1,
+          "medium_risk_keywords": 6,
+          "low_risk_keywords": 4,
+          "keyword_modifier": 0.7
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 100.0,
+        "weight": 0.2,
+        "contribution": 20.0,
+        "detail": {
+          "post_count": 53,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 94.1,
+        "weight": 0.2,
+        "contribution": 18.8,
+        "detail": {
+          "total_weighted_engagement": 13440.9,
+          "avg_per_post": 253.6,
+          "total_shares": 1027,
+          "total_comments": 748,
+          "total_likes": 4188,
+          "total_views": 46759,
+          "percentile": 94.1
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 100.0,
+        "weight": 0.15,
+        "contribution": 15.0,
+        "detail": {
+          "max_followers": 13022553,
+          "median_followers": 77,
+          "unique_authors": 52,
+          "raw_score": 87.5,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 14.5,
+        "weight": 0.15,
+        "contribution": 2.2,
+        "detail": {
+          "posts_per_day": 1.81,
+          "span_days": 29.3,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "122146314188921458",
+        "text": "GARDASIL SIDE EFFECTS OR CERVICAL CANCER? The clinical trials for gardasil show a rate of serious adverse events being 1.5-2.4% upon reanalysis of the Merck trials done by Tomljenovic/Shaw (2017). This is a typical rate of serious adverse events when compared to all other vaccines, and was also comp",
+        "url": "https://www.facebook.com/122146314188921458",
+        "platform": "facebook",
+        "likes": 3278,
+        "shares": 678,
+        "comments": 402,
+        "followers": 37049,
+        "handle": ""
+      },
+      {
+        "post_id": "1423535199810024",
+        "text": "Merck’s new pill shows significant promise, with clinical trials indicating a sharp reduction in cholesterol levels. #5Live Sonal Mehrotra Kapoor",
+        "url": "https://www.facebook.com/1423535199810024",
+        "platform": "facebook",
+        "likes": 474,
+        "shares": 194,
+        "comments": 3,
+        "followers": 13022553,
+        "handle": "IndiaToday"
+      },
+      {
+        "post_id": "1266664528821029",
+        "text": "There is promising news for Americans living with heart disease or at risk for a severe cardiovascular event. Drugmaker Merck says it has developed a new daily cholesterol pill that can dramatically lower LDL, or \"bad\" cholesterol. https://cbsn.ws/486YVQ4",
+        "url": "https://www.facebook.com/1266664528821029",
+        "platform": "facebook",
+        "likes": 189,
+        "shares": 60,
+        "comments": 84,
+        "followers": 3500000,
+        "handle": "CBSMornings"
+      },
+      {
+        "post_id": "1404628467663814",
+        "text": "Thank you Jesus 🙌 Thank you Jonathan Merck for taking care of my needs !!! Hallelujah God is so good to me .",
+        "url": "https://www.facebook.com/1404628467663814",
+        "platform": "facebook",
+        "likes": 117,
+        "shares": 2,
+        "comments": 90,
+        "followers": 0,
+        "handle": "melissa.boulton.52"
+      },
+      {
+        "post_id": "1987571000821620979",
+        "text": "$nvo\n$lly\n$sny\n$pfe\n$mrk\n$nvs\n$amgn\n$tak\n$abbv\n$gsk\n$azn\n$rhhby\n$alny\n\nSome major players to consider. Most upside from a technical view would be Novo Nordisk, Merck & Co, and Roche Holding a Swiss company. It's OTC so your broker would have to be able to provide it.\n\nOr just dump a % of your port i",
+        "url": "https://x.com/i/web/status/1987571000821620979",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 13,
+        "comments": 4,
+        "followers": 1,
+        "handle": "TheeRayCordell"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 37,
+      "negative": 10,
+      "positive": 6
+    }
+  },
+  {
+    "narrative_id": "merck_narrative_4",
+    "entity_id": "merck",
+    "title": "Lordina Girls Lady Mahama",
+    "summary": "JUST IN First Lady Lordina Mahama Inspires St. Mary s School Girls, Donates Learning Materials The First Lady, Mrs. Lordina Dramani Mahama, has encouraged pupils of St. Mary s Basic and JHS at Korle Gonno to remain confident and rise above stereotype",
+    "taxonomy_label": "Regulatory / Compliance",
+    "post_count": 2,
+    "risk_score": 81.0,
+    "confidence": "medium",
+    "confidence_band": [
+      66.0,
+      96.0
+    ],
+    "confidence_raw": 0.67,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 85.0,
+        "weight": 0.3,
+        "contribution": 25.5,
+        "detail": {
+          "taxonomy_label": "Regulatory / Compliance",
+          "taxonomy_base_score": 85,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 94.1,
+        "weight": 0.2,
+        "contribution": 18.8,
+        "detail": {
+          "total_weighted_engagement": 965.0,
+          "avg_per_post": 482.5,
+          "total_shares": 25,
+          "total_comments": 42,
+          "total_likes": 806,
+          "total_views": 0,
+          "percentile": 94.1
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 94.1,
+        "weight": 0.15,
+        "contribution": 14.1,
+        "detail": {
+          "max_followers": 396564,
+          "median_followers": 396564,
+          "unique_authors": 2,
+          "raw_score": 70.0,
+          "percentile": 94.1
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 80.0,
+        "weight": 0.15,
+        "contribution": 12.0,
+        "detail": {
+          "posts_per_day": 21.46,
+          "span_days": 0.1,
+          "accelerating": true
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 52.9,
+        "weight": 0.2,
+        "contribution": 10.6,
+        "detail": {
+          "post_count": 2,
+          "percentile": 52.9
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "827038600035090",
+        "text": "JUST IN 🇬🇭🚨🚨First Lady Lordina Mahama Inspires St. Mary’s School Girls, Donates Learning Materials The First Lady, Mrs. Lordina Dramani Mahama, has encouraged pupils of St. Mary’s Basic and JHS at Korle Gonno to remain confident and rise above stereotypes that limit girls. During her visit, she pres",
+        "url": "https://www.facebook.com/827038600035090",
+        "platform": "facebook",
+        "likes": 669,
+        "shares": 8,
+        "comments": 24,
+        "followers": 396564,
+        "handle": "louis.amunte"
+      },
+      {
+        "post_id": "10235600638210196",
+        "text": "First Lady Lordina Mahama Inspires St. Mary’s School Girls, Donates Learning Materials The First Lady, Mrs. Lordina Dramani Mahama, has encouraged pupils of St. Mary’s Basic and JHS at Korle Gonno to remain confident and rise above stereotypes that limit girls. During her visit, she presented essent",
+        "url": "https://www.facebook.com/10235600638210196",
+        "platform": "facebook",
+        "likes": 137,
+        "shares": 17,
+        "comments": 18,
+        "followers": 18028,
+        "handle": "elorm.mensah1"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "merck_narrative_5",
+    "entity_id": "merck",
+    "title": "Merck Mrk Finally Getting",
+    "summary": "Merck MRK finally getting some momentum.",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 6,
+    "risk_score": 73.7,
+    "confidence": "medium",
+    "confidence_band": [
+      58.7,
+      88.7
+    ],
+    "confidence_raw": 0.69,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 72.0,
+        "weight": 0.3,
+        "contribution": 21.6,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.17,
+          "positive_ratio": 0.33,
+          "sentiment_modifier": -5.0,
+          "high_risk_keywords": 1,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 1,
+          "keyword_modifier": 2.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 94.1,
+        "weight": 0.2,
+        "contribution": 18.8,
+        "detail": {
+          "post_count": 6,
+          "percentile": 94.1
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 88.2,
+        "weight": 0.2,
+        "contribution": 17.6,
+        "detail": {
+          "total_weighted_engagement": 609.2,
+          "avg_per_post": 101.5,
+          "total_shares": 7,
+          "total_comments": 13,
+          "total_likes": 0,
+          "total_views": 5622,
+          "percentile": 88.2
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 82.4,
+        "weight": 0.15,
+        "contribution": 12.4,
+        "detail": {
+          "max_followers": 60595,
+          "median_followers": 1500,
+          "unique_authors": 6,
+          "raw_score": 59.7,
+          "percentile": 82.4
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 22.1,
+        "weight": 0.15,
+        "contribution": 3.3,
+        "detail": {
+          "posts_per_day": 0.27,
+          "span_days": 22.4,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1991187003342233763",
+        "text": "Today l had the pleasure of hosting Chairman of Merck Foundation Board of Trustees Professor Dr Frank Stangenberg-Haverkamp and Senator Dr Rasha Kelej, CEO of Merck Foundation and President of the “More Than a Mother” campaign.\n\nWe shared the milestones we achieved in healthcare, media, and girls’ e",
+        "url": "https://x.com/i/web/status/1991187003342233763",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 6,
+        "comments": 11,
+        "followers": 1,
+        "handle": "ZimFirstLady"
+      },
+      {
+        "post_id": "1985674723444031951",
+        "text": "$MRK Merck Signs Agreement with Dr. Falk Pharma GmbH for Certain Development and Commercialization Rights to MK-8690 (PRA-052) an Investigational Anti-CD30 Ligand Monoclonal Antibody\nhttps://t.co/q7Z90gyFVJ",
+        "url": "https://x.com/i/web/status/1985674723444031951",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 9298,
+        "handle": "Lycanbull"
+      },
+      {
+        "post_id": "1993799441086656747",
+        "text": "Breaking News: $MRK Merck to Participate in the Citi 2025 Global Healthcare Conference \n\nhttps://t.co/KRE2nBHuhK\n\nFollow for daily #StockNews!\n@grok please provide the finance card for $MRK",
+        "url": "https://x.com/i/web/status/1993799441086656747",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 1,
+        "comments": 1,
+        "followers": 60595,
+        "handle": "marketwirenews"
+      },
+      {
+        "post_id": "1987239590185607171",
+        "text": "@un_BAERABLE @MarcNixon24 @grok Merck is heavily invested in mRNA \"vaccine\" technologies, worth potentially tens of billions in profits; whereas their patent on ivermectin had run out so they could not make any money by selling it.",
+        "url": "https://x.com/i/web/status/1987239590185607171",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 1,
+        "followers": 1,
+        "handle": "GrantBrown36280"
+      },
+      {
+        "post_id": "1988269221688623118",
+        "text": "Merck $MRK finally getting some momentum. https://t.co/ceGoRRPYd5",
+        "url": "https://x.com/i/web/status/1988269221688623118",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1500,
+        "handle": "ShiftSeer"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 3,
+      "positive": 2,
+      "negative": 1
+    }
+  },
+  {
+    "narrative_id": "merck_narrative_1",
+    "entity_id": "merck",
+    "title": "Pages Parasites Shared Times",
+    "summary": "I've shared this many times. Please read both pages. This along with my 30yr experience of parasites bacteria lead me to understand viruses do exist smallest of parasites but not as claimed in more recent years. This is from a 14th Merck Handbook....",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 3,
+    "risk_score": 67.1,
+    "confidence": "low",
+    "confidence_band": [
+      42.1,
+      92.1
+    ],
+    "confidence_raw": 0.44,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 100,
+        "weight": 0.3,
+        "contribution": 30.0,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.67,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 6.7,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 3,
+          "low_risk_keywords": 1,
+          "keyword_modifier": 4.7
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 76.5,
+        "weight": 0.2,
+        "contribution": 15.3,
+        "detail": {
+          "post_count": 3,
+          "percentile": 76.5
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 58.8,
+        "weight": 0.2,
+        "contribution": 11.8,
+        "detail": {
+          "total_weighted_engagement": 60.0,
+          "avg_per_post": 20.0,
+          "total_shares": 5,
+          "total_comments": 3,
+          "total_likes": 10,
+          "total_views": 290,
+          "percentile": 58.8
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 64.7,
+        "weight": 0.15,
+        "contribution": 9.7,
+        "detail": {
+          "max_followers": 2104,
+          "median_followers": 2104,
+          "unique_authors": 3,
+          "raw_score": 44.8,
+          "percentile": 64.7
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.9,
+        "weight": 0.15,
+        "contribution": 0.3,
+        "detail": {
+          "posts_per_day": 0.24,
+          "span_days": 12.5,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "25161312323519591",
+        "text": "These pharma companies like @Merck that run incessant ads for their competing cancer treatments are the depths of depravity. The last warning in the litany of potential side effects of Bristol Myers Squibb's Optivo is \"may harm your unborn baby.\" Just the cost of doing business. #bigpharmakills",
+        "url": "https://www.facebook.com/25161312323519591",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 0,
+        "handle": "henry.bogata"
+      },
+      {
+        "post_id": "1988252028003393888",
+        "text": "@DopplerEffect93 @jathorpmfm @DrNeilStone In the gardasil trials, they just used AAHS, so Merck , purposely injected aluminum into subjects to mask adverse effects in the product. Again, they inject a product that causes damage into the placebo group without a therapeutic benefit, just damage. Great",
+        "url": "https://x.com/i/web/status/1988252028003393888",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 1,
+        "followers": 2104,
+        "handle": "gabrielfojo"
+      },
+      {
+        "post_id": "1989607279600034101",
+        "text": "@VictorFromDE I've shared this many times. Please read both pages. This along with my 30yr experience of parasites & bacteria lead me to understand viruses do exist (smallest of parasites) but not as claimed in more recent years. This is from a 14th Merck Handbook....pages 170-171 https://t.co/T1kPB",
+        "url": "https://x.com/i/web/status/1989607279600034101",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "RealWildMilkCo"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 1,
+      "negative": 2
+    }
+  },
+  {
+    "narrative_id": "merck_narrative_3",
+    "entity_id": "merck",
+    "title": "Virginia Center Advanced Vcu",
+    "summary": "VCU College of Engineering is partnering with AstraZeneca, Eli Lilly, Merck and Virginia universities to establish the Virginia Center for Advanced Pharmaceutical Manufacturing, supported by a 12.5B investment in the state s life sciences sector. The",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 2,
+    "risk_score": 64.9,
+    "confidence": "medium",
+    "confidence_band": [
+      49.9,
+      79.9
+    ],
+    "confidence_raw": 0.61,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 87.0,
+        "weight": 0.3,
+        "contribution": 26.1,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 1.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 10.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 2.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 80.0,
+        "weight": 0.15,
+        "contribution": 12.0,
+        "detail": {
+          "posts_per_day": 38.5,
+          "span_days": 0.1,
+          "accelerating": true
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 76.5,
+        "weight": 0.15,
+        "contribution": 11.5,
+        "detail": {
+          "max_followers": 4172,
+          "median_followers": 4172,
+          "unique_authors": 2,
+          "raw_score": 47.5,
+          "percentile": 76.5
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 52.9,
+        "weight": 0.2,
+        "contribution": 10.6,
+        "detail": {
+          "post_count": 2,
+          "percentile": 52.9
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 23.5,
+        "weight": 0.2,
+        "contribution": 4.7,
+        "detail": {
+          "total_weighted_engagement": 11.1,
+          "avg_per_post": 5.6,
+          "total_shares": 0,
+          "total_comments": 0,
+          "total_likes": 5,
+          "total_views": 61,
+          "percentile": 23.5
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1494197616043711",
+        "text": "VCU College of Engineering is partnering with AstraZeneca, Eli Lilly, Merck and Virginia universities to establish the Virginia Center for Advanced Pharmaceutical Manufacturing, supported by a $12.5B investment in the state’s life sciences sector. The center will become the largest workforce develop",
+        "url": "https://www.facebook.com/1494197616043711",
+        "platform": "facebook",
+        "likes": 5,
+        "shares": 0,
+        "comments": 0,
+        "followers": 4172,
+        "handle": "VCUEngineering"
+      },
+      {
+        "post_id": "1993303747942838303",
+        "text": "🏗️ HLC member companies @AstraZeneca and @Merck are joining forces with @EliLillyandCo and Virginia’s higher education institutions to create the Virginia Center for Advanced Pharmaceutical Manufacturing, committing $120M of private industry investment: https://t.co/eaHxSKJ3Sg https://t.co/xnsR5sc1c",
+        "url": "https://x.com/i/web/status/1993303747942838303",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "HLC_DC"
+      }
+    ],
+    "sentiment_distribution": {
+      "negative": 2
+    }
+  },
+  {
+    "narrative_id": "merck_narrative_6",
+    "entity_id": "merck",
+    "title": "Vaccine Merck Billion Flu",
+    "summary": "Vaccine Fatigue ? Merck Bets 9.2 Billion on Not-a-Vaccine Flu Drug Merck will spend 9.2 billion to buy Cidara Therapeutics and lock down an experimental flu-prevention drug the company emphasized is not a vaccine.",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 4,
+    "risk_score": 64.3,
+    "confidence": "medium",
+    "confidence_band": [
+      49.3,
+      79.3
+    ],
+    "confidence_raw": 0.63,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 70.0,
+        "weight": 0.3,
+        "contribution": 21.0,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.25,
+          "sentiment_modifier": -5.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 82.4,
+        "weight": 0.2,
+        "contribution": 16.5,
+        "detail": {
+          "post_count": 4,
+          "percentile": 82.4
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 64.7,
+        "weight": 0.2,
+        "contribution": 12.9,
+        "detail": {
+          "total_weighted_engagement": 91.7,
+          "avg_per_post": 22.9,
+          "total_shares": 5,
+          "total_comments": 1,
+          "total_likes": 0,
+          "total_views": 747,
+          "percentile": 64.7
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 70.6,
+        "weight": 0.15,
+        "contribution": 10.6,
+        "detail": {
+          "max_followers": 60595,
+          "median_followers": 1,
+          "unique_authors": 4,
+          "raw_score": 45.0,
+          "percentile": 70.6
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 22.2,
+        "weight": 0.15,
+        "contribution": 3.3,
+        "detail": {
+          "posts_per_day": 0.28,
+          "span_days": 14.5,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1992769850075390391",
+        "text": "‘Vaccine Fatigue’? Merck Bets $9.2 Billion on ‘Not-a-Vaccine’ Flu Drug\n\nMerck will spend $9.2 billion to buy Cidara Therapeutics and lock down an experimental flu-prevention drug the company emphasized is “not a vaccine.” \nhttps://t.co/jSGtoEdCSM",
+        "url": "https://x.com/i/web/status/1992769850075390391",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 3,
+        "comments": 1,
+        "followers": 1,
+        "handle": "TavernTruth"
+      },
+      {
+        "post_id": "1991532005566173498",
+        "text": "News; $CDTX Merck Is Buying Cidara Therapeutics for $9.2 Billion. Is This the Boost the Lagging Drugmaker Needs? \n\nhttps://t.co/obagIy55tt\n\nFollow for daily #StockNews!\n@grok please provide the finance card for $CDTX",
+        "url": "https://x.com/i/web/status/1991532005566173498",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 2,
+        "comments": 0,
+        "followers": 60595,
+        "handle": "marketwirenews"
+      },
+      {
+        "post_id": "1991117432396624355",
+        "text": "@catturd2 Catturd can you look into Merck mRNA vaccines for dogs and cats that is now USDA approved……rabies and canine flu.\nThey are rolling it out now. \nTell our people to say NO.",
+        "url": "https://x.com/i/web/status/1991117432396624355",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "Karencrisci1"
+      },
+      {
+        "post_id": "1987515427308663033",
+        "text": "BREAKING: RFK Jr.’s HHS just exposed deep corruption inside the CDC’s vaccine advisory panel (ACIP).\n97% of members never filed conflict-of-interest waivers.\nNone ever voted against a vaccine.\nAnd several took money from Pfizer, Merck, and GSK.\n\nhttps://t.co/RZAjcmRXrA",
+        "url": "https://x.com/i/web/status/1987515427308663033",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "auroratracy0621"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 3,
+      "positive": 1
+    }
+  },
+  {
+    "narrative_id": "merck_narrative_10",
+    "entity_id": "merck",
+    "title": "Therapeutics Merck Mrk Nearing",
+    "summary": "Merck MRK is nearing a deal to buy Cidara Therapeutics CDTX XBI IBB who s next ? Seres Therapeutics MCRB",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 5,
+    "risk_score": 64.1,
+    "confidence": "medium",
+    "confidence_band": [
+      49.1,
+      79.1
+    ],
+    "confidence_raw": 0.67,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 75.8,
+        "weight": 0.3,
+        "contribution": 22.7,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.8
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 88.2,
+        "weight": 0.2,
+        "contribution": 17.6,
+        "detail": {
+          "post_count": 5,
+          "percentile": 88.2
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 70.6,
+        "weight": 0.2,
+        "contribution": 14.1,
+        "detail": {
+          "total_weighted_engagement": 98.9,
+          "avg_per_post": 19.8,
+          "total_shares": 0,
+          "total_comments": 1,
+          "total_likes": 0,
+          "total_views": 969,
+          "percentile": 70.6
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 58.8,
+        "weight": 0.15,
+        "contribution": 8.8,
+        "detail": {
+          "max_followers": 933,
+          "median_followers": 388,
+          "unique_authors": 5,
+          "raw_score": 40.8,
+          "percentile": 58.8
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 5.3,
+        "weight": 0.15,
+        "contribution": 0.8,
+        "detail": {
+          "posts_per_day": 0.66,
+          "span_days": 7.6,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1992016416976044209",
+        "text": "🔶 Market Outlook for $MRK (Merck & Co.) EdgenTech Deep Dive Analysis\n\n@EdgenTech $BNB $BTC $ETH\n\nBusiness Model & Strategic Positioning\n\nMerck & Co. ($MRK) is one of the world’s leading biopharmaceutical companies, driven by a strong portfolio in oncology, vaccines, immunology, and infectious diseas",
+        "url": "https://x.com/i/web/status/1992016416976044209",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 1,
+        "followers": 933,
+        "handle": "duongduong919"
+      },
+      {
+        "post_id": "1989259977220132982",
+        "text": "Merck $MRK is nearing a deal to buy Cidara Therapeutics $CDTX $XBI $IBB who’s next ?  Seres Therapeutics 🙃 $MCRB",
+        "url": "https://x.com/i/web/status/1989259977220132982",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "SenefLiveEvents"
+      },
+      {
+        "post_id": "1989865872760959247",
+        "text": "Cidara Therapeutics Shares Soar 105% After Merck Agrees To $9.2B Takeover Deal | Nasdaq $CDTX $spx https://t.co/BTvVSPZkaY",
+        "url": "https://x.com/i/web/status/1989865872760959247",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "psshakeer"
+      },
+      {
+        "post_id": "1990827191949472224",
+        "text": "$MRK Merck shares are trading higher after the company announced its WINREVAIR met its primary endpoint in its Phase 2 CADENCE study.",
+        "url": "https://x.com/i/web/status/1990827191949472224",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 858,
+        "handle": "stocknear"
+      },
+      {
+        "post_id": "1989618819716022373",
+        "text": "Merck to acquire Cidara Therapeutics in a nearly $9.2 billion deal, gaining access to an experimental flu prevention drug.",
+        "url": "https://x.com/i/web/status/1989618819716022373",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 388,
+        "handle": "baro_jwngma"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 5
+    }
+  },
+  {
+    "narrative_id": "merck_narrative_8",
+    "entity_id": "merck",
+    "title": "Key Pharmaceutical Research Mrk",
+    "summary": "MRK Co sees strong demand for its key pharmaceutical products. research remains a key focus. Company invests in research and development of new drugs. Stock performance reflects growth in the pharmaceutical sector.",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 3,
+    "risk_score": 62.2,
+    "confidence": "medium",
+    "confidence_band": [
+      47.2,
+      77.2
+    ],
+    "confidence_raw": 0.55,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 83.0,
+        "weight": 0.3,
+        "contribution": 24.9,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.67,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 6.7,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 1.3
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 82.4,
+        "weight": 0.2,
+        "contribution": 16.5,
+        "detail": {
+          "total_weighted_engagement": 194.8,
+          "avg_per_post": 64.9,
+          "total_shares": 1,
+          "total_comments": 0,
+          "total_likes": 0,
+          "total_views": 1918,
+          "percentile": 82.4
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 76.5,
+        "weight": 0.2,
+        "contribution": 15.3,
+        "detail": {
+          "post_count": 3,
+          "percentile": 76.5
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 35.3,
+        "weight": 0.15,
+        "contribution": 5.3,
+        "detail": {
+          "max_followers": 1,
+          "median_followers": 1,
+          "unique_authors": 3,
+          "raw_score": 3.0,
+          "percentile": 35.3
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.9,
+        "weight": 0.15,
+        "contribution": 0.3,
+        "detail": {
+          "posts_per_day": 0.24,
+          "span_days": 12.4,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1989210265498300848",
+        "text": "$IOVA McKesson Corp clients.\n\n1.  Merck & Co. - $64.17 billion\n2.  Pfizer Inc. - $ 63.63 Billion \n3.  Johnson & Johnson - $57.07 billion in pharmaceutical revenue.\n4.  AbbVie - $56.33 billion in pharmaceutical revenue.\n5.  AstraZeneca - $54.07 billion in pharmaceutical revenue.",
+        "url": "https://x.com/i/web/status/1989210265498300848",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 1,
+        "comments": 0,
+        "followers": 1,
+        "handle": "AlanCastle15"
+      },
+      {
+        "post_id": "1993711572217106568",
+        "text": "$MRK #Merck & Co sees strong demand for its key pharmaceutical products. #Cancer research remains a key focus.\n\n     Company invests in research and development of new drugs.\n\n     Stock performance reflects growth in the pharmaceutical sector. https://t.co/OUkRU9yf47",
+        "url": "https://x.com/i/web/status/1993711572217106568",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "gidgetsol"
+      },
+      {
+        "post_id": "1990020924163153970",
+        "text": "So, if the pharmaceutical companies can’t kill us with their vaccines, they will go after our pets! @RobertKennedyJr you should do something about this and @Merck folks…listen to her…Merck murdered pets they experimented on. You know what they say, you can pick out psychopaths because they kill anim",
+        "url": "https://x.com/i/web/status/1990020924163153970",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "twopolarisgirls"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 1,
+      "negative": 2
+    }
+  },
+  {
+    "narrative_id": "merck_narrative_7",
+    "entity_id": "merck",
+    "title": "Cancer Gastric Weill Cornell",
+    "summary": "Debbie s Dream Foundation kicked off Gastric Cancer Awareness Month with our Gastric Cancer Educational Symposium held at Weill Cornell Medicine on November 1, 2025! A heartfelt thank-you to Dr. Rutika Mehta and her incredible team at Weill Cornell M",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 2,
+    "risk_score": 61.2,
+    "confidence": "medium",
+    "confidence_band": [
+      46.2,
+      76.2
+    ],
+    "confidence_raw": 0.56,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 97.0,
+        "weight": 0.3,
+        "contribution": 29.1,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.5,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 5.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 2.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 88.2,
+        "weight": 0.15,
+        "contribution": 13.2,
+        "detail": {
+          "max_followers": 72097,
+          "median_followers": 72097,
+          "unique_authors": 2,
+          "raw_score": 63.1,
+          "percentile": 88.2
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 52.9,
+        "weight": 0.2,
+        "contribution": 10.6,
+        "detail": {
+          "post_count": 2,
+          "percentile": 52.9
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 29.4,
+        "weight": 0.2,
+        "contribution": 5.9,
+        "detail": {
+          "total_weighted_engagement": 12.7,
+          "avg_per_post": 6.3,
+          "total_shares": 0,
+          "total_comments": 0,
+          "total_likes": 9,
+          "total_views": 37,
+          "percentile": 29.4
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 16.2,
+        "weight": 0.15,
+        "contribution": 2.4,
+        "detail": {
+          "posts_per_day": 2.03,
+          "span_days": 1.0,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1984686683346894961",
+        "text": "@RealMaxMaximus @jemmm85517813 @Merck knew about SV40 cancer risk in the 1970s.\n\nI've seen the videos...",
+        "url": "https://x.com/i/web/status/1984686683346894961",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "IV0R_MECTIN"
+      },
+      {
+        "post_id": "1290716073102805",
+        "text": "Debbie’s Dream Foundation kicked off Gastric Cancer Awareness Month with our Gastric Cancer Educational Symposium held at Weill Cornell Medicine on November 1, 2025! A heartfelt thank-you to Dr. Rutika Mehta and her incredible team at Weill Cornell Medicine, our wonderful speakers, dedicated DDF sta",
+        "url": "https://www.facebook.com/1290716073102805",
+        "platform": "facebook",
+        "likes": 9,
+        "shares": 0,
+        "comments": 0,
+        "followers": 72097,
+        "handle": "DebbiesDreamFoundation"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 1,
+      "negative": 1
+    }
+  },
+  {
+    "narrative_id": "merck_narrative_15",
+    "entity_id": "merck",
+    "title": "Merck Oral Inhibitor Enlicitide",
+    "summary": "Merck s new oral PCSK9 inhibitor enlicitide cuts LDL cholesterol by up to 60 matching the power of injections but in pill form. Early trial 2,900 high-risk patients, strong results, no major safety issues.",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 2,
+    "risk_score": 52.4,
+    "confidence": "medium",
+    "confidence_band": [
+      37.4,
+      67.4
+    ],
+    "confidence_raw": 0.56,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 95.0,
+        "weight": 0.3,
+        "contribution": 28.5,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 2,
+          "low_risk_keywords": 1,
+          "keyword_modifier": 5.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 52.9,
+        "weight": 0.2,
+        "contribution": 10.6,
+        "detail": {
+          "post_count": 2,
+          "percentile": 52.9
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 47.1,
+        "weight": 0.2,
+        "contribution": 9.4,
+        "detail": {
+          "total_weighted_engagement": 55.6,
+          "avg_per_post": 27.8,
+          "total_shares": 1,
+          "total_comments": 1,
+          "total_likes": 0,
+          "total_views": 506,
+          "percentile": 47.1
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 23.5,
+        "weight": 0.15,
+        "contribution": 3.5,
+        "detail": {
+          "max_followers": 1,
+          "median_followers": 1,
+          "unique_authors": 2,
+          "raw_score": 2.0,
+          "percentile": 23.5
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 2.8,
+        "weight": 0.15,
+        "contribution": 0.4,
+        "detail": {
+          "posts_per_day": 0.35,
+          "span_days": 5.8,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1989315703472787591",
+        "text": "Merck’s new oral PCSK9 inhibitor enlicitide cuts LDL cholesterol by up to 60% — matching the power of injections but in pill form. 💊🔥\nEarly trial: 2,900+ high-risk patients, strong results, no major safety issues.\n#Merck #Cholesterol #PCSK9 #HeartHealth\nhttps://t.co/7iyPz5cWut https://t.co/D398BvSCD",
+        "url": "https://x.com/i/web/status/1989315703472787591",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "DTMedicalTimes"
+      },
+      {
+        "post_id": "1987219139719500150",
+        "text": "@Amgen @AHAScience @Merck 5/ 💊 Why it matters:\nEnlicitide could be the first oral PCSK9 inhibitor to deliver injectable-like LDL-C lowering in a once-daily pill.\n\n#AHA25",
+        "url": "https://x.com/i/web/status/1987219139719500150",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 1,
+        "comments": 1,
+        "followers": 1,
+        "handle": "VietHeartPA"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "merck_narrative_9",
+    "entity_id": "merck",
+    "title": "Problem Isn Tens Billions",
+    "summary": "The problem isn t tens of billions-it is half a trillion. That is Big Pharma. Merck made that all by itself in 2024, for heaven s sake.",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 2,
+    "risk_score": 46.1,
+    "confidence": "medium",
+    "confidence_band": [
+      31.1,
+      61.1
+    ],
+    "confidence_raw": 0.57,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 83.0,
+        "weight": 0.3,
+        "contribution": 24.9,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.5,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 5.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 1,
+          "keyword_modifier": 3.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 52.9,
+        "weight": 0.2,
+        "contribution": 10.6,
+        "detail": {
+          "post_count": 2,
+          "percentile": 52.9
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 52.9,
+        "weight": 0.15,
+        "contribution": 7.9,
+        "detail": {
+          "max_followers": 774,
+          "median_followers": 774,
+          "unique_authors": 2,
+          "raw_score": 38.3,
+          "percentile": 52.9
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 11.8,
+        "weight": 0.2,
+        "contribution": 2.4,
+        "detail": {
+          "total_weighted_engagement": 8.5,
+          "avg_per_post": 4.2,
+          "total_shares": 0,
+          "total_comments": 1,
+          "total_likes": 2,
+          "total_views": 45,
+          "percentile": 11.8
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 2.4,
+        "weight": 0.15,
+        "contribution": 0.4,
+        "detail": {
+          "posts_per_day": 0.31,
+          "span_days": 6.6,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1988272961879461901",
+        "text": "@GroverSteamer2 @SenLBR The problem isn’t tens of billions-it is half a trillion.  That is Big Pharma.  Merck made that all by itself in 2024, for heaven’s sake.",
+        "url": "https://x.com/i/web/status/1988272961879461901",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 1,
+        "followers": 1,
+        "handle": "imtheideaman"
+      },
+      {
+        "post_id": "4309779709246982",
+        "text": "TOP RICHEST COMPANIES (NAME & MONEY TOTALS: 1 - APPLE - 3.45 TRILLION 2 - MICROSOFT - 2.86 TRILLION 3 - NVIDIA - 2.70 TRILLION 4 - AMAZON - 2.07 TRILLION 5 - GOOGLE - 2.05 TRILLION 6 - META - 1.53 TRILLION 7 - BERKSHIRE - 1.06 TRILLION 8 - BROADCOM - 880 BILLION 9 - TELSA - 789 BILLION 10 - ELI LILL",
+        "url": "https://www.facebook.com/4309779709246982",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 0,
+        "comments": 0,
+        "followers": 774,
+        "handle": "ukarydee.harris"
+      }
+    ],
+    "sentiment_distribution": {
+      "negative": 1,
+      "neutral": 1
+    }
+  },
+  {
+    "narrative_id": "merck_narrative_16",
+    "entity_id": "merck",
+    "title": "Pill Merck Testing Called",
+    "summary": "Merck is testing a new pill called enlicitide that can lower bad cholesterol a lot about half or more. It could be the first easy-to-take PCSK9 pill, instead of shots, to help keep hearts healthy.",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 2,
+    "risk_score": 45.0,
+    "confidence": "medium",
+    "confidence_band": [
+      30.0,
+      60.0
+    ],
+    "confidence_raw": 0.56,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 90.0,
+        "weight": 0.3,
+        "contribution": 27.0,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 52.9,
+        "weight": 0.2,
+        "contribution": 10.6,
+        "detail": {
+          "post_count": 2,
+          "percentile": 52.9
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 17.6,
+        "weight": 0.2,
+        "contribution": 3.5,
+        "detail": {
+          "total_weighted_engagement": 11.0,
+          "avg_per_post": 5.5,
+          "total_shares": 0,
+          "total_comments": 1,
+          "total_likes": 0,
+          "total_views": 90,
+          "percentile": 17.6
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 23.5,
+        "weight": 0.15,
+        "contribution": 3.5,
+        "detail": {
+          "max_followers": 1,
+          "median_followers": 1,
+          "unique_authors": 2,
+          "raw_score": 2.0,
+          "percentile": 23.5
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 2.4,
+        "weight": 0.15,
+        "contribution": 0.4,
+        "detail": {
+          "posts_per_day": 0.3,
+          "span_days": 6.6,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1987764929806713018",
+        "text": "Merck is testing a new pill called enlicitide that can lower “bad” cholesterol a lot—about half or more. It could be the first easy-to-take PCSK9 pill, instead of shots, to help keep hearts healthy.",
+        "url": "https://x.com/i/web/status/1987764929806713018",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 1,
+        "followers": 1,
+        "handle": "ayan_chatter_g"
+      },
+      {
+        "post_id": "1990152221972213804",
+        "text": "A new pill from Merck could change how millions of people treat high cholesterol and help prevent heart attacks and strokes without the need for injections. https://t.co/TLjuzX5Io4",
+        "url": "https://x.com/i/web/status/1990152221972213804",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "DailyHemo"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "merck_narrative_13",
+    "entity_id": "merck",
+    "title": "Merck North Carolina Plant",
+    "summary": "Merck's new North Carolina plant, a 1 billion, 225,000-square-foot facility in Durham, officially opened in March 2025 to expand vaccine production. It is now operational and is expected to add nearly 400 full-time roles to the company's operations.",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 2,
+    "risk_score": 44.7,
+    "confidence": "medium",
+    "confidence_band": [
+      29.7,
+      59.7
+    ],
+    "confidence_raw": 0.59,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 78.0,
+        "weight": 0.3,
+        "contribution": 23.4,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 1,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 3.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 52.9,
+        "weight": 0.2,
+        "contribution": 10.6,
+        "detail": {
+          "post_count": 2,
+          "percentile": 52.9
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 35.3,
+        "weight": 0.2,
+        "contribution": 7.1,
+        "detail": {
+          "total_weighted_engagement": 25.3,
+          "avg_per_post": 12.7,
+          "total_shares": 0,
+          "total_comments": 0,
+          "total_likes": 0,
+          "total_views": 253,
+          "percentile": 35.3
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 23.5,
+        "weight": 0.15,
+        "contribution": 3.5,
+        "detail": {
+          "max_followers": 1,
+          "median_followers": 1,
+          "unique_authors": 2,
+          "raw_score": 2.0,
+          "percentile": 23.5
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.1,
+        "weight": 0.15,
+        "contribution": 0.2,
+        "detail": {
+          "posts_per_day": 0.14,
+          "span_days": 14.2,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1985047210510397626",
+        "text": "@ShiningScience The treatment also used in combination a Merck drug. In other trials it showed about a 60% stoppage rate. Moderna pursued a pathway that another company had been advised to not pursue by the FDA, which was IO Biotech.  The UK trial is driven by the needs of the UK health system.",
+        "url": "https://x.com/i/web/status/1985047210510397626",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "jimboz114"
+      },
+      {
+        "post_id": "1990204895065256294",
+        "text": "@timhauserphotog @Fatesblind @GrandpaHarris65 Merck's new North Carolina plant, a $1 billion, 225,000-square-foot facility in Durham, officially opened in March 2025 to expand vaccine production. It is now operational and is expected to add nearly 400 full-time roles to the company's operations.",
+        "url": "https://x.com/i/web/status/1990204895065256294",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "JudithOrcutt"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "merck_narrative_2",
+    "entity_id": "merck",
+    "title": "Merck Canada Pan Canadian",
+    "summary": "Merck Canada and the pan-Canadian Pharmaceutical Alliance pCPA successfully complete negotiations for WINREVAIR sotatercept MRK",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 3,
+    "risk_score": 44.5,
+    "confidence": "medium",
+    "confidence_band": [
+      29.5,
+      59.5
+    ],
+    "confidence_raw": 0.57,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 76.5,
+        "weight": 0.2,
+        "contribution": 15.3,
+        "detail": {
+          "post_count": 3,
+          "percentile": 76.5
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 76.5,
+        "weight": 0.2,
+        "contribution": 15.3,
+        "detail": {
+          "total_weighted_engagement": 108.3,
+          "avg_per_post": 36.1,
+          "total_shares": 0,
+          "total_comments": 0,
+          "total_likes": 0,
+          "total_views": 1083,
+          "percentile": 76.5
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 47.1,
+        "weight": 0.15,
+        "contribution": 7.1,
+        "detail": {
+          "max_followers": 2378,
+          "median_followers": 1,
+          "unique_authors": 3,
+          "raw_score": 31.9,
+          "percentile": 47.1
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 21.3,
+        "weight": 0.3,
+        "contribution": 6.4,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 1.3
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 3.0,
+        "weight": 0.15,
+        "contribution": 0.4,
+        "detail": {
+          "posts_per_day": 0.37,
+          "span_days": 8.0,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1991496252295709160",
+        "text": "Merck Canada and the pan-Canadian Pharmaceutical Alliance (pCPA) successfully complete negotiations for WINREVAIR (sotatercept)  $MRK  https://t.co/oj5im2HxFQ",
+        "url": "https://x.com/i/web/status/1991496252295709160",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 2378,
+        "handle": "CrweWorld"
+      },
+      {
+        "post_id": "1993720807256969247",
+        "text": "If merck wants to dial ‘mtap’, I have a good idea who they should give a call",
+        "url": "https://x.com/i/web/status/1993720807256969247",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "jeromeleonard5"
+      },
+      {
+        "post_id": "1990820008067236091",
+        "text": "[Piper Sandler]\nMerck is advancing WINREVAIR into a Phase 3 trial for Group 2 CPcPH-HFpEF, marking a significant clinical development step.\nFull report in Bio⬆️\n$MRK",
+        "url": "https://x.com/i/web/status/1990820008067236091",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "korpusresearch"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 3
+    }
+  },
+  {
+    "narrative_id": "merck_narrative_11",
+    "entity_id": "merck",
+    "title": "Pill Cholesterol Major Breakthrough",
+    "summary": "Breakthrough Pill Cuts Bad Cholesterol by Nearly 60 in Major Trials Merck Co. Inc. MRK NYSE announced that its investigational oral PCSK9 inhibitor, enlicitide, achieved significant LDL-C reductions in two pivotal Phase 3 studies presented at the Ame",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 3,
+    "risk_score": 34.4,
+    "confidence": "medium",
+    "confidence_band": [
+      19.4,
+      49.4
+    ],
+    "confidence_raw": 0.6,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 76.5,
+        "weight": 0.2,
+        "contribution": 15.3,
+        "detail": {
+          "post_count": 3,
+          "percentile": 76.5
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 41.2,
+        "weight": 0.2,
+        "contribution": 8.2,
+        "detail": {
+          "total_weighted_engagement": 34.1,
+          "avg_per_post": 11.4,
+          "total_shares": 0,
+          "total_comments": 0,
+          "total_likes": 0,
+          "total_views": 341,
+          "percentile": 41.2
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 35.3,
+        "weight": 0.15,
+        "contribution": 5.3,
+        "detail": {
+          "max_followers": 1,
+          "median_followers": 1,
+          "unique_authors": 3,
+          "raw_score": 3.0,
+          "percentile": 35.3
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 15.3,
+        "weight": 0.3,
+        "contribution": 4.6,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.33,
+          "sentiment_modifier": -6.7,
+          "high_risk_keywords": 1,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 2.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 6.7,
+        "weight": 0.15,
+        "contribution": 1.0,
+        "detail": {
+          "posts_per_day": 0.83,
+          "span_days": 3.6,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1988673402631049720",
+        "text": "Breakthrough Pill Cuts Bad Cholesterol by Nearly 60% in Major Trials\nhttps://t.co/fb3XrzE3dh\n\nMerck & Co. Inc. ($MRK:NYSE) announced that its investigational oral PCSK9 inhibitor, enlicitide, achieved significant LDL-C reductions in two pivotal Phase 3 studies presented at the American Heart Associa",
+        "url": "https://x.com/i/web/status/1988673402631049720",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "SWReports"
+      },
+      {
+        "post_id": "1987534919547969732",
+        "text": "New Pill From Merck Could Slash Cholesterol Levels, Trials Show\nhttps://t.co/3t0P1sivVv",
+        "url": "https://x.com/i/web/status/1987534919547969732",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "Penthor"
+      },
+      {
+        "post_id": "1988841759812542648",
+        "text": "Merck’s pill to reduce cholesterol on top of statins matches results from injectables https://t.co/9cySRJ9ZAL via @statnews #healthcare",
+        "url": "https://x.com/i/web/status/1988841759812542648",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "MailMyStatement"
+      }
+    ],
+    "sentiment_distribution": {
+      "positive": 1,
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "merck_narrative_12",
+    "entity_id": "merck",
+    "title": "Please Vaccines Nobivac Read",
+    "summary": "Please read re new vaccines coming out. Please note, there's a misspelling in this post. Merck came out with Nobivac vaccines. So it should be Nobivac, not Novavax.",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 2,
+    "risk_score": 32.0,
+    "confidence": "medium",
+    "confidence_band": [
+      17.0,
+      47.0
+    ],
+    "confidence_raw": 0.62,
+    "drivers": [
+      {
+        "name": "Engagement",
+        "score": 58.8,
+        "weight": 0.2,
+        "contribution": 11.8,
+        "detail": {
+          "total_weighted_engagement": 60.0,
+          "avg_per_post": 30.0,
+          "total_shares": 9,
+          "total_comments": 3,
+          "total_likes": 0,
+          "total_views": 270,
+          "percentile": 58.8
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 52.9,
+        "weight": 0.2,
+        "contribution": 10.6,
+        "detail": {
+          "post_count": 2,
+          "percentile": 52.9
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 20.0,
+        "weight": 0.3,
+        "contribution": 6.0,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 23.5,
+        "weight": 0.15,
+        "contribution": 3.5,
+        "detail": {
+          "max_followers": 1,
+          "median_followers": 1,
+          "unique_authors": 2,
+          "raw_score": 2.0,
+          "percentile": 23.5
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 0.8,
+        "weight": 0.15,
+        "contribution": 0.1,
+        "detail": {
+          "posts_per_day": 0.11,
+          "span_days": 19.0,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1986472335587877254",
+        "text": "Please read re new vaccines coming out.\nPlease note, there's a misspelling in this post.  Merck came out with Nobivac vaccines.  So it should be Nobivac, not Novavax.",
+        "url": "https://x.com/i/web/status/1986472335587877254",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 9,
+        "comments": 2,
+        "followers": 1,
+        "handle": "badpetmeds"
+      },
+      {
+        "post_id": "1993344289246753048",
+        "text": "@DanceCubed @ValleyOfFireNV @BusyDrT @SecKennedy \"Yes, there is one licensed mRNA vaccine for use in swine in the US. Merck's vaccine, called Sequivity, is a prescription mRNA-based product designed for pigs & targets various swine pathogens. It allows for the creation of customized vaccines based o",
+        "url": "https://x.com/i/web/status/1993344289246753048",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 1,
+        "followers": 1,
+        "handle": "ThePondererUSA"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "merck_narrative_14",
+    "entity_id": "merck",
+    "title": "Trump Www Donaldjtrump Effect",
+    "summary": "www.DonaldJTrump.Today The Trump effect Since President Donald J. Trump returned to office, his America First economic policies have sparked trillions of dollars in new investment in U.S. m",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 2,
+    "risk_score": 32.0,
+    "confidence": "medium",
+    "confidence_band": [
+      17.0,
+      47.0
+    ],
+    "confidence_raw": 0.64,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 52.9,
+        "weight": 0.2,
+        "contribution": 10.6,
+        "detail": {
+          "post_count": 2,
+          "percentile": 52.9
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 53.8,
+        "weight": 0.15,
+        "contribution": 8.1,
+        "detail": {
+          "posts_per_day": 6.73,
+          "span_days": 0.3,
+          "accelerating": true
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 41.2,
+        "weight": 0.15,
+        "contribution": 6.2,
+        "detail": {
+          "max_followers": 89,
+          "median_followers": 89,
+          "unique_authors": 1,
+          "raw_score": 25.5,
+          "percentile": 41.2
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 20.0,
+        "weight": 0.3,
+        "contribution": 6.0,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 5.9,
+        "weight": 0.2,
+        "contribution": 1.2,
+        "detail": {
+          "total_weighted_engagement": 4.0,
+          "avg_per_post": 2.0,
+          "total_shares": 0,
+          "total_comments": 0,
+          "total_likes": 4,
+          "total_views": 0,
+          "percentile": 5.9
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "122109857961080304",
+        "text": "https://www.ukrspecexport.com/en/catalog https://ofac.treasury.gov/sanctions-programs-and-country-information https://sanctionslist.ofac.treas.gov/Home/SdnList https://www.ukrspecexport.com/en/catalog www.DonaldJTrump.Today #PresidentDonaldJTrump #PresidentDonaldTrump #DonaldJTrump #DonaldTrump #The",
+        "url": "https://www.facebook.com/122109857961080304",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 0,
+        "comments": 0,
+        "followers": 89,
+        "handle": "TymurGolovin1986"
+      },
+      {
+        "post_id": "122109963159080304",
+        "text": "https://www.ukrspecexport.com/en/catalog https://ofac.treasury.gov/sanctions-programs-and-country-information https://sanctionslist.ofac.treas.gov/Home/SdnList https://www.ukrspecexport.com/en/catalog www.DonaldJTrump.Today #PresidentDonaldJTrump #PresidentDonaldTrump #DonaldJTrump #DonaldTrump #The",
+        "url": "https://www.facebook.com/122109963159080304",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 0,
+        "comments": 0,
+        "followers": 89,
+        "handle": "TymurGolovin1986"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "narrative_id": "biontech_narrative_2",
+    "entity_id": "biontech",
+    "title": "Miscellaneous Topics",
+    "summary": "BioNTech partners with Bristol-Myers Squibb in a deal worth up to 11.1 billion, focusing on cancer treatments while continuing Covid vaccine collaboration with Pfizer.",
+    "taxonomy_label": "Customer Harm",
+    "sentiment_distribution": {
+      "neutral": 5,
+      "negative": 2,
+      "positive": 2
+    },
+    "post_count": 9,
+    "post_ids": [
+      "1991046964579049567",
+      "1644328087008395",
+      "10231031727804387",
+      "1542512853611984",
+      "1984748109789085714",
+      "1989039093255209205",
+      "725852513892156",
+      "3952241388253051",
+      "865298372833325"
+    ],
+    "topic_labels": [
+      "miscellaneous topics"
+    ],
+    "sample_posts": [
+      {
+        "post_id": "1991046964579049567",
+        "text": "BioNTech partners with Bristol-Myers Squibb in a deal worth up to $11.1 billion, focusing on cancer treatments while continuing Covid vaccine collaboration with Pfizer.",
+        "url": ""
+      },
+      {
+        "post_id": "1644328087008395",
+        "text": "“Grok, how do they use fetal cell lines to make vaccines? Don’t give me any opinions just facts.” Grok : “- Fetal cell lines used in vaccine production: WI-38 (1962, female fetus, Sweden), MRC-5 (1966, male fetus, UK), HEK-293 (1973, Netherlands), PER.C6 (1995, Netherlands). - These are immortalized",
+        "url": ""
+      },
+      {
+        "post_id": "10231031727804387",
+        "text": "*Precios Covid: Oxford AstraZeneca 185$ Pfizer-BioNTech 165$ Moderna 113$ Johnson & Johnson 101$ Sinopharm-Beijing 74$ Sinovac 41$ Gamaleya Sputnik V 36$ Novarax 32$ Bharat Biotech Covaxin 30$ Can Sino 26$ Sputnik Light 6$ Abdala 4$ * 👆🏻👆🏻",
+        "url": ""
+      },
+      {
+        "post_id": "1542512853611984",
+        "text": "UNDERSTANDING VACCINES VS COVID VACCINES It is important to understand the difference in the mechanism of action between traditional vaccines and the Covid-19 genetic ‘vaccines’. I have summarised and simplified the paper attached for ease of consumption: The mechanism of ‘traditional’ vaccines cons",
+        "url": ""
+      },
+      {
+        "post_id": "1984748109789085714",
+        "text": "@KimDotcom Majority of Big Pharma is j3wish.\nPfizer, AstraZeneca, Moderna, BioNTech, J&J.\nAll j3wish owned & operated. It was about the mass vaccination push upon the entire World.\nSilent war, not one shot fired, yet billions of shots in the arms via hypodermic needles.",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "narrative_id": "biontech_narrative_1",
+    "entity_id": "biontech",
+    "title": "Biontech Lifted Annual Sales",
+    "summary": "BioNTech lifted its annual sales outlook, supported by stronger demand and momentum from its collaboration with Bristol-Myers Squibb, signaling renewed growth beyond Covid vaccine revenue. BNTX BMY PFE",
+    "taxonomy_label": "Regulatory / Compliance",
+    "sentiment_distribution": {
+      "positive": 2
+    },
+    "post_count": 2,
+    "post_ids": [
+      "1985326662456643813",
+      "1985321313062310274"
+    ],
+    "topic_labels": [
+      "biontech lifted annual sales"
+    ],
+    "sample_posts": [
+      {
+        "post_id": "1985326662456643813",
+        "text": "BioNTech lifted its annual sales outlook, supported by stronger demand and momentum from its collaboration with Bristol-Myers Squibb, signaling renewed growth beyond Covid vaccine revenue.\n\n$BNTX $BMY $PFE https://t.co/sigqDZeXf9",
+        "url": ""
+      },
+      {
+        "post_id": "1985321313062310274",
+        "text": "BioNTech raised its sales forecast for the year, helped by a boost from its partnership with Bristol-Myers Squibb https://t.co/0ZVQtxHGor",
+        "url": ""
+      }
+    ]
+  }
+]

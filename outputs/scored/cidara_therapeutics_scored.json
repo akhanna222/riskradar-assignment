@@ -1,0 +1,233 @@
+[
+  {
+    "narrative_id": "cidara_therapeutics_narrative_1",
+    "entity_id": "cidara_therapeutics",
+    "title": "Vaccine Merck Billion Flu",
+    "summary": "Vaccine Fatigue ? Merck Bets 9.2 Billion on Not-a-Vaccine Flu Drug Merck will spend 9.2 billion to buy Cidara Therapeutics and lock down an experimental flu-prevention drug the company emphasized is not a vaccine.",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 2,
+    "risk_score": 68.2,
+    "confidence": "medium",
+    "confidence_band": [
+      53.2,
+      83.2
+    ],
+    "confidence_raw": 0.53,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 75.0,
+        "weight": 0.3,
+        "contribution": 22.5,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 100.0,
+        "weight": 0.2,
+        "contribution": 20.0,
+        "detail": {
+          "total_weighted_engagement": 76.3,
+          "avg_per_post": 38.2,
+          "total_shares": 5,
+          "total_comments": 1,
+          "total_likes": 0,
+          "total_views": 593,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 100.0,
+        "weight": 0.15,
+        "contribution": 15.0,
+        "detail": {
+          "max_followers": 60595,
+          "median_followers": 60595,
+          "unique_authors": 2,
+          "raw_score": 62.1,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 50.0,
+        "weight": 0.2,
+        "contribution": 10.0,
+        "detail": {
+          "post_count": 2,
+          "percentile": 50.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 4.7,
+        "weight": 0.15,
+        "contribution": 0.7,
+        "detail": {
+          "posts_per_day": 0.59,
+          "span_days": 3.4,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1992769850075390391",
+        "text": "‘Vaccine Fatigue’? Merck Bets $9.2 Billion on ‘Not-a-Vaccine’ Flu Drug\n\nMerck will spend $9.2 billion to buy Cidara Therapeutics and lock down an experimental flu-prevention drug the company emphasized is “not a vaccine.” \nhttps://t.co/jSGtoEdCSM",
+        "url": "https://x.com/i/web/status/1992769850075390391",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 3,
+        "comments": 1,
+        "followers": 1,
+        "handle": "TavernTruth"
+      },
+      {
+        "post_id": "1991532005566173498",
+        "text": "News; $CDTX Merck Is Buying Cidara Therapeutics for $9.2 Billion. Is This the Boost the Lagging Drugmaker Needs? \n\nhttps://t.co/obagIy55tt\n\nFollow for daily #StockNews!\n@grok please provide the finance card for $CDTX",
+        "url": "https://x.com/i/web/status/1991532005566173498",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 2,
+        "comments": 0,
+        "followers": 60595,
+        "handle": "marketwirenews"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "cidara_therapeutics_narrative_2",
+    "entity_id": "cidara_therapeutics",
+    "title": "Therapeutics Merck Mrk Nearing",
+    "summary": "Merck MRK is nearing a deal to buy Cidara Therapeutics CDTX XBI IBB who s next ? Seres Therapeutics MCRB",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 3,
+    "risk_score": 62.2,
+    "confidence": "medium",
+    "confidence_band": [
+      47.2,
+      77.2
+    ],
+    "confidence_raw": 0.58,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 75.0,
+        "weight": 0.3,
+        "contribution": 22.5,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 100.0,
+        "weight": 0.2,
+        "contribution": 20.0,
+        "detail": {
+          "post_count": 3,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 50.0,
+        "weight": 0.2,
+        "contribution": 10.0,
+        "detail": {
+          "total_weighted_engagement": 61.6,
+          "avg_per_post": 20.5,
+          "total_shares": 0,
+          "total_comments": 0,
+          "total_likes": 0,
+          "total_views": 616,
+          "percentile": 50.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 50.0,
+        "weight": 0.15,
+        "contribution": 7.5,
+        "detail": {
+          "max_followers": 388,
+          "median_followers": 1,
+          "unique_authors": 3,
+          "raw_score": 25.2,
+          "percentile": 50.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 14.4,
+        "weight": 0.15,
+        "contribution": 2.2,
+        "detail": {
+          "posts_per_day": 1.79,
+          "span_days": 1.7,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1989259977220132982",
+        "text": "Merck $MRK is nearing a deal to buy Cidara Therapeutics $CDTX $XBI $IBB who’s next ?  Seres Therapeutics 🙃 $MCRB",
+        "url": "https://x.com/i/web/status/1989259977220132982",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "SenefLiveEvents"
+      },
+      {
+        "post_id": "1989865872760959247",
+        "text": "Cidara Therapeutics Shares Soar 105% After Merck Agrees To $9.2B Takeover Deal | Nasdaq $CDTX $spx https://t.co/BTvVSPZkaY",
+        "url": "https://x.com/i/web/status/1989865872760959247",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "psshakeer"
+      },
+      {
+        "post_id": "1989618819716022373",
+        "text": "Merck to acquire Cidara Therapeutics in a nearly $9.2 billion deal, gaining access to an experimental flu prevention drug.",
+        "url": "https://x.com/i/web/status/1989618819716022373",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 388,
+        "handle": "baro_jwngma"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 3
+    }
+  }
+]

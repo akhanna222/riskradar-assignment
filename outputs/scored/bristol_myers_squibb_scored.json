@@ -1,0 +1,1010 @@
+[
+  {
+    "narrative_id": "bristol_myers_squibb_narrative_8",
+    "entity_id": "bristol_myers_squibb",
+    "title": "Miscellaneous Topics",
+    "summary": "Welcome again to Endpoints Weekly, and welcome to November. This week kicked off with quarterly earnings outcomes from a handful of corporations, together with Eli Lilly, Merck, Novartis and Bristol Myers Squibb. Then on Thursday, Novo Elevate your p",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 41,
+    "risk_score": 83.6,
+    "confidence": "high",
+    "confidence_band": [
+      75.6,
+      91.6
+    ],
+    "confidence_raw": 0.74,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 89.4,
+        "weight": 0.3,
+        "contribution": 26.8,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.17,
+          "positive_ratio": 0.15,
+          "sentiment_modifier": -1.2,
+          "high_risk_keywords": 3,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 1,
+          "keyword_modifier": 0.6
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 100.0,
+        "weight": 0.2,
+        "contribution": 20.0,
+        "detail": {
+          "post_count": 41,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 100.0,
+        "weight": 0.2,
+        "contribution": 20.0,
+        "detail": {
+          "total_weighted_engagement": 5223.7,
+          "avg_per_post": 127.4,
+          "total_shares": 126,
+          "total_comments": 103,
+          "total_likes": 1053,
+          "total_views": 35867,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 100.0,
+        "weight": 0.15,
+        "contribution": 15.0,
+        "detail": {
+          "max_followers": 20221922,
+          "median_followers": 3604,
+          "unique_authors": 40,
+          "raw_score": 94.2,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 11.8,
+        "weight": 0.15,
+        "contribution": 1.8,
+        "detail": {
+          "posts_per_day": 1.47,
+          "span_days": 27.8,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1297795732390083",
+        "text": "#NTH_CARES BRONCHOSCOPY MACHINE BOOSTS LUNG CANCER DIAGNOSTICS AT NDOLA TEACHING HOSPITAL ======================== Ndola Teaching Hospital has strengthened its respiratory diagnostic capacity following the official handover of a bronchoscopy machine and accompanying digital equipment valued at over ",
+        "url": "https://www.facebook.com/1297795732390083",
+        "platform": "facebook",
+        "likes": 459,
+        "shares": 8,
+        "comments": 23,
+        "followers": 78069,
+        "handle": ""
+      },
+      {
+        "post_id": "1991212402306937002",
+        "text": "Greg Meyers, EVP and CDTO at Bristol Myers Squibb, spoke about implementing AI at the 2025 #ForbesCIO Summit.\nRead more: https://t.co/tSdVcE7vkW\nPhoto: Jamel Toppin for Forbes https://t.co/HMQiCKrDPo",
+        "url": "https://x.com/i/web/status/1991212402306937002",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 3,
+        "followers": 20221922,
+        "handle": "Forbes"
+      },
+      {
+        "post_id": "1279624647527145",
+        "text": "Our first #HomeoftheBrave highlight of the season is here! Volunteers from Bristol Myers Squibb spent Veterans Day at the Salem VA Medical Center bringing warmth, smiles, and connection to Veteran patients. They visited rooms, shared conversations, and made sure every Veteran felt seen and appreciat",
+        "url": "https://www.facebook.com/1279624647527145",
+        "platform": "facebook",
+        "likes": 167,
+        "shares": 21,
+        "comments": 11,
+        "followers": 352306,
+        "handle": "SoldiersAngelsOfficial"
+      },
+      {
+        "post_id": "1275657104600036",
+        "text": "This Thanksgiving season, our Bristol-Myers Squibb Children’s Hospital team passed the phone to share who they are thankful for. 🦃🧡 We’re thankful every day for our incredible patients and families. Who are you thankful for?",
+        "url": "https://www.facebook.com/1275657104600036",
+        "platform": "facebook",
+        "likes": 152,
+        "shares": 18,
+        "comments": 5,
+        "followers": 20000,
+        "handle": "RWJUH"
+      },
+      {
+        "post_id": "1985932572086460648",
+        "text": "Dagens utdelningar:\n\n🇸🇪Fastpartner A\n🇸🇪Fastpartner D\n🇸🇪NP3 Fastigheter\n🇸🇪Husqvarna\n🇨🇦National Bank\n🇺🇸Dynex Capital\n🇺🇸CVS Health\n🇺🇸RGC Resources\n🇺🇸PennantPark\n🇺🇸Norwood Financial\n🇺🇸WPP\n🇺🇸Verizon\n🇺🇸👑Universal\n🇺🇸General Mills\n🇺🇸AT&T\n🇺🇸Bristol-Myers Squibb\n🇺🇸Campbell Soup\n\nFick du någon utdelning idag?☂",
+        "url": "https://x.com/i/web/status/1985932572086460648",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 2,
+        "comments": 12,
+        "followers": 8782,
+        "handle": "aktiechaffisen"
+      }
+    ],
+    "sentiment_distribution": {
+      "positive": 6,
+      "neutral": 28,
+      "negative": 7
+    }
+  },
+  {
+    "narrative_id": "bristol_myers_squibb_narrative_2",
+    "entity_id": "bristol_myers_squibb",
+    "title": "Biontech Lifted Annual Sales",
+    "summary": "BioNTech lifted its annual sales outlook, supported by stronger demand and momentum from its collaboration with Bristol-Myers Squibb, signaling renewed growth beyond Covid vaccine revenue. BNTX BMY PFE",
+    "taxonomy_label": "Regulatory / Compliance",
+    "post_count": 2,
+    "risk_score": 72.1,
+    "confidence": "medium",
+    "confidence_band": [
+      57.1,
+      87.1
+    ],
+    "confidence_raw": 0.67,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 65.0,
+        "weight": 0.3,
+        "contribution": 19.5,
+        "detail": {
+          "taxonomy_label": "Regulatory / Compliance",
+          "taxonomy_base_score": 85,
+          "negative_ratio": 0.0,
+          "positive_ratio": 1.0,
+          "sentiment_modifier": -20.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 87.5,
+        "weight": 0.2,
+        "contribution": 17.5,
+        "detail": {
+          "total_weighted_engagement": 3397.8,
+          "avg_per_post": 1698.9,
+          "total_shares": 8,
+          "total_comments": 5,
+          "total_likes": 0,
+          "total_views": 33638,
+          "percentile": 87.5
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 87.5,
+        "weight": 0.15,
+        "contribution": 13.1,
+        "detail": {
+          "max_followers": 9746437,
+          "median_followers": 9746437,
+          "unique_authors": 2,
+          "raw_score": 81.9,
+          "percentile": 87.5
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 80.0,
+        "weight": 0.15,
+        "contribution": 12.0,
+        "detail": {
+          "posts_per_day": 135.53,
+          "span_days": 0.0,
+          "accelerating": true
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 50.0,
+        "weight": 0.2,
+        "contribution": 10.0,
+        "detail": {
+          "post_count": 2,
+          "percentile": 50.0
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1985321313062310274",
+        "text": "BioNTech raised its sales forecast for the year, helped by a boost from its partnership with Bristol-Myers Squibb https://t.co/0ZVQtxHGor",
+        "url": "https://x.com/i/web/status/1985321313062310274",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 5,
+        "comments": 5,
+        "followers": 9746437,
+        "handle": "business"
+      },
+      {
+        "post_id": "1985326662456643813",
+        "text": "BioNTech lifted its annual sales outlook, supported by stronger demand and momentum from its collaboration with Bristol-Myers Squibb, signaling renewed growth beyond Covid vaccine revenue.\n\n$BNTX $BMY $PFE https://t.co/sigqDZeXf9",
+        "url": "https://x.com/i/web/status/1985326662456643813",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 3,
+        "comments": 0,
+        "followers": 2607,
+        "handle": "EthanMillerX2"
+      }
+    ],
+    "sentiment_distribution": {
+      "positive": 2
+    }
+  },
+  {
+    "narrative_id": "bristol_myers_squibb_narrative_3",
+    "entity_id": "bristol_myers_squibb",
+    "title": "Biontech Partners Bristol Myers",
+    "summary": "BioNTech partners with Bristol-Myers Squibb in a deal worth up to 11.1 billion, focusing on cancer treatments while continuing Covid vaccine collaboration with Pfizer.",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 9,
+    "risk_score": 65.2,
+    "confidence": "medium",
+    "confidence_band": [
+      50.2,
+      80.2
+    ],
+    "confidence_raw": 0.67,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 78.3,
+        "weight": 0.3,
+        "contribution": 23.5,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.22,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 2.2,
+          "high_risk_keywords": 1,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 1.1
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 87.5,
+        "weight": 0.2,
+        "contribution": 17.5,
+        "detail": {
+          "post_count": 9,
+          "percentile": 87.5
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 62.5,
+        "weight": 0.2,
+        "contribution": 12.5,
+        "detail": {
+          "total_weighted_engagement": 390.4,
+          "avg_per_post": 43.4,
+          "total_shares": 17,
+          "total_comments": 12,
+          "total_likes": 50,
+          "total_views": 2654,
+          "percentile": 62.5
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 75.0,
+        "weight": 0.15,
+        "contribution": 11.2,
+        "detail": {
+          "max_followers": 51433,
+          "median_followers": 4404,
+          "unique_authors": 9,
+          "raw_score": 64.0,
+          "percentile": 75.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 3.1,
+        "weight": 0.15,
+        "contribution": 0.5,
+        "detail": {
+          "posts_per_day": 0.39,
+          "span_days": 23.4,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1403124498473503",
+        "text": "BMS talk for TYs On Tuesday 21st October 2025, we welcomed representatives from Bristol Myers Squibb (BMS) Cruiserath Biologics to speak to TYs - Lorraine Kelly and Donal Monaghan. Bristol Myers Squibb is a global biopharmaceutical company whose mission is to discover, develop and deliver innovative",
+        "url": "https://www.facebook.com/1403124498473503",
+        "platform": "facebook",
+        "likes": 20,
+        "shares": 2,
+        "comments": 2,
+        "followers": 4404,
+        "handle": "ashbournecommunityschool"
+      },
+      {
+        "post_id": "122126959904986728",
+        "text": "$BMY Bristol-Myers Squibb shares are trading higher. Strength may be due to investor optimism after Bayer announced topline results from its Phase 3 OCEANIC-STROKE study.",
+        "url": "https://www.facebook.com/122126959904986728",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 96,
+        "handle": ""
+      },
+      {
+        "post_id": "1409969157227202",
+        "text": "Signal or noise? > Bristol Myers Squibb Announces Cash Tender Offers to Purchase Certain Notes >> Comment below! >>> lqventures.com #healthtech #mhealth #IoT #industry40 #AI",
+        "url": "https://www.facebook.com/1409969157227202",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 783,
+        "handle": "lucidquest"
+      },
+      {
+        "post_id": "857640660351779",
+        "text": "#BMY - Bristol Myers Squibb to Participate in Citis 2025 Global Healthcare Conference https://marketwirenews.com/news-releases/bristol-myers-squibb-to-participate-in-citi-s-2025-g-5493116909474965.html Bristol Myers Squibb (NYSE: BMY) today announced that the company will participate in Citi’s 2025 ",
+        "url": "https://www.facebook.com/857640660351779",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 1802,
+        "handle": "MarketWN"
+      },
+      {
+        "post_id": "1986456061809713514",
+        "text": "Bristol Myers Squibb reached a $239 million settlement of claims that former Celgene shareholders were defrauded about prospects for the psoriasis drug Otezla, and multiple sclerosis treatment now known as... https://t.co/7zRXeRz719",
+        "url": "https://x.com/i/web/status/1986456061809713514",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 2,
+        "followers": 18503,
+        "handle": "cjournal"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 7,
+      "negative": 2
+    }
+  },
+  {
+    "narrative_id": "bristol_myers_squibb_narrative_1",
+    "entity_id": "bristol_myers_squibb",
+    "title": "These Pharma Companies Run",
+    "summary": "These pharma companies like that run incessant ads for their competing cancer treatments are the depths of depravity. The last warning in the litany of potential side effects of Bristol Myers Squibb's Optivo is may harm your unborn baby. Just the cos",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 4,
+    "risk_score": 56.3,
+    "confidence": "medium",
+    "confidence_band": [
+      41.3,
+      71.3
+    ],
+    "confidence_raw": 0.52,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 91.5,
+        "weight": 0.3,
+        "contribution": 27.4,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.25,
+          "positive_ratio": 0.25,
+          "sentiment_modifier": -2.5,
+          "high_risk_keywords": 1,
+          "medium_risk_keywords": 2,
+          "low_risk_keywords": 1,
+          "keyword_modifier": 4.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 62.5,
+        "weight": 0.2,
+        "contribution": 12.5,
+        "detail": {
+          "post_count": 4,
+          "percentile": 62.5
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 37.5,
+        "weight": 0.2,
+        "contribution": 7.5,
+        "detail": {
+          "total_weighted_engagement": 174.8,
+          "avg_per_post": 43.7,
+          "total_shares": 7,
+          "total_comments": 5,
+          "total_likes": 69,
+          "total_views": 748,
+          "percentile": 37.5
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 37.5,
+        "weight": 0.15,
+        "contribution": 5.6,
+        "detail": {
+          "max_followers": 55056,
+          "median_followers": 7808,
+          "unique_authors": 4,
+          "raw_score": 60.2,
+          "percentile": 37.5
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 21.8,
+        "weight": 0.15,
+        "contribution": 3.3,
+        "detail": {
+          "posts_per_day": 0.22,
+          "span_days": 18.1,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1192234233034775",
+        "text": "There is a wonderful group from Bristol Myers Squibb called Caring Crafters. These employees knit and crochet, creating beautiful pieces that are donated to hospitals, patients, and various other recipients in need. The Caring Crafters have embarked on a project known as the Veteran’s Blanket initia",
+        "url": "https://www.facebook.com/1192234233034775",
+        "platform": "facebook",
+        "likes": 54,
+        "shares": 2,
+        "comments": 3,
+        "followers": 7808,
+        "handle": "clearpathne"
+      },
+      {
+        "post_id": "25161312323519591",
+        "text": "These pharma companies like @Merck that run incessant ads for their competing cancer treatments are the depths of depravity. The last warning in the litany of potential side effects of Bristol Myers Squibb's Optivo is \"may harm your unborn baby.\" Just the cost of doing business. #bigpharmakills",
+        "url": "https://www.facebook.com/25161312323519591",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 0,
+        "handle": "henry.bogata"
+      },
+      {
+        "post_id": "1991902438132220378",
+        "text": "Texas AG @KenPaxtonTX is suing more drug companies. This week, he sued Sanofi and Bristol-Myers Squibb for failing to disclose that their drug Plavix did not work effectively for certain patients. https://t.co/Eh2Xv8vOZx",
+        "url": "https://x.com/i/web/status/1991902438132220378",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 55056,
+        "handle": "charlesornstein"
+      },
+      {
+        "post_id": "25518747157719002",
+        "text": "These companies are in NY. When they raise prices its to fund NYC. I will not use these companies! Accounting & Tax CohnReznick is headquartered in New York, NY. Deloitte is headquartered in New York, NY. EY is headquartered in New York, NY. PwC is headquartered in New York, NY. Advertising & Public",
+        "url": "https://www.facebook.com/25518747157719002",
+        "platform": "facebook",
+        "likes": 5,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1702,
+        "handle": "timothy.noreika.3"
+      }
+    ],
+    "sentiment_distribution": {
+      "negative": 1,
+      "positive": 1,
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "bristol_myers_squibb_narrative_5",
+    "entity_id": "bristol_myers_squibb",
+    "title": "Cancer Gastric Weill Cornell",
+    "summary": "Debbie s Dream Foundation kicked off Gastric Cancer Awareness Month with our Gastric Cancer Educational Symposium held at Weill Cornell Medicine on November 1, 2025! A heartfelt thank-you to Dr. Rutika Mehta and her incredible team at Weill Cornell M",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 2,
+    "risk_score": 49.6,
+    "confidence": "medium",
+    "confidence_band": [
+      34.6,
+      64.6
+    ],
+    "confidence_raw": 0.57,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 90.0,
+        "weight": 0.3,
+        "contribution": 27.0,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 50.0,
+        "weight": 0.2,
+        "contribution": 10.0,
+        "detail": {
+          "post_count": 2,
+          "percentile": 50.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 50.0,
+        "weight": 0.15,
+        "contribution": 7.5,
+        "detail": {
+          "max_followers": 72097,
+          "median_followers": 72097,
+          "unique_authors": 2,
+          "raw_score": 63.1,
+          "percentile": 50.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 25.0,
+        "weight": 0.2,
+        "contribution": 5.0,
+        "detail": {
+          "total_weighted_engagement": 48.0,
+          "avg_per_post": 24.0,
+          "total_shares": 5,
+          "total_comments": 2,
+          "total_likes": 19,
+          "total_views": 100,
+          "percentile": 25.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 0.8,
+        "weight": 0.15,
+        "contribution": 0.1,
+        "detail": {
+          "posts_per_day": 0.1,
+          "span_days": 19.3,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1337053931547588",
+        "text": "Blocking a single protein forces cancer cells to self-destruct Date: November 20, 2025 Source: NYU Langone Health / NYU Grossman School of Medicine Summary: Researchers uncovered a powerful weakness in lung cancer by shutting down a protein that helps tumors survive stress. When this protein, FSP1, ",
+        "url": "https://www.facebook.com/1337053931547588",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 325,
+        "handle": "Angelsforces"
+      },
+      {
+        "post_id": "1290716073102805",
+        "text": "Debbie’s Dream Foundation kicked off Gastric Cancer Awareness Month with our Gastric Cancer Educational Symposium held at Weill Cornell Medicine on November 1, 2025! A heartfelt thank-you to Dr. Rutika Mehta and her incredible team at Weill Cornell Medicine, our wonderful speakers, dedicated DDF sta",
+        "url": "https://www.facebook.com/1290716073102805",
+        "platform": "facebook",
+        "likes": 9,
+        "shares": 0,
+        "comments": 0,
+        "followers": 72097,
+        "handle": "DebbiesDreamFoundation"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "bristol_myers_squibb_narrative_7",
+    "entity_id": "bristol_myers_squibb",
+    "title": "Star David Used Satan",
+    "summary": "Joker's thought....Long read to really wake you up. THE STAR OF DAVID DECEPTION The truth is that King David never used a star, so calling it the Star of David is a nice sounding name to cover what it really represents. Satan hides the true meaning o",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 2,
+    "risk_score": 41.6,
+    "confidence": "low",
+    "confidence_band": [
+      16.6,
+      66.6
+    ],
+    "confidence_raw": 0.43,
+    "drivers": [
+      {
+        "name": "Engagement",
+        "score": 75.0,
+        "weight": 0.2,
+        "contribution": 15.0,
+        "detail": {
+          "total_weighted_engagement": 429.0,
+          "avg_per_post": 214.5,
+          "total_shares": 78,
+          "total_comments": 38,
+          "total_likes": 119,
+          "total_views": 0,
+          "percentile": 75.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 50.0,
+        "weight": 0.2,
+        "contribution": 10.0,
+        "detail": {
+          "post_count": 2,
+          "percentile": 50.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 62.5,
+        "weight": 0.15,
+        "contribution": 9.4,
+        "detail": {
+          "max_followers": 74085,
+          "median_followers": 74085,
+          "unique_authors": 2,
+          "raw_score": 63.2,
+          "percentile": 62.5
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 20.0,
+        "weight": 0.3,
+        "contribution": 6.0,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 8.5,
+        "weight": 0.15,
+        "contribution": 1.3,
+        "detail": {
+          "posts_per_day": 1.06,
+          "span_days": 1.9,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1905621056996501",
+        "text": "Joker's thought....Long read to really wake ⏰ you️ up. THE STAR OF DAVID DECEPTION The truth is that King David never used a star, so calling it the ‘Star of David‘ is a nice sounding name to cover what it really represents. Satan hides the true meaning of his symbols behind counterfeit explanations",
+        "url": "https://www.facebook.com/1905621056996501",
+        "platform": "facebook",
+        "likes": 78,
+        "shares": 48,
+        "comments": 32,
+        "followers": 0,
+        "handle": "scott.adkins.3382118"
+      },
+      {
+        "post_id": "3251871788323190",
+        "text": "THE STAR OF DAVID DECEPTION The truth is that King David never used a star, so calling it the ‘Star of David‘ is a nice sounding name to cover what it really represents. Satan hides the true meaning of his symbols behind counterfeit explanations. To summarize, the six-pointed star is the supreme sym",
+        "url": "https://www.facebook.com/3251871788323190",
+        "platform": "facebook",
+        "likes": 41,
+        "shares": 30,
+        "comments": 6,
+        "followers": 74085,
+        "handle": "leilani.masaniai.5"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "bristol_myers_squibb_narrative_4",
+    "entity_id": "bristol_myers_squibb",
+    "title": "Council Bristol Myers Squibb",
+    "summary": "At last night s Township Council, the Mayor and Council presented a proclamation to Bristol Myers Squibb, honoring their support for the P.O.W.E.R. Proactively Orchestrating Ways to Empower and Restore Youth Mentoring Program. The Township Council ap",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 5,
+    "risk_score": 34.7,
+    "confidence": "medium",
+    "confidence_band": [
+      19.7,
+      49.7
+    ],
+    "confidence_raw": 0.7,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 75.0,
+        "weight": 0.2,
+        "contribution": 15.0,
+        "detail": {
+          "post_count": 5,
+          "percentile": 75.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 50.0,
+        "weight": 0.2,
+        "contribution": 10.0,
+        "detail": {
+          "total_weighted_engagement": 217.6,
+          "avg_per_post": 43.5,
+          "total_shares": 3,
+          "total_comments": 5,
+          "total_likes": 69,
+          "total_views": 1296,
+          "percentile": 50.0
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 18.8,
+        "weight": 0.3,
+        "contribution": 5.6,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.2,
+          "positive_ratio": 0.2,
+          "sentiment_modifier": -2.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.8
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 25.0,
+        "weight": 0.15,
+        "contribution": 3.8,
+        "detail": {
+          "max_followers": 6406,
+          "median_followers": 288,
+          "unique_authors": 5,
+          "raw_score": 47.5,
+          "percentile": 25.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.9,
+        "weight": 0.15,
+        "contribution": 0.3,
+        "detail": {
+          "posts_per_day": 0.24,
+          "span_days": 21.2,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1235172841967461",
+        "text": "At last night’s Township Council, the Mayor and Council presented a proclamation to Bristol Myers Squibb, honoring their support for the P.O.W.E.R. (Proactively Orchestrating Ways to Empower and Restore) Youth Mentoring Program. The Township Council approved a $20,000 grant from Bristol Myers Squibb",
+        "url": "https://www.facebook.com/1235172841967461",
+        "platform": "facebook",
+        "likes": 69,
+        "shares": 3,
+        "comments": 5,
+        "followers": 6406,
+        "handle": "NorthBrunswickTownshipNJ"
+      },
+      {
+        "post_id": "1994730599278342643",
+        "text": "Bristol Myers Squibb CDTO Greg Meyers on biopharma’s AI-enabled future https://t.co/D3c8h7O0oX",
+        "url": "https://x.com/i/web/status/1994730599278342643",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 288,
+        "handle": "bcpexpert"
+      },
+      {
+        "post_id": "1993038409225359864",
+        "text": "Bristol-Myers Squibb $BMY — gaps +4.3% on Bayer Phase‑3 topline; shares trading higher 🚀\n➤ Gap +4.3%, RVOL 1.19, AVol 15.19M — clear buying interest\n➤ 3,416 funds hold the name — broad institutional support\n➤ Post-gap +0.35% from open; EPS Q/Q +2949% — earnings momentum\n#BMY #Biotech #Momentum",
+        "url": "https://x.com/i/web/status/1993038409225359864",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 711,
+        "handle": "WaveRiderAI"
+      },
+      {
+        "post_id": "1988805504010014857",
+        "text": "@CoryBooker This message brought to you by  Pfizer, Bristol-Myers Squibb and T-Mobile",
+        "url": "https://x.com/i/web/status/1988805504010014857",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 159,
+        "handle": "1mansplainer"
+      },
+      {
+        "post_id": "1987057738292105528",
+        "text": "Former Bristol Myers Squibb Scientist Joy Corson",
+        "url": "https://x.com/i/web/status/1987057738292105528",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 89,
+        "handle": "CherrySharona"
+      }
+    ],
+    "sentiment_distribution": {
+      "positive": 1,
+      "negative": 1,
+      "neutral": 3
+    }
+  },
+  {
+    "narrative_id": "bristol_myers_squibb_narrative_6",
+    "entity_id": "bristol_myers_squibb",
+    "title": "Trump Www Donaldjtrump Effect",
+    "summary": "www.DonaldJTrump.Today The Trump effect Since President Donald J. Trump returned to office, his America First economic policies have sparked trillions of dollars in new investment in U.S. m",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 2,
+    "risk_score": 28.4,
+    "confidence": "medium",
+    "confidence_band": [
+      13.4,
+      43.4
+    ],
+    "confidence_raw": 0.64,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 50.0,
+        "weight": 0.2,
+        "contribution": 10.0,
+        "detail": {
+          "post_count": 2,
+          "percentile": 50.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 53.8,
+        "weight": 0.15,
+        "contribution": 8.1,
+        "detail": {
+          "posts_per_day": 6.73,
+          "span_days": 0.3,
+          "accelerating": true
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 20.0,
+        "weight": 0.3,
+        "contribution": 6.0,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 12.5,
+        "weight": 0.2,
+        "contribution": 2.5,
+        "detail": {
+          "total_weighted_engagement": 4.0,
+          "avg_per_post": 2.0,
+          "total_shares": 0,
+          "total_comments": 0,
+          "total_likes": 4,
+          "total_views": 0,
+          "percentile": 12.5
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 12.5,
+        "weight": 0.15,
+        "contribution": 1.9,
+        "detail": {
+          "max_followers": 89,
+          "median_followers": 89,
+          "unique_authors": 1,
+          "raw_score": 25.5,
+          "percentile": 12.5
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "122109857961080304",
+        "text": "https://www.ukrspecexport.com/en/catalog https://ofac.treasury.gov/sanctions-programs-and-country-information https://sanctionslist.ofac.treas.gov/Home/SdnList https://www.ukrspecexport.com/en/catalog www.DonaldJTrump.Today #PresidentDonaldJTrump #PresidentDonaldTrump #DonaldJTrump #DonaldTrump #The",
+        "url": "https://www.facebook.com/122109857961080304",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 0,
+        "comments": 0,
+        "followers": 89,
+        "handle": "TymurGolovin1986"
+      },
+      {
+        "post_id": "122109963159080304",
+        "text": "https://www.ukrspecexport.com/en/catalog https://ofac.treasury.gov/sanctions-programs-and-country-information https://sanctionslist.ofac.treas.gov/Home/SdnList https://www.ukrspecexport.com/en/catalog www.DonaldJTrump.Today #PresidentDonaldJTrump #PresidentDonaldTrump #DonaldJTrump #DonaldTrump #The",
+        "url": "https://www.facebook.com/122109963159080304",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 0,
+        "comments": 0,
+        "followers": 89,
+        "handle": "TymurGolovin1986"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  }
+]

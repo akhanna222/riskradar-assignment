@@ -1,0 +1,120 @@
+[
+  {
+    "narrative_id": "opdivo_narrative_3",
+    "entity_id": "opdivo",
+    "title": "Miscellaneous Topics",
+    "summary": "UPDATE All Good!! Gettin that Pacemaker checkup. I had Opdivo Immunotherapy induced bradycardia after my treatment for Melanoma. So Schedule your annual skin check, use sunscreen and STAY OUT OF TANNING BEDS!!!",
+    "taxonomy_label": "Financial Integrity",
+    "sentiment_distribution": {
+      "neutral": 6,
+      "positive": 1
+    },
+    "post_count": 7,
+    "post_ids": [
+      "122227002926249609",
+      "10163390647093664",
+      "1991706496988823596",
+      "1984884507833479352",
+      "1223822306252756",
+      "10115117722988823",
+      "33503871125878884"
+    ],
+    "topic_labels": [
+      "miscellaneous topics"
+    ],
+    "sample_posts": [
+      {
+        "post_id": "122227002926249609",
+        "text": "UPDATE: All Good!! Gettin that Pacemaker checkup. I had Opdivo Immunotherapy induced bradycardia after my treatment for Melanoma. So…… Schedule your annual skin check, use sunscreen and STAY OUT OF TANNING BEDS!!! 🖤 💪",
+        "url": ""
+      },
+      {
+        "post_id": "10163390647093664",
+        "text": "Business yang sangat menguntungkan & tak semua orang boleh nampak Huhuhu ChatGPT Here’s a list of some of the most expensive medical treatments and procedures in the world — based on average global or U.S. costs (as of recent years): 🧠 Neurological & Brain Treatments 1. Brain tumor removal surgery –",
+        "url": ""
+      },
+      {
+        "post_id": "1991706496988823596",
+        "text": "@FFootballDMD Yo! I just finished targeted therapy (PD-1 Blockers called Braftovi/Mektovi). Pills every day for a year. Was very tolerable. I've also done Opdivo, and then Opdivo/Yervoy the second time around. How are you doing these days?",
+        "url": ""
+      },
+      {
+        "post_id": "1984884507833479352",
+        "text": "Bristol Myers beats quarterly revenue estimates on strong Opdivo sales\n\n#Pharma I #US I #results I #sales I #Q3 I #CY2025 I @bmsnews  \n\nRead more:\nhttps://t.co/DmzJqJ4D3y",
+        "url": ""
+      },
+      {
+        "post_id": "1223822306252756",
+        "text": "Covid lymph nodes on PET scan mimic malignancy? I’m hoping someone has had a similar experience and can help us calm down. We read a PET scan result on his patient portal tonight. We should’ve waited for his dr’s appointment in 2 days. His initial PET scan in June lit up on his left armpit. He’s had",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "narrative_id": "opdivo_narrative_1",
+    "entity_id": "opdivo",
+    "title": "Cancer Patients England Become",
+    "summary": "England has become the first European country to offer an injectable form of the immunotherapy drug nivolumab Opdivo for cancer patients. Approved by the MHRA, the quick, under-the-skin injection can treat up to 15 types of cancer and reduces treatme",
+    "taxonomy_label": "Customer Harm",
+    "sentiment_distribution": {
+      "positive": 1,
+      "neutral": 2
+    },
+    "post_count": 3,
+    "post_ids": [
+      "25386518327641035",
+      "10234697778897198",
+      "122279948228022386"
+    ],
+    "topic_labels": [
+      "cancer patients england become"
+    ],
+    "sample_posts": [
+      {
+        "post_id": "25386518327641035",
+        "text": "England has become the first European country to offer an injectable form of the immunotherapy drug nivolumab (Opdivo) for cancer patients. Approved by the MHRA, the quick, under-the-skin injection can treat up to 15 types of cancer and reduces treatment time from about an hour to just five minutes,",
+        "url": ""
+      },
+      {
+        "post_id": "10234697778897198",
+        "text": "Dear Friends: Today I had my 4th of 12 monthly immunotherapy infusion treatments of a medicine called OPDIVO. This treatment is for melanoma cancer that was diagnosed in May. I am happy to say that I have NOT had any side effects from the treatments. I am happy to say I HAVE had: An mri A pet scan 2",
+        "url": ""
+      },
+      {
+        "post_id": "122279948228022386",
+        "text": "The affected medications will now face delayed negotiations or complete exemption from price cuts. These medications represented $17.5 billion in combined Medicare and patient spending in 2023 — an 83% jump from 2019. Here’s the list of medications, along with the conditions they treat and their com",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "narrative_id": "opdivo_narrative_2",
+    "entity_id": "opdivo",
+    "title": "Generics Opdivo Short Answer",
+    "summary": "Short answer partly. Revlimid already faces generics, Eliquis is expected to see U.S. generics starting April 1, 2028 earlier in key EU markets , and Opdivo s U.S. exclusivity runs later with biosimilar pressure slower to arrive, so the core patent-c",
+    "taxonomy_label": "Financial Integrity",
+    "sentiment_distribution": {
+      "neutral": 2
+    },
+    "post_count": 2,
+    "post_ids": [
+      "1984695084642623588",
+      "2134770500663162"
+    ],
+    "topic_labels": [
+      "generics opdivo short answer"
+    ],
+    "sample_posts": [
+      {
+        "post_id": "1984695084642623588",
+        "text": "Short answer: partly. Revlimid already faces generics, Eliquis is expected to see U.S. generics starting April 1, 2028 (earlier in key EU markets), and Opdivo’s U.S. exclusivity runs later with biosimilar pressure slower to arrive, so the core patent-cliff risks aren’t “resolved,” just staggered and",
+        "url": ""
+      },
+      {
+        "post_id": "2134770500663162",
+        "text": "This morning 10am on way back from Cancer Center OpDivo treatment only 1 treatment to Go!!!!",
+        "url": ""
+      }
+    ]
+  }
+]

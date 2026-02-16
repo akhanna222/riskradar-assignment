@@ -1,0 +1,257 @@
+[
+  {
+    "narrative_id": "amgen_narrative_2",
+    "entity_id": "amgen",
+    "title": "Miscellaneous Topics",
+    "summary": "As the respiratory system s gateway, the epithelium is the first contact point for viruses, pollutants and allergens. Increasingly seen as an immune organ, it plays a key role in nasal polyps inflammation. Learn more.",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 14,
+    "risk_score": 62.1,
+    "confidence": "medium",
+    "confidence_band": [
+      47.1,
+      77.1
+    ],
+    "confidence_raw": 0.6,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 100.0,
+        "weight": 0.2,
+        "contribution": 20.0,
+        "detail": {
+          "post_count": 14,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 100.0,
+        "weight": 0.2,
+        "contribution": 20.0,
+        "detail": {
+          "total_weighted_engagement": 11849.8,
+          "avg_per_post": 846.4,
+          "total_shares": 79,
+          "total_comments": 38,
+          "total_likes": 61,
+          "total_views": 114758,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 100.0,
+        "weight": 0.15,
+        "contribution": 15.0,
+        "detail": {
+          "max_followers": 7514455,
+          "median_followers": 801,
+          "unique_authors": 13,
+          "raw_score": 83.6,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 21.6,
+        "weight": 0.3,
+        "contribution": 6.5,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.21,
+          "positive_ratio": 0.07,
+          "sentiment_modifier": 0.7,
+          "high_risk_keywords": 1,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 1,
+          "keyword_modifier": 0.9
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 4.1,
+        "weight": 0.15,
+        "contribution": 0.6,
+        "detail": {
+          "posts_per_day": 0.51,
+          "span_days": 27.5,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1989066993475953112",
+        "text": "All these stocks hit new 52 WEEK HIGHS at some point today\n\nEli Lilly $LLY\nGoldman Sachs $GS\nJohnson & Johnson $JNJ\nCisco $CSCO\nGeneral Motors $GM\nAlbemarle $ALB\nAmgen $AMGN\nAstrazeneca $AZN\nBarrick Mining $B\nBarclays $BCS\nCarpenter $CRS\nDeutsche Bank $DB\nDillar's $DDS\n$EQT\nEquinox Gold $EQX\nEdwards",
+        "url": "https://x.com/i/web/status/1989066993475953112",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 63,
+        "comments": 30,
+        "followers": 1,
+        "handle": "StockMKTNewz"
+      },
+      {
+        "post_id": "1985440196637442054",
+        "text": "In the US on Tuesday, JOLTS job openings, international trade and factory orders data are all scheduled subject to the US government shutdown. Amgen, Pfizer, Spotify, Uber, AMD, Pinterest and Super Micro Computer all release earnings results. #ausecon",
+        "url": "https://x.com/i/web/status/1985440196637442054",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 5,
+        "comments": 0,
+        "followers": 71568,
+        "handle": "CommSec"
+      },
+      {
+        "post_id": "10163305937529788",
+        "text": "BBC MEMO WRITER'S TIES TO US PHARMA & TECH GIANTS. HIS GOAL'S BEYOND! ■‘BBC bias’ memo was written by American pharma lobbyist ■A guest post from Sam Bright. Dr Julia Grace Patterson💙 Nov 16, 2025 'My name is Sam Bright – I’m an investigative journalist and Substacker focused on exposing the populis",
+        "url": "https://www.facebook.com/10163305937529788",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 0,
+        "handle": "phil.vellender"
+      },
+      {
+        "post_id": "1352760916258209",
+        "text": "📉 Economic Calendar Goes Quiet — But Fed Still Talks The government shutdown delays key jobs data (again), including the NFP. But the market will still get a pulse from ADP private jobs, ISM services, and a wave of Fed speeches. 👉 Use Wednesday’s ADP and Fed chatter to gauge sentiment before Friday.",
+        "url": "https://www.facebook.com/1352760916258209",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 0,
+        "handle": "daisy.dawn.946"
+      },
+      {
+        "post_id": "122110177701080304",
+        "text": "https://war-sanctions.gur.gov.ua/en https://www.ukrspecexport.com/en/catalog Головін Тимур збирає на: СЗРУ https://pay.a-bank.com.ua/collection/mxNhrK68Uw1vEhQN Головін Тимур збирає на: СБУ https://pay.a-bank.com.ua/collection/W9SdkwazwRLcLk7o Головін Тимур збирає на: ГУР https://pay.a-bank.com.ua/c",
+        "url": "https://www.facebook.com/122110177701080304",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 0,
+        "comments": 0,
+        "followers": 89,
+        "handle": "TymurGolovin1986"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 10,
+      "negative": 3,
+      "positive": 1
+    }
+  },
+  {
+    "narrative_id": "amgen_narrative_1",
+    "entity_id": "amgen",
+    "title": "Trump Www Donaldjtrump Effect",
+    "summary": "www.DonaldJTrump.Today The Trump effect Since President Donald J. Trump returned to office, his America First economic policies have sparked trillions of dollars in new investment in U.S. m",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 2,
+    "risk_score": 41.6,
+    "confidence": "medium",
+    "confidence_band": [
+      26.6,
+      56.6
+    ],
+    "confidence_raw": 0.68,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 50.0,
+        "weight": 0.2,
+        "contribution": 10.0,
+        "detail": {
+          "post_count": 2,
+          "percentile": 50.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 50.0,
+        "weight": 0.2,
+        "contribution": 10.0,
+        "detail": {
+          "total_weighted_engagement": 4.0,
+          "avg_per_post": 2.0,
+          "total_shares": 0,
+          "total_comments": 0,
+          "total_likes": 4,
+          "total_views": 0,
+          "percentile": 50.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 53.8,
+        "weight": 0.15,
+        "contribution": 8.1,
+        "detail": {
+          "posts_per_day": 6.73,
+          "span_days": 0.3,
+          "accelerating": true
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 50.0,
+        "weight": 0.15,
+        "contribution": 7.5,
+        "detail": {
+          "max_followers": 89,
+          "median_followers": 89,
+          "unique_authors": 1,
+          "raw_score": 25.5,
+          "percentile": 50.0
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 20.0,
+        "weight": 0.3,
+        "contribution": 6.0,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "122109857961080304",
+        "text": "https://www.ukrspecexport.com/en/catalog https://ofac.treasury.gov/sanctions-programs-and-country-information https://sanctionslist.ofac.treas.gov/Home/SdnList https://www.ukrspecexport.com/en/catalog www.DonaldJTrump.Today #PresidentDonaldJTrump #PresidentDonaldTrump #DonaldJTrump #DonaldTrump #The",
+        "url": "https://www.facebook.com/122109857961080304",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 0,
+        "comments": 0,
+        "followers": 89,
+        "handle": "TymurGolovin1986"
+      },
+      {
+        "post_id": "122109963159080304",
+        "text": "https://www.ukrspecexport.com/en/catalog https://ofac.treasury.gov/sanctions-programs-and-country-information https://sanctionslist.ofac.treas.gov/Home/SdnList https://www.ukrspecexport.com/en/catalog www.DonaldJTrump.Today #PresidentDonaldJTrump #PresidentDonaldTrump #DonaldJTrump #DonaldTrump #The",
+        "url": "https://www.facebook.com/122109963159080304",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 0,
+        "comments": 0,
+        "followers": 89,
+        "handle": "TymurGolovin1986"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  }
+]

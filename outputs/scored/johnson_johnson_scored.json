@@ -1,0 +1,1847 @@
+[
+  {
+    "narrative_id": "johnson_johnson_narrative_9",
+    "entity_id": "johnson_johnson",
+    "title": "Johnson Thanks Sharing Update",
+    "summary": "Thanks for sharing the update on Johnson Johnson's Q3 2025 performance and FDA approvals! Good to see a simplified explanation.",
+    "taxonomy_label": "Regulatory / Compliance",
+    "post_count": 3,
+    "risk_score": 76.7,
+    "confidence": "medium",
+    "confidence_band": [
+      61.7,
+      91.7
+    ],
+    "confidence_raw": 0.53,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 95.0,
+        "weight": 0.3,
+        "contribution": 28.5,
+        "detail": {
+          "taxonomy_label": "Regulatory / Compliance",
+          "taxonomy_base_score": 85,
+          "negative_ratio": 0.67,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 6.7,
+          "high_risk_keywords": 1,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 3.3
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 100.0,
+        "weight": 0.2,
+        "contribution": 20.0,
+        "detail": {
+          "total_weighted_engagement": 11290.7,
+          "avg_per_post": 3763.6,
+          "total_shares": 63,
+          "total_comments": 32,
+          "total_likes": 0,
+          "total_views": 110377,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 93.3,
+        "weight": 0.15,
+        "contribution": 14.0,
+        "detail": {
+          "max_followers": 7514455,
+          "median_followers": 1507,
+          "unique_authors": 3,
+          "raw_score": 74.6,
+          "percentile": 93.3
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 66.7,
+        "weight": 0.2,
+        "contribution": 13.3,
+        "detail": {
+          "post_count": 3,
+          "percentile": 66.7
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 5.7,
+        "weight": 0.15,
+        "contribution": 0.9,
+        "detail": {
+          "posts_per_day": 0.72,
+          "span_days": 4.2,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1989066993475953112",
+        "text": "All these stocks hit new 52 WEEK HIGHS at some point today\n\nEli Lilly $LLY\nGoldman Sachs $GS\nJohnson & Johnson $JNJ\nCisco $CSCO\nGeneral Motors $GM\nAlbemarle $ALB\nAmgen $AMGN\nAstrazeneca $AZN\nBarrick Mining $B\nBarclays $BCS\nCarpenter $CRS\nDeutsche Bank $DB\nDillar's $DDS\n$EQT\nEquinox Gold $EQX\nEdwards",
+        "url": "https://x.com/i/web/status/1989066993475953112",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 63,
+        "comments": 30,
+        "followers": 1,
+        "handle": "StockMKTNewz"
+      },
+      {
+        "post_id": "1987552610363318411",
+        "text": "Pharma titans like Pfizer and Johnson & Johnson, who'd see patent-thick pricing pressures ease under true competition; hospital chains such as HCA Healthcare, reliant on opaque billing and certificate-of-need barriers; insurance oligarchs like UnitedHealth, whose admin bloat and mandated coverage fa",
+        "url": "https://x.com/i/web/status/1987552610363318411",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 2,
+        "followers": 7514455,
+        "handle": "grok"
+      },
+      {
+        "post_id": "1988162134975611390",
+        "text": "@Nha_tran95 @EdgenTech Thanks for sharing the update on Johnson & Johnson's Q3 2025 performance and FDA approvals! Good to see a simplified explanation.",
+        "url": "https://x.com/i/web/status/1988162134975611390",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1507,
+        "handle": "EddyVautier"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 1,
+      "negative": 2
+    }
+  },
+  {
+    "narrative_id": "johnson_johnson_narrative_3",
+    "entity_id": "johnson_johnson",
+    "title": "Johnson Context Top Aapl",
+    "summary": "For context, here are the top 10 in 2015 1. AAPL Apple 540 650B 2. GOOGL AlphabeT 500B 3. MSFT Microsoft 450B 4. XOM Exxon Mobil 350B 5. BRK Berkshire 350B 6. AMZN Amazon 300B 7. WF Wells Fargo 280B 8. JNJ Johnson Johnson 280B 9. GE General Electric ",
+    "taxonomy_label": "Regulatory / Compliance",
+    "post_count": 11,
+    "risk_score": 75.8,
+    "confidence": "high",
+    "confidence_band": [
+      67.8,
+      83.8
+    ],
+    "confidence_raw": 0.71,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 86.3,
+        "weight": 0.3,
+        "contribution": 25.9,
+        "detail": {
+          "taxonomy_label": "Regulatory / Compliance",
+          "taxonomy_base_score": 85,
+          "negative_ratio": 0.18,
+          "positive_ratio": 0.09,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 1,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 2,
+          "keyword_modifier": 1.3
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 93.3,
+        "weight": 0.2,
+        "contribution": 18.7,
+        "detail": {
+          "post_count": 11,
+          "percentile": 93.3
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 93.3,
+        "weight": 0.2,
+        "contribution": 18.7,
+        "detail": {
+          "total_weighted_engagement": 3818.6,
+          "avg_per_post": 347.1,
+          "total_shares": 440,
+          "total_comments": 78,
+          "total_likes": 528,
+          "total_views": 18146,
+          "percentile": 93.3
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 80.0,
+        "weight": 0.15,
+        "contribution": 12.0,
+        "detail": {
+          "max_followers": 201126,
+          "median_followers": 1095,
+          "unique_authors": 11,
+          "raw_score": 68.6,
+          "percentile": 80.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 3.7,
+        "weight": 0.15,
+        "contribution": 0.6,
+        "detail": {
+          "posts_per_day": 0.46,
+          "span_days": 24.0,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1986198001581236435",
+        "text": "🚨BREAKING: Texas Rep. Jasmine Crockett faces ethics complaint for failing to disclose 25+ stock holdings—including ExxonMobil, Johnson & Johnson, and cannabis firms—on her 2022 federal report, despite listing them in Texas filings. Watchdog group FACT alleges violations of disclosure laws, citing po",
+        "url": "https://x.com/i/web/status/1986198001581236435",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 258,
+        "comments": 35,
+        "followers": 201126,
+        "handle": "pr0ud_americans"
+      },
+      {
+        "post_id": "1497099998422835",
+        "text": "Thank you for helping us spread our wings at the 32nd Annual Dinner with Bill & Friends at The Arc Jacksonville Village! 🦋 We are thrilled to share that because of our supporters, we have surpassed our goal and raised more than $352,000 to support individuals with intellectual and developmental diff",
+        "url": "https://www.facebook.com/1497099998422835",
+        "platform": "facebook",
+        "likes": 149,
+        "shares": 134,
+        "comments": 9,
+        "followers": 5260,
+        "handle": "TheArcJacksonville"
+      },
+      {
+        "post_id": "2715617718817047",
+        "text": "When Josephine Dickson's kitchen accidents became a regular occurrence in 1920, her husband Earle created a solution that would change first aid forever. Earle was a cotton buyer for Johnson & Johnson in New Jersey. He noticed his wife was always cutting or burning her fingers while cooking. Back th",
+        "url": "https://www.facebook.com/2715617718817047",
+        "platform": "facebook",
+        "likes": 372,
+        "shares": 41,
+        "comments": 3,
+        "followers": 197899,
+        "handle": "ancientmedia.page"
+      },
+      {
+        "post_id": "1990544485923893614",
+        "text": "@NicHulscher Recall that both AstraZeneca and Johnson & Johnson (Janssen) pulled their DNA-based (\"adenoviral vector\") Covid shots off the market because of clotting issues.  RNA shots, however, are still on the market even though clotting evidence has been widespread.",
+        "url": "https://x.com/i/web/status/1990544485923893614",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 7,
+        "comments": 0,
+        "followers": 1,
+        "handle": "balsamo_r"
+      },
+      {
+        "post_id": "10240987066843920",
+        "text": "I need to pursue a class suit action against those bastards of Johnson & Johnson. Their Covid-19 vaccines have really compromised my immune system. I'm now prone to suffer every variation or outbreak of flu related virus. Catching a few rain droplets lead to me having a serious cold and lands me on ",
+        "url": "https://www.facebook.com/10240987066843920",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 0,
+        "comments": 29,
+        "followers": 6429,
+        "handle": "tmosikidi"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 8,
+      "negative": 2,
+      "positive": 1
+    }
+  },
+  {
+    "narrative_id": "johnson_johnson_narrative_15",
+    "entity_id": "johnson_johnson",
+    "title": "Miscellaneous Topics",
+    "summary": "Головін Тимур збирає на СЗРУ Головін Тимур збирає на СБУ Головін Тимур збирає на ГУР",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 14,
+    "risk_score": 74.5,
+    "confidence": "high",
+    "confidence_band": [
+      66.5,
+      82.5
+    ],
+    "confidence_raw": 0.7,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 70.7,
+        "weight": 0.3,
+        "contribution": 21.2,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.07,
+          "positive_ratio": 0.29,
+          "sentiment_modifier": -5.0,
+          "high_risk_keywords": 1,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.7
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 100.0,
+        "weight": 0.2,
+        "contribution": 20.0,
+        "detail": {
+          "post_count": 14,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 100.0,
+        "weight": 0.15,
+        "contribution": 15.0,
+        "detail": {
+          "max_followers": 1997956,
+          "median_followers": 2636,
+          "unique_authors": 14,
+          "raw_score": 81.7,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 73.3,
+        "weight": 0.2,
+        "contribution": 14.7,
+        "detail": {
+          "total_weighted_engagement": 405.2,
+          "avg_per_post": 28.9,
+          "total_shares": 30,
+          "total_comments": 25,
+          "total_likes": 63,
+          "total_views": 2022,
+          "percentile": 73.3
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 24.2,
+        "weight": 0.15,
+        "contribution": 3.6,
+        "detail": {
+          "posts_per_day": 0.53,
+          "span_days": 26.6,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1351002950138695",
+        "text": "ℍ𝔼𝕃𝕃𝕆, 𝕁𝕆𝔹 𝕊𝔼𝔼𝕂𝔼ℝ𝕊! 𝐋𝐂𝐆 𝑮𝒓𝒐𝒖𝒑 𝒐𝒇 𝑪𝒐𝒎𝒑𝒂𝒏𝒊𝒆𝒔, a distributor of Kopiko, SC Johnson, Johnson & Johnson, Motolite batteries, Philip Morris, Philips Lighting, Unilab, and other brands, is seeking the following position: 🌟𝙅𝙐𝙉𝙄𝙊𝙍 𝙏𝙀𝙍𝙍𝙄𝙏𝙊𝙍𝙔 𝙍𝙀𝙋𝙍𝙀𝙎𝙀𝙉𝙏𝘼𝙏𝙄𝙑𝙀 🌟𝘽𝙀𝙑𝙀𝙍𝘼𝙂𝙀 𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍 - at least HS Graduates are welco",
+        "url": "https://www.facebook.com/1351002950138695",
+        "platform": "facebook",
+        "likes": 0,
+        "shares": 24,
+        "comments": 0,
+        "followers": 3600,
+        "handle": "zia.cabanero1231"
+      },
+      {
+        "post_id": "1430237155768574",
+        "text": "With support from the United States Government's U.S. Department of State, through the Mandela Washington Fellowship for Young African Leaders Reciprocal Exchange program, we trained a group of farmers on Good Agricultural Practices, Collective Farmer Action, as well as Marketing of their farm produ",
+        "url": "https://www.facebook.com/1430237155768574",
+        "platform": "facebook",
+        "likes": 27,
+        "shares": 0,
+        "comments": 12,
+        "followers": 1878,
+        "handle": "MuchoMangoes"
+      },
+      {
+        "post_id": "1989210265498300848",
+        "text": "$IOVA McKesson Corp clients.\n\n1.  Merck & Co. - $64.17 billion\n2.  Pfizer Inc. - $ 63.63 Billion \n3.  Johnson & Johnson - $57.07 billion in pharmaceutical revenue.\n4.  AbbVie - $56.33 billion in pharmaceutical revenue.\n5.  AstraZeneca - $54.07 billion in pharmaceutical revenue.",
+        "url": "https://x.com/i/web/status/1989210265498300848",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 1,
+        "comments": 0,
+        "followers": 1,
+        "handle": "AlanCastle15"
+      },
+      {
+        "post_id": "122110177701080304",
+        "text": "https://war-sanctions.gur.gov.ua/en https://www.ukrspecexport.com/en/catalog Головін Тимур збирає на: СЗРУ https://pay.a-bank.com.ua/collection/mxNhrK68Uw1vEhQN Головін Тимур збирає на: СБУ https://pay.a-bank.com.ua/collection/W9SdkwazwRLcLk7o Головін Тимур збирає на: ГУР https://pay.a-bank.com.ua/c",
+        "url": "https://www.facebook.com/122110177701080304",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 0,
+        "comments": 0,
+        "followers": 89,
+        "handle": "TymurGolovin1986"
+      },
+      {
+        "post_id": "1277698287735162",
+        "text": "Did you know that lung cancer is the most common cancer worldwide? With more than 2 million people diagnosed each year, non-small cell lung cancer (NSCLC) makes up about 85% of all cases. Read about treatment options, biomarker testing, and coping strategies for NSCLC at www.CancerSupportCommunity.o",
+        "url": "https://www.facebook.com/1277698287735162",
+        "platform": "facebook",
+        "likes": 9,
+        "shares": 0,
+        "comments": 5,
+        "followers": 63499,
+        "handle": "CancerSupportCommunity"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 9,
+      "positive": 4,
+      "negative": 1
+    }
+  },
+  {
+    "narrative_id": "johnson_johnson_narrative_6",
+    "entity_id": "johnson_johnson",
+    "title": "Johnson Sputnik Precios Covid",
+    "summary": "Precios Covid Oxford AstraZeneca 185 Pfizer-BioNTech 165 Moderna 113 Johnson Johnson 101 Sinopharm-Beijing 74 Sinovac 41 Gamaleya Sputnik V 36 Novarax 32 Bharat Biotech Covaxin 30 Can Sino 26 Sputnik Light 6 Abdala 4",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 6,
+    "risk_score": 74.1,
+    "confidence": "medium",
+    "confidence_band": [
+      59.1,
+      89.1
+    ],
+    "confidence_raw": 0.7,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 96.0,
+        "weight": 0.3,
+        "contribution": 28.8,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.33,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 3.3,
+          "high_risk_keywords": 2,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 2.7
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 86.7,
+        "weight": 0.2,
+        "contribution": 17.3,
+        "detail": {
+          "post_count": 6,
+          "percentile": 86.7
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 73.3,
+        "weight": 0.2,
+        "contribution": 14.7,
+        "detail": {
+          "total_weighted_engagement": 152.7,
+          "avg_per_post": 25.4,
+          "total_shares": 5,
+          "total_comments": 8,
+          "total_likes": 70,
+          "total_views": 517,
+          "percentile": 73.3
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 66.7,
+        "weight": 0.15,
+        "contribution": 10.0,
+        "detail": {
+          "max_followers": 51412,
+          "median_followers": 5919,
+          "unique_authors": 6,
+          "raw_score": 61.5,
+          "percentile": 66.7
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 22.3,
+        "weight": 0.15,
+        "contribution": 3.3,
+        "detail": {
+          "posts_per_day": 0.28,
+          "span_days": 21.1,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1463895912230239",
+        "text": "SCO students recently enjoyed a fun evening at Johnson & Johnson's ScEYEnce Fair. Attendees interacted with hands-on demos that featured UV/HEV, TearStable Technology, Astigmatism design, Multifocal POD design, and an ACUVUE® Try-On Bar. Thank you to Josh Meredith, Breslin Gaines, and Dr. Sophia Vis",
+        "url": "https://www.facebook.com/1463895912230239",
+        "platform": "facebook",
+        "likes": 57,
+        "shares": 0,
+        "comments": 3,
+        "followers": 9833,
+        "handle": "southerncollegeofoptometry"
+      },
+      {
+        "post_id": "1993358636131795410",
+        "text": "The opioid crisis in the United States, which has resulted in hundreds of thousands of overdose deaths, has been heavily linked to aggressive marketing and over-prescription of opioids by certain pharmaceutical companies. While numerous corporations (such as Johnson & Johnson, Teva, and Endo) have f",
+        "url": "https://x.com/i/web/status/1993358636131795410",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 3,
+        "followers": 51412,
+        "handle": "Kathleen_Tyson_"
+      },
+      {
+        "post_id": "10231031727804387",
+        "text": "*Precios Covid: Oxford AstraZeneca 185$ Pfizer-BioNTech 165$ Moderna 113$ Johnson & Johnson 101$ Sinopharm-Beijing 74$ Sinovac 41$ Gamaleya Sputnik V 36$ Novarax 32$ Bharat Biotech Covaxin 30$ Can Sino 26$ Sputnik Light 6$ Abdala 4$ * 👆🏻👆🏻",
+        "url": "https://www.facebook.com/10231031727804387",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 5605,
+        "handle": "fenixeyes"
+      },
+      {
+        "post_id": "1431365368999812",
+        "text": "In today’s Expert Contributor, Víctor Matos, Sr. Commercial Director, Johnson & Johnson MedTech Mexico, underscores how physical and emotional reconstruction are crucial for improving mental health and quality of life in breast cancer survivorship. Don't miss 'Breast Cancer Recovery: The Essential R",
+        "url": "https://www.facebook.com/1431365368999812",
+        "platform": "facebook",
+        "likes": 3,
+        "shares": 0,
+        "comments": 0,
+        "followers": 5248,
+        "handle": "MXBusinessNews"
+      },
+      {
+        "post_id": "1991145899385659529",
+        "text": "This is what the largest holdings in the S&P 500 looked like 5 years ago today\n\nApple $AAPL - 6.4% weighting in the index\nMicrosoft $MSFT - 5.4%\nAmazon $AMZN - 4.5%\nGoogle $GOOGL - 3.5%\nMeta Platforms $META - 2.2%\nBerkshire Hathaway $BRK.B - 1.5%\nJohnson & Johnson $JNJ - 1.3%\nJPMorgan $JPM - 1.2%\nVi",
+        "url": "https://x.com/i/web/status/1991145899385659529",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 91,
+        "handle": "MalayaS31"
+      }
+    ],
+    "sentiment_distribution": {
+      "negative": 2,
+      "neutral": 4
+    }
+  },
+  {
+    "narrative_id": "johnson_johnson_narrative_13",
+    "entity_id": "johnson_johnson",
+    "title": "Yield Low Debt Johnson",
+    "summary": "The federal government owes 287,000 for every household in America -- up 40,000 in the last year alone. If you want to shield your portfolio against this problem, Focus on stocks with low debt, steady cash flows, and pricing power. JNJ Johnson Johnso",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 4,
+    "risk_score": 67.7,
+    "confidence": "medium",
+    "confidence_band": [
+      52.7,
+      82.7
+    ],
+    "confidence_raw": 0.55,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 100,
+        "weight": 0.3,
+        "contribution": 30.0,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.5,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 5.0,
+          "high_risk_keywords": 2,
+          "medium_risk_keywords": 3,
+          "low_risk_keywords": 1,
+          "keyword_modifier": 6.5
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 80.0,
+        "weight": 0.2,
+        "contribution": 16.0,
+        "detail": {
+          "post_count": 4,
+          "percentile": 80.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 66.7,
+        "weight": 0.2,
+        "contribution": 13.3,
+        "detail": {
+          "total_weighted_engagement": 142.6,
+          "avg_per_post": 35.6,
+          "total_shares": 23,
+          "total_comments": 10,
+          "total_likes": 33,
+          "total_views": 206,
+          "percentile": 66.7
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 53.3,
+        "weight": 0.15,
+        "contribution": 8.0,
+        "detail": {
+          "max_followers": 7907,
+          "median_followers": 4749,
+          "unique_authors": 4,
+          "raw_score": 52.1,
+          "percentile": 53.3
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 2.5,
+        "weight": 0.15,
+        "contribution": 0.4,
+        "detail": {
+          "posts_per_day": 0.31,
+          "span_days": 13.0,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "10164647545614691",
+        "text": "Ek gebruik dit nou vir die miere 🚨MAJOR BREAKING — JOHNSON & JOHNSON FOUND GUILTY: $966 MILLION VERDICT EXPOSES DECADES OF LIES, TOXIC TALC, AND THE WAR AGAINST HUMAN HEALTH Mae Moore’s death just shattered the illusion. She was 88 when mesothelioma — a rare cancer caused by asbestos — claimed her l",
+        "url": "https://www.facebook.com/10164647545614691",
+        "platform": "facebook",
+        "likes": 30,
+        "shares": 23,
+        "comments": 8,
+        "followers": 4749,
+        "handle": "RiekieEr"
+      },
+      {
+        "post_id": "122112872931038608",
+        "text": "Johnson & Johnson Faces 60,000+ Lawsuits in UK Over Talc-Based Baby Powder Allegedly Linked to Cancer London, UK: In a growing legal battle, pharmaceutical giant Johnson & Johnson is facing an alarming number of lawsuits in the United Kingdom, with 60,000 to 67,000 plaintiffs accusing the company of",
+        "url": "https://www.facebook.com/122112872931038608",
+        "platform": "facebook",
+        "likes": 3,
+        "shares": 0,
+        "comments": 0,
+        "followers": 110,
+        "handle": ""
+      },
+      {
+        "post_id": "1985779021674594708",
+        "text": "@PaulleyTicks Call your lawyer — maybe Johnson & Johnson will. You’re a disgrace.",
+        "url": "https://x.com/i/web/status/1985779021674594708",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 2,
+        "followers": 29,
+        "handle": "DDebax2"
+      },
+      {
+        "post_id": "1986844596840644656",
+        "text": "The federal government owes $287,000 for every household in America -- up $40,000 in the last year alone.\n\nIf you want to shield your portfolio against this problem,\nFocus on stocks with low debt, steady cash flows, and pricing power.\n\n$JNJ Johnson & Johnson (3.1% yield) – Healthcare staple, 62+ yrs",
+        "url": "https://x.com/i/web/status/1986844596840644656",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 7907,
+        "handle": "dividenddotcom"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2,
+      "negative": 2
+    }
+  },
+  {
+    "narrative_id": "johnson_johnson_narrative_5",
+    "entity_id": "johnson_johnson",
+    "title": "Johnson Wanna Heavy Moment",
+    "summary": "We wanna take this heavy moment to wish our growing behemoth of a drummer, Rivers Johnson , a Happy Birthday! We re honored to share the stage and be writing new material with this powerhouse. Johnson Johnson approved. Midnight Society Images",
+    "taxonomy_label": "Regulatory / Compliance",
+    "post_count": 4,
+    "risk_score": 62.7,
+    "confidence": "medium",
+    "confidence_band": [
+      47.7,
+      77.7
+    ],
+    "confidence_raw": 0.6,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 88.5,
+        "weight": 0.3,
+        "contribution": 26.6,
+        "detail": {
+          "taxonomy_label": "Regulatory / Compliance",
+          "taxonomy_base_score": 85,
+          "negative_ratio": 0.5,
+          "positive_ratio": 0.25,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 2,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 1,
+          "keyword_modifier": 3.5
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 80.0,
+        "weight": 0.2,
+        "contribution": 16.0,
+        "detail": {
+          "post_count": 4,
+          "percentile": 80.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 53.3,
+        "weight": 0.2,
+        "contribution": 10.7,
+        "detail": {
+          "total_weighted_engagement": 120.9,
+          "avg_per_post": 30.2,
+          "total_shares": 0,
+          "total_comments": 21,
+          "total_likes": 31,
+          "total_views": 479,
+          "percentile": 53.3
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 40.0,
+        "weight": 0.15,
+        "contribution": 6.0,
+        "detail": {
+          "max_followers": 4655,
+          "median_followers": 1315,
+          "unique_authors": 4,
+          "raw_score": 47.9,
+          "percentile": 40.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 23.0,
+        "weight": 0.15,
+        "contribution": 3.5,
+        "detail": {
+          "posts_per_day": 0.38,
+          "span_days": 10.6,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1422677739862915",
+        "text": "We wanna take this heavy moment to wish our growing behemoth of a drummer, Rivers Johnson , a Happy Birthday! We’re honored to share the stage and be writing new material with this powerhouse. Johnson & Johnson approved. 📷 Midnight Society Images #1134officialband #dethday #hardr #1134rivers #happyb",
+        "url": "https://www.facebook.com/1422677739862915",
+        "platform": "facebook",
+        "likes": 26,
+        "shares": 0,
+        "comments": 18,
+        "followers": 1315,
+        "handle": "1134Metal"
+      },
+      {
+        "post_id": "122139541376941033",
+        "text": "🍻 Midday plans? We’ve got you! Enjoy our BUY 1 GET 1 FREE offer on your favourite brews, every Monday to Friday, between 12 PM – 5 PM! 😍✨ Gather your gang, sip, chill & repeat — only at Kushal Pub Brewery & Kitchen! 🍺🔥 📍 Bangalore–Mangalore Highway (NH-75), near Johnson & Johnson Factory 📞 Call: 782",
+        "url": "https://www.facebook.com/122139541376941033",
+        "platform": "facebook",
+        "likes": 5,
+        "shares": 0,
+        "comments": 0,
+        "followers": 4,
+        "handle": ""
+      },
+      {
+        "post_id": "1985365237546066206",
+        "text": "Kleenex maker’s deal for troubled Johnson & Johnson spinoff comes amid lawsuits and regulatory scrutiny\n\n                   - From The Guardian\nhttps://t.co/WRW2XYtltI",
+        "url": "https://x.com/i/web/status/1985365237546066206",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 54,
+        "handle": "NewsGuardianUS"
+      },
+      {
+        "post_id": "1988075068564627712",
+        "text": "@TIME How much money has Johnson & Johnson spent in advertising on Time?",
+        "url": "https://x.com/i/web/status/1988075068564627712",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 3,
+        "followers": 4655,
+        "handle": "paynej247"
+      }
+    ],
+    "sentiment_distribution": {
+      "positive": 1,
+      "negative": 2,
+      "neutral": 1
+    }
+  },
+  {
+    "narrative_id": "johnson_johnson_narrative_7",
+    "entity_id": "johnson_johnson",
+    "title": "Communications Public Urgently Affairs",
+    "summary": "Urgently Hiring Communications Public Affairs Interns 2 Positions Location Midrand or surrounding areas Work Schedule Monday to Friday on-site About the Role We are urgently looking for two motivated and detail-oriented Communications Public Affairs ",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 2,
+    "risk_score": 48.8,
+    "confidence": "low",
+    "confidence_band": [
+      23.8,
+      73.8
+    ],
+    "confidence_raw": 0.41,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 75.0,
+        "weight": 0.3,
+        "contribution": 22.5,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 40.0,
+        "weight": 0.2,
+        "contribution": 8.0,
+        "detail": {
+          "post_count": 2,
+          "percentile": 40.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 40.0,
+        "weight": 0.2,
+        "contribution": 8.0,
+        "detail": {
+          "total_weighted_engagement": 29.0,
+          "avg_per_post": 14.5,
+          "total_shares": 6,
+          "total_comments": 3,
+          "total_likes": 5,
+          "total_views": 0,
+          "percentile": 40.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 48.6,
+        "weight": 0.15,
+        "contribution": 7.3,
+        "detail": {
+          "posts_per_day": 6.08,
+          "span_days": 0.3,
+          "accelerating": true
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 20,
+        "weight": 0.15,
+        "contribution": 3.0,
+        "detail": {
+          "reason": "no follower data available",
+          "unique_authors": 2
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "4187494814795463",
+        "text": "Urgently Hiring: Communications & Public Affairs Interns (2 Positions) 📍 Location: Midrand (or surrounding areas) 🕐 Work Schedule: Monday to Friday (on-site) About the Role We are urgently looking for two motivated and detail-oriented Communications & Public Affairs Interns to join our team. This op",
+        "url": "https://www.facebook.com/4187494814795463",
+        "platform": "facebook",
+        "likes": 5,
+        "shares": 6,
+        "comments": 0,
+        "followers": 0,
+        "handle": "julian.watson.7771"
+      },
+      {
+        "post_id": "864943992688474",
+        "text": "Communications & Public Affairs Interns (2 Positions) 📍 Location: Midrand (or surrounding areas) 🕐 Work Schedule: Monday to Friday (on-site) About the Role We are urgently looking for two motivated and detail-oriented Communications & Public Affairs Interns to join our team. This opportunity is idea",
+        "url": "https://www.facebook.com/864943992688474",
+        "platform": "facebook",
+        "likes": 0,
+        "shares": 0,
+        "comments": 3,
+        "followers": 0,
+        "handle": "vincent.mdluli.2025"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "johnson_johnson_narrative_8",
+    "entity_id": "johnson_johnson",
+    "title": "Bird Park Four Johnson",
+    "summary": "The Brihanmumbai Municipal Corporation BMC has floated a tender worth INR 166 crore for the upcoming Mulund Bird Park, with four companies submitting bids and construction expected to start by December this year. Spread over 17 acres near the Johnson",
+    "taxonomy_label": "Regulatory / Compliance",
+    "post_count": 2,
+    "risk_score": 45.6,
+    "confidence": "medium",
+    "confidence_band": [
+      30.6,
+      60.6
+    ],
+    "confidence_raw": 0.59,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 86.0,
+        "weight": 0.3,
+        "contribution": 25.8,
+        "detail": {
+          "taxonomy_label": "Regulatory / Compliance",
+          "taxonomy_base_score": 85,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 1,
+          "keyword_modifier": 1.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 40.0,
+        "weight": 0.2,
+        "contribution": 8.0,
+        "detail": {
+          "post_count": 2,
+          "percentile": 40.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 33.3,
+        "weight": 0.2,
+        "contribution": 6.7,
+        "detail": {
+          "total_weighted_engagement": 19.8,
+          "avg_per_post": 9.9,
+          "total_shares": 0,
+          "total_comments": 3,
+          "total_likes": 3,
+          "total_views": 108,
+          "percentile": 33.3
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 33.3,
+        "weight": 0.15,
+        "contribution": 5.0,
+        "detail": {
+          "max_followers": 1746,
+          "median_followers": 1746,
+          "unique_authors": 2,
+          "raw_score": 42.8,
+          "percentile": 33.3
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.1,
+        "weight": 0.15,
+        "contribution": 0.2,
+        "detail": {
+          "posts_per_day": 0.14,
+          "span_days": 13.9,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1990087471300784193",
+        "text": "The Brihanmumbai Municipal Corporation (BMC) has floated a tender worth INR 166 crore for the upcoming Mulund Bird Park, with four companies submitting bids and construction expected to start by December this year. Spread over 17 acres near the Johnson & Johnson factory in Nahur, the park will house",
+        "url": "https://x.com/i/web/status/1990087471300784193",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 3,
+        "followers": 101,
+        "handle": "propnewstime"
+      },
+      {
+        "post_id": "10163959337652905",
+        "text": "🏙️ New Brunswick Rental Alert! Sleek, modern 2-bed, 1-bath condo just hit the market for $2700/month! ✨ This is the ultimate location for students, professionals, and NYC commuters! ⬇️ 🚶‍♀️ Walk to Work/School: Minutes from Rutgers University, Johnson & Johnson, and the RWJ/St. Peter's Hospital comp",
+        "url": "https://www.facebook.com/10163959337652905",
+        "platform": "facebook",
+        "likes": 3,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1746,
+        "handle": "carlson.john.780"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "johnson_johnson_narrative_1",
+    "entity_id": "johnson_johnson",
+    "title": "Cairo Devfest Johnson Germany",
+    "summary": "From Germany to Cairo a world-class AI innovator is joining DevFest Cairo 2025! We re excited to welcome Ahmed Elnaggar, Staff Research Scientist at Johnson Johnson and Google Developer Expert in AI Cloud, to DevFest Cairo!",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 2,
+    "risk_score": 44.6,
+    "confidence": "medium",
+    "confidence_band": [
+      29.6,
+      59.6
+    ],
+    "confidence_raw": 0.54,
+    "drivers": [
+      {
+        "name": "Engagement",
+        "score": 86.7,
+        "weight": 0.2,
+        "contribution": 17.3,
+        "detail": {
+          "total_weighted_engagement": 779.5,
+          "avg_per_post": 389.8,
+          "total_shares": 5,
+          "total_comments": 4,
+          "total_likes": 0,
+          "total_views": 7565,
+          "percentile": 86.7
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 86.7,
+        "weight": 0.15,
+        "contribution": 13.0,
+        "detail": {
+          "max_followers": 428723,
+          "median_followers": 428723,
+          "unique_authors": 2,
+          "raw_score": 70.3,
+          "percentile": 86.7
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 40.0,
+        "weight": 0.2,
+        "contribution": 8.0,
+        "detail": {
+          "post_count": 2,
+          "percentile": 40.0
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 20.0,
+        "weight": 0.3,
+        "contribution": 6.0,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.5,
+        "weight": 0.15,
+        "contribution": 0.2,
+        "detail": {
+          "posts_per_day": 0.18,
+          "span_days": 10.9,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1990451530634322122",
+        "text": "Johnson & Johnson Inks A $3.05 Billion Deal In Cancer Treatment https://t.co/qFmLfmIHdQ",
+        "url": "https://x.com/i/web/status/1990451530634322122",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 2,
+        "comments": 2,
+        "followers": 428723,
+        "handle": "IBDinvestors"
+      },
+      {
+        "post_id": "1994398923931390065",
+        "text": "From Germany 🇩🇪 to Cairo — a world-class AI innovator is joining DevFest Cairo 2025! 🤩\n\nWe’re excited to welcome 👨‍💻Ahmed Elnaggar, Staff Research Scientist at Johnson & Johnson and Google Developer Expert in AI & Cloud, to DevFest Cairo! 🔥 https://t.co/Kk90K8I0FX",
+        "url": "https://x.com/i/web/status/1994398923931390065",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 3,
+        "comments": 2,
+        "followers": 2973,
+        "handle": "GDGCairo"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "johnson_johnson_narrative_12",
+    "entity_id": "johnson_johnson",
+    "title": "Johnson Icymi Submitted Supplemental",
+    "summary": "ICYMI Johnson Johnson has submitted a supplemental Biologics License Application to the FDA for ustekinumab Stelara , seeking an expanded indication to include children 2 years and older with moderately-to-severely active ulcerative colitis. DETAILS",
+    "taxonomy_label": "Regulatory / Compliance",
+    "post_count": 2,
+    "risk_score": 37.6,
+    "confidence": "medium",
+    "confidence_band": [
+      22.6,
+      52.6
+    ],
+    "confidence_raw": 0.6,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 75.0,
+        "weight": 0.3,
+        "contribution": 22.5,
+        "detail": {
+          "taxonomy_label": "Regulatory / Compliance",
+          "taxonomy_base_score": 85,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.5,
+          "sentiment_modifier": -10.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 40.0,
+        "weight": 0.2,
+        "contribution": 8.0,
+        "detail": {
+          "post_count": 2,
+          "percentile": 40.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 20.0,
+        "weight": 0.2,
+        "contribution": 4.0,
+        "detail": {
+          "total_weighted_engagement": 11.2,
+          "avg_per_post": 5.6,
+          "total_shares": 0,
+          "total_comments": 0,
+          "total_likes": 0,
+          "total_views": 112,
+          "percentile": 20.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 20.0,
+        "weight": 0.15,
+        "contribution": 3.0,
+        "detail": {
+          "max_followers": 250,
+          "median_followers": 250,
+          "unique_authors": 2,
+          "raw_score": 32.1,
+          "percentile": 20.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 0.7,
+        "weight": 0.15,
+        "contribution": 0.1,
+        "detail": {
+          "posts_per_day": 0.09,
+          "span_days": 23.3,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1993806858717679928",
+        "text": "Wall Street’s safe-haven play: some investors rotate into health-care giants — Amid market uncertainty, firms like Johnson & Johnson are seeing heightened investor interest as “defensive growth” plays. 🛡️ #HealthcareStocks #DefensiveInvesting #J&J #StockMarket #Stock",
+        "url": "https://x.com/i/web/status/1993806858717679928",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 221,
+        "handle": "ZenWealthSoul"
+      },
+      {
+        "post_id": "1985371437973045453",
+        "text": "ICYMI:\n\nJohnson & Johnson has submitted a supplemental Biologics License Application to the FDA for ustekinumab (Stelara), seeking an expanded indication to include children 2 years and older with moderately-to-severely active ulcerative colitis.\n\nDETAILS: https://t.co/yTfwBVW1TC",
+        "url": "https://x.com/i/web/status/1985371437973045453",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 250,
+        "handle": "ContempPEDS"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 1,
+      "positive": 1
+    }
+  },
+  {
+    "narrative_id": "johnson_johnson_narrative_10",
+    "entity_id": "johnson_johnson",
+    "title": "Johnson Outdoor Work Retired",
+    "summary": "I'm from PA retired biochemist from Johnson Johnson. Not much outdoor work you guys are lucky! , but the pay made it worthwhile... God bless you and your families, and help keep us on the path of healthy outdoor work!!",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 3,
+    "risk_score": 34.4,
+    "confidence": "medium",
+    "confidence_band": [
+      19.4,
+      49.4
+    ],
+    "confidence_raw": 0.5,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 66.7,
+        "weight": 0.2,
+        "contribution": 13.3,
+        "detail": {
+          "post_count": 3,
+          "percentile": 66.7
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 53.3,
+        "weight": 0.2,
+        "contribution": 10.7,
+        "detail": {
+          "total_weighted_engagement": 125.9,
+          "avg_per_post": 42.0,
+          "total_shares": 2,
+          "total_comments": 8,
+          "total_likes": 62,
+          "total_views": 419,
+          "percentile": 53.3
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 20.0,
+        "weight": 0.3,
+        "contribution": 6.0,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 26.7,
+        "weight": 0.15,
+        "contribution": 4.0,
+        "detail": {
+          "max_followers": 553,
+          "median_followers": 553,
+          "unique_authors": 3,
+          "raw_score": 37.5,
+          "percentile": 26.7
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 2.8,
+        "weight": 0.15,
+        "contribution": 0.4,
+        "detail": {
+          "posts_per_day": 0.35,
+          "span_days": 8.5,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "10241174453881790",
+        "text": "🫁🇳🇱🫁🇳🇱🫁🇳🇱🫁🇳🇱🫁 Last week, Zuyderland and Johnson & Johnson hosted the first in-hospital training on Minimally Invasive Lung Surgery for Dutch senior residents (differentianten) in general thoracic and cardiothoracic surgery. Over the course of two days, we explored a wide range of topics, including s",
+        "url": "https://www.facebook.com/10241174453881790",
+        "platform": "facebook",
+        "likes": 62,
+        "shares": 2,
+        "comments": 6,
+        "followers": 0,
+        "handle": "erik.deloos"
+      },
+      {
+        "post_id": "1988383870954467600",
+        "text": "Progress in the Senate toward reopening the government lifted sentiment in economically sensitive sectors while health care leaders such as Merck (4.8%), Amgen (4.6%) and Johnson & Johnson (2.9%) led the Dow higher.",
+        "url": "https://x.com/i/web/status/1988383870954467600",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 2,
+        "followers": 77,
+        "handle": "almkumar6"
+      },
+      {
+        "post_id": "1988305874130268271",
+        "text": "@native_am_pride I'm from PA; retired biochemist from Johnson & Johnson. Not much outdoor work (you guys are lucky!), but the pay made it worthwhile...\n\nGod bless you and your families, and help keep us on the path of healthy outdoor work!!",
+        "url": "https://x.com/i/web/status/1988305874130268271",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 553,
+        "handle": "MBond58456323"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 3
+    }
+  },
+  {
+    "narrative_id": "johnson_johnson_narrative_4",
+    "entity_id": "johnson_johnson",
+    "title": "Children Brilliant Lillian Phd",
+    "summary": "She had 12 children and a PhD when widowhood threatened to end her career, she revolutionized how America worked, one brilliant insight at a time. Most people see problems. Lillian Moller Gilbreth saw systems waiting to be perfected. Born in 1878 in ",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 2,
+    "risk_score": 32.8,
+    "confidence": "medium",
+    "confidence_band": [
+      17.8,
+      47.8
+    ],
+    "confidence_raw": 0.63,
+    "drivers": [
+      {
+        "name": "Engagement",
+        "score": 46.7,
+        "weight": 0.2,
+        "contribution": 9.3,
+        "detail": {
+          "total_weighted_engagement": 116.0,
+          "avg_per_post": 58.0,
+          "total_shares": 14,
+          "total_comments": 3,
+          "total_likes": 68,
+          "total_views": 0,
+          "percentile": 46.7
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 60.0,
+        "weight": 0.15,
+        "contribution": 9.0,
+        "detail": {
+          "max_followers": 42897,
+          "median_followers": 42897,
+          "unique_authors": 2,
+          "raw_score": 60.2,
+          "percentile": 60.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 40.0,
+        "weight": 0.2,
+        "contribution": 8.0,
+        "detail": {
+          "post_count": 2,
+          "percentile": 40.0
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 21.0,
+        "weight": 0.3,
+        "contribution": 6.3,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 1,
+          "keyword_modifier": 1.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.2,
+        "weight": 0.15,
+        "contribution": 0.2,
+        "detail": {
+          "posts_per_day": 0.15,
+          "span_days": 12.9,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "727295390418497",
+        "text": "She had 12 children and a PhD—when widowhood threatened to end her career, she revolutionized how America worked, one brilliant insight at a time. Most people see problems. Lillian Moller Gilbreth saw systems waiting to be perfected. Born in 1878 in Oakland, California, Lillian was the eldest of nin",
+        "url": "https://www.facebook.com/727295390418497",
+        "platform": "facebook",
+        "likes": 66,
+        "shares": 14,
+        "comments": 3,
+        "followers": 42897,
+        "handle": ""
+      },
+      {
+        "post_id": "4309779709246982",
+        "text": "TOP RICHEST COMPANIES (NAME & MONEY TOTALS: 1 - APPLE - 3.45 TRILLION 2 - MICROSOFT - 2.86 TRILLION 3 - NVIDIA - 2.70 TRILLION 4 - AMAZON - 2.07 TRILLION 5 - GOOGLE - 2.05 TRILLION 6 - META - 1.53 TRILLION 7 - BERKSHIRE - 1.06 TRILLION 8 - BROADCOM - 880 BILLION 9 - TELSA - 789 BILLION 10 - ELI LILL",
+        "url": "https://www.facebook.com/4309779709246982",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 0,
+        "comments": 0,
+        "followers": 774,
+        "handle": "ukarydee.harris"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "johnson_johnson_narrative_14",
+    "entity_id": "johnson_johnson",
+    "title": "Johnson Research Correct Drug",
+    "summary": "and if my research is correct the drug industry as a whole has made a trillion dollars from the government just from that one shot Johnson Johnson Merc Pfizer all of the motherfuckers",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 3,
+    "risk_score": 31.9,
+    "confidence": "medium",
+    "confidence_band": [
+      16.9,
+      46.9
+    ],
+    "confidence_raw": 0.62,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 66.7,
+        "weight": 0.2,
+        "contribution": 13.3,
+        "detail": {
+          "post_count": 3,
+          "percentile": 66.7
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 46.7,
+        "weight": 0.15,
+        "contribution": 7.0,
+        "detail": {
+          "max_followers": 21303,
+          "median_followers": 156,
+          "unique_authors": 3,
+          "raw_score": 48.9,
+          "percentile": 46.7
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 20.0,
+        "weight": 0.3,
+        "contribution": 6.0,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 26.7,
+        "weight": 0.2,
+        "contribution": 5.3,
+        "detail": {
+          "total_weighted_engagement": 12.5,
+          "avg_per_post": 4.2,
+          "total_shares": 2,
+          "total_comments": 0,
+          "total_likes": 3,
+          "total_views": 35,
+          "percentile": 26.7
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.2,
+        "weight": 0.15,
+        "contribution": 0.2,
+        "detail": {
+          "posts_per_day": 0.15,
+          "span_days": 19.4,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1155102763435155",
+        "text": "ARE YOU MATCHING? DOUBLE YOUR IMPACT WITH A MATCHING DONATION- save more lives! Check with your company. Many companies match up to 3 times the amount and some companies donate cash for every hour their employee volunteers! Some matching companies: Microsoft, Google, Target, GE, ExxonMobil, BP gas, ",
+        "url": "https://www.facebook.com/1155102763435155",
+        "platform": "facebook",
+        "likes": 3,
+        "shares": 2,
+        "comments": 0,
+        "followers": 21303,
+        "handle": "JellysplaceCA"
+      },
+      {
+        "post_id": "1985018177441427821",
+        "text": "@saltedstars My money's on corporate feudal theocracies. Looking forward to interviewing with Johnson & Johnson for the position of War Chaplain.",
+        "url": "https://x.com/i/web/status/1985018177441427821",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 122,
+        "handle": "MinorMatryoshka"
+      },
+      {
+        "post_id": "1992037896019157098",
+        "text": "and if my research is correct the drug industry as a whole has made a trillion dollars from the government just from that one shot Johnson & Johnson Merc Pfizer all of the motherfuckers",
+        "url": "https://x.com/i/web/status/1992037896019157098",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 156,
+        "handle": "MZorin33042"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 3
+    }
+  },
+  {
+    "narrative_id": "johnson_johnson_narrative_2",
+    "entity_id": "johnson_johnson",
+    "title": "Nice Tremfya Johnson Recommends",
+    "summary": "NICE recommends Tremfya for moderately to severely active Crohn s disease and ulcerative colitis - Johnson Johnson has announced that the National Institute for Health and Care Excellence NICE has recommended Tremfya guselkumab in the final...",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 3,
+    "risk_score": 29.2,
+    "confidence": "medium",
+    "confidence_band": [
+      14.2,
+      44.2
+    ],
+    "confidence_raw": 0.56,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 66.7,
+        "weight": 0.2,
+        "contribution": 13.3,
+        "detail": {
+          "post_count": 3,
+          "percentile": 66.7
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 73.3,
+        "weight": 0.15,
+        "contribution": 11.0,
+        "detail": {
+          "max_followers": 7514455,
+          "median_followers": 10,
+          "unique_authors": 3,
+          "raw_score": 65.9,
+          "percentile": 73.3
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 13.3,
+        "weight": 0.2,
+        "contribution": 2.7,
+        "detail": {
+          "total_weighted_engagement": 8.5,
+          "avg_per_post": 2.8,
+          "total_shares": 0,
+          "total_comments": 0,
+          "total_likes": 0,
+          "total_views": 85,
+          "percentile": 13.3
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 6.7,
+        "weight": 0.3,
+        "contribution": 2.0,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.67,
+          "sentiment_modifier": -13.3,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.3,
+        "weight": 0.15,
+        "contribution": 0.2,
+        "detail": {
+          "posts_per_day": 0.16,
+          "span_days": 18.9,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1986874396011860310",
+        "text": "Tylenol is produced by Kenvue, a 2023 spin-off from Johnson & Johnson, whose headquarters remain in New Brunswick, New Jersey. Public records from OpenSecrets and FEC show no significant direct donations from J&J or its PAC to Phil Murphy's campaigns or the NJ Democratic Party; contributions are typ",
+        "url": "https://x.com/i/web/status/1986874396011860310",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 7514455,
+        "handle": "grok"
+      },
+      {
+        "post_id": "1988259703512871073",
+        "text": "6 Ways AI Is Transforming Medicine: Inside Johnson & Johnson’s Health Tech Innovations https://t.co/kkvEYabu1M",
+        "url": "https://x.com/i/web/status/1988259703512871073",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 10,
+        "handle": "UroNurse1"
+      },
+      {
+        "post_id": "1993716372661015036",
+        "text": "NICE recommends Tremfya for moderately to severely active Crohn’s disease and ulcerative colitis -  https://t.co/IH8v6Ajt3f \n\nJohnson & Johnson has announced that the National Institute for Health and Care Excellence (NICE) has recommended Tremfya® (guselkumab) in the final... https://t.co/X4YCOmwah",
+        "url": "https://x.com/i/web/status/1993716372661015036",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 3,
+        "handle": "pharma_press"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 1,
+      "positive": 2
+    }
+  },
+  {
+    "narrative_id": "johnson_johnson_narrative_11",
+    "entity_id": "johnson_johnson",
+    "title": "Trump Www Donaldjtrump Effect",
+    "summary": "www.DonaldJTrump.Today The Trump effect Since President Donald J. Trump returned to office, his America First economic policies have sparked trillions of dollars in new investment in U.S. m",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 2,
+    "risk_score": 25.4,
+    "confidence": "medium",
+    "confidence_band": [
+      10.4,
+      40.4
+    ],
+    "confidence_raw": 0.65,
+    "drivers": [
+      {
+        "name": "Velocity",
+        "score": 53.8,
+        "weight": 0.15,
+        "contribution": 8.1,
+        "detail": {
+          "posts_per_day": 6.73,
+          "span_days": 0.3,
+          "accelerating": true
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 40.0,
+        "weight": 0.2,
+        "contribution": 8.0,
+        "detail": {
+          "post_count": 2,
+          "percentile": 40.0
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 20.0,
+        "weight": 0.3,
+        "contribution": 6.0,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 13.3,
+        "weight": 0.15,
+        "contribution": 2.0,
+        "detail": {
+          "max_followers": 89,
+          "median_followers": 89,
+          "unique_authors": 1,
+          "raw_score": 25.5,
+          "percentile": 13.3
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 6.7,
+        "weight": 0.2,
+        "contribution": 1.3,
+        "detail": {
+          "total_weighted_engagement": 4.0,
+          "avg_per_post": 2.0,
+          "total_shares": 0,
+          "total_comments": 0,
+          "total_likes": 4,
+          "total_views": 0,
+          "percentile": 6.7
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "122109857961080304",
+        "text": "https://www.ukrspecexport.com/en/catalog https://ofac.treasury.gov/sanctions-programs-and-country-information https://sanctionslist.ofac.treas.gov/Home/SdnList https://www.ukrspecexport.com/en/catalog www.DonaldJTrump.Today #PresidentDonaldJTrump #PresidentDonaldTrump #DonaldJTrump #DonaldTrump #The",
+        "url": "https://www.facebook.com/122109857961080304",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 0,
+        "comments": 0,
+        "followers": 89,
+        "handle": "TymurGolovin1986"
+      },
+      {
+        "post_id": "122109963159080304",
+        "text": "https://www.ukrspecexport.com/en/catalog https://ofac.treasury.gov/sanctions-programs-and-country-information https://sanctionslist.ofac.treas.gov/Home/SdnList https://www.ukrspecexport.com/en/catalog www.DonaldJTrump.Today #PresidentDonaldJTrump #PresidentDonaldTrump #DonaldJTrump #DonaldTrump #The",
+        "url": "https://www.facebook.com/122109963159080304",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 0,
+        "comments": 0,
+        "followers": 89,
+        "handle": "TymurGolovin1986"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  }
+]

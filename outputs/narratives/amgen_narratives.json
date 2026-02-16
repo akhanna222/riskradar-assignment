@@ -1,0 +1,91 @@
+[
+  {
+    "narrative_id": "amgen_narrative_2",
+    "entity_id": "amgen",
+    "title": "Miscellaneous Topics",
+    "summary": "As the respiratory system s gateway, the epithelium is the first contact point for viruses, pollutants and allergens. Increasingly seen as an immune organ, it plays a key role in nasal polyps inflammation. Learn more.",
+    "taxonomy_label": "General / Unclassified",
+    "sentiment_distribution": {
+      "neutral": 10,
+      "negative": 3,
+      "positive": 1
+    },
+    "post_count": 14,
+    "post_ids": [
+      "1988282060084310171",
+      "122110177701080304",
+      "1985440196637442054",
+      "1290716073102805",
+      "1987219210812973129",
+      "10163305937529788",
+      "1251883113650044",
+      "1352760916258209",
+      "1989066993475953112",
+      "1233688742119863",
+      "1988383870954467600",
+      "1990481953645343215",
+      "1987219139719500150",
+      "1234173545408611"
+    ],
+    "topic_labels": [
+      "miscellaneous topics"
+    ],
+    "sample_posts": [
+      {
+        "post_id": "1988282060084310171",
+        "text": "As the respiratory system’s gateway, the epithelium is the first contact point for viruses, pollutants and allergens. Increasingly seen as an immune organ, it plays a key role in nasal polyps’ inflammation. Learn more. @Amgen  @AstraZeneca #CRSwNP https://t.co/AzXIXXtOSw https://t.co/XKSfPmR5DE",
+        "url": ""
+      },
+      {
+        "post_id": "122110177701080304",
+        "text": "https://war-sanctions.gur.gov.ua/en https://www.ukrspecexport.com/en/catalog Головін Тимур збирає на: СЗРУ https://pay.a-bank.com.ua/collection/mxNhrK68Uw1vEhQN Головін Тимур збирає на: СБУ https://pay.a-bank.com.ua/collection/W9SdkwazwRLcLk7o Головін Тимур збирає на: ГУР https://pay.a-bank.com.ua/c",
+        "url": ""
+      },
+      {
+        "post_id": "1985440196637442054",
+        "text": "In the US on Tuesday, JOLTS job openings, international trade and factory orders data are all scheduled subject to the US government shutdown. Amgen, Pfizer, Spotify, Uber, AMD, Pinterest and Super Micro Computer all release earnings results. #ausecon",
+        "url": ""
+      },
+      {
+        "post_id": "1290716073102805",
+        "text": "Debbie’s Dream Foundation kicked off Gastric Cancer Awareness Month with our Gastric Cancer Educational Symposium held at Weill Cornell Medicine on November 1, 2025! A heartfelt thank-you to Dr. Rutika Mehta and her incredible team at Weill Cornell Medicine, our wonderful speakers, dedicated DDF sta",
+        "url": ""
+      },
+      {
+        "post_id": "1987219210812973129",
+        "text": "@Amgen @AHAScience @Merck 6/ 🧭 What’s next:\n📬 Regulatory submissions underway\n🫀 CV outcomes trial ongoing\n🌍 Broad potential impact on lipid care & access\n#AHA25",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "narrative_id": "amgen_narrative_1",
+    "entity_id": "amgen",
+    "title": "Trump Www Donaldjtrump Effect",
+    "summary": "www.DonaldJTrump.Today The Trump effect Since President Donald J. Trump returned to office, his America First economic policies have sparked trillions of dollars in new investment in U.S. m",
+    "taxonomy_label": "General / Unclassified",
+    "sentiment_distribution": {
+      "neutral": 2
+    },
+    "post_count": 2,
+    "post_ids": [
+      "122109857961080304",
+      "122109963159080304"
+    ],
+    "topic_labels": [
+      "trump www donaldjtrump effect"
+    ],
+    "sample_posts": [
+      {
+        "post_id": "122109857961080304",
+        "text": "https://www.ukrspecexport.com/en/catalog https://ofac.treasury.gov/sanctions-programs-and-country-information https://sanctionslist.ofac.treas.gov/Home/SdnList https://www.ukrspecexport.com/en/catalog www.DonaldJTrump.Today #PresidentDonaldJTrump #PresidentDonaldTrump #DonaldJTrump #DonaldTrump #The",
+        "url": ""
+      },
+      {
+        "post_id": "122109963159080304",
+        "text": "https://www.ukrspecexport.com/en/catalog https://ofac.treasury.gov/sanctions-programs-and-country-information https://sanctionslist.ofac.treas.gov/Home/SdnList https://www.ukrspecexport.com/en/catalog www.DonaldJTrump.Today #PresidentDonaldJTrump #PresidentDonaldTrump #DonaldJTrump #DonaldTrump #The",
+        "url": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,257 @@
+[
+  {
+    "narrative_id": "xarelto_narrative_2",
+    "entity_id": "xarelto",
+    "title": "Miscellaneous Topics",
+    "summary": "Xarelto vs Eliquis 2025 Eliquis 31 less bleeding full comparison",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 8,
+    "risk_score": 69.9,
+    "confidence": "low",
+    "confidence_band": [
+      44.9,
+      94.9
+    ],
+    "confidence_raw": 0.5,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 73.2,
+        "weight": 0.3,
+        "contribution": 22.0,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.12,
+          "sentiment_modifier": -2.5,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 1,
+          "keyword_modifier": 0.8
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 100.0,
+        "weight": 0.2,
+        "contribution": 20.0,
+        "detail": {
+          "post_count": 8,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 100.0,
+        "weight": 0.2,
+        "contribution": 20.0,
+        "detail": {
+          "total_weighted_engagement": 153.4,
+          "avg_per_post": 19.2,
+          "total_shares": 20,
+          "total_comments": 14,
+          "total_likes": 33,
+          "total_views": 324,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 50.0,
+        "weight": 0.15,
+        "contribution": 7.5,
+        "detail": {
+          "max_followers": 1201,
+          "median_followers": 76,
+          "unique_authors": 7,
+          "raw_score": 40.9,
+          "percentile": 50.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 2.8,
+        "weight": 0.15,
+        "contribution": 0.4,
+        "detail": {
+          "posts_per_day": 0.35,
+          "span_days": 22.6,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "122192524412354122",
+        "text": "Big news for veterans & families! Medicare is rolling out exciting updates for 2026, and it’s all about better coverage and saving you money. Here’s what you need to know: • LOWER prescription drug costs – thanks to negotiated rates for key medications like Eliquis, Xarelto, and Januvia. • Expanded ",
+        "url": "https://www.facebook.com/122192524412354122",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 76,
+        "handle": ""
+      },
+      {
+        "post_id": "1291290516130935",
+        "text": "HRSA Has Spoken • Eliquis, Jardiance, Xarelto, Januvia, Farxiga, Enbrel, Imbruvica, Stelara and Fiasp/Novolog products will shift from upfront 340B discounts to a rebate-based workflow for covered entities. • Covered entities will still purchase through their 340B wholesaler account (with WAC pricin",
+        "url": "https://www.facebook.com/1291290516130935",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 571,
+        "handle": "Secure340B"
+      },
+      {
+        "post_id": "1303351525146098",
+        "text": "Ever look at prescription prices and feel like you’re paying more than anyone else in the world? You might be right. Even with new Medicare-negotiated prices, the U.S. still pays way more than countries like 🇨🇦 Canada, 🇯🇵 Japan, and 🇬🇧 the UK. . Here’s the scoop: ➪ The Inflation Reduction Act (2022)",
+        "url": "https://www.facebook.com/1303351525146098",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 1201,
+        "handle": "AffordableMedicareSolutions"
+      },
+      {
+        "post_id": "2260028997811534",
+        "text": "Patient: my doctor prescribed me to take these medications! The Doctor on the phone asking me nonsense: so why can’t they take Eliquis and Xarelto together?",
+        "url": "https://www.facebook.com/2260028997811534",
+        "platform": "facebook",
+        "likes": 3,
+        "shares": 0,
+        "comments": 6,
+        "followers": 0,
+        "handle": "stephen.winstead.1044"
+      },
+      {
+        "post_id": "10236027424738084",
+        "text": "Grrrrr president trump!! Nonprofit hospitals and health clinics are alarmed about a change that's coming to federal drug purchasing discounts next year. They'll have to pay up front and then get rebates — rather than direct price cuts — in a pilot with eight pharmaceutical companies. Why it matters:",
+        "url": "https://www.facebook.com/10236027424738084",
+        "platform": "facebook",
+        "likes": 0,
+        "shares": 0,
+        "comments": 2,
+        "followers": 0,
+        "handle": "janet.h.griffin.3"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 7,
+      "positive": 1
+    }
+  },
+  {
+    "narrative_id": "xarelto_narrative_1",
+    "entity_id": "xarelto",
+    "title": "Medication Diabetes Blood Thinner",
+    "summary": "Show me Ozempic on this list I ll wait Medications with negotiated price reductions Eliquis A blood thinner Xarelto A blood thinner Entresto A heart failure medication Jardiance A diabetes medication Stelara A drug for conditions like psoriatic arthr",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 2,
+    "risk_score": 62.8,
+    "confidence": "medium",
+    "confidence_band": [
+      47.8,
+      77.8
+    ],
+    "confidence_raw": 0.58,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 82.0,
+        "weight": 0.3,
+        "contribution": 24.6,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.5,
+          "sentiment_modifier": -10.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 2.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 100.0,
+        "weight": 0.15,
+        "contribution": 15.0,
+        "detail": {
+          "max_followers": 6510,
+          "median_followers": 6510,
+          "unique_authors": 2,
+          "raw_score": 49.9,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 50.0,
+        "weight": 0.2,
+        "contribution": 10.0,
+        "detail": {
+          "post_count": 2,
+          "percentile": 50.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 50.0,
+        "weight": 0.2,
+        "contribution": 10.0,
+        "detail": {
+          "total_weighted_engagement": 21.0,
+          "avg_per_post": 10.5,
+          "total_shares": 0,
+          "total_comments": 4,
+          "total_likes": 0,
+          "total_views": 130,
+          "percentile": 50.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 21.6,
+        "weight": 0.15,
+        "contribution": 3.2,
+        "detail": {
+          "posts_per_day": 2.7,
+          "span_days": 0.7,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1993500930189258969",
+        "text": "The market's flooded with blood thinners like Warfarin, Eliquis & Xarelto. They're effective, but come with a major drawback: bleeding risk. For many, the cure feels almost as bad as the disease. This is where Bayer saw an opportunity. 💡",
+        "url": "https://x.com/i/web/status/1993500930189258969",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 2,
+        "followers": 12,
+        "handle": "inteldrop_app"
+      },
+      {
+        "post_id": "1993769813592674734",
+        "text": "Show me Ozempic on this list…\n\nI’ll wait…\n\nMedications with negotiated price reductions\n•Eliquis: A blood thinner\n•Xarelto: A blood thinner\n•Entresto: A heart failure medication\n•Jardiance: A diabetes medication\n•Stelara: A drug for conditions like psoriatic arthritis\n•Enbrel: A drug for inflammator",
+        "url": "https://x.com/i/web/status/1993769813592674734",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 2,
+        "followers": 6510,
+        "handle": "RozzaKat13"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 1,
+      "positive": 1
+    }
+  }
+]

@@ -1,0 +1,378 @@
+[
+  {
+    "narrative_id": "opdivo_narrative_1",
+    "entity_id": "opdivo",
+    "title": "Cancer Patients England Become",
+    "summary": "England has become the first European country to offer an injectable form of the immunotherapy drug nivolumab Opdivo for cancer patients. Approved by the MHRA, the quick, under-the-skin injection can treat up to 15 types of cancer and reduces treatme",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 3,
+    "risk_score": 68.9,
+    "confidence": "low",
+    "confidence_band": [
+      43.9,
+      93.9
+    ],
+    "confidence_raw": 0.32,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 84.7,
+        "weight": 0.3,
+        "contribution": 25.4,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.33,
+          "sentiment_modifier": -6.7,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 1.3
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 100.0,
+        "weight": 0.2,
+        "contribution": 20.0,
+        "detail": {
+          "total_weighted_engagement": 670.0,
+          "avg_per_post": 223.3,
+          "total_shares": 8,
+          "total_comments": 217,
+          "total_likes": 202,
+          "total_views": 100,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 66.7,
+        "weight": 0.2,
+        "contribution": 13.3,
+        "detail": {
+          "post_count": 3,
+          "percentile": 66.7
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 66.7,
+        "weight": 0.15,
+        "contribution": 10.0,
+        "detail": {
+          "max_followers": 117116,
+          "median_followers": 117116,
+          "unique_authors": 3,
+          "raw_score": 66.4,
+          "percentile": 66.7
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.0,
+        "weight": 0.15,
+        "contribution": 0.2,
+        "detail": {
+          "posts_per_day": 0.13,
+          "span_days": 23.9,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "10234697778897198",
+        "text": "Dear Friends: Today I had my 4th of 12 monthly immunotherapy infusion treatments of a medicine called OPDIVO. This treatment is for melanoma cancer that was diagnosed in May. I am happy to say that I have NOT had any side effects from the treatments. I am happy to say I HAVE had: An mri A pet scan 2",
+        "url": "https://www.facebook.com/10234697778897198",
+        "platform": "facebook",
+        "likes": 189,
+        "shares": 3,
+        "comments": 215,
+        "followers": 0,
+        "handle": "rick.herring.92"
+      },
+      {
+        "post_id": "122279948228022386",
+        "text": "The affected medications will now face delayed negotiations or complete exemption from price cuts. These medications represented $17.5 billion in combined Medicare and patient spending in 2023 — an 83% jump from 2019. Here’s the list of medications, along with the conditions they treat and their com",
+        "url": "https://www.facebook.com/122279948228022386",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 0,
+        "handle": ""
+      },
+      {
+        "post_id": "25386518327641035",
+        "text": "England has become the first European country to offer an injectable form of the immunotherapy drug nivolumab (Opdivo) for cancer patients. Approved by the MHRA, the quick, under-the-skin injection can treat up to 15 types of cancer and reduces treatment time from about an hour to just five minutes,",
+        "url": "https://www.facebook.com/25386518327641035",
+        "platform": "facebook",
+        "likes": 3,
+        "shares": 0,
+        "comments": 0,
+        "followers": 117116,
+        "handle": "hardam.healthy"
+      }
+    ],
+    "sentiment_distribution": {
+      "positive": 1,
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "opdivo_narrative_3",
+    "entity_id": "opdivo",
+    "title": "Miscellaneous Topics",
+    "summary": "UPDATE All Good!! Gettin that Pacemaker checkup. I had Opdivo Immunotherapy induced bradycardia after my treatment for Melanoma. So Schedule your annual skin check, use sunscreen and STAY OUT OF TANNING BEDS!!!",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 7,
+    "risk_score": 63.6,
+    "confidence": "low",
+    "confidence_band": [
+      38.6,
+      88.6
+    ],
+    "confidence_raw": 0.49,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 73.3,
+        "weight": 0.3,
+        "contribution": 22.0,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.14,
+          "sentiment_modifier": -2.9,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 2,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 1.1
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 100.0,
+        "weight": 0.2,
+        "contribution": 20.0,
+        "detail": {
+          "post_count": 7,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 66.7,
+        "weight": 0.2,
+        "contribution": 13.3,
+        "detail": {
+          "total_weighted_engagement": 146.2,
+          "avg_per_post": 20.9,
+          "total_shares": 5,
+          "total_comments": 38,
+          "total_likes": 33,
+          "total_views": 222,
+          "percentile": 66.7
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 33.3,
+        "weight": 0.15,
+        "contribution": 5.0,
+        "detail": {
+          "max_followers": 4638,
+          "median_followers": 193,
+          "unique_authors": 7,
+          "raw_score": 47.6,
+          "percentile": 33.3
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 22.2,
+        "weight": 0.15,
+        "contribution": 3.3,
+        "detail": {
+          "posts_per_day": 0.27,
+          "span_days": 25.5,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1223822306252756",
+        "text": "Covid lymph nodes on PET scan mimic malignancy? I’m hoping someone has had a similar experience and can help us calm down. We read a PET scan result on his patient portal tonight. We should’ve waited for his dr’s appointment in 2 days. His initial PET scan in June lit up on his left armpit. He’s had",
+        "url": "https://www.facebook.com/1223822306252756",
+        "platform": "facebook",
+        "likes": 6,
+        "shares": 0,
+        "comments": 17,
+        "followers": 0,
+        "handle": "bianca.sandoval.282088"
+      },
+      {
+        "post_id": "122227002926249609",
+        "text": "UPDATE: All Good!! Gettin that Pacemaker checkup. I had Opdivo Immunotherapy induced bradycardia after my treatment for Melanoma. So…… Schedule your annual skin check, use sunscreen and STAY OUT OF TANNING BEDS!!! 🖤 💪",
+        "url": "https://www.facebook.com/122227002926249609",
+        "platform": "facebook",
+        "likes": 12,
+        "shares": 0,
+        "comments": 9,
+        "followers": 0,
+        "handle": "nancy.hurley.53654"
+      },
+      {
+        "post_id": "33503871125878884",
+        "text": "The COVID-19 mRNA virus Vaccine in combination with Opdivo: is currently generating excitement as a universal cancer vaccine. opdivo is a huge success in treating cancer and it is a universal vaccine that was published a few months ago to help a lot in 15 cancers and is approved in England for treat",
+        "url": "https://www.facebook.com/33503871125878884",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 25,
+        "handle": "noam.lenz"
+      },
+      {
+        "post_id": "10115117722988823",
+        "text": "I keep seeing a commercial for the immunotherapies Opdivo and Yervoy. And I laugh every time because doesn’t that sound like it could be an early 00s reggaeton duo. 😂😂😂 Maicol y Manuel Daddy Yankee y Nicky Jam Wisin Y Yandel Opdivo and Yervoy 😂😂😂😂😂😂😂 I need a nap",
+        "url": "https://www.facebook.com/10115117722988823",
+        "platform": "facebook",
+        "likes": 3,
+        "shares": 0,
+        "comments": 8,
+        "followers": 0,
+        "handle": "amanda.berrocal"
+      },
+      {
+        "post_id": "10163390647093664",
+        "text": "Business yang sangat menguntungkan & tak semua orang boleh nampak Huhuhu ChatGPT Here’s a list of some of the most expensive medical treatments and procedures in the world — based on average global or U.S. costs (as of recent years): 🧠 Neurological & Brain Treatments 1. Brain tumor removal surgery –",
+        "url": "https://www.facebook.com/10163390647093664",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 0,
+        "comments": 0,
+        "followers": 0,
+        "handle": "khairul.proujie"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 6,
+      "positive": 1
+    }
+  },
+  {
+    "narrative_id": "opdivo_narrative_2",
+    "entity_id": "opdivo",
+    "title": "Generics Opdivo Short Answer",
+    "summary": "Short answer partly. Revlimid already faces generics, Eliquis is expected to see U.S. generics starting April 1, 2028 earlier in key EU markets , and Opdivo s U.S. exclusivity runs later with biosimilar pressure slower to arrive, so the core patent-c",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 2,
+    "risk_score": 51.7,
+    "confidence": "low",
+    "confidence_band": [
+      26.7,
+      76.7
+    ],
+    "confidence_raw": 0.37,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 77.0,
+        "weight": 0.3,
+        "contribution": 23.1,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 2.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 100.0,
+        "weight": 0.15,
+        "contribution": 15.0,
+        "detail": {
+          "max_followers": 385918,
+          "median_followers": 385918,
+          "unique_authors": 2,
+          "raw_score": 69.9,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 33.3,
+        "weight": 0.2,
+        "contribution": 6.7,
+        "detail": {
+          "post_count": 2,
+          "percentile": 33.3
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 33.3,
+        "weight": 0.2,
+        "contribution": 6.7,
+        "detail": {
+          "total_weighted_engagement": 23.3,
+          "avg_per_post": 11.7,
+          "total_shares": 0,
+          "total_comments": 0,
+          "total_likes": 18,
+          "total_views": 53,
+          "percentile": 33.3
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.8,
+        "weight": 0.15,
+        "contribution": 0.3,
+        "detail": {
+          "posts_per_day": 0.22,
+          "span_days": 8.9,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "2134770500663162",
+        "text": "This morning 10am on way back from Cancer Center OpDivo treatment only 1 treatment to Go!!!!",
+        "url": "https://www.facebook.com/2134770500663162",
+        "platform": "facebook",
+        "likes": 18,
+        "shares": 0,
+        "comments": 0,
+        "followers": 0,
+        "handle": "roger.goodman.7982"
+      },
+      {
+        "post_id": "1984695084642623588",
+        "text": "Short answer: partly. Revlimid already faces generics, Eliquis is expected to see U.S. generics starting April 1, 2028 (earlier in key EU markets), and Opdivo’s U.S. exclusivity runs later with biosimilar pressure slower to arrive, so the core patent-cliff risks aren’t “resolved,” just staggered and",
+        "url": "https://x.com/i/web/status/1984695084642623588",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 385918,
+        "handle": "AskPerplexity"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  }
+]

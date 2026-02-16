@@ -1,0 +1,599 @@
+[
+  {
+    "narrative_id": "revlimid_narrative_5",
+    "entity_id": "revlimid",
+    "title": "Miscellaneous Topics",
+    "summary": "Earnings seasons for second quarter is over and recent macro measure seems to have started paying off for India Inc. India Inc delivered a mixed but encouraging Q2FY26, with revenue rising 9 and profits jumping 16 year-on-year. Ex-banks and financial",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 10,
+    "risk_score": 78.6,
+    "confidence": "medium",
+    "confidence_band": [
+      63.6,
+      93.6
+    ],
+    "confidence_raw": 0.58,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 77.2,
+        "weight": 0.3,
+        "contribution": 23.2,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.2,
+          "positive_ratio": 0.1,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 2,
+          "medium_risk_keywords": 2,
+          "low_risk_keywords": 1,
+          "keyword_modifier": 2.2
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 100.0,
+        "weight": 0.2,
+        "contribution": 20.0,
+        "detail": {
+          "post_count": 10,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 100.0,
+        "weight": 0.2,
+        "contribution": 20.0,
+        "detail": {
+          "total_weighted_engagement": 363.3,
+          "avg_per_post": 36.3,
+          "total_shares": 10,
+          "total_comments": 61,
+          "total_likes": 30,
+          "total_views": 1813,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 100.0,
+        "weight": 0.15,
+        "contribution": 15.0,
+        "detail": {
+          "max_followers": 2100000,
+          "median_followers": 10079,
+          "unique_authors": 9,
+          "raw_score": 79.2,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 2.9,
+        "weight": 0.15,
+        "contribution": 0.4,
+        "detail": {
+          "posts_per_day": 0.37,
+          "span_days": 27.2,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "10172938315430595",
+        "text": "My insurance is changing drastically at my FT job. I’m told we will have to pick a plan off marketplace. I’m afraid I will drown in debt with this new plan. Gravie is one name and also Ichra for our new insurance . Anyone have any knowledge on this? I do still work FT. But I’m so worried about this ",
+        "url": "https://www.facebook.com/10172938315430595",
+        "platform": "facebook",
+        "likes": 12,
+        "shares": 0,
+        "comments": 51,
+        "followers": 0,
+        "handle": "tami.paque"
+      },
+      {
+        "post_id": "1989865460733780433",
+        "text": "What would you recommend?  Standard Risk 60 year old  male MM patient -                        RVd Induction- ASCT-Revlimid maintenance- 1st relapse after 10 years in a complete response. #mmsm #myeloma",
+        "url": "https://x.com/i/web/status/1989865460733780433",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 3,
+        "comments": 2,
+        "followers": 10079,
+        "handle": "MyelomaTeacher"
+      },
+      {
+        "post_id": "4075746729421544",
+        "text": "Question #1: Did anyone else experience excruciating pain (places where you may have bone lesions) during the final 19-21 of Revlimid? New to our world and noticed in September and now again in October, less severe as they did low3er my dosage. Curious if this gets better with time.",
+        "url": "https://www.facebook.com/4075746729421544",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 0,
+        "handle": "danielle.cohen.9461"
+      },
+      {
+        "post_id": "1526383135368925",
+        "text": "Earnings seasons for second quarter is over and recent macro measure seems to have started paying off for India Inc. India Inc delivered a mixed but encouraging Q2FY26, with revenue rising 9% and profits jumping 16% year-on-year. Ex-banks and financials, profit growth surged 22%, supported by a favo",
+        "url": "https://www.facebook.com/1526383135368925",
+        "platform": "facebook",
+        "likes": 8,
+        "shares": 0,
+        "comments": 0,
+        "followers": 2100000,
+        "handle": "BusinessToday"
+      },
+      {
+        "post_id": "122185542176493234",
+        "text": "I decided to try to buy myself more time of life even if God controls it . I choose treatment over death or at lest try. But Revlimid is the drug of choice from the beginning,from the doctors.",
+        "url": "https://www.facebook.com/122185542176493234",
+        "platform": "facebook",
+        "likes": 0,
+        "shares": 2,
+        "comments": 0,
+        "followers": 0,
+        "handle": "dennis.merryman.2024"
+      }
+    ],
+    "sentiment_distribution": {
+      "positive": 1,
+      "neutral": 7,
+      "negative": 2
+    }
+  },
+  {
+    "narrative_id": "revlimid_narrative_4",
+    "entity_id": "revlimid",
+    "title": "Treatment Mom Week Strength",
+    "summary": "New Week, New Strength, New Spark As soon as we pulled into Smilow for treatment today, my phone rang it was Yale s CAR-T Cell Therapy team calling to schedule Mom s consultation. Mom was already anxious about how treatment would go, and that call pi",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 3,
+    "risk_score": 67.4,
+    "confidence": "medium",
+    "confidence_band": [
+      52.4,
+      82.4
+    ],
+    "confidence_raw": 0.66,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 84.0,
+        "weight": 0.3,
+        "contribution": 25.2,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.33,
+          "sentiment_modifier": -6.7,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 1,
+          "keyword_modifier": 0.7
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 80.0,
+        "weight": 0.2,
+        "contribution": 16.0,
+        "detail": {
+          "post_count": 3,
+          "percentile": 80.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 61.4,
+        "weight": 0.15,
+        "contribution": 9.2,
+        "detail": {
+          "posts_per_day": 7.68,
+          "span_days": 0.4,
+          "accelerating": true
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 60.0,
+        "weight": 0.15,
+        "contribution": 9.0,
+        "detail": {
+          "max_followers": 1900,
+          "median_followers": 1900,
+          "unique_authors": 1,
+          "raw_score": 42.2,
+          "percentile": 60.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 40.0,
+        "weight": 0.2,
+        "contribution": 8.0,
+        "detail": {
+          "total_weighted_engagement": 73.0,
+          "avg_per_post": 24.3,
+          "total_shares": 2,
+          "total_comments": 25,
+          "total_likes": 17,
+          "total_views": 0,
+          "percentile": 40.0
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "122109371655086182",
+        "text": "✨️💖New Week, New Strength, New Spark💖✨️ As soon as we pulled into Smilow for treatment today, my phone rang — it was Yale’s CAR-T Cell Therapy team calling to schedule Mom’s consultation. Mom was already anxious about how treatment would go, and that call piled worry right onto her racing mind. She ",
+        "url": "https://www.facebook.com/122109371655086182",
+        "platform": "facebook",
+        "likes": 3,
+        "shares": 2,
+        "comments": 14,
+        "followers": 1900,
+        "handle": ""
+      },
+      {
+        "post_id": "708156221933786",
+        "text": "Monday Morning Check-In 🩺☕ Today is treatment day for Mom, and after the tooth extraction and infection, we’re feeling extra grateful that she’s still able to receive her infusion. 🙏 We’re not exactly sure what to expect with stopping Revlimid and possibly adding Cytoxan, but we’re walking in with: ",
+        "url": "https://www.facebook.com/708156221933786",
+        "platform": "facebook",
+        "likes": 12,
+        "shares": 0,
+        "comments": 8,
+        "followers": 1900,
+        "handle": ""
+      },
+      {
+        "post_id": "708434768572598",
+        "text": "✨️💖New Week, New Strength, New Spark💖✨️ As soon as we pulled into Smilow for treatment today, my phone rang — it was Yale’s CAR-T Cell Therapy team calling to schedule Mom’s consultation. Mom was already anxious about how treatment would go, and that call piled worry right onto her racing mind. She ",
+        "url": "https://www.facebook.com/708434768572598",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 0,
+        "comments": 3,
+        "followers": 1900,
+        "handle": ""
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2,
+      "positive": 1
+    }
+  },
+  {
+    "narrative_id": "revlimid_narrative_3",
+    "entity_id": "revlimid",
+    "title": "Thankful Waiting Side Mom",
+    "summary": "Today I m Thankful Even in the Waiting Today is one of those days where gratitude and fear sit side by side and somehow, both are real. We re waiting to hear back from Dr. Parker after my mom s case is presented to the Tumor Board. They ll be reviewi",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 2,
+    "risk_score": 60.8,
+    "confidence": "medium",
+    "confidence_band": [
+      45.8,
+      75.8
+    ],
+    "confidence_raw": 0.58,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 91.0,
+        "weight": 0.3,
+        "contribution": 27.3,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 1,
+          "keyword_modifier": 1.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 60.0,
+        "weight": 0.2,
+        "contribution": 12.0,
+        "detail": {
+          "post_count": 2,
+          "percentile": 60.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 60.0,
+        "weight": 0.2,
+        "contribution": 12.0,
+        "detail": {
+          "total_weighted_engagement": 78.0,
+          "avg_per_post": 39.0,
+          "total_shares": 4,
+          "total_comments": 29,
+          "total_likes": 8,
+          "total_views": 0,
+          "percentile": 60.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 60.0,
+        "weight": 0.15,
+        "contribution": 9.0,
+        "detail": {
+          "max_followers": 1900,
+          "median_followers": 1900,
+          "unique_authors": 1,
+          "raw_score": 42.2,
+          "percentile": 60.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 3.2,
+        "weight": 0.15,
+        "contribution": 0.5,
+        "detail": {
+          "posts_per_day": 0.4,
+          "span_days": 5.0,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "122109656853086182",
+        "text": "✨ Today I’m Thankful… Even in the Waiting ✨ Today is one of those days where gratitude and fear sit side by side — and somehow, both are real. We’re waiting to hear back from Dr. Parker after my mom’s case is presented to the Tumor Board. They’ll be reviewing her PET scan, discussing the CAR-T Cell ",
+        "url": "https://www.facebook.com/122109656853086182",
+        "platform": "facebook",
+        "likes": 6,
+        "shares": 2,
+        "comments": 15,
+        "followers": 1900,
+        "handle": ""
+      },
+      {
+        "post_id": "122108739291086182",
+        "text": "✨ Today’s Update on My Mom — Taking It One Step at a Time ✨ ✨️✨️✨️✨️🙏🙏🙏🙏✨️✨️✨️✨️ Mom is still sleeping this morning, so I’m not sure yet how her mouth is feeling or how she slept after the extraction. I’m letting her rest — she’s been through so much this week, and her body deserves the quiet. ✨️✨️✨",
+        "url": "https://www.facebook.com/122108739291086182",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 2,
+        "comments": 14,
+        "followers": 1900,
+        "handle": ""
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "revlimid_narrative_2",
+    "entity_id": "revlimid",
+    "title": "Pharmacy Interesting Injections Filled",
+    "summary": "Interesting My injections are filled at the doctor's office they arent cheap either ... my revlimid is via Accredo Specialty Pharmacy My steroid and antiviral is through any Pharmacy It's been an experience. Bulk of the cost is Meds, not the Doc",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 2,
+    "risk_score": 50.2,
+    "confidence": "medium",
+    "confidence_band": [
+      35.2,
+      65.2
+    ],
+    "confidence_raw": 0.54,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 100,
+        "weight": 0.3,
+        "contribution": 30.0,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 1.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 10.0,
+          "high_risk_keywords": 1,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 5.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 60.0,
+        "weight": 0.2,
+        "contribution": 12.0,
+        "detail": {
+          "post_count": 2,
+          "percentile": 60.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 20.0,
+        "weight": 0.2,
+        "contribution": 4.0,
+        "detail": {
+          "total_weighted_engagement": 58.2,
+          "avg_per_post": 29.1,
+          "total_shares": 0,
+          "total_comments": 2,
+          "total_likes": 0,
+          "total_views": 542,
+          "percentile": 20.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 20.0,
+        "weight": 0.15,
+        "contribution": 3.0,
+        "detail": {
+          "max_followers": 944,
+          "median_followers": 944,
+          "unique_authors": 2,
+          "raw_score": 39.4,
+          "percentile": 20.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 7.8,
+        "weight": 0.15,
+        "contribution": 1.2,
+        "detail": {
+          "posts_per_day": 0.97,
+          "span_days": 2.1,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1988042880531956172",
+        "text": "@drkevinknopf @Papa_Heme We're finding it nerve wracking to think about stopping Revlimid --  even though my husband is 5 years out from dx and ASCT and doing well. We may be like Ernie keeping alligators away with an (expensive and poisonous) banana in his ear. https://t.co/ti0FQXE0Sl",
+        "url": "https://x.com/i/web/status/1988042880531956172",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 944,
+        "handle": "MyelomaAmateur"
+      },
+      {
+        "post_id": "1988786438847230470",
+        "text": "@davevermilion @rocrab80 @BFoJ65 @PattyMurray @grok Interesting\n\nMy injections are filled at the doctor's office (they arent cheap either) ... my revlimid is via Accredo Specialty Pharmacy \n\nMy steroid and antiviral is through any Pharmacy \n\nIt's been an experience.   Bulk of the cost is Meds, not t",
+        "url": "https://x.com/i/web/status/1988786438847230470",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 2,
+        "followers": 853,
+        "handle": "John61926629"
+      }
+    ],
+    "sentiment_distribution": {
+      "negative": 2
+    }
+  },
+  {
+    "narrative_id": "revlimid_narrative_1",
+    "entity_id": "revlimid",
+    "title": "Daratumumab Enhance Therapeutic Effectiveness",
+    "summary": "EAA173 - Daratumumab to Enhance Therapeutic Effectiveness of Revlimid in Smoldering Myeloma DETER-SMM - PI Activated Apr 30, 2019",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 2,
+    "risk_score": 40.1,
+    "confidence": "medium",
+    "confidence_band": [
+      25.1,
+      55.1
+    ],
+    "confidence_raw": 0.52,
+    "drivers": [
+      {
+        "name": "Engagement",
+        "score": 80.0,
+        "weight": 0.2,
+        "contribution": 16.0,
+        "detail": {
+          "total_weighted_engagement": 106.1,
+          "avg_per_post": 53.0,
+          "total_shares": 0,
+          "total_comments": 0,
+          "total_likes": 0,
+          "total_views": 1061,
+          "percentile": 80.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 60.0,
+        "weight": 0.2,
+        "contribution": 12.0,
+        "detail": {
+          "post_count": 2,
+          "percentile": 60.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 80.0,
+        "weight": 0.15,
+        "contribution": 12.0,
+        "detail": {
+          "max_followers": 22996,
+          "median_followers": 22996,
+          "unique_authors": 1,
+          "raw_score": 55.8,
+          "percentile": 80.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 0.9,
+        "weight": 0.15,
+        "contribution": 0.1,
+        "detail": {
+          "posts_per_day": 0.11,
+          "span_days": 18.0,
+          "accelerating": true
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 0,
+        "weight": 0.3,
+        "contribution": 0.0,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.0,
+          "positive_ratio": 1.0,
+          "sentiment_modifier": -20.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1988243388647211519",
+        "text": "#EAonc EAA173 - Daratumumab to Enhance Therapeutic Effectiveness of Revlimid in Smoldering Myeloma (DETER-SMM) - PI: @nsc_natalie https://t.co/VtBMJUjI5X\nActivated: Apr 30, 2019 #mmsm @eaonc #NCT03937635 @VincentRK @mweissmdphd https://t.co/a1rfI036qm",
+        "url": "https://x.com/i/web/status/1988243388647211519",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 22996,
+        "handle": "mtmdphd"
+      },
+      {
+        "post_id": "1994764148727759158",
+        "text": "#EAonc EAA173 - Daratumumab to Enhance Therapeutic Effectiveness of Revlimid in Smoldering Myeloma (DETER-SMM) - PI: @nsc_natalie https://t.co/VtBMJUkfVv\nActivated: Apr 30, 2019 #mmsm @eaonc #NCT03937635 @VincentRK @mweissmdphd https://t.co/HcxetJxNP8",
+        "url": "https://x.com/i/web/status/1994764148727759158",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 22996,
+        "handle": "mtmdphd"
+      }
+    ],
+    "sentiment_distribution": {
+      "positive": 2
+    }
+  }
+]

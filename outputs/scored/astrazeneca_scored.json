@@ -1,0 +1,2834 @@
+[
+  {
+    "narrative_id": "astrazeneca_narrative_5",
+    "entity_id": "astrazeneca",
+    "title": "Johnson Shots Market Clotting",
+    "summary": "Recall that both AstraZeneca and Johnson Johnson Janssen pulled their DNA-based adenoviral vector Covid shots off the market because of clotting issues. RNA shots, however, are still on the market even though clotting evidence has been widespread.",
+    "taxonomy_label": "Regulatory / Compliance",
+    "post_count": 2,
+    "risk_score": 77.9,
+    "confidence": "medium",
+    "confidence_band": [
+      62.9,
+      92.9
+    ],
+    "confidence_raw": 0.67,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 93.0,
+        "weight": 0.3,
+        "contribution": 27.9,
+        "detail": {
+          "taxonomy_label": "Regulatory / Compliance",
+          "taxonomy_base_score": 85,
+          "negative_ratio": 0.5,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 5.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 1,
+          "keyword_modifier": 3.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 91.7,
+        "weight": 0.2,
+        "contribution": 18.3,
+        "detail": {
+          "total_weighted_engagement": 589.2,
+          "avg_per_post": 294.6,
+          "total_shares": 12,
+          "total_comments": 2,
+          "total_likes": 10,
+          "total_views": 5392,
+          "percentile": 91.7
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 66.7,
+        "weight": 0.2,
+        "contribution": 13.3,
+        "detail": {
+          "post_count": 2,
+          "percentile": 66.7
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 67.8,
+        "weight": 0.15,
+        "contribution": 10.2,
+        "detail": {
+          "posts_per_day": 8.48,
+          "span_days": 0.2,
+          "accelerating": true
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 54.2,
+        "weight": 0.15,
+        "contribution": 8.1,
+        "detail": {
+          "max_followers": 5605,
+          "median_followers": 5605,
+          "unique_authors": 2,
+          "raw_score": 49.1,
+          "percentile": 54.2
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1990544485923893614",
+        "text": "@NicHulscher Recall that both AstraZeneca and Johnson & Johnson (Janssen) pulled their DNA-based (\"adenoviral vector\") Covid shots off the market because of clotting issues.  RNA shots, however, are still on the market even though clotting evidence has been widespread.",
+        "url": "https://x.com/i/web/status/1990544485923893614",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 7,
+        "comments": 0,
+        "followers": 1,
+        "handle": "balsamo_r"
+      },
+      {
+        "post_id": "10231031727804387",
+        "text": "*Precios Covid: Oxford AstraZeneca 185$ Pfizer-BioNTech 165$ Moderna 113$ Johnson & Johnson 101$ Sinopharm-Beijing 74$ Sinovac 41$ Gamaleya Sputnik V 36$ Novarax 32$ Bharat Biotech Covaxin 30$ Can Sino 26$ Sputnik Light 6$ Abdala 4$ * 👆🏻👆🏻",
+        "url": "https://www.facebook.com/10231031727804387",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 5605,
+        "handle": "fenixeyes"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 1,
+      "negative": 1
+    }
+  },
+  {
+    "narrative_id": "astrazeneca_narrative_1",
+    "entity_id": "astrazeneca",
+    "title": "Affected Stock Pfizer Astrazeneca",
+    "summary": "affected She did own stock in Pfizer and AstraZeneca while pretending Covid-19 vaccines are bad to stay in MAGA good grace. She takes donations from her elderly constituents on SSI and buys a 96K luxury suv campaign vehicle. She's a grifter and fake ",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 13,
+    "risk_score": 71.8,
+    "confidence": "high",
+    "confidence_band": [
+      63.8,
+      79.8
+    ],
+    "confidence_raw": 0.71,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 74.2,
+        "weight": 0.3,
+        "contribution": 22.3,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.23,
+          "positive_ratio": 0.23,
+          "sentiment_modifier": -2.3,
+          "high_risk_keywords": 1,
+          "medium_risk_keywords": 3,
+          "low_risk_keywords": 1,
+          "keyword_modifier": 1.5
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 91.7,
+        "weight": 0.2,
+        "contribution": 18.3,
+        "detail": {
+          "post_count": 13,
+          "percentile": 91.7
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 87.5,
+        "weight": 0.2,
+        "contribution": 17.5,
+        "detail": {
+          "total_weighted_engagement": 342.9,
+          "avg_per_post": 26.4,
+          "total_shares": 2,
+          "total_comments": 4,
+          "total_likes": 0,
+          "total_views": 3289,
+          "percentile": 87.5
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 87.5,
+        "weight": 0.15,
+        "contribution": 13.1,
+        "detail": {
+          "max_followers": 7514455,
+          "median_followers": 1,
+          "unique_authors": 13,
+          "raw_score": 71.9,
+          "percentile": 87.5
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 3.6,
+        "weight": 0.15,
+        "contribution": 0.5,
+        "detail": {
+          "posts_per_day": 0.45,
+          "span_days": 28.6,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1984429164230050117",
+        "text": "The AP article confirms AstraZeneca voluntarily withdrew Vaxzevria from the EU at their request, citing reduced demand as newer vaccines took over. Rare blood clots (TTS) prompted early scrutiny, but EMA assessments showed benefits outweighed risks, with no overall clot increase. This aligns with gl",
+        "url": "https://x.com/i/web/status/1984429164230050117",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 1,
+        "followers": 7514455,
+        "handle": "grok"
+      },
+      {
+        "post_id": "1992941279517589718",
+        "text": "AstraZeneca Announces $2 Billion Expansion in Gaithersburg and Frederick\n\nClick below for full article.\n\nhttps://t.co/qsbZaEzmc0 https://t.co/esdrL8tpli",
+        "url": "https://x.com/i/web/status/1992941279517589718",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "TheMoCoShow"
+      },
+      {
+        "post_id": "1993167604845101167",
+        "text": "@RetsefL @MaryanneDemasi Pfizer, AstraZeneca, Moderna and all the rest of the pharmaceutical conglomerates committed a crime against humanity.",
+        "url": "https://x.com/i/web/status/1993167604845101167",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 1,
+        "followers": 1,
+        "handle": "falseavatar4836"
+      },
+      {
+        "post_id": "1994804798324170840",
+        "text": "AstraZeneca Notches Another Indication for Imfinzi, Pushing PD-L1 Blocker! Imfinzi is first immunotherapy approved for perioperative use to treat gastric and gastroesophageal junction cancers! $AZN #pharma #cancer #immunotherapy \nhttps://t.co/yyCl5HBNtp https://t.co/dzAWn4ESIu",
+        "url": "https://x.com/i/web/status/1994804798324170840",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "Alpha_Bronze"
+      },
+      {
+        "post_id": "1987460199402123726",
+        "text": "6/13: AstraZeneca is already using this integration.\n\nRussell Smith, VP of ERP Transformation: \"Data and AI are central to our mission of delivering life-changing medicines.\"\n\nSource: https://t.co/e2MATqvhW4\n\nThe partnership accelerates breakthroughs for patients.",
+        "url": "https://x.com/i/web/status/1987460199402123726",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 2,
+        "followers": 1,
+        "handle": "meetneoai"
+      }
+    ],
+    "sentiment_distribution": {
+      "negative": 3,
+      "positive": 3,
+      "neutral": 7
+    }
+  },
+  {
+    "narrative_id": "astrazeneca_narrative_4",
+    "entity_id": "astrazeneca",
+    "title": "Becomes Country Roll Astrazeneca",
+    "summary": "UK becomes first country to roll out AstraZeneca vaccine via",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 21,
+    "risk_score": 68.8,
+    "confidence": "high",
+    "confidence_band": [
+      60.8,
+      76.8
+    ],
+    "confidence_raw": 0.79,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 75.1,
+        "weight": 0.3,
+        "contribution": 22.5,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.19,
+          "positive_ratio": 0.14,
+          "sentiment_modifier": -1.0,
+          "high_risk_keywords": 2,
+          "medium_risk_keywords": 2,
+          "low_risk_keywords": 1,
+          "keyword_modifier": 1.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 95.8,
+        "weight": 0.2,
+        "contribution": 19.2,
+        "detail": {
+          "post_count": 21,
+          "percentile": 95.8
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 83.3,
+        "weight": 0.2,
+        "contribution": 16.7,
+        "detail": {
+          "total_weighted_engagement": 340.2,
+          "avg_per_post": 16.2,
+          "total_shares": 19,
+          "total_comments": 8,
+          "total_likes": 63,
+          "total_views": 2042,
+          "percentile": 83.3
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 62.5,
+        "weight": 0.15,
+        "contribution": 9.4,
+        "detail": {
+          "max_followers": 30000,
+          "median_followers": 1,
+          "unique_authors": 21,
+          "raw_score": 58.4,
+          "percentile": 62.5
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 7.0,
+        "weight": 0.15,
+        "contribution": 1.1,
+        "detail": {
+          "posts_per_day": 0.88,
+          "span_days": 24.0,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1988940925142532333",
+        "text": "AstraZeneca is investing $820 million in Mississauga, bringing 700+ high-skilled jobs, innovation, and major R&D. Read why Ontario is becoming a global powerhouse in bio-pharma. Read more: https://t.co/6vm0AOzKzO @AstraZenecaCA https://t.co/vvukQUEIhh",
+        "url": "https://x.com/i/web/status/1988940925142532333",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 2309,
+        "handle": "perspectiveCDN"
+      },
+      {
+        "post_id": "821655150277199",
+        "text": "AstraZeneca ... THE ROAD TO DEATH .. enjoy your shots",
+        "url": "https://www.facebook.com/821655150277199",
+        "platform": "facebook",
+        "likes": 5,
+        "shares": 2,
+        "comments": 0,
+        "followers": 329,
+        "handle": "rob.hegedus.2025"
+      },
+      {
+        "post_id": "2923544207815963",
+        "text": "Astrazeneca weeeewe 😂😂😂😂 now see the effects",
+        "url": "https://www.facebook.com/2923544207815963",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 5502,
+        "handle": "nelson.muriuki.12"
+      },
+      {
+        "post_id": "1433718815428446",
+        "text": "Christmas Markets at AstraZeneca Macclesfield 🎄🎄🎄🎄we're all set up in Millcourt til 2 ish lots of lovely stalls .. looking forward to seeing all our lovely AZ customers 🆘❤️",
+        "url": "https://www.facebook.com/1433718815428446",
+        "platform": "facebook",
+        "likes": 21,
+        "shares": 0,
+        "comments": 3,
+        "followers": 4800,
+        "handle": ""
+      },
+      {
+        "post_id": "1987939222796595604",
+        "text": "@bruce_arthur AstraZeneca killed my healthy and fit brother. Then it was pulled off the market. Clearly, they don't work. Give people choice, respect their bodily autonomy.",
+        "url": "https://x.com/i/web/status/1987939222796595604",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "peaisgreen"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 14,
+      "negative": 4,
+      "positive": 3
+    }
+  },
+  {
+    "narrative_id": "astrazeneca_narrative_23",
+    "entity_id": "astrazeneca",
+    "title": "Friday Governor Wes Moore",
+    "summary": "On Friday, Governor Wes Moore and AstraZeneca announced the largest investment of private capital in the state in the last decade. The 2 billion expansion in Frederick and Gaithersburg will support an additional 2,600 jobs, including in advanced biom",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 2,
+    "risk_score": 68.0,
+    "confidence": "medium",
+    "confidence_band": [
+      53.0,
+      83.0
+    ],
+    "confidence_raw": 0.6,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 75.0,
+        "weight": 0.3,
+        "contribution": 22.5,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 95.8,
+        "weight": 0.2,
+        "contribution": 19.2,
+        "detail": {
+          "total_weighted_engagement": 3008.7,
+          "avg_per_post": 1504.3,
+          "total_shares": 78,
+          "total_comments": 873,
+          "total_likes": 1020,
+          "total_views": 87,
+          "percentile": 95.8
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 66.7,
+        "weight": 0.2,
+        "contribution": 13.3,
+        "detail": {
+          "post_count": 2,
+          "percentile": 66.7
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 66.7,
+        "weight": 0.15,
+        "contribution": 10.0,
+        "detail": {
+          "max_followers": 33581,
+          "median_followers": 33581,
+          "unique_authors": 2,
+          "raw_score": 58.9,
+          "percentile": 66.7
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 20.2,
+        "weight": 0.15,
+        "contribution": 3.0,
+        "detail": {
+          "posts_per_day": 2.52,
+          "span_days": 0.8,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1317764700391607",
+        "text": "On Friday, Governor Wes Moore and AstraZeneca announced the largest investment of private capital in the state in the last decade. The $2 billion expansion in Frederick and Gaithersburg will support an additional 2,600 jobs, including in advanced biomanufacturing!",
+        "url": "https://www.facebook.com/1317764700391607",
+        "platform": "facebook",
+        "likes": 1020,
+        "shares": 78,
+        "comments": 873,
+        "followers": 33581,
+        "handle": "MarylandLabor"
+      },
+      {
+        "post_id": "1992019840090181913",
+        "text": "@GovWesMoore @AstraZeneca Bet Md. Gov. Wes Moore’s cut of that is off the books….. https://t.co/8bibyXosJ3",
+        "url": "https://x.com/i/web/status/1992019840090181913",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "Tracey786041608"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "astrazeneca_narrative_12",
+    "entity_id": "astrazeneca",
+    "title": "Health Screening End Wellness",
+    "summary": "Year-End Health Wellness Promo! Take charge of your health before the year ends with the Health and Wellness Year-End Screening Programme by the NCSM in collaboration with AstraZeneca and supported by the Ministry of Health Malaysia. Special Promo Pr",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 2,
+    "risk_score": 67.9,
+    "confidence": "medium",
+    "confidence_band": [
+      52.9,
+      82.9
+    ],
+    "confidence_raw": 0.56,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 89.0,
+        "weight": 0.3,
+        "contribution": 26.7,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.5,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 5.0,
+          "high_risk_keywords": 3,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 9.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 79.2,
+        "weight": 0.2,
+        "contribution": 15.8,
+        "detail": {
+          "total_weighted_engagement": 224.0,
+          "avg_per_post": 112.0,
+          "total_shares": 26,
+          "total_comments": 14,
+          "total_likes": 108,
+          "total_views": 100,
+          "percentile": 79.2
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 66.7,
+        "weight": 0.2,
+        "contribution": 13.3,
+        "detail": {
+          "post_count": 2,
+          "percentile": 66.7
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 79.2,
+        "weight": 0.15,
+        "contribution": 11.9,
+        "detail": {
+          "max_followers": 104806,
+          "median_followers": 104806,
+          "unique_authors": 2,
+          "raw_score": 65.0,
+          "percentile": 79.2
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.1,
+        "weight": 0.15,
+        "contribution": 0.2,
+        "detail": {
+          "posts_per_day": 0.14,
+          "span_days": 14.0,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1254757986686377",
+        "text": "Year-End Health & Wellness Promo! 🎉🌿 Take charge of your health before the year ends with the Health and Wellness Year-End Screening Programme by the NCSM in collaboration with AstraZeneca and supported by the Ministry of Health Malaysia. Special Promo Price: RM179 only! (Original Price: RM479) This",
+        "url": "https://www.facebook.com/1254757986686377",
+        "platform": "facebook",
+        "likes": 98,
+        "shares": 21,
+        "comments": 12,
+        "followers": 104806,
+        "handle": "nationalcancersocietymalaysia"
+      },
+      {
+        "post_id": "10239307034155736",
+        "text": "https://justthenews.com/politics-policy/coronavirus/uk-tribunal-hides-covid-vaccine-death-correlation-data-based-privacy?utm_source=daily&utm_medium=email&utm_campaign=newsletter \"Why on earth would they think not releasing data is somehow protecting my mental health?\" widow Charlotte Wright, whose ",
+        "url": "https://www.facebook.com/10239307034155736",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 412,
+        "handle": "jay.cook.165685"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 1,
+      "negative": 1
+    }
+  },
+  {
+    "narrative_id": "astrazeneca_narrative_14",
+    "entity_id": "astrazeneca",
+    "title": "Global Bay Area Economic",
+    "summary": "世界灣區經濟論壇2025-生物醫藥專題環節 對談環節 - 醫藥創新協作新格局 團結香港基金 廣州粵港澳大灣區研究院 澳門基金會於11月3日共同主辦 世界灣區經濟論壇2025 生物醫藥專題的對談環節以 立足灣區 聯動世界 醫藥創新協作新格局 為題 並邀得RDPAC前執行總裁康韋作為對談主持 對談嘉賓包括香港大學臨床試驗中心執行總監游廣智 因美納全球高級副總裁兼大中華區總經理鄭磊 東陽光藥業首席科學官林凱博士 勃林格殷格翰高級副總裁 大中華區研發和醫學部負責人張維博士 香港科研製藥聯會主席 香港阿斯",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 2,
+    "risk_score": 67.1,
+    "confidence": "low",
+    "confidence_band": [
+      42.1,
+      92.1
+    ],
+    "confidence_raw": 0.39,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 92.0,
+        "weight": 0.3,
+        "contribution": 27.6,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 2.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 66.7,
+        "weight": 0.2,
+        "contribution": 13.3,
+        "detail": {
+          "post_count": 2,
+          "percentile": 66.7
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 66.7,
+        "weight": 0.2,
+        "contribution": 13.3,
+        "detail": {
+          "total_weighted_engagement": 188.0,
+          "avg_per_post": 94.0,
+          "total_shares": 5,
+          "total_comments": 5,
+          "total_likes": 153,
+          "total_views": 100,
+          "percentile": 66.7
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 83.3,
+        "weight": 0.15,
+        "contribution": 12.5,
+        "detail": {
+          "max_followers": 228345,
+          "median_followers": 228345,
+          "unique_authors": 2,
+          "raw_score": 67.9,
+          "percentile": 83.3
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 2.1,
+        "weight": 0.15,
+        "contribution": 0.3,
+        "detail": {
+          "posts_per_day": 0.27,
+          "span_days": 7.5,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1174801398201638",
+        "text": "【世界灣區經濟論壇2025-生物醫藥專題環節】 【對談環節 - 醫藥創新協作新格局】 團結香港基金、廣州粵港澳大灣區研究院、澳門基金會於11月3日共同主辦「世界灣區經濟論壇2025」。 生物醫藥專題的對談環節以「立足灣區 聯動世界—醫藥創新協作新格局」為題，並邀得RDPAC前執行總裁康韋作為對談主持，對談嘉賓包括香港大學臨床試驗中心執行總監游廣智，因美納全球高級副總裁兼大中華區總經理鄭磊，東陽光藥業首席科學官林凱博士，勃林格殷格翰高級副總裁、大中華區研發和醫學部負責人張維博士，香港科研製藥聯會主席、香港阿斯利康總經理吳珊及香港科研製藥聯會董事、諾華中國高級副總裁及香港總經理陳永興。 新聞稿：h",
+        "url": "https://www.facebook.com/1174801398201638",
+        "platform": "facebook",
+        "likes": 143,
+        "shares": 0,
+        "comments": 3,
+        "followers": 228345,
+        "handle": "ourhongkongfoundation"
+      },
+      {
+        "post_id": "1352760916258209",
+        "text": "📉 Economic Calendar Goes Quiet — But Fed Still Talks The government shutdown delays key jobs data (again), including the NFP. But the market will still get a pulse from ADP private jobs, ISM services, and a wave of Fed speeches. 👉 Use Wednesday’s ADP and Fed chatter to gauge sentiment before Friday.",
+        "url": "https://www.facebook.com/1352760916258209",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 0,
+        "handle": "daisy.dawn.946"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "astrazeneca_narrative_24",
+    "entity_id": "astrazeneca",
+    "title": "Miscellaneous Topics",
+    "summary": "Experts recommend genetic testing for all patients with advanced prostate cancer to help guide treatment. Our new guide with helps patients access these crucial tests. Thanks to for making this possible.",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 83,
+    "risk_score": 64.8,
+    "confidence": "high",
+    "confidence_band": [
+      56.8,
+      72.8
+    ],
+    "confidence_raw": 0.73,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 100.0,
+        "weight": 0.2,
+        "contribution": 20.0,
+        "detail": {
+          "post_count": 83,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 100.0,
+        "weight": 0.2,
+        "contribution": 20.0,
+        "detail": {
+          "total_weighted_engagement": 14859.7,
+          "avg_per_post": 179.0,
+          "total_shares": 264,
+          "total_comments": 325,
+          "total_likes": 536,
+          "total_views": 128817,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 100.0,
+        "weight": 0.15,
+        "contribution": 15.0,
+        "detail": {
+          "max_followers": 7514455,
+          "median_followers": 411,
+          "unique_authors": 76,
+          "raw_score": 89.4,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 21.1,
+        "weight": 0.3,
+        "contribution": 6.3,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.27,
+          "positive_ratio": 0.11,
+          "sentiment_modifier": 0.5,
+          "high_risk_keywords": 4,
+          "medium_risk_keywords": 5,
+          "low_risk_keywords": 5,
+          "keyword_modifier": 0.7
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 23.0,
+        "weight": 0.15,
+        "contribution": 3.4,
+        "detail": {
+          "posts_per_day": 2.87,
+          "span_days": 28.9,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1989066993475953112",
+        "text": "All these stocks hit new 52 WEEK HIGHS at some point today\n\nEli Lilly $LLY\nGoldman Sachs $GS\nJohnson & Johnson $JNJ\nCisco $CSCO\nGeneral Motors $GM\nAlbemarle $ALB\nAmgen $AMGN\nAstrazeneca $AZN\nBarrick Mining $B\nBarclays $BCS\nCarpenter $CRS\nDeutsche Bank $DB\nDillar's $DDS\n$EQT\nEquinox Gold $EQX\nEdwards",
+        "url": "https://x.com/i/web/status/1989066993475953112",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 63,
+        "comments": 30,
+        "followers": 1,
+        "handle": "StockMKTNewz"
+      },
+      {
+        "post_id": "1156444063326540",
+        "text": "So I had 3 Covid jabs, all of them being Oxford-AstraZeneca Covid-19 vaccine. On Monday 10th of November I had a massive blood clot go to my brain, causing me to have a stroke. After having a MRI the tests have show that I have actually had two strokes. One that happened previously, and they can’t a",
+        "url": "https://www.facebook.com/1156444063326540",
+        "platform": "facebook",
+        "likes": 78,
+        "shares": 65,
+        "comments": 137,
+        "followers": 845,
+        "handle": ""
+      },
+      {
+        "post_id": "122167623422585769",
+        "text": "It’s been a ride… 😔💫 Honestly, the past 5 years have been some of the hardest of my life, but has been the biggest reminder of how faithful prayer 🙏🏻 got me through & being supported by others in the hard times is so so valuable Since Covid, we’ve been rebuilding after losing one of our businesses s",
+        "url": "https://www.facebook.com/122167623422585769",
+        "platform": "facebook",
+        "likes": 48,
+        "shares": 0,
+        "comments": 80,
+        "followers": 1631,
+        "handle": "cathy.feenan.2025"
+      },
+      {
+        "post_id": "1229919702291505",
+        "text": "Know Your Lung Health💚 Lung health matters more than ever. Our partners at SGH are seeing more cases of breathlessness, asthma-like symptoms, and the rising effects of vaping; so we put together a half-day programme to equip our seniors with the knowledge they need. Held in conjunction with World CO",
+        "url": "https://www.facebook.com/1229919702291505",
+        "platform": "facebook",
+        "likes": 92,
+        "shares": 14,
+        "comments": 2,
+        "followers": 12219,
+        "handle": "RachelOngSY"
+      },
+      {
+        "post_id": "1644328087008395",
+        "text": "“Grok, how do they use fetal cell lines to make vaccines? Don’t give me any opinions just facts.” Grok : “- Fetal cell lines used in vaccine production: WI-38 (1962, female fetus, Sweden), MRC-5 (1966, male fetus, UK), HEK-293 (1973, Netherlands), PER.C6 (1995, Netherlands). - These are immortalized",
+        "url": "https://www.facebook.com/1644328087008395",
+        "platform": "facebook",
+        "likes": 29,
+        "shares": 27,
+        "comments": 11,
+        "followers": 84000,
+        "handle": "VaccineDamage"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 52,
+      "positive": 9,
+      "negative": 22
+    }
+  },
+  {
+    "narrative_id": "astrazeneca_narrative_6",
+    "entity_id": "astrazeneca",
+    "title": "Virginia Center Advanced Vcu",
+    "summary": "VCU College of Engineering is partnering with AstraZeneca, Eli Lilly, Merck and Virginia universities to establish the Virginia Center for Advanced Pharmaceutical Manufacturing, supported by a 12.5B investment in the state s life sciences sector. The",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 2,
+    "risk_score": 63.1,
+    "confidence": "medium",
+    "confidence_band": [
+      48.1,
+      78.1
+    ],
+    "confidence_raw": 0.61,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 87.0,
+        "weight": 0.3,
+        "contribution": 26.1,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 1.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 10.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 2.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 66.7,
+        "weight": 0.2,
+        "contribution": 13.3,
+        "detail": {
+          "post_count": 2,
+          "percentile": 66.7
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 80.0,
+        "weight": 0.15,
+        "contribution": 12.0,
+        "detail": {
+          "posts_per_day": 38.5,
+          "span_days": 0.1,
+          "accelerating": true
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 50.0,
+        "weight": 0.15,
+        "contribution": 7.5,
+        "detail": {
+          "max_followers": 4172,
+          "median_followers": 4172,
+          "unique_authors": 2,
+          "raw_score": 47.5,
+          "percentile": 50.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 20.8,
+        "weight": 0.2,
+        "contribution": 4.2,
+        "detail": {
+          "total_weighted_engagement": 11.1,
+          "avg_per_post": 5.6,
+          "total_shares": 0,
+          "total_comments": 0,
+          "total_likes": 5,
+          "total_views": 61,
+          "percentile": 20.8
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1494197616043711",
+        "text": "VCU College of Engineering is partnering with AstraZeneca, Eli Lilly, Merck and Virginia universities to establish the Virginia Center for Advanced Pharmaceutical Manufacturing, supported by a $12.5B investment in the state’s life sciences sector. The center will become the largest workforce develop",
+        "url": "https://www.facebook.com/1494197616043711",
+        "platform": "facebook",
+        "likes": 5,
+        "shares": 0,
+        "comments": 0,
+        "followers": 4172,
+        "handle": "VCUEngineering"
+      },
+      {
+        "post_id": "1993303747942838303",
+        "text": "🏗️ HLC member companies @AstraZeneca and @Merck are joining forces with @EliLillyandCo and Virginia’s higher education institutions to create the Virginia Center for Advanced Pharmaceutical Manufacturing, committing $120M of private industry investment: https://t.co/eaHxSKJ3Sg https://t.co/xnsR5sc1c",
+        "url": "https://x.com/i/web/status/1993303747942838303",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "HLC_DC"
+      }
+    ],
+    "sentiment_distribution": {
+      "negative": 2
+    }
+  },
+  {
+    "narrative_id": "astrazeneca_narrative_10",
+    "entity_id": "astrazeneca",
+    "title": "Effects Vaccine Pain Injection",
+    "summary": "Common side effects of Covishield AstraZeneca viral vector vaccine include pain at the injection site, headache, fatigue, fever, chills, muscle pain, and nausea, typically mild and resolving in 1-3 days per Serum Institute data. Rare serious effects ",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 2,
+    "risk_score": 59.9,
+    "confidence": "medium",
+    "confidence_band": [
+      44.9,
+      74.9
+    ],
+    "confidence_raw": 0.51,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 99.0,
+        "weight": 0.3,
+        "contribution": 29.7,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.5,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 5.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 2,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 4.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 91.7,
+        "weight": 0.15,
+        "contribution": 13.7,
+        "detail": {
+          "max_followers": 7514455,
+          "median_followers": 7514455,
+          "unique_authors": 1,
+          "raw_score": 79.9,
+          "percentile": 91.7
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 66.7,
+        "weight": 0.2,
+        "contribution": 13.3,
+        "detail": {
+          "post_count": 2,
+          "percentile": 66.7
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 8.3,
+        "weight": 0.2,
+        "contribution": 1.7,
+        "detail": {
+          "total_weighted_engagement": 9.1,
+          "avg_per_post": 4.6,
+          "total_shares": 0,
+          "total_comments": 0,
+          "total_likes": 0,
+          "total_views": 91,
+          "percentile": 8.3
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 9.5,
+        "weight": 0.15,
+        "contribution": 1.4,
+        "detail": {
+          "posts_per_day": 1.18,
+          "span_days": 1.7,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1988243996444160243",
+        "text": "Viral vector vaccines like AstraZeneca and J&J exhibited high reactogenicity, with trials showing comparable or greater systemic effects (fever, fatigue) versus mRNA, alongside rare but serious risks like thrombosis. mRNA vaccines, however, carry a clearer signal for myocarditis, particularly in you",
+        "url": "https://x.com/i/web/status/1988243996444160243",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 7514455,
+        "handle": "grok"
+      },
+      {
+        "post_id": "1988857430017810438",
+        "text": "Common side effects of Covishield (AstraZeneca viral vector vaccine) include pain at the injection site, headache, fatigue, fever, chills, muscle pain, and nausea, typically mild and resolving in 1-3 days per Serum Institute data. Rare serious effects involve thrombosis with thrombocytopenia syndrom",
+        "url": "https://x.com/i/web/status/1988857430017810438",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 7514455,
+        "handle": "grok"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 1,
+      "negative": 1
+    }
+  },
+  {
+    "narrative_id": "astrazeneca_narrative_15",
+    "entity_id": "astrazeneca",
+    "title": "Benefit Cancer Care Donors",
+    "summary": "Donors at the 25th annual Autumn Affair Benefit Auction shattered previous fundraising records, contributing 550,000 to support programs, services and equipment that assist patients receiving treatment at the Kadlec Tri-Cities Cancer Center! More tha",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 2,
+    "risk_score": 57.4,
+    "confidence": "medium",
+    "confidence_band": [
+      42.4,
+      72.4
+    ],
+    "confidence_raw": 0.59,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 70.0,
+        "weight": 0.3,
+        "contribution": 21.0,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.0,
+          "positive_ratio": 1.0,
+          "sentiment_modifier": -20.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 70.8,
+        "weight": 0.2,
+        "contribution": 14.2,
+        "detail": {
+          "total_weighted_engagement": 191.0,
+          "avg_per_post": 95.5,
+          "total_shares": 17,
+          "total_comments": 17,
+          "total_likes": 106,
+          "total_views": 0,
+          "percentile": 70.8
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 66.7,
+        "weight": 0.2,
+        "contribution": 13.3,
+        "detail": {
+          "post_count": 2,
+          "percentile": 66.7
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 58.3,
+        "weight": 0.15,
+        "contribution": 8.8,
+        "detail": {
+          "max_followers": 7232,
+          "median_followers": 7232,
+          "unique_authors": 2,
+          "raw_score": 50.5,
+          "percentile": 58.3
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.1,
+        "weight": 0.15,
+        "contribution": 0.2,
+        "detail": {
+          "posts_per_day": 0.14,
+          "span_days": 14.2,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1392006322935784",
+        "text": "Donors at the 25th annual Autumn Affair & Benefit Auction shattered previous fundraising records, contributing $550,000 to support programs, services and equipment that assist patients receiving treatment at the Kadlec Tri-Cities Cancer Center! More than 540 supporters attended the \"Welcome to the J",
+        "url": "https://www.facebook.com/1392006322935784",
+        "platform": "facebook",
+        "likes": 104,
+        "shares": 15,
+        "comments": 17,
+        "followers": 7232,
+        "handle": "TCCancerCenterFoundation"
+      },
+      {
+        "post_id": "827010979975239",
+        "text": "CCRAN proudly recognizes our Bronze Sponsors — AstraZeneca, GSK, and Innovative Medicines Canada / Médicaments novateurs Canada — for their generous support of the 5th Annual Early Age Onset Cancer Symposium (#EAOC25). Their partnership helps us advance research, raise awareness, and strengthen care",
+        "url": "https://www.facebook.com/827010979975239",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 2,
+        "comments": 0,
+        "followers": 696,
+        "handle": "ccranorg"
+      }
+    ],
+    "sentiment_distribution": {
+      "positive": 2
+    }
+  },
+  {
+    "narrative_id": "astrazeneca_narrative_17",
+    "entity_id": "astrazeneca",
+    "title": "London Ftse Top Heavyweights",
+    "summary": "London s FTSE Top 10 Heavyweights Market Performance 25 11 25 risers AstraZeneca 1.19 HSBC 0.25 Unilever 0.66 BAT 2.81 Rio Tinto 0.84 Rolls Royce 1.55 GSK 0.06 Barclays 2.35 fallers Shell -0.22 BP - 0.00",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 3,
+    "risk_score": 55.7,
+    "confidence": "medium",
+    "confidence_band": [
+      40.7,
+      70.7
+    ],
+    "confidence_raw": 0.53,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 75.0,
+        "weight": 0.3,
+        "contribution": 22.5,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 83.3,
+        "weight": 0.2,
+        "contribution": 16.7,
+        "detail": {
+          "post_count": 3,
+          "percentile": 83.3
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 75.0,
+        "weight": 0.2,
+        "contribution": 15.0,
+        "detail": {
+          "total_weighted_engagement": 218.9,
+          "avg_per_post": 73.0,
+          "total_shares": 0,
+          "total_comments": 0,
+          "total_likes": 0,
+          "total_views": 2189,
+          "percentile": 75.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 8.3,
+        "weight": 0.15,
+        "contribution": 1.2,
+        "detail": {
+          "max_followers": 13,
+          "median_followers": 13,
+          "unique_authors": 2,
+          "raw_score": 16.0,
+          "percentile": 8.3
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.6,
+        "weight": 0.15,
+        "contribution": 0.2,
+        "detail": {
+          "posts_per_day": 0.2,
+          "span_days": 15.0,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1988227019424100792",
+        "text": "FTSE 100 hits record high as job market data weakens pound; AstraZeneca shines\n\nFull Story → https://t.co/9MtZHE9ZET https://t.co/HU6oavJ2GL",
+        "url": "https://x.com/i/web/status/1988227019424100792",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "PiQSuite"
+      },
+      {
+        "post_id": "1993393822039155145",
+        "text": "🚨London’s FTSE Top 10 Heavyweights Market Performance 25/11/25:\n\nrisers 📈\nAstraZeneca: +1.19%\nHSBC: +0.25%\nUnilever: +0.66%\nBAT: +2.81%\nRio Tinto: +0.84%\nRolls Royce: +1.55%\nGSK: +0.06%\nBarclays: +2.35%\n\nfallers 📉\nShell: -0.22%\n\nBP: +/- 0.00% https://t.co/AI5MoCBIaR",
+        "url": "https://x.com/i/web/status/1993393822039155145",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 13,
+        "handle": "CityPBE"
+      },
+      {
+        "post_id": "1987967925412917735",
+        "text": "🚨London’s FTSE Top 10 Heavyweights Market Performance 10/11/25:\n\nrisers 📈\nAstraZeneca: +1.75%\nHSBC: +1.70%\nShell: +0.72%\nRolls Royce: +1.98%\nBAT: +0.82%\nRio Tinto: +1.44%\nGSK: +0.20%\nBP: +1.19%\n\nfallers 📉\nUnilever: -0.63%\nRELX: -0.44% https://t.co/u69Su6bD2f",
+        "url": "https://x.com/i/web/status/1987967925412917735",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 13,
+        "handle": "CityPBE"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 3
+    }
+  },
+  {
+    "narrative_id": "astrazeneca_narrative_7",
+    "entity_id": "astrazeneca",
+    "title": "Update European Medicines Agency",
+    "summary": "In an update on the European Medicines Agency s website Wednesday, the regulator said that the approval for AstraZeneca s Vaxzevria had been withdrawn at the request of the marketing authorization holder.",
+    "taxonomy_label": "Regulatory / Compliance",
+    "post_count": 2,
+    "risk_score": 55.1,
+    "confidence": "medium",
+    "confidence_band": [
+      40.1,
+      70.1
+    ],
+    "confidence_raw": 0.56,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 94.0,
+        "weight": 0.3,
+        "contribution": 28.2,
+        "detail": {
+          "taxonomy_label": "Regulatory / Compliance",
+          "taxonomy_base_score": 85,
+          "negative_ratio": 0.5,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 5.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 2,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 4.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 66.7,
+        "weight": 0.2,
+        "contribution": 13.3,
+        "detail": {
+          "post_count": 2,
+          "percentile": 66.7
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 37.5,
+        "weight": 0.2,
+        "contribution": 7.5,
+        "detail": {
+          "total_weighted_engagement": 42.1,
+          "avg_per_post": 21.1,
+          "total_shares": 5,
+          "total_comments": 3,
+          "total_likes": 10,
+          "total_views": 111,
+          "percentile": 37.5
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 37.5,
+        "weight": 0.15,
+        "contribution": 5.6,
+        "detail": {
+          "max_followers": 1532,
+          "median_followers": 1532,
+          "unique_authors": 2,
+          "raw_score": 42.0,
+          "percentile": 37.5
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 2.8,
+        "weight": 0.15,
+        "contribution": 0.4,
+        "detail": {
+          "posts_per_day": 0.35,
+          "span_days": 5.7,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "4787175148175421",
+        "text": "latest global headlines AstraZeneca warns Europe risks losing “health sovereignty” unless it pays more for medicines — Europe’s pharmaceutical future may be at risk as investment shifts to the U.S. and China. 🔗 https://www.ft.com/content/6c a… Microsoft launches ‘superintelligence’ team focused on m",
+        "url": "https://www.facebook.com/4787175148175421",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 1532,
+        "handle": "irakunnyangjohn.garba"
+      },
+      {
+        "post_id": "1984428723924517311",
+        "text": "@grok @ypeskin @jack66123366 @DschlopesIsBack In an update on the European Medicines Agency’s website Wednesday, the regulator said that the approval for AstraZeneca’s Vaxzevria had been withdrawn “at the request of the marketing authorization holder.”",
+        "url": "https://x.com/i/web/status/1984428723924517311",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 1,
+        "followers": 1,
+        "handle": "JohnSmi797Z"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 1,
+      "negative": 1
+    }
+  },
+  {
+    "narrative_id": "astrazeneca_narrative_9",
+    "entity_id": "astrazeneca",
+    "title": "Vaccine Rotavirus Rotashield Astrazeneca",
+    "summary": "-Rotavirus vaccine RotaShield -AstraZeneca's COVID-19 vaccine Vaxzevria Covishield caused Thrombosis with Thrombocytopenia Syndrome TTS , in some cases. -Lyme disease vaccine LYMErix -Whole-cell Pertussis vaccine -Killed Measles vaccine All withdrawn",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 6,
+    "risk_score": 54.4,
+    "confidence": "medium",
+    "confidence_band": [
+      39.4,
+      69.4
+    ],
+    "confidence_raw": 0.7,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 71.7,
+        "weight": 0.3,
+        "contribution": 21.5,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.17,
+          "positive_ratio": 0.33,
+          "sentiment_modifier": -5.0,
+          "high_risk_keywords": 1,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 1.7
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 87.5,
+        "weight": 0.2,
+        "contribution": 17.5,
+        "detail": {
+          "post_count": 6,
+          "percentile": 87.5
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 37.5,
+        "weight": 0.2,
+        "contribution": 7.5,
+        "detail": {
+          "total_weighted_engagement": 57.9,
+          "avg_per_post": 9.6,
+          "total_shares": 2,
+          "total_comments": 2,
+          "total_likes": 5,
+          "total_views": 429,
+          "percentile": 37.5
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 29.2,
+        "weight": 0.15,
+        "contribution": 4.4,
+        "detail": {
+          "max_followers": 898,
+          "median_followers": 1,
+          "unique_authors": 6,
+          "raw_score": 31.3,
+          "percentile": 29.2
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 23.4,
+        "weight": 0.15,
+        "contribution": 3.5,
+        "detail": {
+          "posts_per_day": 0.43,
+          "span_days": 14.1,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1984569814258475519",
+        "text": "@karthik2k2 -Rotavirus vaccine (RotaShield®): \n-AstraZeneca's COVID-19 vaccine (Vaxzevria/Covishield):    caused Thrombosis with Thrombocytopenia Syndrome (TTS), in some cases. \n-Lyme disease vaccine (LYMErix): \n-Whole-cell Pertussis vaccine: \n-Killed Measles vaccine: \nAll withdrawn later!",
+        "url": "https://x.com/i/web/status/1984569814258475519",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 1,
+        "followers": 1,
+        "handle": "mishra_susant"
+      },
+      {
+        "post_id": "3215098455321205",
+        "text": "RESULT 887 | SEPTEMBER 2025 💊 AstraZeneca Pharma India Ltd – “Steady Growth; Margins Slightly Soft” AstraZeneca recorded moderate topline growth, though operating margins eased slightly sequentially. 📊 Quarterly Snapshot (₹ crore): Revenue ₹ 559 ↑ (₹ 526 in Jun 2025) Operating Profit ₹ 75 ↓ (₹ 81) O",
+        "url": "https://www.facebook.com/3215098455321205",
+        "platform": "facebook",
+        "likes": 5,
+        "shares": 0,
+        "comments": 0,
+        "followers": 898,
+        "handle": "atul.singh.978075"
+      },
+      {
+        "post_id": "1988295933990506497",
+        "text": "On Tuesday, $AZN AstraZeneca's shares surpassed their September 2024 peak, reaching a new record high and solidifying the company's status as the largest UK-listed stock by market value.",
+        "url": "https://x.com/i/web/status/1988295933990506497",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 2,
+        "comments": 0,
+        "followers": 645,
+        "handle": "ovtlyr"
+      },
+      {
+        "post_id": "1989665132369088528",
+        "text": "AstraZeneca and Gilead have reported successful trial results for new treatments targeting aggressive breast cancer. These advancements may soon offer patients improved therapeutic options and hope for better disease management. https://t.co/4qRD2pz5GY",
+        "url": "https://x.com/i/web/status/1989665132369088528",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 1,
+        "followers": 1,
+        "handle": "Kainjoo"
+      },
+      {
+        "post_id": "1988683233597522308",
+        "text": "🚨Daily Exec Briefing 🚨\nAstraZeneca's stock increased after positive Q3 earnings and deals with the Trump administration.\nLink: https://t.co/fIfAqaFNan",
+        "url": "https://x.com/i/web/status/1988683233597522308",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "PharmExec"
+      }
+    ],
+    "sentiment_distribution": {
+      "negative": 1,
+      "positive": 2,
+      "neutral": 3
+    }
+  },
+  {
+    "narrative_id": "astrazeneca_narrative_8",
+    "entity_id": "astrazeneca",
+    "title": "Pac Dlga Corporate Yes",
+    "summary": "Yes, FEC records confirm DLGA PAC contributed 5,000 to Peggy Flanagan's Senate campaign on June 27, 2025. DLGA itself receives funds from numerous corporate-linked PACs, including those from Lockheed Martin, AstraZeneca, Amazon, and PhRMA, among othe",
+    "taxonomy_label": "Executive / Employee Misconduct",
+    "post_count": 2,
+    "risk_score": 54.4,
+    "confidence": "medium",
+    "confidence_band": [
+      39.4,
+      69.4
+    ],
+    "confidence_raw": 0.52,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 80.0,
+        "weight": 0.3,
+        "contribution": 24.0,
+        "detail": {
+          "taxonomy_label": "Executive / Employee Misconduct",
+          "taxonomy_base_score": 80,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 95.8,
+        "weight": 0.15,
+        "contribution": 14.4,
+        "detail": {
+          "max_followers": 7514455,
+          "median_followers": 7514455,
+          "unique_authors": 2,
+          "raw_score": 80.9,
+          "percentile": 95.8
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 66.7,
+        "weight": 0.2,
+        "contribution": 13.3,
+        "detail": {
+          "post_count": 2,
+          "percentile": 66.7
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 12.5,
+        "weight": 0.2,
+        "contribution": 2.5,
+        "detail": {
+          "total_weighted_engagement": 10.7,
+          "avg_per_post": 5.3,
+          "total_shares": 0,
+          "total_comments": 0,
+          "total_likes": 0,
+          "total_views": 107,
+          "percentile": 12.5
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.4,
+        "weight": 0.15,
+        "contribution": 0.2,
+        "detail": {
+          "posts_per_day": 0.17,
+          "span_days": 11.8,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1988092893815599177",
+        "text": "Yes, FEC records confirm DLGA PAC contributed $5,000 to Peggy Flanagan's Senate campaign on June 27, 2025. DLGA itself receives funds from numerous corporate-linked PACs, including those from Lockheed Martin, AstraZeneca, Amazon, and PhRMA, among others. While she may not take direct corporate PAC d",
+        "url": "https://x.com/i/web/status/1988092893815599177",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 7514455,
+        "handle": "grok"
+      },
+      {
+        "post_id": "1992357759732601053",
+        "text": "@fisher4maryland @GovWesMoore @AstraZeneca Oh well so much for his policy on making corporations pay their fair share.",
+        "url": "https://x.com/i/web/status/1992357759732601053",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "masters457"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "astrazeneca_narrative_18",
+    "entity_id": "astrazeneca",
+    "title": "Astrazeneca Announces Investment Manufacturing",
+    "summary": "AstraZeneca announces 2bn investment in US manufacturing",
+    "taxonomy_label": "Operational Resilience",
+    "post_count": 3,
+    "risk_score": 53.7,
+    "confidence": "medium",
+    "confidence_band": [
+      38.7,
+      68.7
+    ],
+    "confidence_raw": 0.57,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 74.7,
+        "weight": 0.3,
+        "contribution": 22.4,
+        "detail": {
+          "taxonomy_label": "Operational Resilience",
+          "taxonomy_base_score": 70,
+          "negative_ratio": 0.33,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 3.3,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 1.3
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 83.3,
+        "weight": 0.2,
+        "contribution": 16.7,
+        "detail": {
+          "post_count": 3,
+          "percentile": 83.3
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 50.0,
+        "weight": 0.2,
+        "contribution": 10.0,
+        "detail": {
+          "total_weighted_engagement": 68.1,
+          "avg_per_post": 22.7,
+          "total_shares": 6,
+          "total_comments": 3,
+          "total_likes": 10,
+          "total_views": 341,
+          "percentile": 50.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 25.0,
+        "weight": 0.15,
+        "contribution": 3.8,
+        "detail": {
+          "max_followers": 430,
+          "median_followers": 1,
+          "unique_authors": 3,
+          "raw_score": 25.6,
+          "percentile": 25.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 5.9,
+        "weight": 0.15,
+        "contribution": 0.9,
+        "detail": {
+          "posts_per_day": 0.74,
+          "span_days": 4.1,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1475922351209923",
+        "text": "AstraZeneca announces $2bn investment in US manufacturing ",
+        "url": "https://www.facebook.com/1475922351209923",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 430,
+        "handle": "pmlivecom"
+      },
+      {
+        "post_id": "1992302406692909281",
+        "text": "MoCo Business...Pharmaceutical giant AstraZeneca to build Gaithersburg clinical manufacturing facility as part of $2B expansion in Md. Move follows firm's unveiling in early May of Rockville cell therapy manufacturing facility.\nhttps://t.co/wmtyxaz9kx via @Bethesda Magazine",
+        "url": "https://x.com/i/web/status/1992302406692909281",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 1,
+        "comments": 0,
+        "followers": 1,
+        "handle": "PotomacPeck"
+      },
+      {
+        "post_id": "1991665324979089896",
+        "text": "@nikillinit I haven't paid for anything, but AstraZeneca has a collaboration with OpenAI, and I assume the model that powers \"AZGPT\" at work is one of the better ones.\n\nTo learn something Google, Pubmed/NCBI, search on Twitter, podcasts, etc. Guess I'm stuck in pre-2022 life.",
+        "url": "https://x.com/i/web/status/1991665324979089896",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 1,
+        "followers": 1,
+        "handle": "PatrickHeizer"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2,
+      "negative": 1
+    }
+  },
+  {
+    "narrative_id": "astrazeneca_narrative_20",
+    "entity_id": "astrazeneca",
+    "title": "November Stomach Cancer Thank",
+    "summary": "Our light shines bright in the ancient capital! From November 28th to November 30th JST , the Kyoto Prefecture Government Main Building is glowing in periwinkle to honor those affected by stomach cancer and to mark Stomach Cancer Awareness Day. We ar",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 2,
+    "risk_score": 53.7,
+    "confidence": "medium",
+    "confidence_band": [
+      38.7,
+      68.7
+    ],
+    "confidence_raw": 0.59,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 80.0,
+        "weight": 0.3,
+        "contribution": 24.0,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.5,
+          "sentiment_modifier": -10.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 66.7,
+        "weight": 0.2,
+        "contribution": 13.3,
+        "detail": {
+          "post_count": 2,
+          "percentile": 66.7
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 45.8,
+        "weight": 0.2,
+        "contribution": 9.2,
+        "detail": {
+          "total_weighted_engagement": 65.0,
+          "avg_per_post": 32.5,
+          "total_shares": 8,
+          "total_comments": 2,
+          "total_likes": 27,
+          "total_views": 100,
+          "percentile": 45.8
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 45.8,
+        "weight": 0.15,
+        "contribution": 6.9,
+        "detail": {
+          "max_followers": 3062,
+          "median_followers": 3062,
+          "unique_authors": 2,
+          "raw_score": 45.8,
+          "percentile": 45.8
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.9,
+        "weight": 0.15,
+        "contribution": 0.3,
+        "detail": {
+          "posts_per_day": 0.24,
+          "span_days": 8.3,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1540905470283739",
+        "text": "💫 Thank you to all participants and speakers who joined us at the 2nd European Cancer Dependency Map Symposium! The event brought together scientists from across Europe to advance cancer functional genomics and identify new therapeutic targets. Through inspiring talks and discussions - from CRISPR-b",
+        "url": "https://www.facebook.com/1540905470283739",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 3062,
+        "handle": "htechnopole"
+      },
+      {
+        "post_id": "1285279756964629",
+        "text": "Our light shines bright in the ancient capital! 🇯🇵🏯 From November 28th to November 30th (JST), the Kyoto Prefecture Government Main Building is glowing in periwinkle to honor those affected by stomach cancer and to mark Stomach Cancer Awareness Day. We are deeply grateful to Kobounokai and Todoroki ",
+        "url": "https://www.facebook.com/1285279756964629",
+        "platform": "facebook",
+        "likes": 17,
+        "shares": 3,
+        "comments": 0,
+        "followers": 1702,
+        "handle": "MyGutFeeling1.StomachCancerFoundationofCanada"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 1,
+      "positive": 1
+    }
+  },
+  {
+    "narrative_id": "astrazeneca_narrative_13",
+    "entity_id": "astrazeneca",
+    "title": "Cancer Therapies Survival Treatments",
+    "summary": "New cancer treatments, including mRNA vaccines and targeted therapies, are reducing recurrence risks and improving survival rates, with innovations making care more equitable and effective.Innovative cancer therapies from Moderna, AstraZeneca, and ot",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 2,
+    "risk_score": 49.7,
+    "confidence": "medium",
+    "confidence_band": [
+      34.7,
+      64.7
+    ],
+    "confidence_raw": 0.57,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 75.0,
+        "weight": 0.3,
+        "contribution": 22.5,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.0,
+          "positive_ratio": 1.0,
+          "sentiment_modifier": -20.0,
+          "high_risk_keywords": 1,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 5.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 66.7,
+        "weight": 0.2,
+        "contribution": 13.3,
+        "detail": {
+          "post_count": 2,
+          "percentile": 66.7
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 58.3,
+        "weight": 0.2,
+        "contribution": 11.7,
+        "detail": {
+          "total_weighted_engagement": 78.0,
+          "avg_per_post": 39.0,
+          "total_shares": 10,
+          "total_comments": 4,
+          "total_likes": 20,
+          "total_views": 200,
+          "percentile": 58.3
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 12.5,
+        "weight": 0.15,
+        "contribution": 1.9,
+        "detail": {
+          "max_followers": 20,
+          "median_followers": 20,
+          "unique_authors": 2,
+          "raw_score": 18.4,
+          "percentile": 12.5
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.8,
+        "weight": 0.15,
+        "contribution": 0.3,
+        "detail": {
+          "posts_per_day": 0.23,
+          "span_days": 8.7,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "122272981238232660",
+        "text": "🚨BREAKING – New Asthma Drug Beats 50-Year-Old Treatment by 30% AstraZeneca's Fasenra just changed the game for millions of asthma and COPD patients worldwide. This injectable treatment proved 30% more effective than steroids during life-threatening attacks. The study followed 158 high-risk patients ",
+        "url": "https://www.facebook.com/122272981238232660",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 20,
+        "handle": ""
+      },
+      {
+        "post_id": "122141075150726530",
+        "text": "New cancer treatments, including mRNA vaccines and targeted therapies, are reducing recurrence risks and improving survival rates, with innovations making care more equitable and effective.Innovative cancer therapies from Moderna, AstraZeneca, and others are setting new standards in oncology with im",
+        "url": "https://www.facebook.com/122141075150726530",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 8,
+        "handle": ""
+      }
+    ],
+    "sentiment_distribution": {
+      "positive": 2
+    }
+  },
+  {
+    "narrative_id": "astrazeneca_narrative_2",
+    "entity_id": "astrazeneca",
+    "title": "Llm Alert Pharma Marketers",
+    "summary": "LLM Alert for Pharma Marketers! AI is shaping customer answers. Is your brand showing up? Get the New Healthcare Marketing Playbook in 30 minutes Win AIO. Stay compliant. Hear from AstraZeneca and Imre leadership. AI Deciphered 11 13 11 45 AM",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 2,
+    "risk_score": 49.5,
+    "confidence": "medium",
+    "confidence_band": [
+      34.5,
+      64.5
+    ],
+    "confidence_raw": 0.56,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 88.0,
+        "weight": 0.3,
+        "contribution": 26.4,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 1.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 10.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 1,
+          "keyword_modifier": 3.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 66.7,
+        "weight": 0.2,
+        "contribution": 13.3,
+        "detail": {
+          "post_count": 2,
+          "percentile": 66.7
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 41.7,
+        "weight": 0.15,
+        "contribution": 6.3,
+        "detail": {
+          "max_followers": 1757,
+          "median_followers": 1757,
+          "unique_authors": 2,
+          "raw_score": 42.8,
+          "percentile": 41.7
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 16.7,
+        "weight": 0.2,
+        "contribution": 3.3,
+        "detail": {
+          "total_weighted_engagement": 10.8,
+          "avg_per_post": 5.4,
+          "total_shares": 0,
+          "total_comments": 1,
+          "total_likes": 0,
+          "total_views": 88,
+          "percentile": 16.7
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.4,
+        "weight": 0.15,
+        "contribution": 0.2,
+        "detail": {
+          "posts_per_day": 0.17,
+          "span_days": 11.8,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1986122868934005214",
+        "text": "LLM Alert for Pharma Marketers! 🚨 AI is shaping customer answers. Is your brand showing up? Get the New Healthcare Marketing Playbook in 30 minutes: Win AIO. Stay compliant. Hear from AstraZeneca and Imre leadership. AI Deciphered | 11/13 | 11:45 AM https://t.co/YlGPIEcP5b https://t.co/PQDyZ7RgsK",
+        "url": "https://x.com/i/web/status/1986122868934005214",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 1,
+        "followers": 1,
+        "handle": "MMMnews"
+      },
+      {
+        "post_id": "1990414273487491476",
+        "text": "AstraZeneca partners with Sun Pharma to expand access to hyperkalaemia treatment Lokelma 🤝🏻\n\nMore details ⬇🔗\nhttps://t.co/jzbZxEMZBj",
+        "url": "https://x.com/i/web/status/1990414273487491476",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1757,
+        "handle": "MSANDEEP151288"
+      }
+    ],
+    "sentiment_distribution": {
+      "negative": 2
+    }
+  },
+  {
+    "narrative_id": "astrazeneca_narrative_21",
+    "entity_id": "astrazeneca",
+    "title": "Vaers Yeah Data Wild",
+    "summary": "AI Yeah, that VAERS data is wild. One point six million adverse events in just a few years? That's not just noise-something's off. The batch-linked deaths especially scream cover-up, even if they won't admit it. Governments love their selective trans",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 2,
+    "risk_score": 47.7,
+    "confidence": "low",
+    "confidence_band": [
+      22.7,
+      72.7
+    ],
+    "confidence_raw": 0.37,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 90.0,
+        "weight": 0.3,
+        "contribution": 27.0,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.5,
+          "positive_ratio": 0.5,
+          "sentiment_modifier": -5.0,
+          "high_risk_keywords": 1,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 5.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 66.7,
+        "weight": 0.2,
+        "contribution": 13.3,
+        "detail": {
+          "post_count": 2,
+          "percentile": 66.7
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 33.3,
+        "weight": 0.2,
+        "contribution": 6.7,
+        "detail": {
+          "total_weighted_engagement": 41.2,
+          "avg_per_post": 20.6,
+          "total_shares": 5,
+          "total_comments": 2,
+          "total_likes": 10,
+          "total_views": 122,
+          "percentile": 33.3
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 4.2,
+        "weight": 0.15,
+        "contribution": 0.6,
+        "detail": {
+          "max_followers": 1,
+          "median_followers": 1,
+          "unique_authors": 2,
+          "raw_score": 2.0,
+          "percentile": 4.2
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 0.6,
+        "weight": 0.15,
+        "contribution": 0.1,
+        "detail": {
+          "posts_per_day": 0.08,
+          "span_days": 26.5,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "3952241388253051",
+        "text": "some good news from Sachsen (Saxony) in Germany 3 Deaths, the Covid Injections, officially declared the cause of the deaths by the Social Ministry and the family are getting compensation 3 men, 44, 63 and 66 years old, the vaccines from AstraZeneca, BionTechPfizer and Moderna, none of them safe and ",
+        "url": "https://www.facebook.com/3952241388253051",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 0,
+        "handle": "wiebke.douglas"
+      },
+      {
+        "post_id": "1984511681356316984",
+        "text": "AI\n\nYeah, that VAERS data is wild. One point six million adverse events in just a few years? That's not just noise-something's off. The batch-linked deaths especially scream cover-up, even if they won't admit it. Governments love their selective transparency; AstraZeneca's absence from VAERS is no a",
+        "url": "https://x.com/i/web/status/1984511681356316984",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "super1990"
+      }
+    ],
+    "sentiment_distribution": {
+      "negative": 1,
+      "positive": 1
+    }
+  },
+  {
+    "narrative_id": "astrazeneca_narrative_16",
+    "entity_id": "astrazeneca",
+    "title": "Diabetes World Cairo Honored",
+    "summary": "كونوا جزء ا من الاحتفال العلمي الأكبر بـ World Diabetes Day 2025 Diabetes and Well-being حيث ن رحب بمشاركة نخبة من أبرز الخبراء في المجال الطبي We re honored to announce the participation of Prof. Aliaa El Sherbiny Cairo University in World Diabetes ",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 3,
+    "risk_score": 46.8,
+    "confidence": "medium",
+    "confidence_band": [
+      31.8,
+      61.8
+    ],
+    "confidence_raw": 0.56,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 83.3,
+        "weight": 0.2,
+        "contribution": 16.7,
+        "detail": {
+          "post_count": 3,
+          "percentile": 83.3
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 62.5,
+        "weight": 0.2,
+        "contribution": 12.5,
+        "detail": {
+          "total_weighted_engagement": 83.8,
+          "avg_per_post": 27.9,
+          "total_shares": 8,
+          "total_comments": 11,
+          "total_likes": 29,
+          "total_views": 88,
+          "percentile": 62.5
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 75.0,
+        "weight": 0.15,
+        "contribution": 11.2,
+        "detail": {
+          "max_followers": 69234,
+          "median_followers": 38834,
+          "unique_authors": 3,
+          "raw_score": 62.8,
+          "percentile": 75.0
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 20.0,
+        "weight": 0.3,
+        "contribution": 6.0,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 2.8,
+        "weight": 0.15,
+        "contribution": 0.4,
+        "detail": {
+          "posts_per_day": 0.35,
+          "span_days": 8.5,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "843177888330958",
+        "text": "Today, as we commemorate World Diabetes Day, we are reminded that diabetes remains one of the most urgent health challenges in our country. Its growing prevalence affects families, communities, and our entire healthcare system. That is why our mission is clear: Prevention must be our priority. This ",
+        "url": "https://www.facebook.com/843177888330958",
+        "platform": "facebook",
+        "likes": 27,
+        "shares": 8,
+        "comments": 11,
+        "followers": 38834,
+        "handle": "DialysisPH"
+      },
+      {
+        "post_id": "1184606056458942",
+        "text": "🌍 كونوا جزءًا من الاحتفال العلمي الأكبر بـ World Diabetes Day 2025 (Diabetes and Well-being) حيث نُرحب بمشاركة نخبة من أبرز الخبراء في المجال الطبي We’re honored to announce the participation of Prof. Aliaa El Sherbiny – Cairo University in World Diabetes Day 2025 (Diabetes and Well-being) – CRM 202",
+        "url": "https://www.facebook.com/1184606056458942",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 0,
+        "comments": 0,
+        "followers": 69234,
+        "handle": "pure.spot"
+      },
+      {
+        "post_id": "1986145177942007834",
+        "text": "@nonfungibletak @GaryRiger @KeithGrossman Volvo is not owned by the Chinese. It was only the car division that was divested to Ford and who later sold it to Geely. Other well known companies are Saab, Ikea, Scania, H&M, Securitas, AstraZeneca, ABB, Atlas Copco, among others. Keep in mind we are only",
+        "url": "https://x.com/i/web/status/1986145177942007834",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "lukezdunphy"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 3
+    }
+  },
+  {
+    "narrative_id": "astrazeneca_narrative_3",
+    "entity_id": "astrazeneca",
+    "title": "Vaccines Aluminum Covid News",
+    "summary": "AP News The covid-19 vaccines that have been authorized for emergency use in the United States do not contain any aluminum. Nor do the AstraZeneca or Sputnik V vaccines. Some Chinese covid-19 vaccines, as well as some vaccines used against other dise",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 3,
+    "risk_score": 41.5,
+    "confidence": "medium",
+    "confidence_band": [
+      26.5,
+      56.5
+    ],
+    "confidence_raw": 0.57,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 83.3,
+        "weight": 0.2,
+        "contribution": 16.7,
+        "detail": {
+          "post_count": 3,
+          "percentile": 83.3
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 70.8,
+        "weight": 0.15,
+        "contribution": 10.6,
+        "detail": {
+          "max_followers": 7514455,
+          "median_followers": 1,
+          "unique_authors": 3,
+          "raw_score": 61.9,
+          "percentile": 70.8
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 27.3,
+        "weight": 0.3,
+        "contribution": 8.2,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.67,
+          "positive_ratio": 0.33,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 2,
+          "medium_risk_keywords": 2,
+          "low_risk_keywords": 1,
+          "keyword_modifier": 7.3
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 29.2,
+        "weight": 0.2,
+        "contribution": 5.8,
+        "detail": {
+          "total_weighted_engagement": 22.3,
+          "avg_per_post": 7.4,
+          "total_shares": 0,
+          "total_comments": 0,
+          "total_likes": 0,
+          "total_views": 223,
+          "percentile": 29.2
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.4,
+        "weight": 0.15,
+        "contribution": 0.2,
+        "detail": {
+          "posts_per_day": 0.18,
+          "span_days": 16.8,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1984432206593630623",
+        "text": "Yes, vaccine-induced immune thrombotic thrombocytopenia (VITT/TTS) was causally linked to adenovirus-vector COVID-19 vaccines like AstraZeneca and J&J, with incidence rates around 1-10 cases per million doses, prompting updated warnings in 2021. Regulatory bodies like the EMA and FDA confirmed benef",
+        "url": "https://x.com/i/web/status/1984432206593630623",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 7514455,
+        "handle": "grok"
+      },
+      {
+        "post_id": "1985690954201010649",
+        "text": "Deaths 3060x more likely from covid than from vaccine reactions.\n\nI know which side I prefer to bet on. And I'd like a booster please. Even if it gives me severe vertigo (coincident from 1 week after Astrazeneca, not after mRNA).",
+        "url": "https://x.com/i/web/status/1985690954201010649",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "annwitbrock"
+      },
+      {
+        "post_id": "1990532343744921937",
+        "text": "AP News: \"The covid-19 vaccines that have been authorized for emergency use in the United States do not contain any aluminum. Nor do the AstraZeneca or Sputnik V vaccines. Some Chinese covid-19 vaccines, as well as some vaccines used against other diseases, do use tiny amounts of aluminum to help bo",
+        "url": "https://x.com/i/web/status/1990532343744921937",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "HMilne57"
+      }
+    ],
+    "sentiment_distribution": {
+      "positive": 1,
+      "negative": 2
+    }
+  },
+  {
+    "narrative_id": "astrazeneca_narrative_22",
+    "entity_id": "astrazeneca",
+    "title": "Hyderabad Netflix Powerful Testament",
+    "summary": "𝐇𝐲𝐝𝐞𝐫𝐚𝐛𝐚𝐝 𝐖𝐞𝐥𝐜𝐨𝐦𝐞𝐬 𝐍𝐞𝐭𝐟𝐥𝐢𝐱! A powerful testament to Hyderabad s growth, Netflix is officially setting up its office in Hyderabad. The company has leased 41,000 sft at Capitaland ITPH Block A, HITEC City, marking its formal entry into Telangana s tech",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 2,
+    "risk_score": 39.5,
+    "confidence": "medium",
+    "confidence_band": [
+      24.5,
+      54.5
+    ],
+    "confidence_raw": 0.56,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 66.7,
+        "weight": 0.2,
+        "contribution": 13.3,
+        "detail": {
+          "post_count": 2,
+          "percentile": 66.7
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 80.0,
+        "weight": 0.15,
+        "contribution": 12.0,
+        "detail": {
+          "posts_per_day": 120.17,
+          "span_days": 0.0,
+          "accelerating": true
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 58.3,
+        "weight": 0.2,
+        "contribution": 11.7,
+        "detail": {
+          "total_weighted_engagement": 78.0,
+          "avg_per_post": 39.0,
+          "total_shares": 10,
+          "total_comments": 4,
+          "total_likes": 20,
+          "total_views": 200,
+          "percentile": 58.3
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 16.7,
+        "weight": 0.15,
+        "contribution": 2.5,
+        "detail": {
+          "max_followers": 35,
+          "median_followers": 35,
+          "unique_authors": 2,
+          "raw_score": 21.4,
+          "percentile": 16.7
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 0,
+        "weight": 0.3,
+        "contribution": 0.0,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.0,
+          "positive_ratio": 1.0,
+          "sentiment_modifier": -20.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "122144150954921326",
+        "text": "𝐇𝐲𝐝𝐞𝐫𝐚𝐛𝐚𝐝 𝐖𝐞𝐥𝐜𝐨𝐦𝐞𝐬 𝐍𝐞𝐭𝐟𝐥𝐢𝐱! 🎬 A powerful testament to Hyderabad’s growth, Netflix is officially setting up its office in Hyderabad. The company has leased 41,000 sft at Capitaland ITPH Block A, HITEC City, marking its formal entry into Telangana’s tech ecosystem. With this move, Hyderabad now become",
+        "url": "https://www.facebook.com/122144150954921326",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 22,
+        "handle": ""
+      },
+      {
+        "post_id": "1475674674564141",
+        "text": "𝐇𝐲𝐝𝐞𝐫𝐚𝐛𝐚𝐝 𝐖𝐞𝐥𝐜𝐨𝐦𝐞𝐬 𝐍𝐞𝐭𝐟𝐥𝐢𝐱! 🎬 A powerful testament to Hyderabad’s growth, Netflix is officially setting up its office in Hyderabad. The company has leased 41,000 sft at Capitaland ITPH Block A, HITEC City, marking its formal entry into Telangana’s tech ecosystem. With this move, Hyderabad now become",
+        "url": "https://www.facebook.com/1475674674564141",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 35,
+        "handle": "HSquareHousing"
+      }
+    ],
+    "sentiment_distribution": {
+      "positive": 2
+    }
+  },
+  {
+    "narrative_id": "astrazeneca_narrative_19",
+    "entity_id": "astrazeneca",
+    "title": "Trump Www Donaldjtrump Effect",
+    "summary": "www.DonaldJTrump.Today The Trump effect Since President Donald J. Trump returned to office, his America First economic policies have sparked trillions of dollars in new investment in U.S. m",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 2,
+    "risk_score": 31.4,
+    "confidence": "medium",
+    "confidence_band": [
+      16.4,
+      46.4
+    ],
+    "confidence_raw": 0.61,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 66.7,
+        "weight": 0.2,
+        "contribution": 13.3,
+        "detail": {
+          "post_count": 2,
+          "percentile": 66.7
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 53.8,
+        "weight": 0.15,
+        "contribution": 8.1,
+        "detail": {
+          "posts_per_day": 6.73,
+          "span_days": 0.3,
+          "accelerating": true
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 20.0,
+        "weight": 0.3,
+        "contribution": 6.0,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 20.8,
+        "weight": 0.15,
+        "contribution": 3.1,
+        "detail": {
+          "max_followers": 89,
+          "median_followers": 89,
+          "unique_authors": 1,
+          "raw_score": 25.5,
+          "percentile": 20.8
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 4.2,
+        "weight": 0.2,
+        "contribution": 0.8,
+        "detail": {
+          "total_weighted_engagement": 4.0,
+          "avg_per_post": 2.0,
+          "total_shares": 0,
+          "total_comments": 0,
+          "total_likes": 4,
+          "total_views": 0,
+          "percentile": 4.2
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "122109857961080304",
+        "text": "https://www.ukrspecexport.com/en/catalog https://ofac.treasury.gov/sanctions-programs-and-country-information https://sanctionslist.ofac.treas.gov/Home/SdnList https://www.ukrspecexport.com/en/catalog www.DonaldJTrump.Today #PresidentDonaldJTrump #PresidentDonaldTrump #DonaldJTrump #DonaldTrump #The",
+        "url": "https://www.facebook.com/122109857961080304",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 0,
+        "comments": 0,
+        "followers": 89,
+        "handle": "TymurGolovin1986"
+      },
+      {
+        "post_id": "122109963159080304",
+        "text": "https://www.ukrspecexport.com/en/catalog https://ofac.treasury.gov/sanctions-programs-and-country-information https://sanctionslist.ofac.treas.gov/Home/SdnList https://www.ukrspecexport.com/en/catalog www.DonaldJTrump.Today #PresidentDonaldJTrump #PresidentDonaldTrump #DonaldJTrump #DonaldTrump #The",
+        "url": "https://www.facebook.com/122109963159080304",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 0,
+        "comments": 0,
+        "followers": 89,
+        "handle": "TymurGolovin1986"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "astrazeneca_narrative_11",
+    "entity_id": "astrazeneca",
+    "title": "Throwback Incredible Astrazeneca Carnival",
+    "summary": "Throwback to an incredible day with AstraZeneca! From the Carnival Claw to our wild inflatables, the fun didn t stop. Laughter, games, and good vibes all around as everyone jumped, played, and celebrated together in the sun!",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 2,
+    "risk_score": 31.0,
+    "confidence": "medium",
+    "confidence_band": [
+      16.0,
+      46.0
+    ],
+    "confidence_raw": 0.64,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 66.7,
+        "weight": 0.2,
+        "contribution": 13.3,
+        "detail": {
+          "post_count": 2,
+          "percentile": 66.7
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 20.0,
+        "weight": 0.3,
+        "contribution": 6.0,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 25.0,
+        "weight": 0.2,
+        "contribution": 5.0,
+        "detail": {
+          "total_weighted_engagement": 15.6,
+          "avg_per_post": 7.8,
+          "total_shares": 0,
+          "total_comments": 0,
+          "total_likes": 5,
+          "total_views": 106,
+          "percentile": 25.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 33.3,
+        "weight": 0.15,
+        "contribution": 5.0,
+        "detail": {
+          "max_followers": 1121,
+          "median_followers": 1121,
+          "unique_authors": 2,
+          "raw_score": 40.3,
+          "percentile": 33.3
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 11.1,
+        "weight": 0.15,
+        "contribution": 1.7,
+        "detail": {
+          "posts_per_day": 1.38,
+          "span_days": 1.4,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1369704975164430",
+        "text": "Throwback to an incredible day with AstraZeneca! 🌟 From the Carnival Claw to our wild inflatables, the fun didn’t stop. Laughter, games, and good vibes all around as everyone jumped, played, and celebrated together in the sun!",
+        "url": "https://www.facebook.com/1369704975164430",
+        "platform": "facebook",
+        "likes": 5,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1121,
+        "handle": "ppartiesusa"
+      },
+      {
+        "post_id": "1988151358646555066",
+        "text": "@UB1UB2 Forget Airbus, AstraZeneca BP & the Financial sector... here's uberjeets",
+        "url": "https://x.com/i/web/status/1988151358646555066",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "nihilistlivesma"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  }
+]

@@ -1,0 +1,829 @@
+[
+  {
+    "narrative_id": "keytruda_narrative_7",
+    "entity_id": "keytruda",
+    "title": "Miscellaneous Topics",
+    "summary": "Business yang sangat menguntungkan tak semua orang boleh nampak Huhuhu ChatGPT Here s a list of some of the most expensive medical treatments and procedures in the world based on average global or U.S. costs as of recent years Neurological Brain Trea",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 31,
+    "risk_score": 86.2,
+    "confidence": "high",
+    "confidence_band": [
+      78.2,
+      94.2
+    ],
+    "confidence_raw": 0.71,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 89.5,
+        "weight": 0.3,
+        "contribution": 26.9,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.06,
+          "positive_ratio": 0.1,
+          "sentiment_modifier": -1.3,
+          "high_risk_keywords": 1,
+          "medium_risk_keywords": 4,
+          "low_risk_keywords": 2,
+          "keyword_modifier": 0.8
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 100.0,
+        "weight": 0.2,
+        "contribution": 20.0,
+        "detail": {
+          "post_count": 31,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 100.0,
+        "weight": 0.2,
+        "contribution": 20.0,
+        "detail": {
+          "total_weighted_engagement": 10433.6,
+          "avg_per_post": 336.6,
+          "total_shares": 176,
+          "total_comments": 804,
+          "total_likes": 384,
+          "total_views": 79136,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 100.0,
+        "weight": 0.15,
+        "contribution": 15.0,
+        "detail": {
+          "max_followers": 33278,
+          "median_followers": 25,
+          "unique_authors": 31,
+          "raw_score": 64.4,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 28.9,
+        "weight": 0.15,
+        "contribution": 4.3,
+        "detail": {
+          "posts_per_day": 1.12,
+          "span_days": 27.8,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1986789699445211647",
+        "text": "Top-selling drugs in the first 9 months of 2025 (by sales)\n\n1. Semaglutide (Ozempic, Wegovy, Rybelsus)\n\n2. Tirzepatide (Mounjaro, Zepbound)\n\n3. Pembrolizumab (Keytruda) https://t.co/RHrzjTCMGQ",
+        "url": "https://x.com/i/web/status/1986789699445211647",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 68,
+        "comments": 18,
+        "followers": 33278,
+        "handle": "DrSamuelBHume"
+      },
+      {
+        "post_id": "10240861787986367",
+        "text": "This isn’t the post I was hoping to write. These past weeks have been the hardest of my life so far. There were moments when I wasn’t sure I would reach this point — but your love carried me. Every one of you. My labs and degree of mucositis won’t allow me to safely get my final dose of A/C today. S",
+        "url": "https://www.facebook.com/10240861787986367",
+        "platform": "facebook",
+        "likes": 122,
+        "shares": 0,
+        "comments": 173,
+        "followers": 0,
+        "handle": "jordan.s.rettig"
+      },
+      {
+        "post_id": "10241774492684441",
+        "text": "🍋✨ Lemonade Crew Update! ✨🍋 Guess what, everyone?! I RANG THE BELL!!! 🎉🔔 Chemo infusion #16 is officially in the books… and it was my LAST ONE!! WaaaaaHoooooo! Praise the Lord for carrying me through and for the incredible medication that has kicked this cancer right in the booty. What a blessing. S",
+        "url": "https://www.facebook.com/10241774492684441",
+        "platform": "facebook",
+        "likes": 84,
+        "shares": 2,
+        "comments": 132,
+        "followers": 0,
+        "handle": "janice.s.vandyck"
+      },
+      {
+        "post_id": "4287102238224295",
+        "text": "Hi, fam and friends. As some of you may have known, I was diagnosed with Stage 3 Cecal Mucinous Adenocarcinoma (Colorectal Cancer) last November 2022. I have tried herbal medicines for a while, but unfortunately, none of them have worked for me. My oncologist then advised me to undergo immunotherapy",
+        "url": "https://www.facebook.com/4287102238224295",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 72,
+        "comments": 21,
+        "followers": 1900,
+        "handle": "mynameisjhare"
+      },
+      {
+        "post_id": "1570773663930192",
+        "text": "After completing 15 weeks of chemotherapy, this week has taken a toll on me. I've had the most difficult experience since starting the “Red Devil” and Keytruda together. Having thoughts of quitting!😢.",
+        "url": "https://www.facebook.com/1570773663930192",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 0,
+        "comments": 114,
+        "followers": 0,
+        "handle": "vicki.whitmore.jones"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 26,
+      "positive": 3,
+      "negative": 2
+    }
+  },
+  {
+    "narrative_id": "keytruda_narrative_4",
+    "entity_id": "keytruda",
+    "title": "Cancer Therapies Survival Treatments",
+    "summary": "New cancer treatments, including mRNA vaccines and targeted therapies, are reducing recurrence risks and improving survival rates, with innovations making care more equitable and effective.Innovative cancer therapies from Moderna, AstraZeneca, and ot",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 3,
+    "risk_score": 68.1,
+    "confidence": "medium",
+    "confidence_band": [
+      53.1,
+      83.1
+    ],
+    "confidence_raw": 0.55,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 78.7,
+        "weight": 0.3,
+        "contribution": 23.6,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.67,
+          "sentiment_modifier": -13.3,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 1,
+          "keyword_modifier": 2.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 85.7,
+        "weight": 0.2,
+        "contribution": 17.1,
+        "detail": {
+          "post_count": 3,
+          "percentile": 85.7
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 71.4,
+        "weight": 0.2,
+        "contribution": 14.3,
+        "detail": {
+          "total_weighted_engagement": 278.0,
+          "avg_per_post": 92.7,
+          "total_shares": 9,
+          "total_comments": 110,
+          "total_likes": 21,
+          "total_views": 100,
+          "percentile": 71.4
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 85.7,
+        "weight": 0.15,
+        "contribution": 12.9,
+        "detail": {
+          "max_followers": 12000,
+          "median_followers": 1002,
+          "unique_authors": 3,
+          "raw_score": 50.0,
+          "percentile": 85.7
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.3,
+        "weight": 0.15,
+        "contribution": 0.2,
+        "detail": {
+          "posts_per_day": 0.17,
+          "span_days": 17.9,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "10236774873206653",
+        "text": "💕My Ongoing Battle — From Cancer to Adrenal Insufficiency Some of you know of my battle with cancer, but what many don’t realize is that the fight doesn’t always end when the cancer is under control. I want to share something personal and hopefully help bring awareness to others who might be struggl",
+        "url": "https://www.facebook.com/10236774873206653",
+        "platform": "facebook",
+        "likes": 8,
+        "shares": 2,
+        "comments": 108,
+        "followers": 1002,
+        "handle": "carolina.ingram"
+      },
+      {
+        "post_id": "122141075150726530",
+        "text": "New cancer treatments, including mRNA vaccines and targeted therapies, are reducing recurrence risks and improving survival rates, with innovations making care more equitable and effective.Innovative cancer therapies from Moderna, AstraZeneca, and others are setting new standards in oncology with im",
+        "url": "https://www.facebook.com/122141075150726530",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 8,
+        "handle": ""
+      },
+      {
+        "post_id": "1220700643409377",
+        "text": "ALERT: 🚨 Major BREAKTHROUGH for cancer patients diagnosed with Lymphopenia. Trials reveal a reverse of lymphopenia with a very high success rate. -ExxAlerts From Dr. Shiong: It is so consistent with decades of reports in the literature that without NK and T cells ( called lymphopenia ) the survival ",
+        "url": "https://www.facebook.com/1220700643409377",
+        "platform": "facebook",
+        "likes": 3,
+        "shares": 2,
+        "comments": 0,
+        "followers": 12000,
+        "handle": "KyleMason365"
+      }
+    ],
+    "sentiment_distribution": {
+      "positive": 2,
+      "neutral": 1
+    }
+  },
+  {
+    "narrative_id": "keytruda_narrative_1",
+    "entity_id": "keytruda",
+    "title": "Lots Hour Cancer Hey",
+    "summary": "Hey everyone update from my little cocoon phase. The last few weeks have tested me emotionally more than I expected. Lots of tears, lots of frustration, and way more restrictions than my impatient, hour-by-hour planner brain can handle. But even in t",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 2,
+    "risk_score": 63.4,
+    "confidence": "low",
+    "confidence_band": [
+      38.4,
+      88.4
+    ],
+    "confidence_raw": 0.4,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 80.0,
+        "weight": 0.3,
+        "contribution": 24.0,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.5,
+          "sentiment_modifier": -10.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 85.7,
+        "weight": 0.2,
+        "contribution": 17.1,
+        "detail": {
+          "total_weighted_engagement": 303.0,
+          "avg_per_post": 151.5,
+          "total_shares": 0,
+          "total_comments": 131,
+          "total_likes": 41,
+          "total_views": 0,
+          "percentile": 85.7
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 57.1,
+        "weight": 0.2,
+        "contribution": 11.4,
+        "detail": {
+          "post_count": 2,
+          "percentile": 57.1
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 71.4,
+        "weight": 0.15,
+        "contribution": 10.7,
+        "detail": {
+          "max_followers": 929,
+          "median_followers": 929,
+          "unique_authors": 2,
+          "raw_score": 39.3,
+          "percentile": 71.4
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 0.8,
+        "weight": 0.15,
+        "contribution": 0.1,
+        "detail": {
+          "posts_per_day": 0.1,
+          "span_days": 19.4,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "10163113787044870",
+        "text": "Hey everyone — update from my little cocoon phase. 🦋 The last few weeks have tested me emotionally more than I expected. Lots of tears, lots of frustration, and way more restrictions than my impatient, hour-by-hour planner brain can handle. 😅 But even in the messy, slow-motion parts of this journey,",
+        "url": "https://www.facebook.com/10163113787044870",
+        "platform": "facebook",
+        "likes": 39,
+        "shares": 0,
+        "comments": 86,
+        "followers": 929,
+        "handle": "megan.ebanks"
+      },
+      {
+        "post_id": "10236689587873218",
+        "text": "Jerry Gregg update: hey friends and family, been putting this off but time has come, Jerry’s cancer has progressed aggressively these past few months, the last drug we tried Keytruda was supposed to be our Hail Mary but last 2 weeks we learned it was no longer effective. This cancer is now immune to",
+        "url": "https://www.facebook.com/10236689587873218",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 0,
+        "comments": 45,
+        "followers": 0,
+        "handle": "emiley.denhartog"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 1,
+      "positive": 1
+    }
+  },
+  {
+    "narrative_id": "keytruda_narrative_3",
+    "entity_id": "keytruda",
+    "title": "Sister Cancer Wrong Keytruda",
+    "summary": "You are so so wrong! Quit giving wrong info to people on X Ian!!! My sister had cervical cancer and doctors gave my sister 6 months to live. My sister started taking natural remedies along with Keytruda and has been cancer free for 4 years! Keytruda ",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 3,
+    "risk_score": 53.8,
+    "confidence": "medium",
+    "confidence_band": [
+      38.8,
+      68.8
+    ],
+    "confidence_raw": 0.53,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 90.0,
+        "weight": 0.3,
+        "contribution": 27.0,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 85.7,
+        "weight": 0.2,
+        "contribution": 17.1,
+        "detail": {
+          "post_count": 3,
+          "percentile": 85.7
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 42.9,
+        "weight": 0.15,
+        "contribution": 6.4,
+        "detail": {
+          "max_followers": 1,
+          "median_followers": 1,
+          "unique_authors": 3,
+          "raw_score": 3.0,
+          "percentile": 42.9
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 14.3,
+        "weight": 0.2,
+        "contribution": 2.9,
+        "detail": {
+          "total_weighted_engagement": 6.0,
+          "avg_per_post": 2.0,
+          "total_shares": 0,
+          "total_comments": 0,
+          "total_likes": 0,
+          "total_views": 60,
+          "percentile": 14.3
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 2.5,
+        "weight": 0.15,
+        "contribution": 0.4,
+        "detail": {
+          "posts_per_day": 0.32,
+          "span_days": 9.5,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1991491741229486406",
+        "text": "EU approves MSD’s 1-minute Keytruda SC injection, marking a major advance in cancer care.\nThe new subcutaneous version matches IV efficacy while reducing treatment time and easing hospital burden.\n#KeytrudaSC #CancerCare #Oncology #MSD #Immunotherapy\n\nhttps://t.co/CbNGav63Cf https://t.co/aMqVj1iSNj",
+        "url": "https://x.com/i/web/status/1991491741229486406",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "DTMedicalTimes"
+      },
+      {
+        "post_id": "1994930422199767101",
+        "text": "@IanCopeland5 You are so so wrong! Quit giving wrong info to people on X Ian!!! My sister had cervical cancer and doctors gave my sister 6 months to live. My sister started taking natural remedies along with Keytruda and has been cancer free for 4 years! Keytruda doesn’t eliminate cancer! 🤔",
+        "url": "https://x.com/i/web/status/1994930422199767101",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "SweetwaterHawk"
+      },
+      {
+        "post_id": "1993487622455673101",
+        "text": "@reeetums Keytruda got mine. Anthony William diet can keep it away 🍎🥑🍒🍑🥦🛐",
+        "url": "https://x.com/i/web/status/1993487622455673101",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "garyrextanner1"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 3
+    }
+  },
+  {
+    "narrative_id": "keytruda_narrative_6",
+    "entity_id": "keytruda",
+    "title": "Pembroria Pembrolizumab Keytruda Vietnam",
+    "summary": "This is not an actual vaccine in the sense that it is administered as a cancer preventative. Pembroria s active ingredient, pembrolizumab, is bioequivalent to Keytruda Merck MSD s branded version, approved in Vietnam since 2017 . As such, its efficac",
+    "taxonomy_label": "Regulatory / Compliance",
+    "post_count": 2,
+    "risk_score": 49.8,
+    "confidence": "medium",
+    "confidence_band": [
+      34.8,
+      64.8
+    ],
+    "confidence_raw": 0.59,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 75.0,
+        "weight": 0.3,
+        "contribution": 22.5,
+        "detail": {
+          "taxonomy_label": "Regulatory / Compliance",
+          "taxonomy_base_score": 85,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.5,
+          "sentiment_modifier": -10.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 57.1,
+        "weight": 0.2,
+        "contribution": 11.4,
+        "detail": {
+          "post_count": 2,
+          "percentile": 57.1
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 57.1,
+        "weight": 0.2,
+        "contribution": 11.4,
+        "detail": {
+          "total_weighted_engagement": 208.8,
+          "avg_per_post": 104.4,
+          "total_shares": 0,
+          "total_comments": 1,
+          "total_likes": 0,
+          "total_views": 2068,
+          "percentile": 57.1
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 28.6,
+        "weight": 0.15,
+        "contribution": 4.3,
+        "detail": {
+          "max_followers": 1,
+          "median_followers": 1,
+          "unique_authors": 2,
+          "raw_score": 2.0,
+          "percentile": 28.6
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 0.8,
+        "weight": 0.15,
+        "contribution": 0.1,
+        "detail": {
+          "posts_per_day": 0.1,
+          "span_days": 20.9,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1993148759388123610",
+        "text": "This is not an actual vaccine in the sense that it is administered as a cancer preventative.  \n\nPembroria’s active ingredient, pembrolizumab, is bioequivalent to Keytruda (Merck/MSD’s branded version, approved in Vietnam since 2017). As such, its efficacy mirrors extensive global data from Keytruda’",
+        "url": "https://x.com/i/web/status/1993148759388123610",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "bourne_les"
+      },
+      {
+        "post_id": "1985572562072678534",
+        "text": "@commonsenseplay you really believe Pembrolizumab (Keytruda) failed. Seriously.",
+        "url": "https://x.com/i/web/status/1985572562072678534",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 1,
+        "followers": 1,
+        "handle": "John_Hempton"
+      }
+    ],
+    "sentiment_distribution": {
+      "positive": 1,
+      "neutral": 1
+    }
+  },
+  {
+    "narrative_id": "keytruda_narrative_2",
+    "entity_id": "keytruda",
+    "title": "Keytruda Week Treatment",
+    "summary": "Keytruda is 80,000 for 400mg, that s one 6 week treatment.",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 2,
+    "risk_score": 48.8,
+    "confidence": "low",
+    "confidence_band": [
+      23.8,
+      73.8
+    ],
+    "confidence_raw": 0.4,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 90.0,
+        "weight": 0.3,
+        "contribution": 27.0,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 57.1,
+        "weight": 0.2,
+        "contribution": 11.4,
+        "detail": {
+          "post_count": 2,
+          "percentile": 57.1
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 28.6,
+        "weight": 0.2,
+        "contribution": 5.7,
+        "detail": {
+          "total_weighted_engagement": 71.3,
+          "avg_per_post": 35.6,
+          "total_shares": 0,
+          "total_comments": 20,
+          "total_likes": 30,
+          "total_views": 13,
+          "percentile": 28.6
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 28.6,
+        "weight": 0.15,
+        "contribution": 4.3,
+        "detail": {
+          "max_followers": 1,
+          "median_followers": 1,
+          "unique_authors": 2,
+          "raw_score": 2.0,
+          "percentile": 28.6
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 2.8,
+        "weight": 0.15,
+        "contribution": 0.4,
+        "detail": {
+          "posts_per_day": 0.35,
+          "span_days": 5.7,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "10164498702940400",
+        "text": "Found one of our favorite places in Rochester HuHut!!! Love this place. So today was chemo day. It went well, this round had the immunotherapy Keytruda so it went a bit longer with the extra dose of treatment. And did you know that it cost over 30,000 for it holy smokes. I pray Insurance covers it. ",
+        "url": "https://www.facebook.com/10164498702940400",
+        "platform": "facebook",
+        "likes": 30,
+        "shares": 0,
+        "comments": 20,
+        "followers": 0,
+        "handle": "ReneeEPlemmons"
+      },
+      {
+        "post_id": "1987927508663366008",
+        "text": "@vidalnext @DrSamuelBHume Keytruda is $80,000 for 400mg, that’s one 6 week treatment.",
+        "url": "https://x.com/i/web/status/1987927508663366008",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "PotzPlatz"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "keytruda_narrative_5",
+    "entity_id": "keytruda",
+    "title": "Chemo Resume Tuesday Immunotherapy",
+    "summary": "No chemo today will resume on Tuesday with Immunotherapy- Keytruda Chemo- Abraxane No more carboplantin",
+    "taxonomy_label": "Operational Resilience",
+    "post_count": 2,
+    "risk_score": 45.5,
+    "confidence": "low",
+    "confidence_band": [
+      20.5,
+      70.5
+    ],
+    "confidence_raw": 0.38,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 71.0,
+        "weight": 0.3,
+        "contribution": 21.3,
+        "detail": {
+          "taxonomy_label": "Operational Resilience",
+          "taxonomy_base_score": 70,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 1,
+          "keyword_modifier": 1.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 57.1,
+        "weight": 0.2,
+        "contribution": 11.4,
+        "detail": {
+          "post_count": 2,
+          "percentile": 57.1
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 42.9,
+        "weight": 0.2,
+        "contribution": 8.6,
+        "detail": {
+          "total_weighted_engagement": 86.0,
+          "avg_per_post": 43.0,
+          "total_shares": 8,
+          "total_comments": 27,
+          "total_likes": 8,
+          "total_views": 0,
+          "percentile": 42.9
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 20,
+        "weight": 0.15,
+        "contribution": 3.0,
+        "detail": {
+          "reason": "no follower data available",
+          "unique_authors": 2
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 7.8,
+        "weight": 0.15,
+        "contribution": 1.2,
+        "detail": {
+          "posts_per_day": 0.97,
+          "span_days": 2.1,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "25151347274545559",
+        "text": "Today is the last treatment of the taxol and CARBOplatin chemotherapy. I am getting my Keytruda today, a week earlier, so we can watch my side affects closer next week with the new phase of chemo starting. A chest X-ray and MRI have been scheduled to make sure my heart and port are functioning prope",
+        "url": "https://www.facebook.com/25151347274545559",
+        "platform": "facebook",
+        "likes": 6,
+        "shares": 8,
+        "comments": 12,
+        "followers": 0,
+        "handle": "DianaC.Sigman"
+      },
+      {
+        "post_id": "10240729915044716",
+        "text": "No chemo today will resume on Tuesday with Immunotherapy- Keytruda Chemo- Abraxane No more carboplantin",
+        "url": "https://www.facebook.com/10240729915044716",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 0,
+        "comments": 15,
+        "followers": 0,
+        "handle": "alina.heneisehegartyornelas"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  }
+]

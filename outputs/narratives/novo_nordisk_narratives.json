@@ -1,0 +1,56 @@
+[
+  {
+    "narrative_id": "novo_nordisk_narrative_1",
+    "entity_id": "novo_nordisk",
+    "title": "Miscellaneous Topics",
+    "summary": "Whoa-zempic! The next wave of obesity drugs is pushing the limits of weight loss. Roxanne Khamsi November 19, 2025 Medical weight loss might be on the verge of a further revolution. For starters, people will likely have the option of taking a new cla",
+    "taxonomy_label": "Financial Integrity",
+    "sentiment_distribution": {
+      "neutral": 7,
+      "negative": 3
+    },
+    "post_count": 10,
+    "post_ids": [
+      "10164322125524047",
+      "860539843320105",
+      "122138611214969960",
+      "1993732416284905635",
+      "1561929861627812",
+      "1254714236688467",
+      "1987571000821620979",
+      "1352760916258209",
+      "855967973777292",
+      "10225882696973939"
+    ],
+    "topic_labels": [
+      "miscellaneous topics"
+    ],
+    "sample_posts": [
+      {
+        "post_id": "10164322125524047",
+        "text": "Whoa-zempic! ​ The next wave of obesity drugs is pushing the limits of weight loss. Roxanne Khamsi November 19, 2025 Medical weight loss might be on the verge of a further revolution. For starters, people will likely have the option of taking a new class of medications that seem to have fewer bother",
+        "url": ""
+      },
+      {
+        "post_id": "860539843320105",
+        "text": "President Donald Trump put pharmaceutical CEOs on notice, demanding they lower drug prices or he promised to get involved. He penned a letter to 17 CEOs in July, outlining what he wants from the pharma industry to cut expenses for consumers. In many cases, Americans are paying higher prices for drug",
+        "url": ""
+      },
+      {
+        "post_id": "122138611214969960",
+        "text": "New post added at Pfizer Files Its Second Legal Action Versus Novo Nordisk and Metsera in Obesity Biotech Acquisition Dispute - The legal action escalates the battle between Pfizer and Novo Nordisk over Metsera, as Novo Nordisk’s pipeline of obesity treatments is set to introduce fresh competitors i",
+        "url": ""
+      },
+      {
+        "post_id": "1993732416284905635",
+        "text": "Why Medicare price negotiations matter for Novo Nordisk, AstraZeneca, and other European pharma companies https://t.co/bi8HGKiSOg",
+        "url": ""
+      },
+      {
+        "post_id": "1561929861627812",
+        "text": "European stock markets pushed higher Wednesday, helped by progress towards further U.S. stimulus, while Italian political developments and corporate earnings will also share the spotlight. At 3:50 AM ET (0850 GMT), the DAX in Germany traded 0.6% higher, the CAC 40 in France rose 0.4%, U.K.'s FTSE in",
+        "url": ""
+      }
+    ]
+  }
+]

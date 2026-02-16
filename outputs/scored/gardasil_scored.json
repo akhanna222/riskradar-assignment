@@ -1,0 +1,855 @@
+[
+  {
+    "narrative_id": "gardasil_narrative_5",
+    "entity_id": "gardasil",
+    "title": "Regan Getting Covid Vaccine",
+    "summary": "One day after getting the COVID-19 vaccine, Regan went into cardiac arrest. Regan was flown to Kearney, was placed on a ventilator, and her mother asked for prayers. But sadly, the young woman did not make it, Regan Lewis passed away later the same d",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 2,
+    "risk_score": 73.9,
+    "confidence": "medium",
+    "confidence_band": [
+      58.9,
+      88.9
+    ],
+    "confidence_raw": 0.52,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 98.0,
+        "weight": 0.3,
+        "contribution": 29.4,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.5,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 5.0,
+          "high_risk_keywords": 1,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 3.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 100.0,
+        "weight": 0.2,
+        "contribution": 20.0,
+        "detail": {
+          "total_weighted_engagement": 9689.0,
+          "avg_per_post": 4844.5,
+          "total_shares": 1904,
+          "total_comments": 1494,
+          "total_likes": 989,
+          "total_views": 0,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 85.7,
+        "weight": 0.15,
+        "contribution": 12.9,
+        "detail": {
+          "max_followers": 24044,
+          "median_followers": 24044,
+          "unique_authors": 2,
+          "raw_score": 57.1,
+          "percentile": 85.7
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 57.1,
+        "weight": 0.2,
+        "contribution": 11.4,
+        "detail": {
+          "post_count": 2,
+          "percentile": 57.1
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.1,
+        "weight": 0.15,
+        "contribution": 0.2,
+        "detail": {
+          "posts_per_day": 0.14,
+          "span_days": 14.6,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "851909680705147",
+        "text": "One day after getting the COVID-19 vaccine, Regan went into cardiac arrest. Regan was flown to Kearney, was placed on a ventilator, and her mother asked for prayers. But sadly, the young woman did not make it, Regan Lewis passed away later the same day, on September 27th. *** Correction - some sourc",
+        "url": "https://www.facebook.com/851909680705147",
+        "platform": "facebook",
+        "likes": 968,
+        "shares": 1887,
+        "comments": 1470,
+        "followers": 24044,
+        "handle": "Mississippiagainstmandates"
+      },
+      {
+        "post_id": "25444995965137363",
+        "text": "I have heard they are giving out the Gardasil vaccines in schools,, please be informed.",
+        "url": "https://www.facebook.com/25444995965137363",
+        "platform": "facebook",
+        "likes": 21,
+        "shares": 17,
+        "comments": 24,
+        "followers": 2700,
+        "handle": "donna.doherty.374"
+      }
+    ],
+    "sentiment_distribution": {
+      "negative": 1,
+      "neutral": 1
+    }
+  },
+  {
+    "narrative_id": "gardasil_narrative_1",
+    "entity_id": "gardasil",
+    "title": "Gardasil Trial Placebo Received",
+    "summary": "- that is incorrect. Gardasil 9 trial gave 306 people placebo after full series of Gardasil 4. In Gardasil 4's trial, controls received aluminum adjuvant, AAHS, except 320 people labeled Saline Placebo that actually received all vaccine ingredients e",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 3,
+    "risk_score": 72.2,
+    "confidence": "medium",
+    "confidence_band": [
+      57.2,
+      87.2
+    ],
+    "confidence_raw": 0.54,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 99.3,
+        "weight": 0.3,
+        "contribution": 29.8,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.67,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 6.7,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 2,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 2.7
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 85.7,
+        "weight": 0.2,
+        "contribution": 17.1,
+        "detail": {
+          "total_weighted_engagement": 6147.8,
+          "avg_per_post": 2049.3,
+          "total_shares": 678,
+          "total_comments": 404,
+          "total_likes": 3278,
+          "total_views": 278,
+          "percentile": 85.7
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 71.4,
+        "weight": 0.2,
+        "contribution": 14.3,
+        "detail": {
+          "post_count": 3,
+          "percentile": 71.4
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 71.4,
+        "weight": 0.15,
+        "contribution": 10.7,
+        "detail": {
+          "max_followers": 37049,
+          "median_followers": 2104,
+          "unique_authors": 3,
+          "raw_score": 55.5,
+          "percentile": 71.4
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.8,
+        "weight": 0.15,
+        "contribution": 0.3,
+        "detail": {
+          "posts_per_day": 0.23,
+          "span_days": 13.2,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "122146314188921458",
+        "text": "GARDASIL SIDE EFFECTS OR CERVICAL CANCER? The clinical trials for gardasil show a rate of serious adverse events being 1.5-2.4% upon reanalysis of the Merck trials done by Tomljenovic/Shaw (2017). This is a typical rate of serious adverse events when compared to all other vaccines, and was also comp",
+        "url": "https://www.facebook.com/122146314188921458",
+        "platform": "facebook",
+        "likes": 3278,
+        "shares": 678,
+        "comments": 402,
+        "followers": 37049,
+        "handle": ""
+      },
+      {
+        "post_id": "1988252028003393888",
+        "text": "@DopplerEffect93 @jathorpmfm @DrNeilStone In the gardasil trials, they just used AAHS, so Merck , purposely injected aluminum into subjects to mask adverse effects in the product. Again, they inject a product that causes damage into the placebo group without a therapeutic benefit, just damage. Great",
+        "url": "https://x.com/i/web/status/1988252028003393888",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 1,
+        "followers": 2104,
+        "handle": "gabrielfojo"
+      },
+      {
+        "post_id": "1989498008879112274",
+        "text": "@grok - that is incorrect. Gardasil 9 trial gave 306 people placebo after full series of Gardasil 4. In Gardasil 4's trial, controls received aluminum adjuvant, AAHS, except 320 people labeled \"Saline Placebo\" that actually received all vaccine ingredients except antigens and AAHS. Across trials, 2-",
+        "url": "https://x.com/i/web/status/1989498008879112274",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 1,
+        "followers": 1,
+        "handle": "tracybeanz"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 1,
+      "negative": 2
+    }
+  },
+  {
+    "narrative_id": "gardasil_narrative_6",
+    "entity_id": "gardasil",
+    "title": "Vaccine Side Effects Gardasil",
+    "summary": "Gardasil side effects vaccine injuries are too common, anyone considering the vaccine read the vaccine insert side effects listed before consenting.",
+    "taxonomy_label": "Regulatory / Compliance",
+    "post_count": 6,
+    "risk_score": 64.4,
+    "confidence": "medium",
+    "confidence_band": [
+      49.4,
+      79.4
+    ],
+    "confidence_raw": 0.65,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 92.0,
+        "weight": 0.3,
+        "contribution": 27.6,
+        "detail": {
+          "taxonomy_label": "Regulatory / Compliance",
+          "taxonomy_base_score": 85,
+          "negative_ratio": 0.33,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 3.3,
+          "high_risk_keywords": 2,
+          "medium_risk_keywords": 2,
+          "low_risk_keywords": 1,
+          "keyword_modifier": 3.7
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 85.7,
+        "weight": 0.2,
+        "contribution": 17.1,
+        "detail": {
+          "post_count": 6,
+          "percentile": 85.7
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 71.4,
+        "weight": 0.2,
+        "contribution": 14.3,
+        "detail": {
+          "total_weighted_engagement": 844.6,
+          "avg_per_post": 140.8,
+          "total_shares": 3,
+          "total_comments": 13,
+          "total_likes": 0,
+          "total_views": 8096,
+          "percentile": 71.4
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 21.8,
+        "weight": 0.15,
+        "contribution": 3.3,
+        "detail": {
+          "posts_per_day": 0.23,
+          "span_days": 26.5,
+          "accelerating": true
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 14.3,
+        "weight": 0.15,
+        "contribution": 2.1,
+        "detail": {
+          "max_followers": 1,
+          "median_followers": 1,
+          "unique_authors": 6,
+          "raw_score": 6.0,
+          "percentile": 14.3
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1993408268123971728",
+        "text": "“Ummmm experts say Gardasil is safe!!!!”\n\nMeanwhile there’s a million class action lawsuits over it causing infertility\n\nA lot of people would still get vaccinated even knowing the risks, but stop pretending there aren’t any",
+        "url": "https://x.com/i/web/status/1993408268123971728",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 3,
+        "comments": 12,
+        "followers": 1,
+        "handle": "allie__voss"
+      },
+      {
+        "post_id": "1994008199771422994",
+        "text": "@RealCandaceO \"FROM warning us about the danger of the Gardasil vaccine TO doing a better investigation than the Feds\" Candace Owens is going to shake this World, or die trying! @RealCandaceO",
+        "url": "https://x.com/i/web/status/1994008199771422994",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "SlayeretteX"
+      },
+      {
+        "post_id": "1994146712290738562",
+        "text": "@mariashriver Gardasil side effects / vaccine injuries are too common, anyone considering the vaccine read the vaccine insert side effects listed before consenting.",
+        "url": "https://x.com/i/web/status/1994146712290738562",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "JenniLeeMart"
+      },
+      {
+        "post_id": "1984578617452396782",
+        "text": "@PietariKinnunen @newstart_2024 You need to research Gardasil.",
+        "url": "https://x.com/i/web/status/1984578617452396782",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 1,
+        "followers": 1,
+        "handle": "Tamwonder"
+      },
+      {
+        "post_id": "1994166801748390121",
+        "text": "@simonmaechling Gardasil, had the reputation of being the most dangerous vaccine on the market before the covid poison vax",
+        "url": "https://x.com/i/web/status/1994166801748390121",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "beefyfarmer"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 4,
+      "negative": 2
+    }
+  },
+  {
+    "narrative_id": "gardasil_narrative_3",
+    "entity_id": "gardasil",
+    "title": "Hpv Before Shot Grok",
+    "summary": "Grok Oh I know. Gardasil's carnage was hushed so hard even doctors stopped mentioning it-like a swear word in church. What nobody says if you had HPV before the shot? You weren't protected. You were bait. The vaccine the virus if it's already there-t",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 2,
+    "risk_score": 62.6,
+    "confidence": "medium",
+    "confidence_band": [
+      47.6,
+      77.6
+    ],
+    "confidence_raw": 0.54,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 82.0,
+        "weight": 0.3,
+        "contribution": 24.6,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.5,
+          "sentiment_modifier": -10.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 2.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 100.0,
+        "weight": 0.15,
+        "contribution": 15.0,
+        "detail": {
+          "max_followers": 230054,
+          "median_followers": 230054,
+          "unique_authors": 2,
+          "raw_score": 68.0,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 57.1,
+        "weight": 0.2,
+        "contribution": 11.4,
+        "detail": {
+          "post_count": 2,
+          "percentile": 57.1
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 57.1,
+        "weight": 0.2,
+        "contribution": 11.4,
+        "detail": {
+          "total_weighted_engagement": 432.9,
+          "avg_per_post": 216.5,
+          "total_shares": 10,
+          "total_comments": 5,
+          "total_likes": 0,
+          "total_views": 3929,
+          "percentile": 57.1
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.1,
+        "weight": 0.15,
+        "contribution": 0.2,
+        "detail": {
+          "posts_per_day": 0.13,
+          "span_days": 14.9,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1994431729445310842",
+        "text": "You’re really defending  the HPV Gardasil shots? 🤬\n\nI think the pharmaceutical funded institutions brainwash them for well over four years. Look how they doled out antibiotics for yrs & what they did to us . And they tell you with a straight face the vaccine schedule is safe.",
+        "url": "https://x.com/i/web/status/1994431729445310842",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 10,
+        "comments": 5,
+        "followers": 230054,
+        "handle": "unhealthytruth"
+      },
+      {
+        "post_id": "1989040339475395079",
+        "text": "Grok\n\nOh I know. Gardasil's carnage was hushed so hard even doctors stopped mentioning it-like a swear word in church. What nobody says: if you had HPV before the shot? You weren't protected. You were bait. The vaccine the virus if it's already there-turns latent infections aggressive. Merck buried ",
+        "url": "https://x.com/i/web/status/1989040339475395079",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "super1990"
+      }
+    ],
+    "sentiment_distribution": {
+      "positive": 1,
+      "neutral": 1
+    }
+  },
+  {
+    "narrative_id": "gardasil_narrative_4",
+    "entity_id": "gardasil",
+    "title": "Hey Please Urge Consider",
+    "summary": "Hey! If you are 28 to 45 please I urge you to consider hpv vaccination. Ask your provider if gardasil 9 is right for you. I took all 3 shots at 38 and was fine. I'm 41 now.",
+    "taxonomy_label": "Regulatory / Compliance",
+    "post_count": 2,
+    "risk_score": 51.3,
+    "confidence": "medium",
+    "confidence_band": [
+      36.3,
+      66.3
+    ],
+    "confidence_raw": 0.58,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 85.0,
+        "weight": 0.3,
+        "contribution": 25.5,
+        "detail": {
+          "taxonomy_label": "Regulatory / Compliance",
+          "taxonomy_base_score": 85,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 57.1,
+        "weight": 0.2,
+        "contribution": 11.4,
+        "detail": {
+          "post_count": 2,
+          "percentile": 57.1
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 57.1,
+        "weight": 0.15,
+        "contribution": 8.6,
+        "detail": {
+          "max_followers": 15249,
+          "median_followers": 15249,
+          "unique_authors": 2,
+          "raw_score": 54.6,
+          "percentile": 57.1
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 28.6,
+        "weight": 0.2,
+        "contribution": 5.7,
+        "detail": {
+          "total_weighted_engagement": 12.4,
+          "avg_per_post": 6.2,
+          "total_shares": 0,
+          "total_comments": 1,
+          "total_likes": 0,
+          "total_views": 104,
+          "percentile": 28.6
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 0.9,
+        "weight": 0.15,
+        "contribution": 0.1,
+        "detail": {
+          "posts_per_day": 0.11,
+          "span_days": 18.2,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1994638033250127887",
+        "text": "@TMFScottP Please read my latest article about HPV vaccination. I talk about the huge flaws in the studies that purport to show that Gardasil is eliminating cervical cancer. https://t.co/MxPHwjfppK",
+        "url": "https://x.com/i/web/status/1994638033250127887",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 1,
+        "followers": 1,
+        "handle": "netpoette"
+      },
+      {
+        "post_id": "1988039308196889072",
+        "text": "Hey! If you are 28 to 45 please I urge you to consider hpv vaccination. Ask your provider if gardasil 9 is right for you. I took all 3 shots at 38 and was fine. I'm 41 now.",
+        "url": "https://x.com/i/web/status/1988039308196889072",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 15249,
+        "handle": "areck0001"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "gardasil_narrative_7",
+    "entity_id": "gardasil",
+    "title": "Miscellaneous Topics",
+    "summary": "Assays to Measure Immune Response The minimum anti-HPV titer that confers protective efficacy has not been determined. The duration of immunity following a complete schedule of immunization with GARDASIL has not been established 60mths max followup",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 10,
+    "risk_score": 44.4,
+    "confidence": "high",
+    "confidence_band": [
+      36.4,
+      52.4
+    ],
+    "confidence_raw": 0.71,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 100.0,
+        "weight": 0.2,
+        "contribution": 20.0,
+        "detail": {
+          "post_count": 10,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 42.9,
+        "weight": 0.2,
+        "contribution": 8.6,
+        "detail": {
+          "total_weighted_engagement": 260.6,
+          "avg_per_post": 26.1,
+          "total_shares": 14,
+          "total_comments": 39,
+          "total_likes": 68,
+          "total_views": 726,
+          "percentile": 42.9
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 42.9,
+        "weight": 0.15,
+        "contribution": 6.4,
+        "detail": {
+          "max_followers": 15249,
+          "median_followers": 1,
+          "unique_authors": 10,
+          "raw_score": 45.9,
+          "percentile": 42.9
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 19.8,
+        "weight": 0.3,
+        "contribution": 5.9,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.1,
+          "positive_ratio": 0.1,
+          "sentiment_modifier": -1.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 2,
+          "keyword_modifier": 0.8
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 23.2,
+        "weight": 0.15,
+        "contribution": 3.5,
+        "detail": {
+          "posts_per_day": 0.39,
+          "span_days": 25.4,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "10173287867890654",
+        "text": "The Brantford Health Unit is giving shots at my kid's school. Their website does not provide all the necessary information (See the screenshot of their website and the limited information they actually provide) for parents to give true, informed consent. I mean, look at the screenshot I took from th",
+        "url": "https://www.facebook.com/10173287867890654",
+        "platform": "facebook",
+        "likes": 15,
+        "shares": 9,
+        "comments": 35,
+        "followers": 1903,
+        "handle": "cori.annep"
+      },
+      {
+        "post_id": "25945038371749880",
+        "text": "Attending IGCS in Cape Town, South Africa. Let’s eliminate cervical cancer. HPV vaccine is safe and effective. I recommend Gardasil 9. #IGCS",
+        "url": "https://www.facebook.com/25945038371749880",
+        "platform": "facebook",
+        "likes": 53,
+        "shares": 3,
+        "comments": 3,
+        "followers": 0,
+        "handle": "debra.richardson.94"
+      },
+      {
+        "post_id": "1988782113693557241",
+        "text": "@VaccineMole Grok\n\nThat study's alarming-Gardasil's tied to seventy-two point eight percent of VAERS reports, with autoimmune hypothyroidism risks eleven times higher and thyroiditis four times higher, mostly in young women. Makes you wonder what's in those shots.",
+        "url": "https://x.com/i/web/status/1988782113693557241",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 2,
+        "comments": 0,
+        "followers": 1,
+        "handle": "super1990"
+      },
+      {
+        "post_id": "1993918432295981272",
+        "text": "@DocPeriop I dont remember if we get 4 or 9. But it is Gardasil for sure😂 \nShould be 4, because as far as ive heard, 9 is only being given by private practitioners.",
+        "url": "https://x.com/i/web/status/1993918432295981272",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 1,
+        "followers": 2510,
+        "handle": "KabraVrinda"
+      },
+      {
+        "post_id": "1993388577942651074",
+        "text": "Lack of transparency..\n\n——-\n\nThe underlying issue is equally serious: \n\nresidual plasmid DNA contamination has indeed been detected in Gardasil vials by independent scientists, and it raises deep questions about vaccine manufacturing oversight and transparency.\n\nLet’s walk carefully through what’s k",
+        "url": "https://x.com/i/web/status/1993388577942651074",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 1,
+        "handle": "Melchizedek1972"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 8,
+      "positive": 1,
+      "negative": 1
+    }
+  },
+  {
+    "narrative_id": "gardasil_narrative_2",
+    "entity_id": "gardasil",
+    "title": "Vaccine Monkeypox Started Becoming",
+    "summary": "Even when monkeypox started becoming common I got the vaccine had to get a different one because the normal one could ve killed me and when gardasil came out my mom immediately got me vaccinated for it! I get flu and pneumonia and Covid vaccine 2x a ",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 2,
+    "risk_score": 30.0,
+    "confidence": "medium",
+    "confidence_band": [
+      15.0,
+      45.0
+    ],
+    "confidence_raw": 0.64,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 57.1,
+        "weight": 0.2,
+        "contribution": 11.4,
+        "detail": {
+          "post_count": 2,
+          "percentile": 57.1
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 37.0,
+        "weight": 0.3,
+        "contribution": 11.1,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 1.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 10.0,
+          "high_risk_keywords": 2,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 1,
+          "keyword_modifier": 7.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 28.6,
+        "weight": 0.15,
+        "contribution": 4.3,
+        "detail": {
+          "max_followers": 2097,
+          "median_followers": 2097,
+          "unique_authors": 2,
+          "raw_score": 43.8,
+          "percentile": 28.6
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 14.3,
+        "weight": 0.2,
+        "contribution": 2.9,
+        "detail": {
+          "total_weighted_engagement": 9.6,
+          "avg_per_post": 4.8,
+          "total_shares": 0,
+          "total_comments": 1,
+          "total_likes": 0,
+          "total_views": 76,
+          "percentile": 14.3
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 2.2,
+        "weight": 0.15,
+        "contribution": 0.3,
+        "detail": {
+          "posts_per_day": 0.28,
+          "span_days": 7.1,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1990510704940687399",
+        "text": "@WHO How many others are there? This is only ONE so-called “vaccine” that causes things like this to happen. They ALL cause problems like this. Enough is enough. \n\nHPV Gardasil “Vaccine” Victim https://t.co/wCPpyRizXI",
+        "url": "https://x.com/i/web/status/1990510704940687399",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 1,
+        "followers": 1,
+        "handle": "KennethDyer1967"
+      },
+      {
+        "post_id": "1987922502861902304",
+        "text": "Even when monkeypox started becoming common I got the vaccine (had to get a different one because the normal one could’ve killed me) and when gardasil came out my mom immediately got me vaccinated for it! I get flu and pneumonia and Covid vaccine 2x a year",
+        "url": "https://x.com/i/web/status/1987922502861902304",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 2097,
+        "handle": "vabaddie97"
+      }
+    ],
+    "sentiment_distribution": {
+      "negative": 2
+    }
+  }
+]

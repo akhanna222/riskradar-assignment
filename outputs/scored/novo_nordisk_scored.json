@@ -1,0 +1,146 @@
+[
+  {
+    "narrative_id": "novo_nordisk_narrative_1",
+    "entity_id": "novo_nordisk",
+    "title": "Miscellaneous Topics",
+    "summary": "Whoa-zempic! The next wave of obesity drugs is pushing the limits of weight loss. Roxanne Khamsi November 19, 2025 Medical weight loss might be on the verge of a further revolution. For starters, people will likely have the option of taking a new cla",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 10,
+    "risk_score": 79.4,
+    "confidence": "medium",
+    "confidence_band": [
+      64.4,
+      94.4
+    ],
+    "confidence_raw": 0.58,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 79.8,
+        "weight": 0.3,
+        "contribution": 23.9,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.3,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 3.0,
+          "high_risk_keywords": 1,
+          "medium_risk_keywords": 2,
+          "low_risk_keywords": 2,
+          "keyword_modifier": 1.8
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 100.0,
+        "weight": 0.2,
+        "contribution": 20.0,
+        "detail": {
+          "post_count": 10,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 100.0,
+        "weight": 0.2,
+        "contribution": 20.0,
+        "detail": {
+          "total_weighted_engagement": 1855.9,
+          "avg_per_post": 185.6,
+          "total_shares": 38,
+          "total_comments": 17,
+          "total_likes": 95,
+          "total_views": 16129,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 100.0,
+        "weight": 0.15,
+        "contribution": 15.0,
+        "detail": {
+          "max_followers": 134431,
+          "median_followers": 543,
+          "unique_authors": 9,
+          "raw_score": 63.9,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 3.3,
+        "weight": 0.15,
+        "contribution": 0.5,
+        "detail": {
+          "posts_per_day": 0.41,
+          "span_days": 24.1,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1987571000821620979",
+        "text": "$nvo\n$lly\n$sny\n$pfe\n$mrk\n$nvs\n$amgn\n$tak\n$abbv\n$gsk\n$azn\n$rhhby\n$alny\n\nSome major players to consider. Most upside from a technical view would be Novo Nordisk, Merck & Co, and Roche Holding a Swiss company. It's OTC so your broker would have to be able to provide it.\n\nOr just dump a % of your port i",
+        "url": "https://x.com/i/web/status/1987571000821620979",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 13,
+        "comments": 4,
+        "followers": 1,
+        "handle": "TheeRayCordell"
+      },
+      {
+        "post_id": "1561929861627812",
+        "text": "European stock markets pushed higher Wednesday, helped by progress towards further U.S. stimulus, while Italian political developments and corporate earnings will also share the spotlight. At 3:50 AM ET (0850 GMT), the DAX in Germany traded 0.6% higher, the CAC 40 in France rose 0.4%, U.K.'s FTSE in",
+        "url": "https://www.facebook.com/1561929861627812",
+        "platform": "facebook",
+        "likes": 45,
+        "shares": 0,
+        "comments": 0,
+        "followers": 0,
+        "handle": "raymon.harb.9"
+      },
+      {
+        "post_id": "122138611214969960",
+        "text": "New post added at Pfizer Files Its Second Legal Action Versus Novo Nordisk and Metsera in Obesity Biotech Acquisition Dispute - The legal action escalates the battle between Pfizer and Novo Nordisk over Metsera, as Novo Nordisk’s pipeline of obesity treatments is set to introduce fresh competitors i",
+        "url": "https://www.facebook.com/122138611214969960",
+        "platform": "facebook",
+        "likes": 15,
+        "shares": 8,
+        "comments": 3,
+        "followers": 5,
+        "handle": "BuyGoldDeal"
+      },
+      {
+        "post_id": "860539843320105",
+        "text": "President Donald Trump put pharmaceutical CEOs on notice, demanding they lower drug prices or he promised to get involved. He penned a letter to 17 CEOs in July, outlining what he wants from the pharma industry to cut expenses for consumers. In many cases, Americans are paying higher prices for drug",
+        "url": "https://www.facebook.com/860539843320105",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 1802,
+        "handle": "crimewatchatlanta"
+      },
+      {
+        "post_id": "1352760916258209",
+        "text": "📉 Economic Calendar Goes Quiet — But Fed Still Talks The government shutdown delays key jobs data (again), including the NFP. But the market will still get a pulse from ADP private jobs, ISM services, and a wave of Fed speeches. 👉 Use Wednesday’s ADP and Fed chatter to gauge sentiment before Friday.",
+        "url": "https://www.facebook.com/1352760916258209",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 0,
+        "handle": "daisy.dawn.946"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 7,
+      "negative": 3
+    }
+  }
+]

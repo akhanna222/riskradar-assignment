@@ -1,0 +1,68 @@
+[
+  {
+    "narrative_id": "cidara_therapeutics_narrative_2",
+    "entity_id": "cidara_therapeutics",
+    "title": "Therapeutics Merck Mrk Nearing",
+    "summary": "Merck MRK is nearing a deal to buy Cidara Therapeutics CDTX XBI IBB who s next ? Seres Therapeutics MCRB",
+    "taxonomy_label": "Financial Integrity",
+    "sentiment_distribution": {
+      "neutral": 3
+    },
+    "post_count": 3,
+    "post_ids": [
+      "1989259977220132982",
+      "1989865872760959247",
+      "1989618819716022373"
+    ],
+    "topic_labels": [
+      "therapeutics merck mrk nearing"
+    ],
+    "sample_posts": [
+      {
+        "post_id": "1989259977220132982",
+        "text": "Merck $MRK is nearing a deal to buy Cidara Therapeutics $CDTX $XBI $IBB who’s next ?  Seres Therapeutics 🙃 $MCRB",
+        "url": ""
+      },
+      {
+        "post_id": "1989865872760959247",
+        "text": "Cidara Therapeutics Shares Soar 105% After Merck Agrees To $9.2B Takeover Deal | Nasdaq $CDTX $spx https://t.co/BTvVSPZkaY",
+        "url": ""
+      },
+      {
+        "post_id": "1989618819716022373",
+        "text": "Merck to acquire Cidara Therapeutics in a nearly $9.2 billion deal, gaining access to an experimental flu prevention drug.",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "narrative_id": "cidara_therapeutics_narrative_1",
+    "entity_id": "cidara_therapeutics",
+    "title": "Vaccine Merck Billion Flu",
+    "summary": "Vaccine Fatigue ? Merck Bets 9.2 Billion on Not-a-Vaccine Flu Drug Merck will spend 9.2 billion to buy Cidara Therapeutics and lock down an experimental flu-prevention drug the company emphasized is not a vaccine.",
+    "taxonomy_label": "Financial Integrity",
+    "sentiment_distribution": {
+      "neutral": 2
+    },
+    "post_count": 2,
+    "post_ids": [
+      "1992769850075390391",
+      "1991532005566173498"
+    ],
+    "topic_labels": [
+      "vaccine merck billion flu"
+    ],
+    "sample_posts": [
+      {
+        "post_id": "1992769850075390391",
+        "text": "‘Vaccine Fatigue’? Merck Bets $9.2 Billion on ‘Not-a-Vaccine’ Flu Drug\n\nMerck will spend $9.2 billion to buy Cidara Therapeutics and lock down an experimental flu-prevention drug the company emphasized is “not a vaccine.” \nhttps://t.co/jSGtoEdCSM",
+        "url": ""
+      },
+      {
+        "post_id": "1991532005566173498",
+        "text": "News; $CDTX Merck Is Buying Cidara Therapeutics for $9.2 Billion. Is This the Boost the Lagging Drugmaker Needs? \n\nhttps://t.co/obagIy55tt\n\nFollow for daily #StockNews!\n@grok please provide the finance card for $CDTX",
+        "url": ""
+      }
+    ]
+  }
+]

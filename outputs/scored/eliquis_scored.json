@@ -1,0 +1,1495 @@
+[
+  {
+    "narrative_id": "eliquis_narrative_8",
+    "entity_id": "eliquis",
+    "title": "Blood Arm Clots Eliquis",
+    "summary": "Checking my upper left arm for blood clots... Note never had a blood problem for 78 years and then went into the hospital for stomach problems. Next thing I know I have blood clots in my arm from a failed Pic Line insertion, which had to be immediate",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 2,
+    "risk_score": 69.4,
+    "confidence": "low",
+    "confidence_band": [
+      44.4,
+      94.4
+    ],
+    "confidence_raw": 0.37,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 91.0,
+        "weight": 0.3,
+        "contribution": 27.3,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 1,
+          "keyword_modifier": 1.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 92.3,
+        "weight": 0.2,
+        "contribution": 18.5,
+        "detail": {
+          "total_weighted_engagement": 206.0,
+          "avg_per_post": 103.0,
+          "total_shares": 0,
+          "total_comments": 99,
+          "total_likes": 8,
+          "total_views": 0,
+          "percentile": 92.3
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 76.9,
+        "weight": 0.2,
+        "contribution": 15.4,
+        "detail": {
+          "post_count": 2,
+          "percentile": 76.9
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 53.8,
+        "weight": 0.15,
+        "contribution": 8.1,
+        "detail": {
+          "max_followers": 991,
+          "median_followers": 991,
+          "unique_authors": 2,
+          "raw_score": 39.7,
+          "percentile": 53.8
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.0,
+        "weight": 0.15,
+        "contribution": 0.1,
+        "detail": {
+          "posts_per_day": 0.12,
+          "span_days": 16.7,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "25500589219564693",
+        "text": "Joined this group because my mother has afib. Had a stroke in May. Recovered beautifully! Thank the good Lord. Last night she went into afib, high heart rate, watch notified her, with absolutely zero symptoms. We ended up at ER. They started her on eliquis. Told her to continue the baby asprin. Ever",
+        "url": "https://www.facebook.com/25500589219564693",
+        "platform": "facebook",
+        "likes": 3,
+        "shares": 0,
+        "comments": 84,
+        "followers": 0,
+        "handle": ""
+      },
+      {
+        "post_id": "10236126738007196",
+        "text": "Checking my upper left arm for blood clots... Note: never had a blood problem for 78 years and then went into the hospital for stomach problems. Next thing I know I have blood clots in my arm from a failed Pic Line insertion, which had to be immediately removed... Put me on that damn Eliquis... I do",
+        "url": "https://www.facebook.com/10236126738007196",
+        "platform": "facebook",
+        "likes": 5,
+        "shares": 0,
+        "comments": 15,
+        "followers": 991,
+        "handle": "TheGypsyBiker"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "eliquis_narrative_1",
+    "entity_id": "eliquis",
+    "title": "Prices Costs Drug Canadian",
+    "summary": "Healthcare in costs in America is a tragedy A U.S. government study found that in 2022, U.S. drug prices were on average 229 of Canadian prices i.e., Canadian prices were about 44 of what Americans paid for the same drugs. Another review noted that f",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 4,
+    "risk_score": 66.7,
+    "confidence": "low",
+    "confidence_band": [
+      41.7,
+      91.7
+    ],
+    "confidence_raw": 0.44,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 79.5,
+        "weight": 0.3,
+        "contribution": 23.8,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.25,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 2.5,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 2,
+          "keyword_modifier": 2.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 92.3,
+        "weight": 0.2,
+        "contribution": 18.5,
+        "detail": {
+          "post_count": 4,
+          "percentile": 92.3
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 53.8,
+        "weight": 0.2,
+        "contribution": 10.8,
+        "detail": {
+          "total_weighted_engagement": 124.8,
+          "avg_per_post": 31.2,
+          "total_shares": 15,
+          "total_comments": 6,
+          "total_likes": 30,
+          "total_views": 378,
+          "percentile": 53.8
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 69.2,
+        "weight": 0.15,
+        "contribution": 10.4,
+        "detail": {
+          "max_followers": 1802,
+          "median_followers": 1802,
+          "unique_authors": 3,
+          "raw_score": 43.9,
+          "percentile": 69.2
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 21.8,
+        "weight": 0.15,
+        "contribution": 3.3,
+        "detail": {
+          "posts_per_day": 0.23,
+          "span_days": 17.3,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "860539843320105",
+        "text": "President Donald Trump put pharmaceutical CEOs on notice, demanding they lower drug prices or he promised to get involved. He penned a letter to 17 CEOs in July, outlining what he wants from the pharma industry to cut expenses for consumers. In many cases, Americans are paying higher prices for drug",
+        "url": "https://www.facebook.com/860539843320105",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 1802,
+        "handle": "crimewatchatlanta"
+      },
+      {
+        "post_id": "122299776098207946",
+        "text": "Healthcare in costs in America is a tragedy 🤬🤬🤬🤬🤬 A U.S. government study found that in 2022, U.S. drug prices were on average ~229 % of Canadian prices (i.e., Canadian prices were about 44 % of what Americans paid) for the same drugs. Another review noted that for brand-name drugs, U.S. prices can ",
+        "url": "https://www.facebook.com/122299776098207946",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 0,
+        "handle": "dennis.kimmel.669054"
+      },
+      {
+        "post_id": "122301840248207946",
+        "text": "Healthcare is broken Healthcare in costs in America is a tragedy 🤬🤬🤬🤬🤬 A U.S. government study found that in 2022, U.S. drug prices were on average ~229 % of Canadian prices (i.e., Canadian prices were about 44 % of what Americans paid) for the same drugs. Another review noted that for brand-name dr",
+        "url": "https://www.facebook.com/122301840248207946",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 0,
+        "handle": "dennis.kimmel.669054"
+      },
+      {
+        "post_id": "1994711514402501046",
+        "text": "@LifeNetwork_AI The discussion about drug prices is interesting! Developing new medications can cost over $1 billion, which helps justify some prices. However, big differences exist, like Eliquis costing $7,100 in the US versus $900 in Canada, raising affordability concerns.",
+        "url": "https://x.com/i/web/status/1994711514402501046",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 234,
+        "handle": "MRII30R"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 3,
+      "negative": 1
+    }
+  },
+  {
+    "narrative_id": "eliquis_narrative_13",
+    "entity_id": "eliquis",
+    "title": "Miscellaneous Topics",
+    "summary": "Okay, I spent 3 1 2 days in the hospital again, not sure if I am okay yet. They said my spleen is dying off. About 25 is gone, and that's okay, I am going on Eliquis to try to get the blood flowing again. If that helps the pain may leave. It's my lef",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 49,
+    "risk_score": 61.5,
+    "confidence": "medium",
+    "confidence_band": [
+      46.5,
+      76.5
+    ],
+    "confidence_raw": 0.57,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 100.0,
+        "weight": 0.2,
+        "contribution": 20.0,
+        "detail": {
+          "post_count": 49,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 92.3,
+        "weight": 0.2,
+        "contribution": 18.5,
+        "detail": {
+          "total_weighted_engagement": 3003.3,
+          "avg_per_post": 61.3,
+          "total_shares": 71,
+          "total_comments": 966,
+          "total_likes": 361,
+          "total_views": 4973,
+          "percentile": 92.3
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 100.0,
+        "weight": 0.15,
+        "contribution": 15.0,
+        "detail": {
+          "max_followers": 385918,
+          "median_followers": 411,
+          "unique_authors": 47,
+          "raw_score": 78.3,
+          "percentile": 100.0
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 20.0,
+        "weight": 0.3,
+        "contribution": 6.0,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.1,
+          "positive_ratio": 0.08,
+          "sentiment_modifier": -0.6,
+          "high_risk_keywords": 3,
+          "medium_risk_keywords": 2,
+          "low_risk_keywords": 3,
+          "keyword_modifier": 0.7
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 13.5,
+        "weight": 0.15,
+        "contribution": 2.0,
+        "detail": {
+          "posts_per_day": 1.69,
+          "span_days": 29.0,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "25467073216249627",
+        "text": "I got my 1st afib attack in 2023 after watching my sister pass away. Went to cardiologist next day and told it was afib. He gave me eliquis put me on a monitor and told me not to worry. Sent me to an EP. I was scared and confused. EP suggested unexplainable procedures which was confusing me more so ",
+        "url": "https://www.facebook.com/25467073216249627",
+        "platform": "facebook",
+        "likes": 45,
+        "shares": 0,
+        "comments": 176,
+        "followers": 0,
+        "handle": ""
+      },
+      {
+        "post_id": "2773193333021388",
+        "text": "Has anyone gotten a blood clot while on blood thinners? I was diagnosed in August with multiple PE’s in both lungs and am still on Eliquis. My calf has been sore off and on for almost a week and I’m paranoid. They believe mine were provoked (by long flight). Update : I did get an ultrasound in my ca",
+        "url": "https://www.facebook.com/2773193333021388",
+        "platform": "facebook",
+        "likes": 17,
+        "shares": 0,
+        "comments": 116,
+        "followers": 0,
+        "handle": "sharon.ratcliff.18"
+      },
+      {
+        "post_id": "10240625084870151",
+        "text": "To get all my FB friends filled in on what my last month was like… here we go !!! On October 17th late Friday my right leg including my foot swelled dramatically. I wasn’t’ sure what it was & hoped it would pass, and it didn’t so Monday I called 911 and was rushed to ER at Lutheran General Hospital ",
+        "url": "https://www.facebook.com/10240625084870151",
+        "platform": "facebook",
+        "likes": 12,
+        "shares": 3,
+        "comments": 95,
+        "followers": 0,
+        "handle": "geoff.lowe.165"
+      },
+      {
+        "post_id": "10163343148902733",
+        "text": "Hi all, new to this group. Was diagnosed this Monday after a 5 hour hear episode that forced me to the ER. 43 year old male, no prior heart issues. Looking to make some big changes to diet and reduce stress from work. Wondering what changes you all made. They gave me blood thinners and Eliquis to he",
+        "url": "https://www.facebook.com/10163343148902733",
+        "platform": "facebook",
+        "likes": 32,
+        "shares": 3,
+        "comments": 75,
+        "followers": 0,
+        "handle": "manny.fernandez.877808"
+      },
+      {
+        "post_id": "10233934960228044",
+        "text": "This video shows my Mama holding her great grandbaby for the first time today 🥹🥹🥹 Please send up some extra prayers for my Mama! After a couple of days in the hospital, she started to go into organ failure from lactic acidosis. They were able to give her bicarbonate, to level her back out, but was t",
+        "url": "https://www.facebook.com/10233934960228044",
+        "platform": "facebook",
+        "likes": 26,
+        "shares": 3,
+        "comments": 65,
+        "followers": 0,
+        "handle": "AmyLynnDorsey"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 40,
+      "positive": 4,
+      "negative": 5
+    }
+  },
+  {
+    "narrative_id": "eliquis_narrative_5",
+    "entity_id": "eliquis",
+    "title": "Getting Thoughts Watchman Eliquis",
+    "summary": "Any thoughts on getting the Watchman? I was on Eliquis for a year and started getting horrible nosebleeds but I m also hearing of some complications from the surgery. I m also allergic to aspirin and I hear you need to take it for some time after.",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 2,
+    "risk_score": 59.5,
+    "confidence": "low",
+    "confidence_band": [
+      34.5,
+      84.5
+    ],
+    "confidence_raw": 0.3,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 90.0,
+        "weight": 0.3,
+        "contribution": 27.0,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 76.9,
+        "weight": 0.2,
+        "contribution": 15.4,
+        "detail": {
+          "post_count": 2,
+          "percentile": 76.9
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 69.2,
+        "weight": 0.2,
+        "contribution": 13.8,
+        "detail": {
+          "total_weighted_engagement": 151.0,
+          "avg_per_post": 75.5,
+          "total_shares": 0,
+          "total_comments": 66,
+          "total_likes": 19,
+          "total_views": 0,
+          "percentile": 69.2
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 20,
+        "weight": 0.15,
+        "contribution": 3.0,
+        "detail": {
+          "reason": "no follower data available",
+          "unique_authors": 2
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.6,
+        "weight": 0.15,
+        "contribution": 0.2,
+        "detail": {
+          "posts_per_day": 0.2,
+          "span_days": 10.1,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "25455226154101000",
+        "text": "Any thoughts on getting the Watchman? I was on Eliquis for a year and started getting horrible nosebleeds; but I’m also hearing of some complications from the surgery. I’m also allergic to aspirin and I hear you need to take it for some time after.",
+        "url": "https://www.facebook.com/25455226154101000",
+        "platform": "facebook",
+        "likes": 17,
+        "shares": 0,
+        "comments": 57,
+        "followers": 0,
+        "handle": "greg.pospiel"
+      },
+      {
+        "post_id": "10162148102882469",
+        "text": "♀️I'm a woman. 🩸I'm taking Eliquis. 💀I'm over this horrible combination already.",
+        "url": "https://www.facebook.com/10162148102882469",
+        "platform": "facebook",
+        "likes": 2,
+        "shares": 0,
+        "comments": 9,
+        "followers": 0,
+        "handle": "crystal.armstrong.5492"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "eliquis_narrative_2",
+    "entity_id": "eliquis",
+    "title": "Ablation September Everything Since",
+    "summary": "I had an ablation in September. Everything has been great since. Problem is because I am 69 I have to stay on eliquis. It gives me horrible heartburn that nothing helps. Any ideas? Should I try for a watchman?",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 2,
+    "risk_score": 58.2,
+    "confidence": "low",
+    "confidence_band": [
+      33.2,
+      83.2
+    ],
+    "confidence_raw": 0.31,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 91.0,
+        "weight": 0.3,
+        "contribution": 27.3,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 1,
+          "keyword_modifier": 1.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 76.9,
+        "weight": 0.2,
+        "contribution": 15.4,
+        "detail": {
+          "post_count": 2,
+          "percentile": 76.9
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 61.5,
+        "weight": 0.2,
+        "contribution": 12.3,
+        "detail": {
+          "total_weighted_engagement": 130.0,
+          "avg_per_post": 65.0,
+          "total_shares": 0,
+          "total_comments": 59,
+          "total_likes": 12,
+          "total_views": 0,
+          "percentile": 61.5
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 20,
+        "weight": 0.15,
+        "contribution": 3.0,
+        "detail": {
+          "reason": "no follower data available",
+          "unique_authors": 2
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.2,
+        "weight": 0.15,
+        "contribution": 0.2,
+        "detail": {
+          "posts_per_day": 0.15,
+          "span_days": 13.1,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "10163312651327733",
+        "text": "Greetings. I have an ablation scheduled for 1/23/2026. I’m currently on 50mg metoprolol, 25 mg losartan, 5mg eliquis, and 425mg propafenone. I’ve only had 2 afib episodes this year so far, “knock on wood”, which both episodes went away within 24 hours. I’m debating if I really need to have an ablati",
+        "url": "https://www.facebook.com/10163312651327733",
+        "platform": "facebook",
+        "likes": 9,
+        "shares": 0,
+        "comments": 29,
+        "followers": 0,
+        "handle": "corinne.yamane"
+      },
+      {
+        "post_id": "1789978145056091",
+        "text": "I had an ablation in September. Everything has been great since. Problem is because I am 69 I have to stay on eliquis. It gives me horrible heartburn that nothing helps. Any ideas? Should I try for a watchman?",
+        "url": "https://www.facebook.com/1789978145056091",
+        "platform": "facebook",
+        "likes": 3,
+        "shares": 0,
+        "comments": 30,
+        "followers": 0,
+        "handle": ""
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "eliquis_narrative_11",
+    "entity_id": "eliquis",
+    "title": "Medication Diabetes Blood Thinner",
+    "summary": "Show me Ozempic on this list I ll wait Medications with negotiated price reductions Eliquis A blood thinner Xarelto A blood thinner Entresto A heart failure medication Jardiance A diabetes medication Stelara A drug for conditions like psoriatic arthr",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 2,
+    "risk_score": 57.8,
+    "confidence": "medium",
+    "confidence_band": [
+      42.8,
+      72.8
+    ],
+    "confidence_raw": 0.57,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 82.0,
+        "weight": 0.3,
+        "contribution": 24.6,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.5,
+          "sentiment_modifier": -10.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 2.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 76.9,
+        "weight": 0.2,
+        "contribution": 15.4,
+        "detail": {
+          "post_count": 2,
+          "percentile": 76.9
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 76.9,
+        "weight": 0.15,
+        "contribution": 11.5,
+        "detail": {
+          "max_followers": 6510,
+          "median_followers": 6510,
+          "unique_authors": 2,
+          "raw_score": 49.9,
+          "percentile": 76.9
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 21.6,
+        "weight": 0.15,
+        "contribution": 3.2,
+        "detail": {
+          "posts_per_day": 2.7,
+          "span_days": 0.7,
+          "accelerating": true
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 15.4,
+        "weight": 0.2,
+        "contribution": 3.1,
+        "detail": {
+          "total_weighted_engagement": 21.0,
+          "avg_per_post": 10.5,
+          "total_shares": 0,
+          "total_comments": 4,
+          "total_likes": 0,
+          "total_views": 130,
+          "percentile": 15.4
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1993500930189258969",
+        "text": "The market's flooded with blood thinners like Warfarin, Eliquis & Xarelto. They're effective, but come with a major drawback: bleeding risk. For many, the cure feels almost as bad as the disease. This is where Bayer saw an opportunity. 💡",
+        "url": "https://x.com/i/web/status/1993500930189258969",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 2,
+        "followers": 12,
+        "handle": "inteldrop_app"
+      },
+      {
+        "post_id": "1993769813592674734",
+        "text": "Show me Ozempic on this list…\n\nI’ll wait…\n\nMedications with negotiated price reductions\n•Eliquis: A blood thinner\n•Xarelto: A blood thinner\n•Entresto: A heart failure medication\n•Jardiance: A diabetes medication\n•Stelara: A drug for conditions like psoriatic arthritis\n•Enbrel: A drug for inflammator",
+        "url": "https://x.com/i/web/status/1993769813592674734",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 2,
+        "followers": 6510,
+        "handle": "RozzaKat13"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 1,
+      "positive": 1
+    }
+  },
+  {
+    "narrative_id": "eliquis_narrative_9",
+    "entity_id": "eliquis",
+    "title": "Prices Medicare Ever Prescription",
+    "summary": "Ever look at prescription prices and feel like you re paying more than anyone else in the world? You might be right. Even with new Medicare-negotiated prices, the U.S. still pays way more than countries like Canada, Japan, and the UK. . Here s the sc",
+    "taxonomy_label": "Financial Integrity",
+    "post_count": 2,
+    "risk_score": 53.5,
+    "confidence": "medium",
+    "confidence_band": [
+      38.5,
+      68.5
+    ],
+    "confidence_raw": 0.57,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 75.0,
+        "weight": 0.3,
+        "contribution": 22.5,
+        "detail": {
+          "taxonomy_label": "Financial Integrity",
+          "taxonomy_base_score": 75,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 76.9,
+        "weight": 0.2,
+        "contribution": 15.4,
+        "detail": {
+          "post_count": 2,
+          "percentile": 76.9
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 61.5,
+        "weight": 0.15,
+        "contribution": 9.2,
+        "detail": {
+          "max_followers": 1201,
+          "median_followers": 1201,
+          "unique_authors": 2,
+          "raw_score": 40.7,
+          "percentile": 61.5
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 30.8,
+        "weight": 0.2,
+        "contribution": 6.2,
+        "detail": {
+          "total_weighted_engagement": 42.5,
+          "avg_per_post": 21.2,
+          "total_shares": 5,
+          "total_comments": 2,
+          "total_likes": 10,
+          "total_views": 135,
+          "percentile": 30.8
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.5,
+        "weight": 0.15,
+        "contribution": 0.2,
+        "detail": {
+          "posts_per_day": 0.18,
+          "span_days": 11.0,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1303351525146098",
+        "text": "Ever look at prescription prices and feel like you’re paying more than anyone else in the world? You might be right. Even with new Medicare-negotiated prices, the U.S. still pays way more than countries like 🇨🇦 Canada, 🇯🇵 Japan, and 🇬🇧 the UK. . Here’s the scoop: ➪ The Inflation Reduction Act (2022)",
+        "url": "https://www.facebook.com/1303351525146098",
+        "platform": "facebook",
+        "likes": 10,
+        "shares": 5,
+        "comments": 2,
+        "followers": 1201,
+        "handle": "AffordableMedicareSolutions"
+      },
+      {
+        "post_id": "1989323330415968741",
+        "text": "@LauraEarthname @DrDiGiorgio The reality is the Medicare taxes should be at least double to cover the B shortfall and D would be a whole lot cheaper if it defaulted to generic only with an exception process.  Eliquis alone costs the govt $11B/year.",
+        "url": "https://x.com/i/web/status/1989323330415968741",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 87,
+        "handle": "edwards183"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "eliquis_narrative_4",
+    "entity_id": "eliquis",
+    "title": "Visit Svt Heart Anyone",
+    "summary": "Has anyone been in persistent AFib for 6-9 months and had their SR successfully restored to normal? Mine was discovered during a routine dr visit in Sept. I was diagnosed with SVT and underwent an unsuccessful ablation in early 2020. I never had any ",
+    "taxonomy_label": "Customer Harm",
+    "post_count": 2,
+    "risk_score": 52.3,
+    "confidence": "low",
+    "confidence_band": [
+      27.3,
+      77.3
+    ],
+    "confidence_raw": 0.33,
+    "drivers": [
+      {
+        "name": "Language Signals",
+        "score": 81.0,
+        "weight": 0.3,
+        "contribution": 24.3,
+        "detail": {
+          "taxonomy_label": "Customer Harm",
+          "taxonomy_base_score": 90,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.5,
+          "sentiment_modifier": -10.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 1,
+          "keyword_modifier": 1.0
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 76.9,
+        "weight": 0.2,
+        "contribution": 15.4,
+        "detail": {
+          "post_count": 2,
+          "percentile": 76.9
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 46.2,
+        "weight": 0.2,
+        "contribution": 9.2,
+        "detail": {
+          "total_weighted_engagement": 101.0,
+          "avg_per_post": 50.5,
+          "total_shares": 0,
+          "total_comments": 48,
+          "total_likes": 5,
+          "total_views": 0,
+          "percentile": 46.2
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 20,
+        "weight": 0.15,
+        "contribution": 3.0,
+        "detail": {
+          "reason": "no follower data available",
+          "unique_authors": 2
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 2.6,
+        "weight": 0.15,
+        "contribution": 0.4,
+        "detail": {
+          "posts_per_day": 0.33,
+          "span_days": 6.0,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "10163315888687733",
+        "text": "Has anyone been in persistent AFib for 6-9 months and had their SR successfully restored to normal? Mine was discovered during a routine dr visit in Sept. I was diagnosed with SVT and underwent an unsuccessful ablation in early 2020. I never had any symptoms and if not for my Apple Watch sending me ",
+        "url": "https://www.facebook.com/10163315888687733",
+        "platform": "facebook",
+        "likes": 5,
+        "shares": 0,
+        "comments": 39,
+        "followers": 0,
+        "handle": "bentonstb"
+      },
+      {
+        "post_id": "2762933674047354",
+        "text": "Has anyone had a DVT while on Eliquis, been put on Lovenox and then allowed to go back to Eliquis.? I’m quite certain this DVT (which fortunately I caught before it became another bilateral saddle PE) is one I brought upon myself by long air travel, not paying attention to the impact of 8 time zone ",
+        "url": "https://www.facebook.com/2762933674047354",
+        "platform": "facebook",
+        "likes": 0,
+        "shares": 0,
+        "comments": 9,
+        "followers": 0,
+        "handle": "monseyboy52"
+      }
+    ],
+    "sentiment_distribution": {
+      "positive": 1,
+      "neutral": 1
+    }
+  },
+  {
+    "narrative_id": "eliquis_narrative_6",
+    "entity_id": "eliquis",
+    "title": "Eliquis Xarelto Less Bleeding",
+    "summary": "Xarelto vs Eliquis 2025 Eliquis 31 less bleeding full comparison",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 3,
+    "risk_score": 51.5,
+    "confidence": "low",
+    "confidence_band": [
+      26.5,
+      76.5
+    ],
+    "confidence_raw": 0.31,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 84.6,
+        "weight": 0.2,
+        "contribution": 16.9,
+        "detail": {
+          "post_count": 3,
+          "percentile": 84.6
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 76.9,
+        "weight": 0.2,
+        "contribution": 15.4,
+        "detail": {
+          "total_weighted_engagement": 152.9,
+          "avg_per_post": 51.0,
+          "total_shares": 0,
+          "total_comments": 59,
+          "total_likes": 29,
+          "total_views": 59,
+          "percentile": 76.9
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 84.6,
+        "weight": 0.15,
+        "contribution": 12.7,
+        "detail": {
+          "max_followers": 11560,
+          "median_followers": 11560,
+          "unique_authors": 3,
+          "raw_score": 54.1,
+          "percentile": 84.6
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 20.0,
+        "weight": 0.3,
+        "contribution": 6.0,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 3.3,
+        "weight": 0.15,
+        "contribution": 0.5,
+        "detail": {
+          "posts_per_day": 0.41,
+          "span_days": 7.3,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1995817997907774",
+        "text": "If you are not sure about your blood thinner…Eliquis is the best, lol",
+        "url": "https://www.facebook.com/1995817997907774",
+        "platform": "facebook",
+        "likes": 29,
+        "shares": 0,
+        "comments": 56,
+        "followers": 0,
+        "handle": "albert.chatman.520"
+      },
+      {
+        "post_id": "1987670299836370994",
+        "text": "@paulfunpants @dayless6 They put her on Eliquis, but her arm is still bothering her a great deal. I’m pretty sure it’s a complication from her chemo treatment tbh. She had the pain for a while and didn’t say anything, I was so mad at her for waiting to bring it up.",
+        "url": "https://x.com/i/web/status/1987670299836370994",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 3,
+        "followers": 11560,
+        "handle": "janefkndoe"
+      },
+      {
+        "post_id": "1988024359227625852",
+        "text": "Xarelto vs Eliquis 2025: Eliquis 31% less bleeding – full comparison https://t.co/lspQolF8QW #XareltoVsEliquis",
+        "url": "https://x.com/i/web/status/1988024359227625852",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 0,
+        "handle": "NudgeDevice"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 3
+    }
+  },
+  {
+    "narrative_id": "eliquis_narrative_10",
+    "entity_id": "eliquis",
+    "title": "Insurance Prescription Eliquis Month",
+    "summary": "We need to look at the prescription ELIQUIS. For people who have no insurance, I think 348 month is expensive as hell. Old people cant afford that. And supplemental insurance puts people who are on that in a higher category to pay the insurance",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 2,
+    "risk_score": 45.5,
+    "confidence": "low",
+    "confidence_band": [
+      20.5,
+      70.5
+    ],
+    "confidence_raw": 0.39,
+    "drivers": [
+      {
+        "name": "Engagement",
+        "score": 84.6,
+        "weight": 0.2,
+        "contribution": 16.9,
+        "detail": {
+          "total_weighted_engagement": 182.7,
+          "avg_per_post": 91.3,
+          "total_shares": 0,
+          "total_comments": 74,
+          "total_likes": 24,
+          "total_views": 107,
+          "percentile": 84.6
+        }
+      },
+      {
+        "name": "Volume",
+        "score": 76.9,
+        "weight": 0.2,
+        "contribution": 15.4,
+        "detail": {
+          "post_count": 2,
+          "percentile": 76.9
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 46.2,
+        "weight": 0.15,
+        "contribution": 6.9,
+        "detail": {
+          "max_followers": 266,
+          "median_followers": 266,
+          "unique_authors": 2,
+          "raw_score": 32.5,
+          "percentile": 46.2
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 20.0,
+        "weight": 0.3,
+        "contribution": 6.0,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 1.5,
+        "weight": 0.15,
+        "contribution": 0.2,
+        "detail": {
+          "posts_per_day": 0.19,
+          "span_days": 10.7,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1918361405766712",
+        "text": "May i know if your ischemic stroke from more than one year What are your medications? Eliquis or aspirin or both",
+        "url": "https://www.facebook.com/1918361405766712",
+        "platform": "facebook",
+        "likes": 24,
+        "shares": 0,
+        "comments": 74,
+        "followers": 0,
+        "handle": ""
+      },
+      {
+        "post_id": "1986487338759864750",
+        "text": "@FoxNews @POTUS @realDonaldTrump @DrOz \nWe need to look at the prescription ELIQUIS.  For people who have no insurance, I think $348/month is expensive as hell. Old people cant afford that. And supplemental insurance puts people who are on that in a higher category to pay the insurance",
+        "url": "https://x.com/i/web/status/1986487338759864750",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 266,
+        "handle": "JP193979"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "eliquis_narrative_3",
+    "entity_id": "eliquis",
+    "title": "Eliquis Fucking Super Clotting",
+    "summary": "Eliquis. Fucking super clotting blood.",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 2,
+    "risk_score": 40.4,
+    "confidence": "medium",
+    "confidence_band": [
+      25.4,
+      55.4
+    ],
+    "confidence_raw": 0.53,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 76.9,
+        "weight": 0.2,
+        "contribution": 15.4,
+        "detail": {
+          "post_count": 2,
+          "percentile": 76.9
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 92.3,
+        "weight": 0.15,
+        "contribution": 13.8,
+        "detail": {
+          "max_followers": 25027,
+          "median_followers": 25027,
+          "unique_authors": 2,
+          "raw_score": 57.3,
+          "percentile": 92.3
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 20.0,
+        "weight": 0.3,
+        "contribution": 6.0,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 23.1,
+        "weight": 0.2,
+        "contribution": 4.6,
+        "detail": {
+          "total_weighted_engagement": 34.8,
+          "avg_per_post": 17.4,
+          "total_shares": 0,
+          "total_comments": 3,
+          "total_likes": 0,
+          "total_views": 288,
+          "percentile": 23.1
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 3.9,
+        "weight": 0.15,
+        "contribution": 0.6,
+        "detail": {
+          "posts_per_day": 0.49,
+          "span_days": 4.1,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "32994593366792543",
+        "text": "$600 something for a rx of Eliquis..this blood clot in my chest is about to thrive lol. I need to hit the lotto 🥴 #FaithOverFear #fypageシ #God",
+        "url": "https://www.facebook.com/32994593366792543",
+        "platform": "facebook",
+        "likes": 0,
+        "shares": 0,
+        "comments": 3,
+        "followers": 25027,
+        "handle": "lakeisha.mitchell"
+      },
+      {
+        "post_id": "1990451132221862369",
+        "text": "@DiaryofaSickGrl Eliquis. Fucking super clotting blood.",
+        "url": "https://x.com/i/web/status/1990451132221862369",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 4475,
+        "handle": "FlyIngenuity"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  },
+  {
+    "narrative_id": "eliquis_narrative_12",
+    "entity_id": "eliquis",
+    "title": "Nites Morn Eliquis Atorvastate",
+    "summary": "4 nites 2 in morn Eliquis 2 of 2 195 2 use 2 11-09sa atorvastate 195 2 use 2 l! 6",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 2,
+    "risk_score": 37.3,
+    "confidence": "low",
+    "confidence_band": [
+      12.3,
+      62.3
+    ],
+    "confidence_raw": 0.44,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 76.9,
+        "weight": 0.2,
+        "contribution": 15.4,
+        "detail": {
+          "post_count": 2,
+          "percentile": 76.9
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 27.0,
+        "weight": 0.3,
+        "contribution": 8.1,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.5,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 5.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 1,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 2.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 38.5,
+        "weight": 0.2,
+        "contribution": 7.7,
+        "detail": {
+          "total_weighted_engagement": 59.6,
+          "avg_per_post": 29.8,
+          "total_shares": 0,
+          "total_comments": 15,
+          "total_likes": 20,
+          "total_views": 96,
+          "percentile": 38.5
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 38.5,
+        "weight": 0.15,
+        "contribution": 5.8,
+        "detail": {
+          "max_followers": 32,
+          "median_followers": 32,
+          "unique_authors": 2,
+          "raw_score": 20.9,
+          "percentile": 38.5
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 2.1,
+        "weight": 0.15,
+        "contribution": 0.3,
+        "detail": {
+          "posts_per_day": 0.26,
+          "span_days": 7.7,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "2768460746827980",
+        "text": "Just had a thought and I figured I would share, if you are on Eliquis always check with you hemotologyst when you are going to take medicine even vitamins, you never know what can weaken the Eliquis potency. Or even check with your pharmacy. I was going to take a pumpkin seed oil pill but checked an",
+        "url": "https://www.facebook.com/2768460746827980",
+        "platform": "facebook",
+        "likes": 20,
+        "shares": 0,
+        "comments": 15,
+        "followers": 0,
+        "handle": "janet.cicale"
+      },
+      {
+        "post_id": "1988069311202705780",
+        "text": "@chrislhayes 4 nites 2 in morn\n\nEliquis   2 of 2\n\n195     2  use 2\n\n11-09sa\n\natorvastate \n\n195     2  use 2\n\nl!(6)",
+        "url": "https://x.com/i/web/status/1988069311202705780",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "followers": 32,
+        "handle": "greggy99"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 1,
+      "negative": 1
+    }
+  },
+  {
+    "narrative_id": "eliquis_narrative_7",
+    "entity_id": "eliquis",
+    "title": "Because Eliquis Farxiga Expensive",
+    "summary": "Really because my Eliquis and Farxiga are going to be more expensive in 2026.",
+    "taxonomy_label": "General / Unclassified",
+    "post_count": 2,
+    "risk_score": 24.5,
+    "confidence": "low",
+    "confidence_band": [
+      0,
+      49.5
+    ],
+    "confidence_raw": 0.42,
+    "drivers": [
+      {
+        "name": "Volume",
+        "score": 76.9,
+        "weight": 0.2,
+        "contribution": 15.4,
+        "detail": {
+          "post_count": 2,
+          "percentile": 76.9
+        }
+      },
+      {
+        "name": "Language Signals",
+        "score": 20.0,
+        "weight": 0.3,
+        "contribution": 6.0,
+        "detail": {
+          "taxonomy_label": "General / Unclassified",
+          "taxonomy_base_score": 20,
+          "negative_ratio": 0.0,
+          "positive_ratio": 0.0,
+          "sentiment_modifier": 0.0,
+          "high_risk_keywords": 0,
+          "medium_risk_keywords": 0,
+          "low_risk_keywords": 0,
+          "keyword_modifier": 0.0
+        }
+      },
+      {
+        "name": "Engagement",
+        "score": 7.7,
+        "weight": 0.2,
+        "contribution": 1.5,
+        "detail": {
+          "total_weighted_engagement": 10.0,
+          "avg_per_post": 5.0,
+          "total_shares": 0,
+          "total_comments": 4,
+          "total_likes": 0,
+          "total_views": 20,
+          "percentile": 7.7
+        }
+      },
+      {
+        "name": "Author Influence",
+        "score": 7.7,
+        "weight": 0.15,
+        "contribution": 1.2,
+        "detail": {
+          "max_followers": 16,
+          "median_followers": 16,
+          "unique_authors": 2,
+          "raw_score": 17.1,
+          "percentile": 7.7
+        }
+      },
+      {
+        "name": "Velocity",
+        "score": 3.1,
+        "weight": 0.15,
+        "contribution": 0.5,
+        "detail": {
+          "posts_per_day": 0.38,
+          "span_days": 5.2,
+          "accelerating": true
+        }
+      }
+    ],
+    "evidence_posts": [
+      {
+        "post_id": "1986883604983456075",
+        "text": "@WhiteHouse Really because my Eliquis and Farxiga are going to be more expensive in 2026.",
+        "url": "https://x.com/i/web/status/1986883604983456075",
+        "platform": "twitter",
+        "likes": 0,
+        "shares": 0,
+        "comments": 2,
+        "followers": 16,
+        "handle": "HoopLife44"
+      },
+      {
+        "post_id": "10164652735938352",
+        "text": "Just in case you wanted to know if you want to buy eliquis without insurance its close to 2k for a 30 day prescription. Even if you need it and your 5 days early for a refill which they knew they didn't give me the full amount previously. Had 2 doctor's visits today and had to fight and argue and se",
+        "url": "https://www.facebook.com/10164652735938352",
+        "platform": "facebook",
+        "likes": 0,
+        "shares": 0,
+        "comments": 2,
+        "followers": 0,
+        "handle": "koreymw"
+      }
+    ],
+    "sentiment_distribution": {
+      "neutral": 2
+    }
+  }
+]
