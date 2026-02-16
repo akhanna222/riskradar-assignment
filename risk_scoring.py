@@ -614,6 +614,30 @@ def score_narratives(narratives_file, posts_file, authors_file, output_file=None
         result = score_narrative(narr, enriched, all_sizes, all_engagements, all_author_raw)
         scored.append(result)
 
+    # Apply human risk overrides from overrides.json (if exists)
+    overrides_path = Path(narratives_file).parent.parent / "overrides.json"
+    if overrides_path.exists():
+        with open(overrides_path) as f:
+            overrides = json.load(f)
+        risk_overrides = overrides.get("risk_overrides", {})
+        if risk_overrides:
+            applied = 0
+            for s in scored:
+                nid = s["narrative_id"]
+                if nid in risk_overrides:
+                    feedback = risk_overrides[nid].get("feedback", "")
+                    original = s["risk_score"]
+                    if feedback == "Too High":
+                        s["risk_score"] = max(0, original - 15)
+                        s["analyst_override"] = "too_high"
+                    elif feedback == "Too Low":
+                        s["risk_score"] = min(100, original + 15)
+                        s["analyst_override"] = "too_low"
+                    s["original_score_before_override"] = original
+                    applied += 1
+            if applied:
+                print(f"  Applied {applied} human risk overrides from overrides.json")
+
     scored.sort(key=lambda s: -s["risk_score"])
 
     if output_file:

@@ -23,6 +23,7 @@ except ImportError:
 DATA_DIR = Path("data")
 OUTPUT_DIR = Path("outputs")
 FEEDBACK_FILE = OUTPUT_DIR / "feedback.jsonl"
+OVERRIDES_FILE = OUTPUT_DIR / "overrides.json"
 
 POSTS_FILE = DATA_DIR / "posts.jsonl"
 ENTITIES_FILE = DATA_DIR / "entities_seed.csv"
@@ -30,6 +31,23 @@ AUTHORS_FILE = DATA_DIR / "authors.csv"
 RESOLVED_FILE = OUTPUT_DIR / "resolved_entities.jsonl"
 NARRATIVES_DIR = OUTPUT_DIR / "narratives"
 SCORED_DIR = OUTPUT_DIR / "scored"
+
+
+# ── Overrides: Human-in-the-loop corrections ────────────────────────────────
+
+def load_overrides():
+    """Load overrides.json — the live file the pipeline reads."""
+    if OVERRIDES_FILE.exists():
+        with open(OVERRIDES_FILE) as f:
+            return json.load(f)
+    return {"entity_overrides": {}, "risk_overrides": {}}
+
+
+def save_overrides(overrides):
+    """Write overrides.json — immediately available to pipeline."""
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    with open(OVERRIDES_FILE, "w") as f:
+        json.dump(overrides, f, indent=2, ensure_ascii=False)
 
 
 # ── Data Loading (cached) ──────────────────────────────────────────────────
@@ -63,12 +81,52 @@ def load_posts_index():
 
 
 @st.cache_data
-def load_scored(entity_id):
+def load_scored_raw(entity_id):
+    """Load raw scored narratives from disk."""
     path = SCORED_DIR / f"{entity_id}_scored.json"
     if path.exists():
         with open(path) as f:
             return json.load(f)
     return []
+
+
+def load_scored(entity_id):
+    """Load scored narratives and apply any overrides.json corrections live."""
+    scored = load_scored_raw(entity_id)
+    overrides = load_overrides()
+
+    risk_overrides = overrides.get("risk_overrides", {})
+    entity_overrides = overrides.get("entity_overrides", {})
+
+    results = []
+    for narr in scored:
+        n = dict(narr)  # shallow copy
+
+        # Apply risk overrides
+        nid = n["narrative_id"]
+        if nid in risk_overrides:
+            feedback = risk_overrides[nid].get("feedback", "")
+            original = n["risk_score"]
+            if feedback == "Too High":
+                n["risk_score"] = max(0, original - 15)
+            elif feedback == "Too Low":
+                n["risk_score"] = min(100, original + 15)
+            n["analyst_override"] = feedback
+            n["original_score_before_override"] = original
+
+        # Check if any posts in this narrative have entity overrides
+        overridden_posts = [
+            pid for pid in n.get("post_ids", [])
+            if str(pid) in entity_overrides
+        ]
+        if overridden_posts:
+            n["has_entity_overrides"] = len(overridden_posts)
+
+        results.append(n)
+
+    # Re-sort by (possibly adjusted) risk score
+    results.sort(key=lambda s: -s["risk_score"])
+    return results
 
 
 @st.cache_data
@@ -189,7 +247,31 @@ st.sidebar.divider()
 st.sidebar.caption("RiskRadar Prototype · Built for Lead DS Challenge")
 
 
-# ── Main: Narrative List (Screen B) ─────────────────────────────────────────
+# ── Main: Cross-Entity Overview ─────────────────────────────────────────────
+
+# Load all scored narratives for overview
+all_scored_flat = []
+for eid in entity_ids:
+    for narr in load_scored(eid):
+        narr["_entity_label"] = entity_labels.get(eid, eid)
+        all_scored_flat.append(narr)
+all_scored_flat.sort(key=lambda n: -n["risk_score"])
+
+# Top risks across all entities
+st.subheader("Top Risk Narratives (All Entities)")
+top_n = min(10, len(all_scored_flat))
+for narr in all_scored_flat[:top_n]:
+    s = narr["risk_score"]
+    color = "🔴" if s >= 70 else ("🟡" if s >= 50 else "🟢")
+    st.markdown(
+        f"{color} **{s:.0f}** — {narr['title'][:50]}  ·  "
+        f"_{narr['_entity_label']}_  ·  {narr.get('taxonomy_label', '')}  ·  "
+        f"{narr['post_count']} posts"
+    )
+
+st.divider()
+
+# ── Main: Per-Entity Narrative List (Screen B) ──────────────────────────────
 
 scored = load_scored(selected_entity)
 
@@ -226,6 +308,16 @@ for i, narr in enumerate(scored):
     with st.expander(f"{color} **{score:.0f}** — {title}  ·  _{taxonomy}_  ·  {narr['post_count']} posts"):
 
         # ── Screen C: Narrative Detail ──────────────────────────────
+
+        # Override indicators
+        if narr.get("analyst_override"):
+            orig = narr.get("original_score_before_override", score)
+            st.warning(
+                f"Analyst override active: '{narr['analyst_override']}' — "
+                f"original score was {orig:.0f}, adjusted to {score:.0f}"
+            )
+        if narr.get("has_entity_overrides"):
+            st.info(f"{narr['has_entity_overrides']} post(s) in this narrative have entity corrections pending pipeline re-run")
 
         # Summary
         st.markdown(f"**Summary:** {narr.get('summary', 'N/A')}")
@@ -298,6 +390,14 @@ for i, narr in enumerate(scored):
         st.divider()
         st.markdown("**Feedback:**")
 
+        # Load current overrides
+        overrides = load_overrides()
+
+        # Show if this narrative already has overrides
+        existing_risk = overrides.get("risk_overrides", {}).get(narr["narrative_id"])
+        if existing_risk:
+            st.info(f"Analyst override active: rated '{existing_risk['feedback']}' (original: {existing_risk['original_score']:.0f})")
+
         fcol1, fcol2 = st.columns(2)
 
         with fcol1:
@@ -308,15 +408,22 @@ for i, narr in enumerate(scored):
                 horizontal=True,
             )
             if st.button("Submit Risk Feedback", key=f"riskbtn_{narr['narrative_id']}"):
-                save_feedback({
-                    "type": "risk_rating",
+                entry = {
                     "narrative_id": narr["narrative_id"],
                     "entity_id": selected_entity,
                     "original_score": score,
                     "feedback": risk_feedback,
                     "timestamp": datetime.now().isoformat(),
-                })
-                st.success("Risk feedback saved.")
+                }
+                # Write to overrides.json (live state)
+                if risk_feedback != "Correct":
+                    overrides.setdefault("risk_overrides", {})[narr["narrative_id"]] = entry
+                else:
+                    overrides.get("risk_overrides", {}).pop(narr["narrative_id"], None)
+                save_overrides(overrides)
+                # Append to feedback.jsonl (audit log)
+                save_feedback({"type": "risk_rating", **entry})
+                st.success("Saved to overrides.json — pipeline will use this on next run.")
 
         with fcol2:
             entity_options = ["Correct"] + entity_ids + ["none"]
@@ -326,14 +433,23 @@ for i, narr in enumerate(scored):
                 key=f"entity_{narr['narrative_id']}",
             )
             if st.button("Submit Entity Feedback", key=f"entbtn_{narr['narrative_id']}"):
-                save_feedback({
-                    "type": "entity_correction",
+                entry = {
                     "narrative_id": narr["narrative_id"],
                     "entity_id": selected_entity,
                     "corrected_entity": entity_correction,
                     "timestamp": datetime.now().isoformat(),
-                })
-                st.success("Entity feedback saved.")
+                }
+                # Write entity overrides keyed by post_ids in this narrative
+                if entity_correction != "Correct":
+                    for pid in narr.get("post_ids", [])[:50]:
+                        overrides.setdefault("entity_overrides", {})[str(pid)] = {
+                            "original_entity": selected_entity,
+                            "corrected_entity": entity_correction if entity_correction != "none" else None,
+                            "timestamp": datetime.now().isoformat(),
+                        }
+                save_overrides(overrides)
+                save_feedback({"type": "entity_correction", **entry})
+                st.success("Saved to overrides.json — pipeline will use this on next run.")
 
 
 # ── Footer ──────────────────────────────────────────────────────────────────
@@ -344,8 +460,13 @@ if FEEDBACK_FILE.exists():
     with open(FEEDBACK_FILE) as f:
         feedback_count = sum(1 for _ in f)
 
+final_overrides = load_overrides()
+entity_override_count = len(final_overrides.get("entity_overrides", {}))
+risk_override_count = len(final_overrides.get("risk_overrides", {}))
+
 st.caption(
     f"Pipeline: entity_resolution.py → narrative_clustering.py → risk_scoring.py · "
-    f"Feedback entries: {feedback_count} · "
+    f"Feedback log: {feedback_count} entries · "
+    f"Active overrides: {entity_override_count} entity, {risk_override_count} risk · "
     f"Data: {len(resolved)} posts, {len(entity_ids)} entities"
 )

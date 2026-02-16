@@ -200,8 +200,10 @@ TEST RESULTS (on 1000 pharma social media posts):
 
 import csv
 import json
+import os
 import time
 from collections import defaultdict
+from pathlib import Path
 from rapidfuzz import fuzz
 
 
@@ -718,6 +720,39 @@ def resolve_entities(posts_file, entities_file, api_key=None,
 
     # Tier 3
     final = merge_results(tier1, llm_results)
+
+    # Apply human overrides from overrides.json (if exists)
+    overrides_file = Path(output_file).parent / "overrides.json" if output_file else None
+    if overrides_file and overrides_file.exists():
+        with open(overrides_file) as f:
+            overrides = json.load(f)
+        entity_overrides = overrides.get("entity_overrides", {})
+        if entity_overrides:
+            applied = 0
+            for r in final:
+                pid = str(r["post_id"])
+                if pid in entity_overrides:
+                    override = entity_overrides[pid]
+                    corrected = override.get("corrected_entity")
+                    if corrected is None:
+                        # Human said "none" — remove all entities
+                        r["resolved_entities"] = []
+                    else:
+                        # Human corrected to a specific entity
+                        r["resolved_entities"] = [{
+                            "entity_id": corrected,
+                            "canonical_name": corrected,
+                            "entity_type": "Unknown",
+                            "mention_text": "human_override",
+                            "confidence": 1.0,
+                            "confidence_label": "high",
+                            "resolution_method": "human_override",
+                            "source": "human_override",
+                        }]
+                    r["needs_review"] = False
+                    applied += 1
+            if applied:
+                print(f"Applied {applied} human entity overrides from overrides.json")
 
     if output_file:
         with open(output_file, "w") as f:
