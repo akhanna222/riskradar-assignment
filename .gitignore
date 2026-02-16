@@ -1,5 +1,12 @@
 __pycache__/
 *.pyc
 .env
+
+# Data files — user provides these
+data/posts.jsonl
+data/entities_seed.csv
+data/authors.csv
+
+# Human-generated at runtime
 outputs/feedback.jsonl
 outputs/overrides.json

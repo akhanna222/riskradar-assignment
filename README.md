@@ -5,43 +5,42 @@ Entity resolution, narrative clustering, and explainable risk scoring on social 
 ## Setup
 
 ```bash
-# Clone and enter
 git clone https://github.com/abhishekpingale/riskradar-assignment.git
 cd riskradar-assignment
 
-# One-command setup (installs deps, runs tests, checks outputs)
-bash setup.sh
+# Place input data files in data/ folder:
+#   data/posts.jsonl
+#   data/entities_seed.csv
+#   data/authors.csv
 
-# Launch the app
-streamlit run app.py
+bash setup.sh           # installs deps, checks data, runs tests
+streamlit run app.py    # launch UI (uses pre-computed outputs)
 ```
 
-Or step by step:
+The app ships with **pre-computed outputs** — it works immediately without an API key or re-running the pipeline.
+
+## Re-running the Pipeline (Optional)
+
+This will **overwrite** the `outputs/` folder. You need an Anthropic API key for LLM-enhanced mode.
 
 ```bash
-pip install -r requirements.txt
-python tests.py             # verify everything works
-streamlit run app.py        # launch UI
+# 1. Get a key at https://console.anthropic.com/settings/keys
+# 2. Add it to .env
+echo "ANTHROPIC_API_KEY=sk-ant-your-key" > .env
+
+# 3. Run
+python run_pipeline.py
 ```
 
-## API Key (Optional)
-
-The pipeline works without an API key using fuzzy matching and keyword extraction. For better results, add an Anthropic API key:
-
-1. Get a free key at **https://console.anthropic.com/settings/keys**
-2. Copy `.env.example` to `.env` and paste your key
-3. Re-run the pipeline: `python run_pipeline.py`
-
-You can also paste the key directly in the Streamlit sidebar and click "Run Full Pipeline".
+Without a key, the pipeline runs in fuzzy/keyword-only mode (free, lower quality).
+You can also re-run from the Streamlit sidebar — paste your key and click "Run Full Pipeline".
 
 ## Docker (Alternative)
 
 ```bash
 docker build -t riskradar .
 docker run -p 8501:8501 riskradar
-
-# With API key
-docker run -p 8501:8501 -e ANTHROPIC_API_KEY=sk-ant-... riskradar
+# With API key: docker run -p 8501:8501 -e ANTHROPIC_API_KEY=sk-ant-... riskradar
 ```
 
 Open http://localhost:8501
@@ -66,32 +65,32 @@ posts.jsonl + entities_seed.csv + authors.csv
               (browse + feedback → overrides.json)
 ```
 
-**Entity Resolution** — 3-tier hybrid: fuzzy alias matching (73% of posts) → LLM tagger for hard cases. Output: `{entity_id, confidence, resolution_method}` per post.
+**Entity Resolution** — Fuzzy alias matching (73% of posts) → LLM tagger for hard cases.
 
-**Narrative Clustering** — LLM assigns canonical topic labels → GROUP BY topic. Keyword fallback: extract distinctive words + fuzzy merge similar labels. Output: `{narrative_id, title, summary, post_ids}`.
+**Narrative Clustering** — LLM assigns canonical topic labels → GROUP BY topic. Keyword fallback for no-API mode.
 
-**Risk Scoring** — Weighted composite: Language(0.30) + Volume(0.20) + Engagement(0.20) + Velocity(0.15) + Author(0.15). Every score has 5 driver breakdowns, evidence posts, and confidence band.
+**Risk Scoring** — Weighted composite: Language(0.30) + Volume(0.20) + Engagement(0.20) + Velocity(0.15) + Author(0.15). Each score has driver breakdowns, evidence posts, and confidence band.
 
-**Human-in-the-Loop** — Analyst corrects entities or risk ratings in UI → writes to `overrides.json` → applied live on app reload AND on next pipeline run.
+**Human-in-the-Loop** — Analyst corrects entities or risk ratings in UI → `overrides.json` → applied live on reload + on next pipeline run.
 
 ## Project Files
 
 ```
 ├── app.py                     # Streamlit UI
-├── run_pipeline.py            # One-shot pipeline runner
+├── run_pipeline.py            # Pipeline runner
 ├── tests.py                   # Unit tests (run before app)
-├── setup.sh                   # One-command setup
+├── setup.sh                   # Setup script
 ├── entity_resolution.py       # Capability 1
 ├── narrative_clustering.py    # Capability 2
 ├── risk_scoring.py            # Capability 3
 ├── Dockerfile                 # Docker option
 ├── requirements.txt
 ├── .env.example               # API key template
-├── data/                      # Input files
+├── data/                      # Input files (user provides)
 │   ├── posts.jsonl
 │   ├── entities_seed.csv
 │   └── authors.csv
-└── outputs/                   # Pipeline outputs
+└── outputs/                   # Pre-computed pipeline outputs
     ├── resolved_entities.jsonl
     ├── narratives/
     ├── scored/
