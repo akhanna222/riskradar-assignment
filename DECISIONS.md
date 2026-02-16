@@ -35,6 +35,12 @@
 
 **Decision: Percentile normalization (not min-max or z-score)**
 - Why: Percentile rank is robust to outliers and intuitively meaningful ("this narrative's engagement is in the 85th percentile"). Min-max would be distorted by a single viral post.
+- Exception: Author influence uses tiered scoring instead of percentile — a 89-follower account shouldn't score 50th percentile just because half the dataset has fewer followers.
+
+**Decision: Tiered author scoring (not log-scale or percentile)**
+- Why: Follower counts span 1 to 20M. Log-scale compresses the range too much (89 followers scores similarly to 5,000). Linear mapping (0→0, 2M→100) under-weights the middle. Fixed tiers give intuitive, defensible scores:
+  - 0–1K followers → 10, 1K–10K → 25, 10K–100K → 50, 100K–1M → 75, 1M+ → 100
+- Trade-off: Thresholds are manually set. But they align with social media influence research (micro/macro/mega influencer tiers) and are easy to adjust.
 
 **Decision: Confidence band, not point estimate**
 - Why: A risk score of 73 from 2 posts is very different from 73 from 50 posts. The confidence band communicates uncertainty explicitly (±8 for high confidence, ±25 for low).

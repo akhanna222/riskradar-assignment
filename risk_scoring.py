@@ -304,14 +304,24 @@ def score_engagement(posts, all_narrative_engagements):
 def score_author(posts, all_narrative_author_scores):
     """
     Author influence score based on follower counts.
-    max_followers: one influential author can drive everything.
-    unique_authors: broader spread = harder to contain.
+
+    Tiered mapping (per author):
+        0 – 1,000         → 10
+        1,001 – 10,000    → 25
+        10,001 – 100,000  → 50
+        100,001 – 1,000,000 → 75
+        1,000,001+        → 100
+
+    Composite:
+        60% max_followers tier  (one influential author drives everything)
+        20% median_followers tier (overall author quality)
+        20% unique_authors  (broader spread = harder to contain)
     """
     followers = [p.get("followers", 0) for p in posts]
     followers_nonzero = [f for f in followers if f > 0]
 
     if not followers_nonzero:
-        return 20, {
+        return 5, {
             "reason": "no follower data available",
             "unique_authors": len(set(p.get("author_id", "") for p in posts)),
         }
@@ -320,26 +330,32 @@ def score_author(posts, all_narrative_author_scores):
     median_f = sorted(followers_nonzero)[len(followers_nonzero) // 2]
     unique = len(set(p.get("author_id", "") for p in posts))
 
-    # Composite: 60% max followers (log scale), 20% median, 20% unique count
-    max_score = min(math.log10(max(max_f, 1)) / 7 * 100, 100)  # 10M followers = 100
-    median_score = min(math.log10(max(median_f, 1)) / 5 * 100, 100)
+    def follower_tier(f):
+        """Map follower count to influence tier score."""
+        if f <= 1_000:
+            return 10
+        elif f <= 10_000:
+            return 25
+        elif f <= 100_000:
+            return 50
+        elif f <= 1_000_000:
+            return 75
+        else:
+            return 100
+
+    max_score = follower_tier(max_f)
+    median_score = follower_tier(median_f)
     unique_score = min(unique / 20 * 100, 100)  # 20+ authors = 100
 
     raw = 0.6 * max_score + 0.2 * median_score + 0.2 * unique_score
 
-    # Percentile rank
-    if all_narrative_author_scores:
-        rank = sum(1 for s in all_narrative_author_scores if s <= raw)
-        score = (rank / len(all_narrative_author_scores)) * 100
-    else:
-        score = raw
-
-    return min(score, 100), {
+    return min(round(raw, 1), 100), {
         "max_followers": max_f,
+        "max_follower_tier": max_score,
         "median_followers": median_f,
+        "median_follower_tier": median_score,
         "unique_authors": unique,
         "raw_score": round(raw, 1),
-        "percentile": round(score, 1),
     }
 
 
@@ -476,7 +492,7 @@ def score_narrative(narrative, enriched_posts, all_sizes, all_engagements, all_a
     vol_score, vol_detail = score_volume(enriched_posts, all_sizes)
     vel_score, vel_detail = score_velocity(enriched_posts)
     eng_score, eng_detail = score_engagement(enriched_posts, all_engagements)
-    auth_score, auth_detail = score_author(enriched_posts, all_author_scores)
+    auth_score, auth_detail = score_author(enriched_posts, [])
     lang_score, lang_detail = score_language(
         enriched_posts,
         narrative.get("taxonomy_label", "General / Unclassified"),

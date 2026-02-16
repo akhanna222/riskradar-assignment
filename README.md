@@ -5,8 +5,8 @@ Entity resolution, narrative clustering, and explainable risk scoring on social 
 ## Setup
 
 ```bash
-git clone https://github.com/abhishekpingale/riskradar-assignment.git
-cd riskradar-assignment
+git clone <your-repo-url>
+cd riskradar
 
 # Place input data files in data/ folder:
 #   data/posts.jsonl

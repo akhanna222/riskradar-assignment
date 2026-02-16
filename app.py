@@ -195,15 +195,27 @@ st.sidebar.caption(
 )
 
 api_key_env = os.getenv("ANTHROPIC_API_KEY", "")
-api_key_input = st.sidebar.text_input(
-    "Anthropic API Key",
-    value=api_key_env,
-    type="password",
-    placeholder="sk-ant-... (or set in .env)",
-)
+has_env_key = bool(api_key_env)
+
+if has_env_key:
+    st.sidebar.success("API key loaded from .env")
+    api_key_input = st.sidebar.text_input(
+        "Anthropic API Key (override .env)",
+        value="",
+        type="password",
+        placeholder="Leave blank to use .env key",
+    )
+else:
+    api_key_input = st.sidebar.text_input(
+        "Anthropic API Key",
+        value="",
+        type="password",
+        placeholder="sk-ant-... (or set in .env)",
+    )
 
 if st.sidebar.button("Run Full Pipeline", type="primary"):
-    api_key = api_key_input if api_key_input else None
+    # Use typed key if provided, else fall back to .env key
+    api_key = api_key_input if api_key_input else (api_key_env if has_env_key else None)
     mode = "LLM-enhanced" if api_key else "fuzzy/keyword only"
     st.sidebar.info(f"Running pipeline ({mode})...")
 

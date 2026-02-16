@@ -33,7 +33,7 @@
 ## Slide 5: Risk Score Design (0-100)
 - Formula: 0.30×Language + 0.20×Volume + 0.20×Engagement + 0.15×Velocity + 0.15×Author
 - Language highest (0.30): content IS the risk — taxonomy category has inherent meaning
-- Normalization: percentile rank across all narratives (no arbitrary thresholds)
+- Normalization: percentile rank for volume/engagement; tiered scoring for author influence (0–1K→10, 1K–10K→25, 10K–100K→50, 100K–1M→75, 1M+→100)
 - Language uses direct mapping: Customer Harm base=90, General=20
 - Engagement weighted: shares×3, comments×2, likes×1, views×0.1
 - Velocity: posts/day + acceleration detection
