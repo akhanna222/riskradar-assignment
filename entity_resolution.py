@@ -77,20 +77,24 @@ def find_mentions(text, entities):
     """
     STEP 2: Mention Detection — find candidate entity mentions in text.
 
-    Simple substring search: lowercase the entire post text, then check if
-    each entity alias appears as a substring. This is intentionally simple
-    and fast — the linking step (Step 3) handles disambiguation.
+    Word-boundary-aware search: lowercase the entire post text, then check
+    if each entity alias appears as a whole word/phrase. Uses regex word
+    boundaries to prevent false positives like "merck" inside "commercial".
 
     Example: text = "Merck's Keytruda showed strong results"
         → finds ["merck", "keytruda"] (two separate mentions)
 
     Returns deduplicated list of matched alias strings.
     """
+    import re
     text_l = text.lower()
     mentions = []
     for e in entities:
         for alias in e["aliases"]:
-            if alias in text_l:
+            # Word boundary match: prevents "merck" matching inside "commercial"
+            # \b handles possessives like "Merck's" correctly
+            pattern = r'\b' + re.escape(alias) + r'\b'
+            if re.search(pattern, text_l):
                 mentions.append(alias)
     return list(set(mentions))
 

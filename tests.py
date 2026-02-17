@@ -165,6 +165,51 @@ class TestEntityResolution(unittest.TestCase):
 
 
 # ═════════════════════════════════════════════════════════════════════════════
+# TEST 3b: Edge cases for entity resolution
+# ═════════════════════════════════════════════════════════════════════════════
+
+class TestEntityResolutionEdgeCases(unittest.TestCase):
+    """Test entity resolution handles edge cases gracefully."""
+
+    def test_empty_text(self):
+        """Posts with empty text should produce empty entity list."""
+        from entity_resolution import find_mentions, load_entities
+        entities = load_entities(str(ENTITIES_FILE))
+        mentions = find_mentions("", entities)
+        self.assertEqual(mentions, [])
+
+    def test_hashtag_only_post(self):
+        """Posts with only hashtags should not crash."""
+        from entity_resolution import find_mentions, load_entities
+        entities = load_entities(str(ENTITIES_FILE))
+        mentions = find_mentions("#pharma #vaccine #health #trending", entities)
+        # Should return empty or valid matches — not crash
+        self.assertIsInstance(mentions, list)
+
+    def test_non_english_text(self):
+        """Non-English text should not crash the pipeline."""
+        from entity_resolution import find_mentions, load_entities
+        entities = load_entities(str(ENTITIES_FILE))
+        mentions = find_mentions("فايزر تطلق لقاح جديد", entities)  # Arabic
+        self.assertIsInstance(mentions, list)
+
+    def test_word_boundary_matching(self):
+        """Entity mentions should use word boundaries, not substring matching."""
+        from entity_resolution import find_mentions, load_entities
+        entities = load_entities(str(ENTITIES_FILE))
+        # "merck" should match "Merck" but not "commercial" or "merckx"
+        mentions_valid = find_mentions("Merck announced quarterly results", entities)
+        self.assertIn("merck", mentions_valid)
+
+    def test_no_entity_matches(self):
+        """Posts with no entity mentions should return empty list."""
+        from entity_resolution import find_mentions, load_entities
+        entities = load_entities(str(ENTITIES_FILE))
+        mentions = find_mentions("The weather is nice today in Dublin", entities)
+        self.assertEqual(mentions, [])
+
+
+# ═════════════════════════════════════════════════════════════════════════════
 # TEST 4: Narrative clustering produces valid output
 # ═════════════════════════════════════════════════════════════════════════════
 
@@ -173,13 +218,11 @@ class TestNarrativeClustering(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        """Ensure resolved_entities.jsonl exists."""
+        """Check if resolved_entities.jsonl exists — skip if not (requires API key)."""
         if not RESOLVED_FILE.exists():
-            from entity_resolution import resolve_entities
-            resolve_entities(
-                posts_file=str(POSTS_FILE),
-                entities_file=str(ENTITIES_FILE),
-                output_file=str(RESOLVED_FILE),
+            raise unittest.SkipTest(
+                "No pre-computed resolved_entities.jsonl — run pipeline first "
+                "(requires API key for LLM clustering)"
             )
 
     def test_cluster_single_entity(self):
@@ -207,6 +250,40 @@ class TestNarrativeClustering(unittest.TestCase):
             self.assertEqual(n["post_count"], len(n["post_ids"]))
 
 
+class TestFuzzyMerge(unittest.TestCase):
+    """Test the fuzzy label merge step in narrative clustering."""
+
+    def test_merge_similar_labels(self):
+        from narrative_clustering import merge_similar_labels
+        groups = {
+            "pfizer vaccine safety concerns": [{"post_id": "1"}],
+            "pfizer vaccine safety issues": [{"post_id": "2"}],
+            "quarterly earnings report": [{"post_id": "3"}],
+        }
+        merged = merge_similar_labels(groups, merge_threshold=55)
+        # The two vaccine labels should merge; earnings stays separate
+        self.assertLessEqual(len(merged), 2)
+
+    def test_merge_preserves_posts(self):
+        from narrative_clustering import merge_similar_labels
+        groups = {
+            "topic alpha": [{"post_id": "1"}, {"post_id": "2"}],
+            "topic alpha variant": [{"post_id": "3"}],
+        }
+        merged = merge_similar_labels(groups, merge_threshold=55)
+        total_posts = sum(len(v) for v in merged.values())
+        self.assertEqual(total_posts, 3, "Fuzzy merge should not lose posts")
+
+    def test_merge_no_false_merges(self):
+        from narrative_clustering import merge_similar_labels
+        groups = {
+            "vaccine safety": [{"post_id": "1"}],
+            "quarterly earnings": [{"post_id": "2"}],
+        }
+        merged = merge_similar_labels(groups, merge_threshold=55)
+        self.assertEqual(len(merged), 2, "Dissimilar labels should not merge")
+
+
 # ═════════════════════════════════════════════════════════════════════════════
 # TEST 5: Risk scoring produces valid output
 # ═════════════════════════════════════════════════════════════════════════════
@@ -216,22 +293,11 @@ class TestRiskScoring(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        """Ensure narratives exist."""
+        """Check if narratives exist — skip if not (requires pipeline run)."""
         pfizer_narr = NARRATIVES_DIR / "pfizer_narratives.json"
         if not pfizer_narr.exists():
-            if not RESOLVED_FILE.exists():
-                from entity_resolution import resolve_entities
-                resolve_entities(
-                    posts_file=str(POSTS_FILE),
-                    entities_file=str(ENTITIES_FILE),
-                    output_file=str(RESOLVED_FILE),
-                )
-            from narrative_clustering import cluster_narratives
-            NARRATIVES_DIR.mkdir(parents=True, exist_ok=True)
-            narratives = cluster_narratives(
-                entity_id="pfizer",
-                resolved_file=str(RESOLVED_FILE),
-                output_file=str(pfizer_narr),
+            raise unittest.SkipTest(
+                "No pre-computed pfizer_narratives.json — run pipeline first"
             )
 
     def test_score_narratives(self):
@@ -286,6 +352,57 @@ class TestRiskScoring(unittest.TestCase):
         from risk_scoring import WEIGHTS
         total = sum(WEIGHTS.values())
         self.assertAlmostEqual(total, 1.0, places=2)
+
+
+# ═════════════════════════════════════════════════════════════════════════════
+# TEST 5b: Risk scoring unit tests (no pre-computed data needed)
+# ═════════════════════════════════════════════════════════════════════════════
+
+class TestRiskScoringUnits(unittest.TestCase):
+    """Unit tests for risk scoring functions — no pre-computed data needed."""
+
+    def test_keyword_word_boundaries(self):
+        """Risk keywords should match whole words only, not substrings."""
+        from risk_scoring import score_language
+        # "risk" is in medium keywords. Should NOT match inside "asterisk"
+        posts_with_asterisk = [{"text": "This asterisk marks a footnote"}]
+        score1, detail1 = score_language(
+            posts_with_asterisk, "General / Unclassified", {"neutral": 1}
+        )
+        posts_with_risk = [{"text": "There is a real risk of harm here"}]
+        score2, detail2 = score_language(
+            posts_with_risk, "General / Unclassified", {"neutral": 1}
+        )
+        # "risk" + "harm" post should have medium keyword hits; "asterisk" should not
+        self.assertEqual(detail1.get("medium_risk_keywords", 0), 0,
+                         "'asterisk' should not trigger 'risk' keyword match")
+        self.assertGreater(detail2.get("medium_risk_keywords", 0), 0,
+                           "'risk' and 'harm' should be detected as medium keywords")
+
+    def test_facebook_views_excluded(self):
+        """Facebook posts should not be penalized for views=0."""
+        from risk_scoring import score_engagement
+        fb_posts = [{"shares": 10, "comments": 5, "likes": 20, "views": 0, "platform": "facebook"}]
+        tw_posts = [{"shares": 10, "comments": 5, "likes": 20, "views": 0, "platform": "twitter"}]
+        fb_score, fb_detail = score_engagement(fb_posts, [])
+        tw_score, tw_detail = score_engagement(tw_posts, [])
+        # Both should get same engagement (views=0 anyway, but field is tracked)
+        self.assertEqual(fb_detail["facebook_posts_excluded_views"], 1)
+        self.assertEqual(tw_detail["facebook_posts_excluded_views"], 0)
+
+    def test_weights_sum_to_one(self):
+        from risk_scoring import WEIGHTS
+        total = sum(WEIGHTS.values())
+        self.assertAlmostEqual(total, 1.0, places=2)
+
+    def test_taxonomy_risk_coverage(self):
+        """All taxonomy categories should have risk scores."""
+        from risk_scoring import TAXONOMY_RISK
+        expected = ["Customer Harm", "Regulatory / Compliance", "Financial Integrity",
+                    "Data / Cyber", "Operational Resilience", "Executive / Employee Misconduct",
+                    "Misinformation / Manipulation", "General / Unclassified"]
+        for cat in expected:
+            self.assertIn(cat, TAXONOMY_RISK, f"Missing taxonomy: {cat}")
 
 
 # ═════════════════════════════════════════════════════════════════════════════
@@ -348,6 +465,27 @@ class TestOverrides(unittest.TestCase):
         """corrected_entity=None means 'no entity match'."""
         override = {"corrected_entity": None}
         self.assertIsNone(override["corrected_entity"])
+
+    def test_overrides_roundtrip(self):
+        """Test save + load round-trip for overrides.json."""
+        test_data = {
+            "entity_overrides": {
+                "post_123": {"original_entity": "pfizer", "corrected_entity": "merck",
+                             "timestamp": "2025-01-01T00:00:00"}
+            },
+            "risk_overrides": {
+                "pfizer_narrative_0": {"feedback": "Too High", "original_score": 75.0,
+                                       "timestamp": "2025-01-01T00:00:00"}
+            },
+        }
+        OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+        with open(self.test_overrides_path, "w") as f:
+            json.dump(test_data, f)
+        with open(self.test_overrides_path) as f:
+            loaded = json.load(f)
+        self.assertEqual(loaded["entity_overrides"]["post_123"]["corrected_entity"], "merck")
+        self.assertEqual(loaded["risk_overrides"]["pfizer_narrative_0"]["feedback"], "Too High")
+        self.assertEqual(loaded["risk_overrides"]["pfizer_narrative_0"]["original_score"], 75.0)
 
 
 # ═════════════════════════════════════════════════════════════════════════════

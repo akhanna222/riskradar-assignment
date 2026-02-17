@@ -20,9 +20,10 @@
 - Error modes + human override via overrides.json
 
 ## Slide 5: Narrative Clustering
-- LLM topic hashing → GROUP BY → fuzzy merge
-- Keyword fallback (no API): extract keywords + fuzzy merge (token_sort ≥ 55)
-- Next: embedding clustering, cross-entity detection, cluster purity metrics
+- LLM topic hashing → GROUP BY → fuzzy merge (token_sort_ratio ≥ 55)
+- Fuzzy merge reduces cluster fragmentation from near-duplicate LLM labels
+- Next: embedding clustering (offline, $0 cost), cross-entity detection, cluster purity metrics
+- Design choice: LLM-only (no keyword fallback) — timebox invested in scoring quality instead
 
 ## Slide 6: Risk Score Design (0-100)
 - Formula: 0.30×Language + 0.20×Volume + 0.20×Engagement + 0.15×Velocity + 0.15×Author

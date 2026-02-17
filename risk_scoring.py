@@ -182,14 +182,20 @@ def score_engagement(posts, all_narrative_engagements):
     Engagement score based on weighted engagement metrics.
     shares × 3 + comments × 2 + likes × 1 + views × 0.1
     Percentile ranked against all narratives.
+
+    Platform-aware: Facebook does not expose views (always 0),
+    so views are excluded for Facebook posts to avoid penalizing them.
     """
     total_weighted = 0
     for p in posts:
+        # Facebook views are always 0 (platform doesn't expose) — exclude
+        # to avoid penalizing Facebook posts in engagement calculation
+        views = p.get("views", 0) if p.get("platform", "").lower() != "facebook" else 0
         total_weighted += (
             p.get("shares", 0) * ENGAGEMENT_WEIGHTS["shares"]
             + p.get("comments", 0) * ENGAGEMENT_WEIGHTS["comments"]
             + p.get("likes", 0) * ENGAGEMENT_WEIGHTS["likes"]
-            + p.get("views", 0) * ENGAGEMENT_WEIGHTS["views"]
+            + views * ENGAGEMENT_WEIGHTS["views"]
         )
 
     avg_weighted = total_weighted / max(len(posts), 1)
@@ -205,6 +211,7 @@ def score_engagement(posts, all_narrative_engagements):
     total_comments = sum(p.get("comments", 0) for p in posts)
     total_likes = sum(p.get("likes", 0) for p in posts)
     total_views = sum(p.get("views", 0) for p in posts)
+    fb_count = sum(1 for p in posts if p.get("platform", "").lower() == "facebook")
 
     return min(score, 100), {
         "total_weighted_engagement": round(total_weighted, 1),
@@ -213,6 +220,7 @@ def score_engagement(posts, all_narrative_engagements):
         "total_comments": total_comments,
         "total_likes": total_likes,
         "total_views": total_views,
+        "facebook_posts_excluded_views": fb_count,
         "percentile": round(score, 1),
     }
 
@@ -265,13 +273,21 @@ def score_author(posts, all_narrative_author_scores):
 
     raw = 0.6 * max_score + 0.2 * median_score + 0.2 * unique_score
 
-    return min(round(raw, 1), 100), {
+    # Percentile rank against all narratives (if baseline available)
+    if all_narrative_author_scores:
+        rank = sum(1 for s in all_narrative_author_scores if s <= raw)
+        score = (rank / len(all_narrative_author_scores)) * 100
+    else:
+        score = raw
+
+    return min(round(score, 1), 100), {
         "max_followers": max_f,
         "max_follower_tier": max_score,
         "median_followers": median_f,
         "median_follower_tier": median_score,
         "unique_authors": unique,
         "raw_score": round(raw, 1),
+        "percentile": round(score, 1),
     }
 
 
@@ -290,11 +306,12 @@ def score_language(posts, taxonomy_label, sentiment_dist):
     # Range: -20 (all positive) to +10 (all negative)
     sentiment_modifier = (neg_ratio * 10) - (pos_ratio * 20)
 
-    # Keyword density: count risk keywords in posts
+    # Keyword density: count risk keywords in posts (word-boundary aware)
+    import re
     all_text = " ".join(p.get("text", "").lower() for p in posts)
-    high_hits = sum(1 for kw in RISK_KEYWORDS["high"] if kw in all_text)
-    med_hits = sum(1 for kw in RISK_KEYWORDS["medium"] if kw in all_text)
-    low_hits = sum(1 for kw in RISK_KEYWORDS["low"] if kw in all_text)
+    high_hits = sum(1 for kw in RISK_KEYWORDS["high"] if re.search(r'\b' + re.escape(kw) + r'\b', all_text))
+    med_hits = sum(1 for kw in RISK_KEYWORDS["medium"] if re.search(r'\b' + re.escape(kw) + r'\b', all_text))
+    low_hits = sum(1 for kw in RISK_KEYWORDS["low"] if re.search(r'\b' + re.escape(kw) + r'\b', all_text))
 
     keyword_density = min((high_hits * 3 + med_hits * 2 + low_hits * 1) / max(len(posts), 1), 10)
     keyword_modifier = keyword_density * 2  # 0 to 20
@@ -408,7 +425,7 @@ def score_narrative(narrative, enriched_posts, all_sizes, all_engagements, all_a
     vol_score, vol_detail = score_volume(enriched_posts, all_sizes)
     vel_score, vel_detail = score_velocity(enriched_posts)
     eng_score, eng_detail = score_engagement(enriched_posts, all_engagements)
-    auth_score, auth_detail = score_author(enriched_posts, [])
+    auth_score, auth_detail = score_author(enriched_posts, all_author_scores)
     lang_score, lang_detail = score_language(
         enriched_posts,
         narrative.get("taxonomy_label", "General / Unclassified"),
@@ -505,6 +522,9 @@ def score_narratives(narratives_file, posts_file, authors_file, output_file=None
     authors_index = load_authors_index(authors_file)
 
     if not narratives:
+        if output_file:
+            with open(output_file, "w") as f:
+                json.dump([], f)
         return []
 
     # Enrich all narratives with full post + author data
@@ -520,7 +540,8 @@ def score_narratives(narratives_file, posts_file, authors_file, output_file=None
     for enriched in all_enriched.values():
         total_eng = sum(
             p.get("shares", 0) * 3 + p.get("comments", 0) * 2
-            + p.get("likes", 0) + p.get("views", 0) * 0.1
+            + p.get("likes", 0)
+            + (p.get("views", 0) * 0.1 if p.get("platform", "").lower() != "facebook" else 0)
             for p in enriched
         )
         all_engagements.append(total_eng)

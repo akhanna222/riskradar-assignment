@@ -136,7 +136,7 @@ def label_posts_llm(posts, entity_id, client, batch_size=15):
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-# STEP 3: GROUP BY TOPIC
+# STEP 3: GROUP BY TOPIC + FUZZY MERGE
 # ══════════════════════════════════════════════════════════════════════════════
 
 def group_by_topic(posts, labels):
@@ -146,6 +146,56 @@ def group_by_topic(posts, labels):
         topic = labels.get(p["post_id"], {}).get("topic", "general")
         groups[topic].append(p)
     return dict(groups)
+
+
+def merge_similar_labels(groups, merge_threshold=55):
+    """
+    Fuzzy merge similar topic labels to reduce cluster fragmentation.
+
+    LLM topic labels are not always perfectly consistent — e.g.
+    "Pfizer vaccine safety concerns" vs "Pfizer vaccine safety issues".
+    This step merges groups whose labels are similar enough (token_sort_ratio ≥ threshold).
+
+    Algorithm:
+        1. Sort labels by group size (largest first — they become merge targets)
+        2. For each smaller label, check similarity against all larger labels
+        3. If similar enough, merge into the larger group
+        4. Returns merged groups dict
+
+    Uses rapidfuzz.fuzz.token_sort_ratio which is order-invariant:
+        "vaccine safety pfizer" vs "pfizer vaccine safety" → high score
+    """
+    from rapidfuzz import fuzz
+
+    # Sort by group size descending — larger groups are merge targets
+    sorted_labels = sorted(groups.keys(), key=lambda k: -len(groups[k]))
+    merged = {}
+    label_map = {}  # maps merged labels → canonical label
+
+    for label in sorted_labels:
+        # Check if this label is similar to any existing canonical label
+        best_match = None
+        best_score = 0
+        for canonical in merged:
+            score = fuzz.token_sort_ratio(label.lower(), canonical.lower())
+            if score >= merge_threshold and score > best_score:
+                best_match = canonical
+                best_score = score
+
+        if best_match:
+            # Merge into existing group
+            merged[best_match].extend(groups[label])
+            label_map[label] = best_match
+        else:
+            # New canonical group
+            merged[label] = list(groups[label])
+            label_map[label] = label
+
+    merge_count = len(groups) - len(merged)
+    if merge_count > 0:
+        print(f"    Fuzzy merge: {len(groups)} → {len(merged)} groups ({merge_count} merged, threshold={merge_threshold})")
+
+    return merged
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -251,10 +301,13 @@ def cluster_narratives(entity_id, resolved_file, api_key=None,
     print(f"  Step 2: LLM topic labeling ({len(posts)} posts)...")
     labels = label_posts_llm(posts, entity_id, client)
 
-    # Step 3: Group by topic
+    # Step 3: Group by topic + fuzzy merge similar labels
     print(f"  Step 3: Grouping by topic...")
     groups = group_by_topic(posts, labels)
     print(f"    Raw groups: {len(groups)}")
+
+    # Fuzzy merge near-duplicate labels (e.g. "vaccine safety concerns" ≈ "vaccine safety issues")
+    groups = merge_similar_labels(groups, merge_threshold=55)
 
     # Filter small groups → collect into "Other"
     significant = {}

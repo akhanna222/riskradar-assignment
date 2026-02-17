@@ -204,6 +204,25 @@ if audited > 0:
 
 st.sidebar.divider()
 
+# ── Sidebar: Risk Taxonomy Reference ───────────────────────────────────────
+
+with st.sidebar.expander("Risk Taxonomy Reference"):
+    st.markdown("""
+**1. Regulatory / Compliance** — Alleged breaches, fines, investigations, misconduct claims
+
+**2. Financial Integrity** — Fraud, money laundering, market manipulation, mis-selling
+
+**3. Customer Harm** — Poor treatment, unfair practices, discrimination, widespread complaints
+
+**4. Data / Cyber** — Breach claims, leaks, ransomware, insecure systems
+
+**5. Operational Resilience** — Outages, service failure, systemic disruption
+
+**6. Executive / Employee Misconduct** — Leadership scandal, harassment, unethical behaviour
+
+**7. Misinformation / Manipulation** — Coordinated campaigns, synthetic or misleading media narratives
+""")
+
 # ── Sidebar: Re-run Pipeline ────────────────────────────────────────────────
 
 st.sidebar.header("Re-run Pipeline")
@@ -398,11 +417,11 @@ for i, narr in enumerate(scored):
                     f"Unique authors: {detail.get('unique_authors', '?')}"
                 )
 
-        # Evidence posts
+        # Evidence posts with per-post entity feedback
         evidence = narr.get("evidence_posts", [])
         if evidence:
             st.markdown("**Evidence Posts:**")
-            for ep in evidence[:5]:
+            for ep_idx, ep in enumerate(evidence[:5]):
                 url = ep.get("url", "")
                 handle = ep.get("handle", "")
                 meta = f"👤 {handle}" if handle else ""
@@ -410,10 +429,38 @@ for i, narr in enumerate(scored):
                 if ep.get("followers"):
                     meta += f" · 👥 {ep['followers']:,} followers"
 
-                st.markdown(f"> {ep['text'][:250]}...")
-                st.caption(meta)
-                if url:
-                    st.caption(f"[Link]({url})")
+                ep_col1, ep_col2 = st.columns([4, 1])
+                with ep_col1:
+                    st.markdown(f"> {ep['text'][:250]}...")
+                    st.caption(meta)
+                    if url:
+                        st.caption(f"[Link]({url})")
+                with ep_col2:
+                    # Per-post entity correction (spec requirement)
+                    post_entity_options = ["✓ Correct"] + entity_ids + ["none"]
+                    post_correction = st.selectbox(
+                        "Entity?",
+                        post_entity_options,
+                        key=f"postent_{narr['narrative_id']}_{ep['post_id']}_{ep_idx}",
+                        label_visibility="collapsed",
+                    )
+                    if post_correction != "✓ Correct":
+                        overrides = load_overrides()
+                        overrides.setdefault("entity_overrides", {})[str(ep["post_id"])] = {
+                            "original_entity": selected_entity,
+                            "corrected_entity": post_correction if post_correction != "none" else None,
+                            "timestamp": datetime.now().isoformat(),
+                        }
+                        save_overrides(overrides)
+                        save_feedback({
+                            "type": "post_entity_correction",
+                            "post_id": ep["post_id"],
+                            "narrative_id": narr["narrative_id"],
+                            "original_entity": selected_entity,
+                            "corrected_entity": post_correction,
+                            "timestamp": datetime.now().isoformat(),
+                        })
+                        st.caption(f"→ {post_correction}")
 
         # ── Screen D: Feedback Capture ──────────────────────────────
 
@@ -453,6 +500,7 @@ for i, narr in enumerate(scored):
                 save_overrides(overrides)
                 # Append to feedback.jsonl (audit log)
                 save_feedback({"type": "risk_rating", **entry})
+                st.cache_data.clear()
                 st.success("Saved to overrides.json — pipeline will use this on next run.")
 
         with fcol2:
@@ -479,6 +527,7 @@ for i, narr in enumerate(scored):
                         }
                 save_overrides(overrides)
                 save_feedback({"type": "entity_correction", **entry})
+                st.cache_data.clear()
                 st.success("Saved to overrides.json — pipeline will use this on next run.")
 
 
