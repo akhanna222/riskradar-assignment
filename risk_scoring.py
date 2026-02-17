@@ -1,96 +1,12 @@
 """
-Narrative Risk Scoring Pipeline
-================================================================================
-
-PURPOSE:
-    For each narrative (cluster of posts about an entity), compute a risk score
-    (0-100) reflecting the likelihood of reputational harm. Every score comes
-    with a structured explanation: top drivers, evidence posts, and confidence.
-
-SCORING MODEL:
-    risk_score = (
-        0.20 * volume_score      +   # How many posts — is this a big conversation?
-        0.15 * velocity_score    +   # How fast is it growing?
-        0.20 * engagement_score  +   # Likes/shares/comments — is it amplified?
-        0.15 * author_score      +   # High-follower accounts driving this?
-        0.30 * language_score        # Taxonomy + sentiment — is the content harmful?
-    )
-
-    Language gets highest weight (0.30) because a narrative about "CEO fraud"
-    is inherently riskier than "nice earnings" regardless of volume.
-
-WHY THESE WEIGHTS:
-    - Language (0.30): Content IS the risk. "Side effects killed my mother" is
-      dangerous at any volume. Taxonomy category is the strongest signal.
-    - Volume (0.20): More posts = more visibility = more risk. But volume alone
-      can be gamed by bots, so it's not the top weight.
-    - Engagement (0.20): Shares/comments indicate real amplification, not just
-      posting. High engagement means the narrative is resonating.
-    - Velocity (0.15): A spike matters — 50 posts in 1 day is scarier than
-      50 posts over 30 days. But velocity is noisy with small samples.
-    - Author (0.15): One post from a 1M-follower journalist outweighs 100
-      posts from anonymous accounts. But follower data is often missing.
-
-NORMALIZATION:
-    Each sub-score is 0-100, computed using percentile rank across ALL
-    narratives in the dataset. This avoids arbitrary thresholds — we're saying
-    "this narrative's engagement is in the 85th percentile of all narratives."
-
-    Percentile rank formula: score = (rank / total_narratives) * 100
-
-    Language score uses a different approach: direct mapping from taxonomy
-    category and sentiment ratio, since these have inherent risk meaning
-    regardless of relative position.
-
-EXPLAINABILITY (per narrative):
-    {
-        "risk_score": 73,
-        "confidence": "medium",
-        "confidence_band": [65, 81],
-        "drivers": [
-            {"name": "Language Signals", "score": 87, "weight": 0.30,
-             "detail": "Taxonomy: Customer Harm. 72% negative sentiment. ..."},
-            {"name": "Volume", "score": 65, "weight": 0.20,
-             "detail": "25 posts (75th percentile). ..."},
-            ...
-        ],
-        "evidence_posts": [top 5 posts by engagement * risk signal],
-        "audit_trail": {full computation details}
-    }
-
-STEP-BY-STEP:
-
-    Step 1: LOAD DATA — Join posts.jsonl + authors.csv + narratives
-    Step 2: COMPUTE SUB-SCORES — Volume, velocity, engagement, author, language
-    Step 3: COMBINE — Weighted sum → risk_score (0-100)
-    Step 4: EXPLAIN — Top drivers + evidence posts + confidence band
-    Step 5: OUTPUT — Scored narratives sorted by risk_score descending
-
-USAGE:
-    from risk_scoring import score_narratives
-
-    scored = score_narratives(
-        narratives_file="narratives/pfizer_narratives.json",
-        posts_file="posts.jsonl",
-        authors_file="authors.csv",
-    )
-
-    # Or score all entities at once
-    from risk_scoring import score_all_entities
-    all_scored = score_all_entities(
-        narratives_dir="narratives/",
-        posts_file="posts.jsonl",
-        authors_file="authors.csv",
-    )
-
-DEPENDENCIES:
-    Required: none (pure Python + stdlib)
+Risk Scoring — Weighted composite (0-100) with 5 auditable drivers.
+Language(0.30) + Volume(0.20) + Engagement(0.20) + Velocity(0.15) + Author(0.15)
+Tiered author scoring, percentile normalization, confidence bands.
 """
 
 import csv
 import json
-import math
-from collections import Counter
+
 from datetime import datetime
 from pathlib import Path
 
@@ -236,7 +152,7 @@ def score_velocity(posts):
 
     timestamps.sort()
     span = (timestamps[-1] - timestamps[0]).total_seconds()
-    span_days = max(span / 86400, 0.01)  # avoid division by zero
+    span_days = max(span / 86400, 1.0)  # minimum 1 day — avoids inflated velocity from near-simultaneous posts
     posts_per_day = len(timestamps) / span_days
 
     # Score: higher posts_per_day = higher velocity
@@ -614,8 +530,14 @@ def score_narratives(narratives_file, posts_file, authors_file, output_file=None
             max_f = max(followers)
             median_f = sorted(followers)[len(followers) // 2]
             unique = len(set(p.get("author_id", "") for p in enriched))
-            raw = 0.6 * min(math.log10(max(max_f, 1)) / 7 * 100, 100) + \
-                  0.2 * min(math.log10(max(median_f, 1)) / 5 * 100, 100) + \
+            # Tier-based (matches score_author)
+            def _t(f):
+                if f <= 1_000: return 10
+                if f <= 10_000: return 25
+                if f <= 100_000: return 50
+                if f <= 1_000_000: return 75
+                return 100
+            raw = 0.6 * _t(max_f) + 0.2 * _t(median_f) + \
                   0.2 * min(unique / 20 * 100, 100)
             all_author_raw.append(raw)
         else:

@@ -1,110 +1,6 @@
 """
-Narrative Clustering Pipeline
-================================================================================
-
-PURPOSE:
-    For a chosen entity, cluster its matched posts into "narratives" — distinct
-    events, themes, or storylines. Each narrative gets a title, summary, and
-    list of member post_ids.
-
-ARCHITECTURE:
-    ┌──────────────────────────────────────────────────────────────────────┐
-    │  Step 1: FILTER — Get all posts for the selected entity             │
-    │  Step 2: TOPIC LABELING — Assign a canonical topic to each post     │
-    │          Mode A: LLM labels (semantic, consistent, best quality)    │
-    │          Mode B: Keyword extraction (free, fast, decent baseline)   │
-    │  Step 3: GROUP BY TOPIC — Posts with same/similar topic = 1 cluster │
-    │          Mode A: LLM uses consistent labels → direct groupby        │
-    │          Mode B: Fuzzy-merge similar keyword labels                 │
-    │  Step 4: SUMMARIZE — Title + summary per narrative                  │
-    │          Mode A: LLM generates grounded title + summary             │
-    │          Mode B: Top keywords as title, first post as summary       │
-    └──────────────────────────────────────────────────────────────────────┘
-
-WHY NOT TF-IDF / BM25:
-    Both are bag-of-words — they treat "vaccine side effects" and "adverse
-    reactions after injection" as completely different because no words overlap.
-    Short social media posts don't have enough word overlap for BoW methods
-    to form meaningful clusters. Result: one mega-cluster + dust.
-
-WHY LLM TOPIC HASHING:
-    The LLM understands that "Pfizer shot gave me blood clots" and "adverse
-    cardiac events post-vaccination" are the SAME topic. When instructed to
-    use canonical labels, the LLM produces consistent topic strings that we
-    can simply GROUP BY. The LLM IS the clustering engine — no distance
-    matrix, no threshold tuning, no hyperparameters.
-
-WHY KEYWORD FALLBACK:
-    When there's no API key, we extract the most distinctive n-grams from
-    each post and use fuzzy string matching to group similar labels. Not as
-    good as LLM, but gives a workable baseline with clear improvement path.
-
-STEP-BY-STEP:
-
-    Step 1: FILTER POSTS (get_entity_posts)
-        Pull all posts where resolved_entities contains entity_id.
-        Strip hashtags/URLs/mentions/emojis. Skip if < 30 chars remain
-        or > 40% of text is hashtags (spam filter).
-
-    Step 2: TOPIC LABELING
-        LLM mode (label_posts_llm):
-            Send posts in batches of 15 to Claude Haiku. Prompt instructs:
-            - Assign a 3-8 word canonical topic label
-            - Use CONSISTENT labels across posts (same event = same label)
-            - Also return sentiment (negative/neutral/positive) and
-              risk taxonomy category
-            Cost: ~$0.05 for 200 posts on Haiku
-
-        Keyword mode (label_posts_keyword):
-            Extract top 3-4 distinctive words after aggressive stop-word
-            removal. Match against taxonomy keyword lexicon for category.
-
-    Step 3: GROUP INTO NARRATIVES
-        LLM mode: Direct groupby on topic label string. LLM consistency
-            means "covid vaccine safety concerns" always comes back as
-            exactly that string, so groupby works.
-
-        Keyword mode: Fuzzy merge using rapidfuzz. If two topic labels
-            have >= 70% token overlap, merge them into one group.
-            Example: "vaccine clinical trials" and "pfizer clinical trials"
-            share 2/3 tokens → merge.
-
-    Step 4: TITLE + SUMMARY
-        LLM mode: Send cluster posts to Claude → grounded title + summary.
-        Keyword mode: Most common topic label as title, first post text
-            as summary.
-
-OUTPUT PER NARRATIVE:
-    {
-        "narrative_id": "pfizer_narrative_1",
-        "entity_id": "pfizer",
-        "title": "COVID Vaccine Side Effect Concerns",
-        "summary": "Multiple posts discuss adverse reactions...",
-        "taxonomy_label": "Customer Harm",
-        "post_count": 25,
-        "post_ids": ["123", "456", ...],
-        "sentiment_distribution": {"negative": 15, "neutral": 8, "positive": 2},
-        "topic_labels": ["covid vaccine side effects"],
-        "sample_posts": [{"post_id": "123", "text": "...", "url": "..."}]
-    }
-
-USAGE:
-    from narrative_clustering import cluster_narratives
-
-    # With LLM (best quality)
-    narratives = cluster_narratives("pfizer", "resolved_entities.jsonl", api_key="sk-ant-...")
-
-    # Without LLM (keyword fallback)
-    narratives = cluster_narratives("pfizer", "resolved_entities.jsonl")
-
-    # All entities
-    from narrative_clustering import cluster_all_entities
-    all_narr = cluster_all_entities("resolved_entities.jsonl", api_key="sk-ant-...")
-
-DEPENDENCIES:
-    Required:  rapidfuzz (for keyword label merging)
-    Optional:  anthropic (for LLM mode)
-    Optional:  scikit-learn (only if you want TF-IDF sub-clustering)
+Narrative Clustering — LLM topic hashing.
+LLM labels each post with canonical topic → GROUP BY → build narratives.
 """
 
 import json
@@ -112,49 +8,6 @@ import re
 import time
 from collections import Counter, defaultdict
 from pathlib import Path
-from rapidfuzz import fuzz
-
-
-# ══════════════════════════════════════════════════════════════════════════════
-# RISK TAXONOMY
-# ══════════════════════════════════════════════════════════════════════════════
-
-TAXONOMY_KEYWORDS = {
-    "Regulatory / Compliance": [
-        "fda", "ema", "regulation", "regulatory", "fine", "fined", "investigation",
-        "compliance", "lawsuit", "sue", "sued", "court", "penalty", "violation",
-        "approved", "approval", "recalled", "ban", "banned", "patent", "settlement",
-        "whistleblower", "subpoena",
-    ],
-    "Financial Integrity": [
-        "fraud", "laundering", "manipulation", "stock", "earnings", "revenue",
-        "profit", "investor", "sec", "trading", "price", "market", "shares",
-        "billion", "million", "deal", "acquisition", "merger", "buyout",
-        "dividend", "valuation", "quarterly",
-    ],
-    "Customer Harm": [
-        "side effect", "adverse", "death", "died", "dying", "injury", "harm",
-        "patient", "safety", "risk", "cancer", "treatment", "allergic", "reaction",
-        "blood clot", "cardiac", "heart", "stroke", "seizure", "contaminated",
-        "toxic", "hospitalized", "suffering", "victim", "dangerous",
-    ],
-    "Data / Cyber": [
-        "breach", "hack", "hacked", "data leak", "ransomware", "cyber", "privacy",
-    ],
-    "Operational Resilience": [
-        "outage", "shortage", "supply", "delay", "disruption", "recall",
-        "manufacturing", "plant", "contamination", "quality control",
-    ],
-    "Executive / Employee Misconduct": [
-        "ceo", "executive", "fired", "scandal", "harassment", "misconduct",
-        "resign", "resigned", "leadership",
-    ],
-    "Misinformation / Manipulation": [
-        "conspiracy", "misinformation", "fake", "propaganda", "hoax",
-        "coverup", "cover-up", "suppressed", "censored", "depopulation",
-        "bioweapon", "plandemic", "experimental", "shill",
-    ],
-}
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -198,73 +51,7 @@ def get_entity_posts(entity_id, resolved_file):
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-# STEP 2a: KEYWORD TOPIC LABELING (fallback)
-# ══════════════════════════════════════════════════════════════════════════════
-
-STOP_WORDS = {
-    "the", "and", "for", "are", "not", "but", "you", "all", "can", "had",
-    "her", "was", "one", "our", "out", "has", "who", "how", "its", "let",
-    "may", "say", "she", "too", "use", "him", "his", "get", "did", "got",
-    "now", "new", "way", "day", "any", "see", "own", "here", "then", "each",
-    "make", "over", "such", "take", "well", "only", "come", "many", "want",
-    "much", "need", "know", "even", "give", "back", "them", "after", "year",
-    "also", "look", "still", "every", "think", "other", "going", "being",
-    "people", "really", "right", "where", "thing", "those", "first", "does",
-    "told", "says", "said", "done", "made", "sure", "just", "like", "this",
-    "that", "with", "from", "have", "been", "were", "will", "about", "they",
-    "their", "than", "what", "when", "more", "some", "would", "could",
-    "should", "into", "your", "very", "most", "http", "https",
-    "everyone", "follow", "viral", "post", "share", "comment", "page",
-    "love", "life", "good", "great", "best", "morning", "night",
-    "hello", "today", "tonight", "guys",
-}
-
-
-def classify_taxonomy(text_lower):
-    """Assign taxonomy category via keyword matching."""
-    scores = {}
-    for cat, keywords in TAXONOMY_KEYWORDS.items():
-        score = sum(len(kw.split()) for kw in keywords if kw in text_lower)
-        if score > 0:
-            scores[cat] = score
-    return max(scores, key=scores.get) if scores else "General / Unclassified"
-
-
-def extract_topic_keywords(text_lower):
-    """Extract top distinctive words as topic label."""
-    words = re.findall(r'\b[a-z]{3,}\b', text_lower)
-    words = [w for w in words if w not in STOP_WORDS]
-    top = [w for w, _ in Counter(words).most_common(4)]
-    return " ".join(top) if top else "general"
-
-
-def label_posts_keyword(posts):
-    """Label all posts with topic + taxonomy using keywords."""
-    labels = {}
-    for p in posts:
-        text_lower = p["clean_text"].lower()
-        taxonomy = classify_taxonomy(text_lower)
-        topic = extract_topic_keywords(text_lower)
-
-        neg = ["death", "died", "harm", "fraud", "scandal", "lawsuit", "adverse",
-               "risk", "dangerous", "fake", "conspiracy", "killed", "toxic",
-               "suffering", "victim", "ban", "hoax"]
-        pos = ["approved", "success", "breakthrough", "partnership", "growth",
-               "profit", "cure", "effective", "safe", "innovation"]
-        n = sum(1 for w in neg if w in text_lower)
-        po = sum(1 for w in pos if w in text_lower)
-        sentiment = "negative" if n > po else ("positive" if po > n else "neutral")
-
-        labels[p["post_id"]] = {
-            "topic": topic,
-            "taxonomy": taxonomy,
-            "sentiment": sentiment,
-        }
-    return labels
-
-
-# ══════════════════════════════════════════════════════════════════════════════
-# STEP 2b: LLM TOPIC LABELING (primary)
+# STEP 2: LLM TOPIC LABELING
 # ══════════════════════════════════════════════════════════════════════════════
 
 LABEL_PROMPT = """You are labeling social media posts about {entity_id} for narrative clustering.
@@ -290,10 +77,9 @@ Return ONLY a JSON array in same order:
 
 
 def label_posts_llm(posts, entity_id, client, batch_size=15):
-    """Label posts with topic + taxonomy using LLM in batches."""
+    """Label posts with topic + taxonomy + sentiment using LLM in batches."""
     all_labels = {}
 
-    # First pass: label all posts
     for i in range(0, len(posts), batch_size):
         batch = posts[i:i + batch_size]
         posts_block = "\n\n".join(
@@ -323,27 +109,37 @@ def label_posts_llm(posts, entity_id, client, batch_size=15):
                         "taxonomy": item.get("taxonomy", "General / Unclassified"),
                         "sentiment": item.get("sentiment", "neutral"),
                     }
-        except Exception:
+        except Exception as e:
+            # Safe default — assign neutral general label so pipeline continues
+            print(f"    LLM batch error: {e} — assigning defaults for {len(batch)} posts")
             for p in batch:
-                all_labels[p["post_id"]] = label_posts_keyword([p])[p["post_id"]]
+                all_labels[p["post_id"]] = {
+                    "topic": "general discussion",
+                    "taxonomy": "General / Unclassified",
+                    "sentiment": "neutral",
+                }
 
         if (i // batch_size + 1) % 5 == 0:
             print(f"    Labeled {min(i + batch_size, len(posts))}/{len(posts)} posts")
         time.sleep(0.15)
 
-    # Fill any gaps
+    # Fill any gaps (posts LLM missed in response)
     for p in posts:
         if p["post_id"] not in all_labels:
-            all_labels[p["post_id"]] = label_posts_keyword([p])[p["post_id"]]
+            all_labels[p["post_id"]] = {
+                "topic": "general discussion",
+                "taxonomy": "General / Unclassified",
+                "sentiment": "neutral",
+            }
 
     return all_labels
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-# STEP 3a: GROUP BY TOPIC — LLM MODE (direct groupby)
+# STEP 3: GROUP BY TOPIC
 # ══════════════════════════════════════════════════════════════════════════════
 
-def group_by_topic_direct(posts, labels):
+def group_by_topic(posts, labels):
     """Group posts by exact topic label. Works when LLM gives consistent labels."""
     groups = defaultdict(list)
     for p in posts:
@@ -353,54 +149,7 @@ def group_by_topic_direct(posts, labels):
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-# STEP 3b: GROUP BY TOPIC — KEYWORD MODE (fuzzy merge)
-# ══════════════════════════════════════════════════════════════════════════════
-
-def fuzzy_merge_groups(groups, merge_threshold=65):
-    """
-    Merge groups whose topic labels are similar using token-based fuzzy matching.
-    "vaccine clinical trials" and "pfizer clinical trial data" → merge.
-    """
-    topic_keys = list(groups.keys())
-    merged = {}
-    used = set()
-
-    for i, key_a in enumerate(topic_keys):
-        if key_a in used:
-            continue
-        current_posts = list(groups[key_a])
-        current_label = key_a
-
-        for j in range(i + 1, len(topic_keys)):
-            key_b = topic_keys[j]
-            if key_b in used:
-                continue
-            # Token sort ratio handles word order differences
-            score = fuzz.token_sort_ratio(key_a, key_b)
-            if score >= merge_threshold:
-                current_posts.extend(groups[key_b])
-                used.add(key_b)
-
-        merged[current_label] = current_posts
-        used.add(key_a)
-
-    return merged
-
-
-# ══════════════════════════════════════════════════════════════════════════════
-# STEP 4a: SUMMARIZE — KEYWORD MODE
-# ══════════════════════════════════════════════════════════════════════════════
-
-def build_title_keyword(topic_label, taxonomy):
-    """Make a readable title from keyword topic label."""
-    title = topic_label.title()
-    if len(title) < 10:
-        title = f"{taxonomy}: {title}"
-    return title
-
-
-# ══════════════════════════════════════════════════════════════════════════════
-# STEP 4b: SUMMARIZE — LLM MODE
+# STEP 4: SUMMARIZE (LLM)
 # ══════════════════════════════════════════════════════════════════════════════
 
 SUMMARY_PROMPT = """Summarize this cluster of {count} social media posts about {entity_id}.
@@ -452,11 +201,7 @@ def build_narrative(cluster_posts, entity_id, idx, topic_label, labels, client=N
     tax_counts = Counter(taxonomies)
     dominant_taxonomy = tax_counts.most_common(1)[0][0] if tax_counts else "General / Unclassified"
 
-    if client:
-        title, summary = summarize_llm(cluster_posts, entity_id, topic_label, client)
-    else:
-        title = build_title_keyword(topic_label, dominant_taxonomy)
-        summary = cluster_posts[0]["clean_text"][:250] if cluster_posts else ""
+    title, summary = summarize_llm(cluster_posts, entity_id, topic_label, client)
 
     return {
         "narrative_id": f"{entity_id}_narrative_{idx}",
@@ -480,17 +225,15 @@ def build_narrative(cluster_posts, entity_id, idx, topic_label, labels, client=N
 # ══════════════════════════════════════════════════════════════════════════════
 
 def cluster_narratives(entity_id, resolved_file, api_key=None,
-                       min_cluster_size=2, merge_threshold=65,
-                       output_file=None):
+                       min_cluster_size=2, output_file=None):
     """
     Cluster posts for one entity into narratives.
 
     Args:
         entity_id:         entity to cluster (e.g. "pfizer")
         resolved_file:     path to resolved_entities.jsonl
-        api_key:           Anthropic key (None = keyword mode)
+        api_key:           Anthropic API key
         min_cluster_size:  minimum posts per narrative
-        merge_threshold:   fuzzy merge threshold for keyword mode (0-100)
         output_file:       save narratives JSON
 
     Returns:
@@ -502,25 +245,15 @@ def cluster_narratives(entity_id, resolved_file, api_key=None,
     if not posts:
         return []
 
-    # Step 2: Label
-    client = None
-    if api_key:
-        from anthropic import Anthropic
-        client = Anthropic(api_key=api_key)
-        print(f"  Step 2: LLM topic labeling ({len(posts)} posts)...")
-        labels = label_posts_llm(posts, entity_id, client)
-    else:
-        print(f"  Step 2: Keyword topic labeling...")
-        labels = label_posts_keyword(posts)
+    # Step 2: Label with LLM
+    from anthropic import Anthropic
+    client = Anthropic(api_key=api_key) if api_key else Anthropic()
+    print(f"  Step 2: LLM topic labeling ({len(posts)} posts)...")
+    labels = label_posts_llm(posts, entity_id, client)
 
-    # Step 3: Group
+    # Step 3: Group by topic
     print(f"  Step 3: Grouping by topic...")
-    if api_key:
-        groups = group_by_topic_direct(posts, labels)
-    else:
-        raw_groups = group_by_topic_direct(posts, labels)
-        groups = fuzzy_merge_groups(raw_groups, merge_threshold=merge_threshold)
-
+    groups = group_by_topic(posts, labels)
     print(f"    Raw groups: {len(groups)}")
 
     # Filter small groups → collect into "Other"
@@ -567,7 +300,7 @@ def cluster_narratives(entity_id, resolved_file, api_key=None,
 
 
 def cluster_all_entities(resolved_file, api_key=None, output_dir=None,
-                         min_cluster_size=2, merge_threshold=65):
+                         min_cluster_size=2):
     """Run narrative clustering for ALL entities."""
     entity_ids = set()
     with open(resolved_file) as f:
@@ -587,7 +320,7 @@ def cluster_all_entities(resolved_file, api_key=None, output_dir=None,
         all_narratives[eid] = cluster_narratives(
             entity_id=eid, resolved_file=resolved_file,
             api_key=api_key, min_cluster_size=min_cluster_size,
-            merge_threshold=merge_threshold, output_file=out_file,
+            output_file=out_file,
         )
         print()
 

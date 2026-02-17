@@ -8,7 +8,6 @@ import csv
 import os
 from datetime import datetime
 from pathlib import Path
-from collections import Counter
 
 import streamlit as st
 
@@ -131,15 +130,25 @@ def load_scored(entity_id):
 
 @st.cache_data
 def get_entity_stats(entity_id, resolved):
-    """Get post count and confidence distribution for an entity."""
+    """Get post count, confidence distribution, and LLM audit stats for an entity."""
     posts = []
     confidences = []
+    llm_audit = {"agrees": 0, "disagrees": 0, "not_audited": 0, "human": 0}
     for r in resolved:
         for e in r.get("resolved_entities", []):
             if e["entity_id"] == entity_id:
                 posts.append(r)
                 confidences.append(e.get("confidence", 0.95))
-    return len(posts), confidences
+                agrees = e.get("llm_agrees")
+                if agrees is True:
+                    llm_audit["agrees"] += 1
+                elif agrees is False:
+                    llm_audit["disagrees"] += 1
+                elif agrees == "human_override":
+                    llm_audit["human"] += 1
+                else:
+                    llm_audit["not_audited"] += 1
+    return len(posts), confidences, llm_audit
 
 
 def save_feedback(feedback_entry):
@@ -171,7 +180,7 @@ selected_entity = st.sidebar.selectbox(
 )
 
 # Entity overview stats
-post_count, confidences = get_entity_stats(selected_entity, resolved)
+post_count, confidences, llm_audit = get_entity_stats(selected_entity, resolved)
 st.sidebar.metric("Matched Posts", post_count)
 
 if confidences:
@@ -182,6 +191,16 @@ if confidences:
     conf_med = sum(1 for c in confidences if 0.5 <= c < 0.8)
     conf_low = sum(1 for c in confidences if c < 0.5)
     st.sidebar.caption(f"High: {conf_high} · Medium: {conf_med} · Low: {conf_low}")
+
+# LLM Audit stats (if audit was run)
+audited = llm_audit["agrees"] + llm_audit["disagrees"]
+if audited > 0:
+    rate = llm_audit["agrees"] / audited
+    st.sidebar.metric("LLM Audit Agree Rate", f"{rate:.0%}")
+    st.sidebar.caption(
+        f"Audited: {audited} · Agrees: {llm_audit['agrees']} · "
+        f"Disagrees: {llm_audit['disagrees']} · Not audited: {llm_audit['not_audited']}"
+    )
 
 st.sidebar.divider()
 
@@ -238,7 +257,6 @@ if st.sidebar.button("Run Full Pipeline", type="primary"):
                 api_key=api_key,
                 output_dir=str(NARRATIVES_DIR),
                 min_cluster_size=2,
-                merge_threshold=55,
             )
 
         with st.spinner("Stage 3/3: Risk Scoring..."):

@@ -4,10 +4,13 @@ Run the full RiskRadar pipeline: Entity Resolution → Narrative Clustering → 
 Usage:
     python run_pipeline.py                    # Fuzzy-only (no API key)
     python run_pipeline.py --api-key sk-...   # Full hybrid with LLM
+    python run_pipeline.py --limit 50         # Test with fewer posts
 """
 
 import argparse
 import os
+import sys
+import time
 from pathlib import Path
 
 try:
@@ -33,41 +36,72 @@ def main():
     output_dir = Path("outputs")
     output_dir.mkdir(exist_ok=True)
 
-    print("=" * 60)
+    # ── Validate input data ──
+    required = {
+        "posts":    data_dir / "posts.jsonl",
+        "entities": data_dir / "entities_seed.csv",
+        "authors":  data_dir / "authors.csv",
+    }
+    missing = [name for name, path in required.items() if not path.exists()]
+    if missing:
+        print(f"ERROR: Missing data files: {', '.join(missing)}")
+        print(f"Place them in {data_dir}/:")
+        for name, path in required.items():
+            status = "✓" if path.exists() else "✗ MISSING"
+            print(f"  {status}  {path}")
+        sys.exit(1)
+
+    mode = "LLM-enhanced" if args.api_key else "fuzzy/keyword-only"
+    print(f"RiskRadar Pipeline — mode: {mode}")
+    if args.limit:
+        print(f"Limit: first {args.limit} posts")
+    pipeline_start = time.time()
+
+    # ── Stage 1: Entity Resolution ──
+    print(f"\n{'='*60}")
     print("STAGE 1: Entity Resolution")
-    print("=" * 60)
+    print(f"{'='*60}")
+    t0 = time.time()
     resolve_entities(
-        posts_file=str(data_dir / "posts.jsonl"),
-        entities_file=str(data_dir / "entities_seed.csv"),
+        posts_file=str(required["posts"]),
+        entities_file=str(required["entities"]),
         api_key=args.api_key,
         limit=args.limit,
         output_file=str(output_dir / "resolved_entities.jsonl"),
     )
+    print(f"  ⏱  {time.time() - t0:.1f}s")
 
-    print("\n" + "=" * 60)
+    # ── Stage 2: Narrative Clustering ──
+    print(f"\n{'='*60}")
     print("STAGE 2: Narrative Clustering")
-    print("=" * 60)
+    print(f"{'='*60}")
+    t0 = time.time()
     cluster_all_entities(
         resolved_file=str(output_dir / "resolved_entities.jsonl"),
         api_key=args.api_key,
         output_dir=str(output_dir / "narratives"),
         min_cluster_size=2,
-        merge_threshold=55,
     )
+    print(f"  ⏱  {time.time() - t0:.1f}s")
 
-    print("\n" + "=" * 60)
+    # ── Stage 3: Risk Scoring ──
+    print(f"\n{'='*60}")
     print("STAGE 3: Risk Scoring")
-    print("=" * 60)
+    print(f"{'='*60}")
+    t0 = time.time()
     score_all_entities(
         narratives_dir=str(output_dir / "narratives"),
-        posts_file=str(data_dir / "posts.jsonl"),
-        authors_file=str(data_dir / "authors.csv"),
+        posts_file=str(required["posts"]),
+        authors_file=str(required["authors"]),
         output_dir=str(output_dir / "scored"),
     )
+    print(f"  ⏱  {time.time() - t0:.1f}s")
 
-    print("\n" + "=" * 60)
-    print("PIPELINE COMPLETE")
-    print("=" * 60)
+    # ── Done ──
+    total = time.time() - pipeline_start
+    print(f"\n{'='*60}")
+    print(f"PIPELINE COMPLETE ({total:.1f}s)")
+    print(f"{'='*60}")
     print(f"Outputs in: {output_dir}/")
     print(f"  resolved_entities.jsonl  — entity resolution results")
     print(f"  narratives/              — per-entity narrative clusters")

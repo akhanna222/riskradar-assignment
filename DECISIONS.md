@@ -18,11 +18,11 @@
 **Decision: LLM topic hashing over TF-IDF/BM25 clustering**
 - Why: TF-IDF on short social media posts produces one mega-cluster + dust. Bag-of-words treats "vaccine side effects" and "adverse reactions post-jab" as completely different. The LLM understands semantic similarity and assigns consistent topic labels that we GROUP BY directly.
 - Trade-off: Requires API key for best results. Keyword fallback produces workable but lower-quality clusters.
-- If I had more time: Implement embedding-based clustering (sentence-transformers) as a middle tier between keywords and LLM. Also implement topic label normalization — a second LLM pass to merge near-duplicate labels.
+- If I had more time: Implement embedding-based clustering (sentence-transformers + HDBSCAN) as a middle tier between keywords and LLM — $0 cost, better cluster quality than keywords.
 
 **Decision: Fuzzy merge for keyword mode (token_sort_ratio ≥ 55)**
 - Why: Keyword topic labels are noisy ("vaccine clinical trials" vs "pfizer clinical trial data"). Token-based fuzzy matching merges labels that share enough meaningful words.
-- Trade-off: threshold of 55 is empirically tuned on this dataset. May need adjustment for different domains.
+- Trade-off: Threshold of 55 is empirically tuned on this dataset. May need adjustment for different domains.
 
 ## Risk Scoring
 
@@ -56,11 +56,11 @@
 
 ## If I Had More Time (2-4 weeks)
 
-1. **Embedding-based clustering**: sentence-transformers for semantic similarity without LLM API cost. Would replace keyword fallback entirely.
+1. **Embedding-based clustering**: sentence-transformers + HDBSCAN for semantic similarity without LLM API cost.
 2. **Active learning loop**: Route low-confidence entity matches to human review, use corrections to expand alias catalog.
 3. **Temporal risk tracking**: Track narrative risk scores over time, detect spikes and trend changes.
-4. **Cross-entity narrative detection**: Same narrative mentioning multiple entities (e.g., "Pfizer and Moderna vaccine comparison").
+4. **Cross-entity narrative detection**: Same narrative mentioning multiple entities.
 5. **Langfuse integration**: Trace every LLM call with input/output/latency/cost for observability.
-6. **AWS deployment**: ECS for Streamlit, Lambda for pipeline, S3 for artifacts, DynamoDB for feedback. See presentation deck.
-7. **Evaluation framework**: Hand-label 100 posts, compute precision/recall for entity resolution, cluster purity for narratives, correlation with human risk ratings.
-8. **Drift detection**: Monitor entity resolution confidence distribution over time, alert when confidence drops (new entities, language shift).
+6. **AWS deployment**: ECS for Streamlit, Lambda for pipeline, S3 for artifacts. See presentation deck.
+7. **Evaluation framework**: Hand-label 100 posts, compute precision/recall for entity resolution, cluster purity for narratives.
+8. **Drift detection**: Monitor entity resolution confidence distribution over time, alert when confidence drops.

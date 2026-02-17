@@ -1,201 +1,8 @@
 """
-Entity Resolution Pipeline — Hybrid (Fuzzy/Embedding Primary + LLM Secondary)
-================================================================================
-
-PURPOSE:
-    Given a set of social media posts and a catalog of known entities (companies,
-    products), detect which entities are mentioned in each post and resolve them
-    to their canonical entity_id. This is the foundation for downstream narrative
-    clustering and risk scoring.
-
-ARCHITECTURE OVERVIEW:
-    The pipeline runs in 3 tiers, each building on the previous:
-
-    ┌─────────────────────────────────────────────────────────────────────┐
-    │  TIER 1 (Primary): Fuzzy Alias + Embedding Matching               │
-    │  Runs on ALL posts. No API calls. Fast, deterministic, auditable. │
-    │  → Handles ~73% of posts (exact/fuzzy string matches)             │
-    ├─────────────────────────────────────────────────────────────────────┤
-    │  TIER 2 (Secondary): LLM Tagger (Claude Haiku)                    │
-    │  Runs ONLY on hard cases from Tier 1:                             │
-    │    - Posts where Tier 1 found NO entities (268/1000 in test)       │
-    │    - Posts where Tier 1 returned "ambiguous" (multiple candidates) │
-    │  → Catches abbreviations ($PFE), product-parent links, context    │
-    ├─────────────────────────────────────────────────────────────────────┤
-    │  TIER 3: Merge + Source Tracking                                   │
-    │  Combines Tier 1 + Tier 2 results. Every entity carries:          │
-    │    - source: where it came from (fuzzy_embedding / llm / llm_dis) │
-    │    - confidence: high / medium / low                               │
-    │    - llm_agrees: whether LLM confirmed the fuzzy match            │
-    │  → Full audit trail for every resolution decision                  │
-    └─────────────────────────────────────────────────────────────────────┘
-
-STEP-BY-STEP LOGIC:
-
-    Step 1: LOAD DATA
-        - load_entities(): Read entities_seed.csv. For each entity, build a list
-          of aliases by combining canonical_name (lowercased) + pipe-delimited
-          aliases from the CSV. Deduplicates aliases preserving order.
-          Example: "Bristol Myers Squibb" with aliases "Bristol-Myers Squibb|Bristol Myers Squibb Co."
-          → aliases = ["bristol myers squibb", "bristol-myers squibb", "bristol myers squibb co."]
-        - load_posts(): Read posts.jsonl line by line. Each post has post_id,
-          text, platform, engagement fields, etc.
-          IMPORTANT: We use the 'text' field, NOT 'text_altered'. The text_altered
-          field is a data trap — it replaces entity names with generic descriptions
-          (e.g., "AstraZeneca" → "the British-Swedish pharmaceutical company").
-
-    Step 2: TIER 1a — MENTION DETECTION (find_mentions)
-        For each post, scan the lowercased text for exact substring matches
-        against all entity aliases. This is a simple "is alias in text?" check.
-        Example: Post text contains "Merck" → mention "merck" detected.
-        Returns a deduplicated list of detected mention strings.
-
-    Step 3: TIER 1a — FUZZY LINKING (link_mention_fuzzy)
-        For each detected mention, compare it against ALL aliases of ALL entities
-        using rapidfuzz.fuzz.ratio() (Levenshtein-based similarity, 0-100).
-        - If ratio >= 90 (threshold) with exactly ONE entity → status: "linked"
-        - If ratio >= 90 with MULTIPLE entities → status: "ambiguous" (e.g., "BMS"
-          could match Bristol Myers Squibb or a battery management system)
-        - If no alias scores >= 90 → status: "unresolved"
-        We keep the best score per entity_id to handle cases where an entity has
-        multiple aliases that all match.
-
-    Step 4: TIER 1b — EMBEDDING FALLBACK (optional, link_mention_embedding)
-        If fuzzy matching returns "unresolved" or "ambiguous" AND sentence-transformers
-        is installed (use_embeddings=True), we try semantic similarity:
-        - Pre-compute normalized embeddings for ALL aliases using all-MiniLM-L6-v2
-        - Encode the mention text into the same embedding space
-        - Compute cosine similarity against all alias embeddings
-        - If top similarity >= 0.55 AND the gap to second-best >= 0.03 → "linked"
-        - If gap < 0.03 (two entities are equally close) → "ambiguous"
-        - If top score < 0.55 → "unresolved"
-        This catches misspellings and paraphrases that exact/fuzzy matching misses.
-        NOTE: Requires ~500MB RAM for model loading. Skip on memory-constrained envs.
-
-    Step 5: TIER 1 OUTPUT (resolve_post_tier1 → run_tier1)
-        For each post, produce:
-        {
-            "post_id": "...",
-            "text": "...",
-            "resolved_entities": [
-                {"entity_id": "merck", "mention_text": "merck", "status": "linked",
-                 "resolution_method": "fuzzy_alias", "canonical_name": "Merck", ...},
-            ],
-            "needs_review": false  // true if any entity is ambiguous/unresolved
-        }
-        Tier 1 summary stats: linked / needs_review / no_entity counts.
-
-    Step 6: TIER 2 — LLM TAGGER (run_tier2, only if api_key provided)
-        Selects ONLY the hard cases from Tier 1:
-        - Posts where needs_review=True (ambiguous matches)
-        - Posts where resolved_entities is empty (no matches found)
-        For each hard post, sends the post text + full entity catalog to Claude
-        Haiku via the Anthropic API. The LLM returns structured JSON:
-        [{"entity_id": "...", "mention_text": "...", "evidence_type": "...",
-          "reasoning": "..."}]
-        Evidence types: exact_name, known_alias, abbreviation, product_of_parent,
-        contextual_inference, unclear.
-        The prompt includes guardrails:
-        - "Merck Handbook" should be tagged as contextual_inference (book reference)
-        - "BMS" in battery context should NOT match Bristol Myers Squibb
-        - Product mentions should also tag the parent manufacturer
-        We filter results to only valid entity_ids from the catalog (prevents
-        hallucinated entities).
-
-    Step 7: TIER 3 — MERGE (merge_results)
-        For each post, combine Tier 1 and Tier 2 results with clear priority:
-
-        Priority 1 — Tier 1 linked entities (source: "fuzzy_embedding"):
-            These are the primary results. Confidence: "high".
-            We also check if the LLM agreed (llm_agrees: true/false) for
-            cross-validation.
-
-        Priority 2 — Ambiguous cases resolved by LLM (source: "llm_disambiguation"):
-            If Tier 1 found multiple candidates and the LLM picked one of them,
-            we use the LLM's choice. Confidence: "medium".
-            If no LLM available, we take the first candidate with confidence: "low"
-            and flag needs_review: true.
-
-        Priority 3 — LLM-only entities (source: "llm"):
-            Entities the LLM found that fuzzy matching completely missed.
-            Typically: abbreviations ($PFE → Pfizer), product-to-parent links
-            (Tremfya → Johnson & Johnson), contextual references.
-            Confidence: "medium".
-
-    Step 8: OUTPUT
-        Final output per post:
-        {
-            "post_id": "122227002926249609",
-            "text": "UPDATE: All Good!! Gettin that Pacemaker checkup...",
-            "resolved_entities": [
-                {
-                    "entity_id": "opdivo",
-                    "canonical_name": "Opdivo",
-                    "entity_type": "Product",
-                    "mention_text": "opdivo",
-                    "confidence": "high",
-                    "resolution_method": "fuzzy_alias",
-                    "source": "fuzzy_embedding",
-                    "llm_agrees": true
-                },
-                {
-                    "entity_id": "bristol_myers_squibb",
-                    "mention_text": "Opdivo",
-                    "confidence": "medium",
-                    "resolution_method": "llm_only",
-                    "source": "llm",
-                    "evidence_type": "product_of_parent",
-                    "reasoning": "Opdivo is manufactured by Bristol Myers Squibb"
-                }
-            ],
-            "needs_review": false
-        }
-        Saved as JSONL (one JSON object per line) if output_file is specified.
-
-WHY THIS DESIGN:
-    - Fuzzy is primary because it's fast (1000 posts/sec), free, deterministic,
-      and auditable. Same input always gives same output.
-    - LLM is secondary because it's slow (~100ms/post), costs money ($0.10 for
-      268 posts on Haiku), and non-deterministic. But it catches things fuzzy
-      can't: abbreviations, product-parent relationships, contextual disambiguation.
-    - The merge layer ensures every entity resolution decision has a traceable
-      source. An auditor can ask "why did you tag this post with Pfizer?" and
-      get: "fuzzy_alias match with score 100, LLM confirmed."
-
-WHAT THE LLM CATCHES THAT FUZZY MISSES:
-    - "$PFE" → Pfizer (ticker symbols)
-    - "J&J" → Johnson & Johnson (abbreviations not in aliases)
-    - "Tremfya approved" → Johnson & Johnson (product-to-parent inference)
-    - "their covid vaccine" → contextual_inference (no explicit entity name)
-    - "Merck Handbook" → correctly tagged as book reference, not the company
-
-WHAT FUZZY CATCHES THAT LLM MIGHT MISS:
-    - Consistent, reproducible results (LLM can vary between runs)
-    - No API dependency (works offline)
-    - No cost (LLM charges per token)
-
-DEPENDENCIES:
-    Required:  rapidfuzz
-    Optional:  sentence-transformers (for embedding similarity)
-    Optional:  anthropic (for LLM tier)
-
-USAGE:
-    from entity_resolution import resolve_entities
-
-    # Mode 1: Fuzzy only (no API key, no embeddings)
-    final = resolve_entities("posts.jsonl", "entities_seed.csv")
-
-    # Mode 2: Fuzzy + Embedding (Colab / machine with RAM)
-    final = resolve_entities("posts.jsonl", "entities_seed.csv", use_embeddings=True)
-
-    # Mode 3: Full hybrid (Fuzzy + Embedding + LLM for hard cases)
-    final = resolve_entities("posts.jsonl", "entities_seed.csv",
-                             use_embeddings=True, api_key="sk-ant-...")
-
-TEST RESULTS (on 1000 pharma social media posts):
-    Tier 1 (fuzzy only): 732 posts linked, 268 no entity, 0 ambiguous
-    997 total entity mentions, all 19 catalog entities found
-    Top: Pfizer (212), AstraZeneca (180), Merck (101), Eliquis (77)
+Entity Resolution — Fuzzy-first, LLM-second pipeline.
+Tier 1: rapidfuzz alias matching (73% coverage, free, deterministic)
+Tier 2: Claude Haiku for hard cases (abbreviations, product-parent links)
+Merge: priority fuzzy > LLM, confidence 0-1 numeric, flag <0.5 for review
 """
 
 import csv
@@ -340,97 +147,19 @@ def link_mention_fuzzy(mention, entities, fuzzy_threshold=90):
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-# TIER 1b — EMBEDDING SIMILARITY (optional, needs sentence-transformers)
+# TIER 1 — FUZZY MATCHING
 # ══════════════════════════════════════════════════════════════════════════════
-
-def build_embedding_index(entities, model_name="sentence-transformers/all-MiniLM-L6-v2"):
-    """
-    STEP 4a: Build Embedding Index (optional, requires sentence-transformers).
-
-    Loads the all-MiniLM-L6-v2 model (~80MB) and encodes ALL entity aliases
-    into 384-dimensional normalized vectors. These are stored in memory for
-    fast cosine similarity lookup during linking.
-
-    This is a one-time cost at pipeline startup. The index is reused for all posts.
-    Returns (model, embeddings_matrix, entity_meta_list) or (None, None, None)
-    if sentence-transformers is not installed.
-    """
-    try:
-        from sentence_transformers import SentenceTransformer, util
-        model = SentenceTransformer(model_name)
-        alias_texts = []
-        entity_meta = []
-        for e in entities:
-            for alias in e["aliases"]:
-                alias_texts.append(alias)
-                entity_meta.append(e)
-        embeddings = model.encode(alias_texts, normalize_embeddings=True)
-        return model, embeddings, entity_meta
-    except ImportError:
-        print("  sentence-transformers not installed — skipping embeddings")
-        return None, None, None
-
-
-def link_mention_embedding(mention, model, alias_embeddings, entity_meta,
-                           embed_threshold=0.55, ambiguity_margin=0.03):
-    """
-    STEP 4b: Embedding Similarity Linking — semantic fallback for fuzzy failures.
-
-    Encodes the mention text into the same embedding space as the alias index,
-    then computes cosine similarity against all pre-computed alias embeddings.
-
-    Decision logic:
-        - Top similarity >= 0.55 AND gap to second >= 0.03 → "linked"
-        - Top similarity >= 0.55 BUT gap to second < 0.03 → "ambiguous"
-          (two entities are semantically equidistant — can't decide)
-        - Top similarity < 0.55 → "unresolved" (nothing is close enough)
-
-    This catches cases fuzzy matching misses:
-        - Misspellings: "Astrazenecca" → AstraZeneca (embedding similarity ~0.85)
-        - Semantic variants: "BMS drugs" → Bristol Myers Squibb
-    """
-    from sentence_transformers import util
-    emb = model.encode(mention.lower(), normalize_embeddings=True)
-    sims = util.cos_sim(emb, alias_embeddings)[0]
-    top2 = sims.topk(k=min(2, sims.shape[0]))
-
-    top_score = float(top2.values[0])
-    top_idx = int(top2.indices[0])
-
-    if top_score < embed_threshold:
-        return {"status": "unresolved", "method": "embedding"}
-
-    if len(top2.values) > 1:
-        second_score = float(top2.values[1])
-        if (top_score - second_score) < ambiguity_margin:
-            return {"status": "ambiguous", "method": "embedding"}
-
-    return {
-        "status": "linked",
-        "method": "embedding",
-        "entity": entity_meta[top_idx],
-        "score": top_score,
-    }
-
-
-# ══════════════════════════════════════════════════════════════════════════════
-# TIER 1 — COMBINED FUZZY + EMBEDDING
-# ══════════════════════════════════════════════════════════════════════════════
-
-def resolve_post_tier1(post, entities, emb_model=None, emb_embeddings=None, emb_meta=None):
+def resolve_post_tier1(post, entities):
     """
     STEP 5: Resolve all entities in a single post using Tier 1 methods.
 
-    Orchestrates the mention detection → fuzzy linking → embedding fallback
+    Orchestrates mention detection → fuzzy linking for a single post.
     pipeline for one post. For each detected mention:
         1. Try fuzzy linking first (fast, deterministic)
-        2. If fuzzy returns "unresolved" or "ambiguous" AND embeddings are
-           available, try embedding similarity as a fallback
-        3. If embedding returns "linked", override the fuzzy result
 
     Output per entity:
         - status: linked / ambiguous / unresolved
-        - resolution_method: fuzzy_alias / embedding
+        - resolution_method: fuzzy_alias
         - entity_id, canonical_name, entity_type (if linked)
         - candidates (if ambiguous)
     """
@@ -439,12 +168,6 @@ def resolve_post_tier1(post, entities, emb_model=None, emb_embeddings=None, emb_
 
     for m in mentions:
         result = link_mention_fuzzy(m, entities)
-
-        # If fuzzy failed and embeddings available, try embedding
-        if result["status"] in ("unresolved", "ambiguous") and emb_model is not None:
-            emb_result = link_mention_embedding(m, emb_model, emb_embeddings, emb_meta)
-            if emb_result["status"] == "linked":
-                result = emb_result
 
         output = {
             "mention_text": m,
@@ -467,17 +190,12 @@ def resolve_post_tier1(post, entities, emb_model=None, emb_embeddings=None, emb_
     return results
 
 
-def run_tier1(posts, entities, use_embeddings=False):
+def run_tier1(posts, entities):
     """Run Tier 1 on all posts."""
-    emb_model, emb_embeddings, emb_meta = None, None, None
-    if use_embeddings:
-        print("Tier 1: Building embedding index...")
-        emb_model, emb_embeddings, emb_meta = build_embedding_index(entities)
-
     print(f"Tier 1: Resolving {len(posts)} posts...")
     results = []
     for i, post in enumerate(posts):
-        resolved = resolve_post_tier1(post, entities, emb_model, emb_embeddings, emb_meta)
+        resolved = resolve_post_tier1(post, entities)
         results.append({
             "post_id": post["post_id"],
             "text": post.get("text", ""),
@@ -589,8 +307,132 @@ def run_tier2(posts, tier1_results, entities, api_key=None):
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-# TIER 3 — MERGE
+# AUDIT — LLM validates fuzzy matches (optional, runs after merge)
 # ══════════════════════════════════════════════════════════════════════════════
+
+AUDIT_PROMPT = """You are auditing entity resolution results. For each post below, fuzzy matching linked it to the given entity. Judge whether each match is CORRECT or WRONG.
+
+ENTITY CATALOG:
+{catalog}
+
+POSTS TO AUDIT (JSON array):
+{batch}
+
+For each post, return:
+- post_id
+- entity_id
+- verdict: "correct" or "wrong"
+- reason: one sentence why
+
+Return ONLY a JSON array. No markdown.
+[{{"post_id":"...","entity_id":"...","verdict":"correct|wrong","reason":"..."}}]"""
+
+
+def audit_fuzzy_with_llm(merged, entities, api_key, sample_size=100):
+    """
+    LLM-as-judge: audit a sample of fuzzy-resolved entities.
+    Sets llm_agrees = True/False on audited posts, leaves "not_audited" on unaudited.
+
+    Args:
+        merged:       list of merged results (modified in place)
+        entities:     entity catalog list
+        api_key:      Anthropic API key
+        sample_size:  max posts to audit (controls cost)
+
+    Returns:
+        dict with audit stats {total, correct, wrong, agree_rate}
+    """
+    from anthropic import Anthropic
+
+    # Collect fuzzy-only posts (where llm_agrees is "not_audited")
+    fuzzy_posts = []
+    for rec in merged:
+        for ent in rec.get("resolved_entities", []):
+            if ent.get("source") == "fuzzy_alias" and ent.get("llm_agrees") == "not_audited":
+                fuzzy_posts.append({
+                    "post_id": str(rec["post_id"]),
+                    "text": rec.get("text", "")[:300],
+                    "entity_id": ent["entity_id"],
+                    "mention_text": ent.get("mention_text", ""),
+                })
+
+    if not fuzzy_posts:
+        print("Audit: No fuzzy-only matches to audit")
+        return {"total": 0, "correct": 0, "wrong": 0, "agree_rate": 1.0}
+
+    # Sample if too many
+    import random
+    if len(fuzzy_posts) > sample_size:
+        random.seed(42)
+        fuzzy_posts = random.sample(fuzzy_posts, sample_size)
+
+    print(f"Audit: LLM reviewing {len(fuzzy_posts)} fuzzy matches...")
+    client = Anthropic(api_key=api_key) if api_key else Anthropic()
+    catalog_prompt = build_catalog_prompt(entities)
+
+    # Batch into groups of 15 for efficient LLM calls
+    verdicts = {}  # (post_id, entity_id) -> True/False
+    batch_size = 15
+    for i in range(0, len(fuzzy_posts), batch_size):
+        batch = fuzzy_posts[i:i + batch_size]
+        batch_json = json.dumps([{
+            "post_id": p["post_id"],
+            "text": p["text"],
+            "entity_id": p["entity_id"],
+            "mention_text": p["mention_text"],
+        } for p in batch], ensure_ascii=False)
+
+        try:
+            resp = client.messages.create(
+                model="claude-haiku-4-5-20251001",
+                max_tokens=2048,
+                temperature=0,
+                messages=[{"role": "user", "content": AUDIT_PROMPT.format(
+                    catalog=catalog_prompt, batch=batch_json
+                )}],
+            )
+            raw = resp.content[0].text.strip()
+            if raw.startswith("```"):
+                raw = "\n".join(l for l in raw.split("\n") if not l.strip().startswith("```"))
+            try:
+                results = json.loads(raw)
+            except json.JSONDecodeError:
+                start, end = raw.find("["), raw.rfind("]")
+                if start != -1 and end != -1:
+                    results = json.loads(raw[start:end + 1])
+                else:
+                    results = []
+
+            for r in results:
+                pid = str(r.get("post_id", ""))
+                eid = r.get("entity_id", "")
+                verdict = r.get("verdict", "").lower()
+                if pid and eid and verdict in ("correct", "wrong"):
+                    verdicts[(pid, eid)] = verdict == "correct"
+        except Exception as e:
+            print(f"  Audit batch error: {e}")
+
+        if (i + batch_size) % 60 == 0:
+            print(f"  {min(i + batch_size, len(fuzzy_posts))}/{len(fuzzy_posts)} audited")
+        time.sleep(0.15)
+
+    # Apply verdicts to merged results
+    applied = 0
+    for rec in merged:
+        pid = str(rec["post_id"])
+        for ent in rec.get("resolved_entities", []):
+            key = (pid, ent.get("entity_id", ""))
+            if key in verdicts:
+                ent["llm_agrees"] = verdicts[key]
+                applied += 1
+
+    correct = sum(1 for v in verdicts.values() if v)
+    wrong = sum(1 for v in verdicts.values() if not v)
+    rate = correct / max(len(verdicts), 1)
+
+    print(f"Audit: {applied} matches reviewed | {correct} correct, {wrong} wrong | agree rate: {rate:.1%}")
+    return {"total": len(verdicts), "correct": correct, "wrong": wrong, "agree_rate": round(rate, 3)}
+
 
 def merge_results(tier1_results, llm_results):
     merged = []
@@ -610,7 +452,13 @@ def merge_results(tier1_results, llm_results):
         seen_ids = set()
 
         # Keep all Tier 1 linked (primary)
+        llm_was_run = len(llm_tags) > 0  # LLM only runs on posts fuzzy couldn't resolve
         for eid, r in t1_linked.items():
+            # llm_agrees: True if LLM also found this entity, "not_audited" if LLM wasn't run
+            if llm_was_run:
+                llm_agrees = eid in llm_by_id
+            else:
+                llm_agrees = "not_audited"  # LLM not invoked — fuzzy was sufficient
             final_entities.append({
                 "entity_id": eid,
                 "canonical_name": r.get("canonical_name", ""),
@@ -619,8 +467,8 @@ def merge_results(tier1_results, llm_results):
                 "confidence": round(r.get("fuzzy_score", 95) / 100, 2),
                 "confidence_label": "high",
                 "resolution_method": r.get("resolution_method", ""),
-                "source": "fuzzy_embedding",
-                "llm_agrees": eid in llm_by_id,
+                "source": "fuzzy_alias",
+                "llm_agrees": llm_agrees,
             })
             seen_ids.add(eid)
 
@@ -641,6 +489,7 @@ def merge_results(tier1_results, llm_results):
                     "confidence_label": "medium",
                     "resolution_method": "fuzzy_ambiguous_llm_resolved",
                     "source": "llm_disambiguation",
+                    "llm_agrees": True,  # LLM picked this from ambiguous candidates
                     "evidence_type": llm_pick.get("evidence_type", ""),
                     "reasoning": llm_pick.get("reasoning", ""),
                 })
@@ -653,7 +502,8 @@ def merge_results(tier1_results, llm_results):
                     "confidence": 0.35,
                     "confidence_label": "low",
                     "resolution_method": "fuzzy_ambiguous_unresolved",
-                    "source": "fuzzy_embedding",
+                    "source": "fuzzy_alias",
+                    "llm_agrees": "not_audited",
                     "needs_review": True,
                 })
                 seen_ids.add(candidates[0]["entity_id"])
@@ -668,6 +518,7 @@ def merge_results(tier1_results, llm_results):
                     "confidence_label": "medium",
                     "resolution_method": "llm_only",
                     "source": "llm",
+                    "llm_agrees": True,  # LLM is the source — it agrees by definition
                     "evidence_type": tag.get("evidence_type", ""),
                     "reasoning": tag.get("reasoning", ""),
                 })
@@ -688,7 +539,7 @@ def merge_results(tier1_results, llm_results):
 # ══════════════════════════════════════════════════════════════════════════════
 
 def resolve_entities(posts_file, entities_file, api_key=None,
-                     use_embeddings=False, limit=None, output_file=None):
+                     limit=None, output_file=None):
     """
     Full hybrid entity resolution.
 
@@ -696,7 +547,6 @@ def resolve_entities(posts_file, entities_file, api_key=None,
         posts_file:      path to posts.jsonl
         entities_file:   path to entities_seed.csv
         api_key:         Anthropic key (None = skip LLM, fuzzy only)
-        use_embeddings:  True = load sentence-transformers (needs RAM)
         limit:           process first N posts
         output_file:     save merged results as JSONL
 
@@ -709,7 +559,7 @@ def resolve_entities(posts_file, entities_file, api_key=None,
         posts = posts[:limit]
 
     # Tier 1
-    tier1 = run_tier1(posts, entities, use_embeddings=use_embeddings)
+    tier1 = run_tier1(posts, entities)
 
     # Tier 2
     llm_results = {}
@@ -720,6 +570,11 @@ def resolve_entities(posts_file, entities_file, api_key=None,
 
     # Tier 3
     final = merge_results(tier1, llm_results)
+
+    # Audit: LLM validates fuzzy matches (optional, same API key)
+    audit_stats = None
+    if api_key:
+        audit_stats = audit_fuzzy_with_llm(final, entities, api_key, sample_size=100)
 
     # Apply human overrides from overrides.json (if exists)
     overrides_file = Path(output_file).parent / "overrides.json" if output_file else None
@@ -748,6 +603,7 @@ def resolve_entities(posts_file, entities_file, api_key=None,
                             "confidence_label": "high",
                             "resolution_method": "human_override",
                             "source": "human_override",
+                            "llm_agrees": "human_override",
                         }]
                     r["needs_review"] = False
                     applied += 1
